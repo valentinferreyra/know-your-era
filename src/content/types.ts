@@ -15,6 +15,7 @@ export interface AssetRecord {
   id: string; path: string; type: 'photo' | 'logo' | 'belt' | 'background'; width: number; height: number;
   alt: string; origin: string; permissionStatus: 'unknown' | 'licensed' | 'owned';
   eventFamily?: string; visibleYear?: number; visibleEdition?: string; suitable: boolean; promptSafe: boolean;
+  visibleEventIds?: string[]; overrideEventIds?: string[];
 }
 export interface Item { id: string; label: string }
 export interface QuestionFields {

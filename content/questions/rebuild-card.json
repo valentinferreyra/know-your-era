@@ -3851,6 +3851,7 @@
   },
   {
     "id": "rebuild-summerslam-2000",
+    "answerAssetId": "photo-summerslam-2000",
     "familyId": "rebuild-summerslam-2000",
     "conflictGroups": [
       "main-summerslam-2000",

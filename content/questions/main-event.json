@@ -1,6 +1,7 @@
 [
   {
     "id": "me-wrestlemania-xiv-1998",
+    "answerAssetId": "photo-wrestlemania-xiv",
     "familyId": "me-wrestlemania-xiv-1998",
     "conflictGroups": [
       "main-wrestlemania-xiv-1998"
@@ -265,6 +266,7 @@
   },
   {
     "id": "me-no-way-out-2004",
+    "answerAssetId": "photo-no-way-out-2004",
     "familyId": "me-no-way-out-2004",
     "conflictGroups": [
       "main-no-way-out-2004"
@@ -472,6 +474,7 @@
   },
   {
     "id": "me-summerslam-1999",
+    "answerAssetId": "photo-summerslam-1999",
     "familyId": "me-summerslam-1999",
     "conflictGroups": [
       "main-summerslam-1999"
@@ -567,6 +570,7 @@
   },
   {
     "id": "me-survivor-series-2002",
+    "answerAssetId": "photo-survivor-series-2002",
     "familyId": "me-survivor-series-2002",
     "conflictGroups": [
       "main-survivor-series-2002"

@@ -71,6 +71,9 @@ export function validateBundle(bundle: ContentBundle, requireReleaseCounts: bool
       || Number(a.width) < 1 || Number(a.height) < 1) fail(id, 'invalid asset metadata');
     if (!['photo', 'logo', 'belt', 'background'].includes(String(a.type)) || a.suitable !== true) fail(id, 'unreviewed asset suitability');
     if (!['unknown', 'licensed', 'owned'].includes(String(a.permissionStatus))) fail(id, 'missing permission status');
+    for (const field of ['visibleEventIds', 'overrideEventIds'] as const) {
+      if (a[field] !== undefined) known(strings(a[field], `${id} ${field}`, false), events, id, 'event');
+    }
   }
 
   const families = new Set<string>();
@@ -105,8 +108,13 @@ export function validateBundle(bundle: ContentBundle, requireReleaseCounts: bool
       const asset = assets.get(String(q[role]));
       if (!asset) { fail(id, `unknown asset ${q[role]}`); continue; }
       if (role === 'promptAssetId' && asset.promptSafe !== true) fail(id, 'prompt asset can reveal the answer');
-      if (asset.visibleYear !== undefined && eventIds.some(e => Number(String(events.get(e)?.date).slice(0, 4)) !== asset.visibleYear))
-        fail(id, 'contradictory asset year');
+      const overrides: string[] = Array.isArray(asset.overrideEventIds)
+        ? asset.overrideEventIds.filter((eventId): eventId is string => typeof eventId === 'string') : [];
+      if (asset.visibleYear !== undefined && eventIds.some(e => Number(String(events.get(e)?.date).slice(0, 4)) !== asset.visibleYear && !overrides.includes(e)))
+        fail(id, 'contradictory asset year or edition');
+      const visibleEventIds: string[] = Array.isArray(asset.visibleEventIds)
+        ? asset.visibleEventIds.filter((eventId): eventId is string => typeof eventId === 'string') : [];
+      if (visibleEventIds.length && eventIds.some(e => !visibleEventIds.includes(e) && !overrides.includes(e))) fail(id, 'contradictory asset edition');
     }
     const itemRows = (value: unknown, label: string): Row[] => {
       const entries = rows(value, `${id} ${label}`);
