@@ -516,5 +516,40 @@
     "title": "Vengeance 2003 match details",
     "locator": "Results, note 1. APA Invitational participants; Heat match separately marked.",
     "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "results-royal-rumble-2000",
+    "url": "https://www.wwe.com/shows/royalrumble/history/198811411/results",
+    "title": "Royal Rumble 2000 full results",
+    "locator": "Full event results, non-Rumble main-card matches.",
+    "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "results-royal-rumble-2001",
+    "url": "https://www.wwe.com/shows/royalrumble/history/19881142/results",
+    "title": "Royal Rumble 2001 full results",
+    "locator": "Full event results, non-Rumble main-card matches.",
+    "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "results-royal-rumble-2002",
+    "url": "https://www.wwe.com/shows/royalrumble/history/198811413/results",
+    "title": "Royal Rumble 2002 full results",
+    "locator": "Full event results, non-Rumble main-card matches.",
+    "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "results-royal-rumble-2003",
+    "url": "https://www.wwe.com/shows/royalrumble/history/19881141/results",
+    "title": "Royal Rumble 2003 full results",
+    "locator": "Full event results, non-Rumble main-card matches.",
+    "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "results-royal-rumble-2004",
+    "url": "https://www.wwe.com/shows/royalrumble/history/1988118/results",
+    "title": "Royal Rumble 2004 full results",
+    "locator": "Full event results, non-Rumble main-card matches.",
+    "inspectedAt": "2026-10-13"
   }
 ]

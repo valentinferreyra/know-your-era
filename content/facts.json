@@ -3886,5 +3886,1805 @@
       "results-no-way-out-2004"
     ],
     "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-xiv-1998-1",
+    "eventId": "wrestlemania-xiv-1998",
+    "date": "1998-03-29",
+    "statement": "The Undertaker faced Kane at WrestleMania XIV 1998.",
+    "sourceIds": [
+      "results-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-xiv-1998-2",
+    "eventId": "wrestlemania-xiv-1998",
+    "date": "1998-03-29",
+    "statement": "Steve Austin faced Shawn Michaels at WrestleMania XIV 1998.",
+    "sourceIds": [
+      "results-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-1998-1",
+    "eventId": "summerslam-1998",
+    "date": "1998-08-30",
+    "statement": "Triple H faced The Rock at SummerSlam 1998.",
+    "sourceIds": [
+      "results-summerslam-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-1998-2",
+    "eventId": "summerslam-1998",
+    "date": "1998-08-30",
+    "statement": "Steve Austin faced The Undertaker at SummerSlam 1998.",
+    "sourceIds": [
+      "results-summerslam-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-xv-1999-1",
+    "eventId": "wrestlemania-xv-1999",
+    "date": "1999-03-28",
+    "statement": "Steve Austin faced The Rock at WrestleMania XV 1999.",
+    "sourceIds": [
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-xv-1999-2",
+    "eventId": "wrestlemania-xv-1999",
+    "date": "1999-03-28",
+    "statement": "The Undertaker faced Big Boss Man at WrestleMania XV 1999.",
+    "sourceIds": [
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-1999-1",
+    "eventId": "summerslam-1999",
+    "date": "1999-08-22",
+    "statement": "Test faced Shane McMahon at SummerSlam 1999.",
+    "sourceIds": [
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-1999-2",
+    "eventId": "summerslam-1999",
+    "date": "1999-08-22",
+    "statement": "The Rock faced Billy Gunn at SummerSlam 1999.",
+    "sourceIds": [
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-2000-2000-1",
+    "eventId": "wrestlemania-2000-2000",
+    "date": "2000-04-02",
+    "statement": "Kane & Rikishi faced Road Dogg & X-Pac at WrestleMania 2000 2000.",
+    "sourceIds": [
+      "results-wrestlemania-2000-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-2000-2000-2",
+    "eventId": "wrestlemania-2000-2000",
+    "date": "2000-04-02",
+    "statement": "Too Cool & Chyna faced The Radicalz at WrestleMania 2000 2000.",
+    "sourceIds": [
+      "results-wrestlemania-2000-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-x-seven-2001-1",
+    "eventId": "wrestlemania-x-seven-2001",
+    "date": "2001-04-01",
+    "statement": "The Undertaker faced Triple H at WrestleMania X-Seven 2001.",
+    "sourceIds": [
+      "results-wrestlemania-x-seven-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-x-seven-2001-2",
+    "eventId": "wrestlemania-x-seven-2001",
+    "date": "2001-04-01",
+    "statement": "Shane McMahon faced Mr. McMahon at WrestleMania X-Seven 2001.",
+    "sourceIds": [
+      "results-wrestlemania-x-seven-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2001-1",
+    "eventId": "summerslam-2001",
+    "date": "2001-08-19",
+    "statement": "Chris Jericho faced Rhyno at SummerSlam 2001.",
+    "sourceIds": [
+      "results-summerslam-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2001-2",
+    "eventId": "summerslam-2001",
+    "date": "2001-08-19",
+    "statement": "The Rock faced Booker T at SummerSlam 2001.",
+    "sourceIds": [
+      "results-summerslam-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-x8-2002-1",
+    "eventId": "wrestlemania-x8-2002",
+    "date": "2002-03-17",
+    "statement": "The Rock faced Hulk Hogan at WrestleMania X8 2002.",
+    "sourceIds": [
+      "results-wrestlemania-x8-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-x8-2002-2",
+    "eventId": "wrestlemania-x8-2002",
+    "date": "2002-03-17",
+    "statement": "The Undertaker faced Ric Flair at WrestleMania X8 2002.",
+    "sourceIds": [
+      "results-wrestlemania-x8-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2002-1",
+    "eventId": "summerslam-2002",
+    "date": "2002-08-25",
+    "statement": "Shawn Michaels faced Triple H at SummerSlam 2002.",
+    "sourceIds": [
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2002-2",
+    "eventId": "summerslam-2002",
+    "date": "2002-08-25",
+    "statement": "Brock Lesnar faced The Rock at SummerSlam 2002.",
+    "sourceIds": [
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-xix-2003-1",
+    "eventId": "wrestlemania-xix-2003",
+    "date": "2003-03-30",
+    "statement": "Shawn Michaels faced Chris Jericho at WrestleMania XIX 2003.",
+    "sourceIds": [
+      "results-wrestlemania-xix-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-xix-2003-2",
+    "eventId": "wrestlemania-xix-2003",
+    "date": "2003-03-30",
+    "statement": "The Rock faced Steve Austin at WrestleMania XIX 2003.",
+    "sourceIds": [
+      "results-wrestlemania-xix-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-xx-2004-1",
+    "eventId": "wrestlemania-xx-2004",
+    "date": "2004-03-14",
+    "statement": "Eddie Guerrero faced Kurt Angle at WrestleMania XX 2004.",
+    "sourceIds": [
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-wrestlemania-xx-2004-2",
+    "eventId": "wrestlemania-xx-2004",
+    "date": "2004-03-14",
+    "statement": "The Undertaker faced Kane at WrestleMania XX 2004.",
+    "sourceIds": [
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2004-1",
+    "eventId": "backlash-2004",
+    "date": "2004-04-18",
+    "statement": "Edge faced Kane at Backlash 2004.",
+    "sourceIds": [
+      "results-backlash-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2004-2",
+    "eventId": "backlash-2004",
+    "date": "2004-04-18",
+    "statement": "Randy Orton faced Mick Foley at Backlash 2004.",
+    "sourceIds": [
+      "results-backlash-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2004-1",
+    "eventId": "judgment-day-2004",
+    "date": "2004-05-16",
+    "statement": "The Undertaker faced Booker T at Judgment Day 2004.",
+    "sourceIds": [
+      "results-judgment-day-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2004-2",
+    "eventId": "judgment-day-2004",
+    "date": "2004-05-16",
+    "statement": "John Cena faced Rene Dupree at Judgment Day 2004.",
+    "sourceIds": [
+      "results-judgment-day-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-vengeance-2004-1",
+    "eventId": "vengeance-2004",
+    "date": "2004-07-11",
+    "statement": "Batista faced Chris Jericho at Vengeance 2004.",
+    "sourceIds": [
+      "results-vengeance-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-vengeance-2004-2",
+    "eventId": "vengeance-2004",
+    "date": "2004-07-11",
+    "statement": "Chris Benoit faced Triple H at Vengeance 2004.",
+    "sourceIds": [
+      "results-vengeance-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2004-1",
+    "eventId": "no-way-out-2004",
+    "date": "2004-02-15",
+    "statement": "Eddie Guerrero faced Brock Lesnar at No Way Out 2004.",
+    "sourceIds": [
+      "results-no-way-out-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2004-2",
+    "eventId": "no-way-out-2004",
+    "date": "2004-02-15",
+    "statement": "Chavo Guerrero faced Rey Mysterio at No Way Out 2004.",
+    "sourceIds": [
+      "results-no-way-out-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2001-1",
+    "eventId": "no-way-out-2001",
+    "date": "2001-02-25",
+    "statement": "Triple H faced Steve Austin at No Way Out 2001.",
+    "sourceIds": [
+      "results-no-way-out-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2001-2",
+    "eventId": "no-way-out-2001",
+    "date": "2001-02-25",
+    "statement": "The Rock faced Kurt Angle at No Way Out 2001.",
+    "sourceIds": [
+      "results-no-way-out-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2000-1",
+    "eventId": "no-way-out-2000",
+    "date": "2000-02-27",
+    "statement": "Triple H faced Mick Foley at No Way Out 2000.",
+    "sourceIds": [
+      "results-no-way-out-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2000-2",
+    "eventId": "no-way-out-2000",
+    "date": "2000-02-27",
+    "statement": "Kurt Angle faced Chris Jericho at No Way Out 2000.",
+    "sourceIds": [
+      "results-no-way-out-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-1999-1",
+    "eventId": "no-mercy-1999",
+    "date": "1999-10-17",
+    "statement": "Chyna faced Jeff Jarrett at No Mercy 1999.",
+    "sourceIds": [
+      "results-no-mercy-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-1999-2",
+    "eventId": "no-mercy-1999",
+    "date": "1999-10-17",
+    "statement": "The Rock faced The British Bulldog at No Mercy 1999.",
+    "sourceIds": [
+      "results-no-mercy-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-vengeance-2001-1",
+    "eventId": "vengeance-2001",
+    "date": "2001-12-09",
+    "statement": "Jeff Hardy faced Matt Hardy at Vengeance 2001.",
+    "sourceIds": [
+      "results-vengeance-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-vengeance-2001-2",
+    "eventId": "vengeance-2001",
+    "date": "2001-12-09",
+    "statement": "Trish Stratus faced Jacqueline at Vengeance 2001.",
+    "sourceIds": [
+      "results-vengeance-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-vengeance-2002-1",
+    "eventId": "vengeance-2002",
+    "date": "2002-07-21",
+    "statement": "John Cena faced Chris Jericho at Vengeance 2002.",
+    "sourceIds": [
+      "results-vengeance-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-vengeance-2002-2",
+    "eventId": "vengeance-2002",
+    "date": "2002-07-21",
+    "statement": "Booker T faced Big Show at Vengeance 2002.",
+    "sourceIds": [
+      "results-vengeance-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-in-your-house-1998-1",
+    "eventId": "unforgiven-in-your-house-1998",
+    "date": "1998-04-26",
+    "statement": "The Undertaker faced Kane at Unforgiven: In Your House 1998.",
+    "sourceIds": [
+      "results-unforgiven-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-in-your-house-1998-2",
+    "eventId": "unforgiven-in-your-house-1998",
+    "date": "1998-04-26",
+    "statement": "Luna Vachon faced Sable at Unforgiven: In Your House 1998.",
+    "sourceIds": [
+      "results-unforgiven-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-in-your-house-1998-3",
+    "eventId": "unforgiven-in-your-house-1998",
+    "date": "1998-04-26",
+    "statement": "The New Midnight Express faced The Rock 'n' Roll Express at Unforgiven: In Your House 1998.",
+    "sourceIds": [
+      "results-unforgiven-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-in-your-house-1998-1",
+    "eventId": "judgment-day-in-your-house-1998",
+    "date": "1998-10-18",
+    "statement": "Goldust faced Val Venis at Judgment Day: In Your House 1998.",
+    "sourceIds": [
+      "results-judgment-day-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-in-your-house-1998-2",
+    "eventId": "judgment-day-in-your-house-1998",
+    "date": "1998-10-18",
+    "statement": "Al Snow faced Marc Mero at Judgment Day: In Your House 1998.",
+    "sourceIds": [
+      "results-judgment-day-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-in-your-house-1998-3",
+    "eventId": "judgment-day-in-your-house-1998",
+    "date": "1998-10-18",
+    "statement": "Christian faced Taka Michinoku at Judgment Day: In Your House 1998.",
+    "sourceIds": [
+      "results-judgment-day-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-1998-1",
+    "eventId": "survivor-series-1998",
+    "date": "1998-11-15",
+    "statement": "Mankind faced Duane Gill at Survivor Series 1998.",
+    "sourceIds": [
+      "results-survivor-series-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-1998-2",
+    "eventId": "survivor-series-1998",
+    "date": "1998-11-15",
+    "statement": "The Rock faced Big Boss Man at Survivor Series 1998.",
+    "sourceIds": [
+      "results-survivor-series-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-1998-3",
+    "eventId": "survivor-series-1998",
+    "date": "1998-11-15",
+    "statement": "Ken Shamrock faced Goldust at Survivor Series 1998.",
+    "sourceIds": [
+      "results-survivor-series-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-1999-1",
+    "eventId": "backlash-1999",
+    "date": "1999-04-25",
+    "statement": "Triple H faced X-Pac at Backlash 1999.",
+    "sourceIds": [
+      "results-backlash-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-1999-2",
+    "eventId": "backlash-1999",
+    "date": "1999-04-25",
+    "statement": "The Undertaker faced Ken Shamrock at Backlash 1999.",
+    "sourceIds": [
+      "results-backlash-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-1999-3",
+    "eventId": "backlash-1999",
+    "date": "1999-04-25",
+    "statement": "Mankind faced Big Show at Backlash 1999.",
+    "sourceIds": [
+      "results-backlash-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-1999-1",
+    "eventId": "unforgiven-1999",
+    "date": "1999-09-26",
+    "statement": "Al Snow faced Big Boss Man at Unforgiven 1999.",
+    "sourceIds": [
+      "results-unforgiven-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-1999-2",
+    "eventId": "unforgiven-1999",
+    "date": "1999-09-26",
+    "statement": "Chris Jericho faced X-Pac at Unforgiven 1999.",
+    "sourceIds": [
+      "results-unforgiven-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-1999-3",
+    "eventId": "unforgiven-1999",
+    "date": "1999-09-26",
+    "statement": "D-Lo Brown faced Mark Henry at Unforgiven 1999.",
+    "sourceIds": [
+      "results-unforgiven-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-1999-1",
+    "eventId": "armageddon-1999",
+    "date": "1999-12-12",
+    "statement": "Chris Jericho faced Chyna at Armageddon 1999.",
+    "sourceIds": [
+      "results-armageddon-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-1999-2",
+    "eventId": "armageddon-1999",
+    "date": "1999-12-12",
+    "statement": "Triple H faced Mr. McMahon at Armageddon 1999.",
+    "sourceIds": [
+      "results-armageddon-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-1999-3",
+    "eventId": "armageddon-1999",
+    "date": "1999-12-12",
+    "statement": "Kane faced X-Pac at Armageddon 1999.",
+    "sourceIds": [
+      "results-armageddon-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2000-1",
+    "eventId": "backlash-2000",
+    "date": "2000-04-30",
+    "statement": "Eddie Guerrero faced Essa Rios at Backlash 2000.",
+    "sourceIds": [
+      "results-backlash-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2000-2",
+    "eventId": "backlash-2000",
+    "date": "2000-04-30",
+    "statement": "Big Show faced Kurt Angle at Backlash 2000.",
+    "sourceIds": [
+      "results-backlash-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2000-3",
+    "eventId": "backlash-2000",
+    "date": "2000-04-30",
+    "statement": "Chris Benoit faced Chris Jericho at Backlash 2000.",
+    "sourceIds": [
+      "results-backlash-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2000-1",
+    "eventId": "judgment-day-2000",
+    "date": "2000-05-21",
+    "statement": "Chris Benoit faced Chris Jericho at Judgment Day 2000.",
+    "sourceIds": [
+      "results-judgment-day-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2000-2",
+    "eventId": "judgment-day-2000",
+    "date": "2000-05-21",
+    "statement": "Shane McMahon faced Big Show at Judgment Day 2000.",
+    "sourceIds": [
+      "results-judgment-day-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2000-3",
+    "eventId": "judgment-day-2000",
+    "date": "2000-05-21",
+    "statement": "Triple H faced The Rock at Judgment Day 2000.",
+    "sourceIds": [
+      "results-judgment-day-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2000-1",
+    "eventId": "unforgiven-2000",
+    "date": "2000-09-24",
+    "statement": "Chris Jericho faced X-Pac at Unforgiven 2000.",
+    "sourceIds": [
+      "results-unforgiven-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2000-2",
+    "eventId": "unforgiven-2000",
+    "date": "2000-09-24",
+    "statement": "Triple H faced Kurt Angle at Unforgiven 2000.",
+    "sourceIds": [
+      "results-unforgiven-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2000-3",
+    "eventId": "unforgiven-2000",
+    "date": "2000-09-24",
+    "statement": "The Hardy Boyz faced Edge & Christian at Unforgiven 2000.",
+    "sourceIds": [
+      "results-unforgiven-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2000-1",
+    "eventId": "no-mercy-2000",
+    "date": "2000-10-22",
+    "statement": "Triple H faced Chris Benoit at No Mercy 2000.",
+    "sourceIds": [
+      "results-no-mercy-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2000-2",
+    "eventId": "no-mercy-2000",
+    "date": "2000-10-22",
+    "statement": "Steve Austin faced Rikishi at No Mercy 2000.",
+    "sourceIds": [
+      "results-no-mercy-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2000-3",
+    "eventId": "no-mercy-2000",
+    "date": "2000-10-22",
+    "statement": "Chris Jericho faced X-Pac at No Mercy 2000.",
+    "sourceIds": [
+      "results-no-mercy-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2000-1",
+    "eventId": "survivor-series-2000",
+    "date": "2000-11-19",
+    "statement": "The Rock faced Rikishi at Survivor Series 2000.",
+    "sourceIds": [
+      "results-survivor-series-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2000-2",
+    "eventId": "survivor-series-2000",
+    "date": "2000-11-19",
+    "statement": "Kurt Angle faced The Undertaker at Survivor Series 2000.",
+    "sourceIds": [
+      "results-survivor-series-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2000-3",
+    "eventId": "survivor-series-2000",
+    "date": "2000-11-19",
+    "statement": "Kane faced Chris Jericho at Survivor Series 2000.",
+    "sourceIds": [
+      "results-survivor-series-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-2000-1",
+    "eventId": "armageddon-2000",
+    "date": "2000-12-10",
+    "statement": "Chris Jericho faced Kane at Armageddon 2000.",
+    "sourceIds": [
+      "results-armageddon-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-2000-2",
+    "eventId": "armageddon-2000",
+    "date": "2000-12-10",
+    "statement": "Chris Benoit faced Billy Gunn at Armageddon 2000.",
+    "sourceIds": [
+      "results-armageddon-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-2000-3",
+    "eventId": "armageddon-2000",
+    "date": "2000-12-10",
+    "statement": "Val Venis faced Chyna at Armageddon 2000.",
+    "sourceIds": [
+      "results-armageddon-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2001-1",
+    "eventId": "backlash-2001",
+    "date": "2001-04-29",
+    "statement": "William Regal faced Chris Jericho at Backlash 2001.",
+    "sourceIds": [
+      "results-backlash-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2001-2",
+    "eventId": "backlash-2001",
+    "date": "2001-04-29",
+    "statement": "Chris Benoit faced Kurt Angle at Backlash 2001.",
+    "sourceIds": [
+      "results-backlash-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2001-3",
+    "eventId": "backlash-2001",
+    "date": "2001-04-29",
+    "statement": "Shane McMahon faced Big Show at Backlash 2001.",
+    "sourceIds": [
+      "results-backlash-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2001-1",
+    "eventId": "judgment-day-2001",
+    "date": "2001-05-20",
+    "statement": "Kurt Angle faced Chris Benoit at Judgment Day 2001.",
+    "sourceIds": [
+      "results-judgment-day-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2001-2",
+    "eventId": "judgment-day-2001",
+    "date": "2001-05-20",
+    "statement": "Chyna faced Lita at Judgment Day 2001.",
+    "sourceIds": [
+      "results-judgment-day-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2001-3",
+    "eventId": "judgment-day-2001",
+    "date": "2001-05-20",
+    "statement": "Kane faced Triple H at Judgment Day 2001.",
+    "sourceIds": [
+      "results-judgment-day-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2001-1",
+    "eventId": "unforgiven-2001",
+    "date": "2001-09-23",
+    "statement": "Christian faced Edge at Unforgiven 2001.",
+    "sourceIds": [
+      "results-unforgiven-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2001-2",
+    "eventId": "unforgiven-2001",
+    "date": "2001-09-23",
+    "statement": "Rhyno faced Tajiri at Unforgiven 2001.",
+    "sourceIds": [
+      "results-unforgiven-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2001-3",
+    "eventId": "unforgiven-2001",
+    "date": "2001-09-23",
+    "statement": "Kurt Angle faced Steve Austin at Unforgiven 2001.",
+    "sourceIds": [
+      "results-unforgiven-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2001-1",
+    "eventId": "no-mercy-2001",
+    "date": "2001-10-21",
+    "statement": "Chris Jericho faced The Rock at No Mercy 2001.",
+    "sourceIds": [
+      "results-no-mercy-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2001-2",
+    "eventId": "no-mercy-2001",
+    "date": "2001-10-21",
+    "statement": "The Undertaker faced Booker T at No Mercy 2001.",
+    "sourceIds": [
+      "results-no-mercy-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2001-3",
+    "eventId": "no-mercy-2001",
+    "date": "2001-10-21",
+    "statement": "Edge faced Christian at No Mercy 2001.",
+    "sourceIds": [
+      "results-no-mercy-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2001-1",
+    "eventId": "survivor-series-2001",
+    "date": "2001-11-18",
+    "statement": "Christian faced Al Snow at Survivor Series 2001.",
+    "sourceIds": [
+      "results-survivor-series-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2001-2",
+    "eventId": "survivor-series-2001",
+    "date": "2001-11-18",
+    "statement": "William Regal faced Tajiri at Survivor Series 2001.",
+    "sourceIds": [
+      "results-survivor-series-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2001-3",
+    "eventId": "survivor-series-2001",
+    "date": "2001-11-18",
+    "statement": "Edge faced Test at Survivor Series 2001.",
+    "sourceIds": [
+      "results-survivor-series-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2002-1",
+    "eventId": "no-way-out-2002",
+    "date": "2002-02-17",
+    "statement": "Rob Van Dam faced Goldust at No Way Out 2002.",
+    "sourceIds": [
+      "results-no-way-out-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2002-2",
+    "eventId": "no-way-out-2002",
+    "date": "2002-02-17",
+    "statement": "The Rock faced The Undertaker at No Way Out 2002.",
+    "sourceIds": [
+      "results-no-way-out-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2002-3",
+    "eventId": "no-way-out-2002",
+    "date": "2002-02-17",
+    "statement": "Chris Jericho faced Steve Austin at No Way Out 2002.",
+    "sourceIds": [
+      "results-no-way-out-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2002-1",
+    "eventId": "backlash-2002",
+    "date": "2002-04-21",
+    "statement": "Brock Lesnar faced Jeff Hardy at Backlash 2002.",
+    "sourceIds": [
+      "results-backlash-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2002-2",
+    "eventId": "backlash-2002",
+    "date": "2002-04-21",
+    "statement": "Kurt Angle faced Edge at Backlash 2002.",
+    "sourceIds": [
+      "results-backlash-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2002-3",
+    "eventId": "backlash-2002",
+    "date": "2002-04-21",
+    "statement": "Hulk Hogan faced Triple H at Backlash 2002.",
+    "sourceIds": [
+      "results-backlash-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2002-1",
+    "eventId": "judgment-day-2002",
+    "date": "2002-05-19",
+    "statement": "Edge faced Kurt Angle at Judgment Day 2002.",
+    "sourceIds": [
+      "results-judgment-day-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2002-2",
+    "eventId": "judgment-day-2002",
+    "date": "2002-05-19",
+    "statement": "Triple H faced Chris Jericho at Judgment Day 2002.",
+    "sourceIds": [
+      "results-judgment-day-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2002-3",
+    "eventId": "judgment-day-2002",
+    "date": "2002-05-19",
+    "statement": "The Undertaker faced Hulk Hogan at Judgment Day 2002.",
+    "sourceIds": [
+      "results-judgment-day-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2002-1",
+    "eventId": "unforgiven-2002",
+    "date": "2002-09-22",
+    "statement": "Chris Jericho faced Ric Flair at Unforgiven 2002.",
+    "sourceIds": [
+      "results-unforgiven-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2002-2",
+    "eventId": "unforgiven-2002",
+    "date": "2002-09-22",
+    "statement": "Eddie Guerrero faced Edge at Unforgiven 2002.",
+    "sourceIds": [
+      "results-unforgiven-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2002-3",
+    "eventId": "unforgiven-2002",
+    "date": "2002-09-22",
+    "statement": "Triple H faced Rob Van Dam at Unforgiven 2002.",
+    "sourceIds": [
+      "results-unforgiven-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2002-4",
+    "eventId": "unforgiven-2002",
+    "date": "2002-09-22",
+    "statement": "Chris Benoit faced Kurt Angle at Unforgiven 2002.",
+    "sourceIds": [
+      "results-unforgiven-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2002-1",
+    "eventId": "no-mercy-2002",
+    "date": "2002-10-20",
+    "statement": "Rob Van Dam faced Ric Flair at No Mercy 2002.",
+    "sourceIds": [
+      "results-no-mercy-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2002-2",
+    "eventId": "no-mercy-2002",
+    "date": "2002-10-20",
+    "statement": "Torrie Wilson faced Dawn Marie at No Mercy 2002.",
+    "sourceIds": [
+      "results-no-mercy-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2002-3",
+    "eventId": "no-mercy-2002",
+    "date": "2002-10-20",
+    "statement": "Triple H faced Kane at No Mercy 2002.",
+    "sourceIds": [
+      "results-no-mercy-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2002-4",
+    "eventId": "no-mercy-2002",
+    "date": "2002-10-20",
+    "statement": "Brock Lesnar faced The Undertaker at No Mercy 2002.",
+    "sourceIds": [
+      "results-no-mercy-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2002-1",
+    "eventId": "survivor-series-2002",
+    "date": "2002-11-17",
+    "statement": "Victoria vs. Trish Stratus: Hardcore Match at Survivor Series 2002.",
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2002-2",
+    "eventId": "survivor-series-2002",
+    "date": "2002-11-17",
+    "statement": "Big Show vs. Brock Lesnar: Singles Match at Survivor Series 2002.",
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2002-3",
+    "eventId": "survivor-series-2002",
+    "date": "2002-11-17",
+    "statement": "Los Guerreros vs. Edge & Rey Mysterio vs. Kurt Angle & Chris Benoit: Triple Threat Elimination Tag Team Match at Survivor Series 2002.",
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2002-4",
+    "eventId": "survivor-series-2002",
+    "date": "2002-11-17",
+    "statement": "World Heavyweight Championship six-man match: Elimination Chamber Match at Survivor Series 2002.",
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-2002-1",
+    "eventId": "armageddon-2002",
+    "date": "2002-12-15",
+    "statement": "Chris Benoit faced Eddie Guerrero at Armageddon 2002.",
+    "sourceIds": [
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-2002-2",
+    "eventId": "armageddon-2002",
+    "date": "2002-12-15",
+    "statement": "Batista faced Kane at Armageddon 2002.",
+    "sourceIds": [
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-2002-3",
+    "eventId": "armageddon-2002",
+    "date": "2002-12-15",
+    "statement": "Kurt Angle faced Big Show at Armageddon 2002.",
+    "sourceIds": [
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-2002-4",
+    "eventId": "armageddon-2002",
+    "date": "2002-12-15",
+    "statement": "Triple H faced Shawn Michaels at Armageddon 2002.",
+    "sourceIds": [
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2003-1",
+    "eventId": "no-way-out-2003",
+    "date": "2003-02-23",
+    "statement": "Chris Jericho faced Jeff Hardy at No Way Out 2003.",
+    "sourceIds": [
+      "results-no-way-out-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2003-2",
+    "eventId": "no-way-out-2003",
+    "date": "2003-02-23",
+    "statement": "The Undertaker faced Big Show at No Way Out 2003.",
+    "sourceIds": [
+      "results-no-way-out-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2003-3",
+    "eventId": "no-way-out-2003",
+    "date": "2003-02-23",
+    "statement": "Triple H faced Scott Steiner at No Way Out 2003.",
+    "sourceIds": [
+      "results-no-way-out-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-way-out-2003-4",
+    "eventId": "no-way-out-2003",
+    "date": "2003-02-23",
+    "statement": "Steve Austin faced Eric Bischoff at No Way Out 2003.",
+    "sourceIds": [
+      "results-no-way-out-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2003-1",
+    "eventId": "backlash-2003",
+    "date": "2003-04-27",
+    "statement": "Goldberg faced The Rock at Backlash 2003.",
+    "sourceIds": [
+      "results-backlash-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2003-2",
+    "eventId": "backlash-2003",
+    "date": "2003-04-27",
+    "statement": "Brock Lesnar faced John Cena at Backlash 2003.",
+    "sourceIds": [
+      "results-backlash-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2003-3",
+    "eventId": "backlash-2003",
+    "date": "2003-04-27",
+    "statement": "Jazz faced Trish Stratus at Backlash 2003.",
+    "sourceIds": [
+      "results-backlash-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-backlash-2003-4",
+    "eventId": "backlash-2003",
+    "date": "2003-04-27",
+    "statement": "Sean O'Haire faced Rikishi at Backlash 2003.",
+    "sourceIds": [
+      "results-backlash-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2003-1",
+    "eventId": "judgment-day-2003",
+    "date": "2003-05-18",
+    "statement": "Eddie Guerrero & Tajiri vs. Team Angle: Ladder Match at Judgment Day 2003.",
+    "sourceIds": [
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2003-2",
+    "eventId": "judgment-day-2003",
+    "date": "2003-05-18",
+    "statement": "Intercontinental Championship nine-man match: Battle Royal at Judgment Day 2003.",
+    "sourceIds": [
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2003-3",
+    "eventId": "judgment-day-2003",
+    "date": "2003-05-18",
+    "statement": "Brock Lesnar vs. Big Show: Stretcher Match at Judgment Day 2003.",
+    "sourceIds": [
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-judgment-day-2003-4",
+    "eventId": "judgment-day-2003",
+    "date": "2003-05-18",
+    "statement": "Triple H vs. Kevin Nash: Singles Match at Judgment Day 2003.",
+    "sourceIds": [
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-vengeance-2003-1",
+    "eventId": "vengeance-2003",
+    "date": "2003-07-27",
+    "statement": "Eddie Guerrero faced Chris Benoit at Vengeance 2003.",
+    "sourceIds": [
+      "results-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-vengeance-2003-2",
+    "eventId": "vengeance-2003",
+    "date": "2003-07-27",
+    "statement": "Jamie Noble faced Billy Gunn at Vengeance 2003.",
+    "sourceIds": [
+      "results-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-vengeance-2003-3",
+    "eventId": "vengeance-2003",
+    "date": "2003-07-27",
+    "statement": "The Undertaker faced John Cena at Vengeance 2003.",
+    "sourceIds": [
+      "results-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-vengeance-2003-4",
+    "eventId": "vengeance-2003",
+    "date": "2003-07-27",
+    "statement": "Mr. McMahon faced Zach Gowen at Vengeance 2003.",
+    "sourceIds": [
+      "results-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2003-1",
+    "eventId": "summerslam-2003",
+    "date": "2003-08-24",
+    "statement": "The Undertaker faced A-Train at SummerSlam 2003.",
+    "sourceIds": [
+      "results-summerslam-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2003-2",
+    "eventId": "summerslam-2003",
+    "date": "2003-08-24",
+    "statement": "Shane McMahon faced Eric Bischoff at SummerSlam 2003.",
+    "sourceIds": [
+      "results-summerslam-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2003-3",
+    "eventId": "summerslam-2003",
+    "date": "2003-08-24",
+    "statement": "Kane faced Rob Van Dam at SummerSlam 2003.",
+    "sourceIds": [
+      "results-summerslam-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2003-4",
+    "eventId": "summerslam-2003",
+    "date": "2003-08-24",
+    "statement": "La Resistance faced The Dudley Boyz at SummerSlam 2003.",
+    "sourceIds": [
+      "results-summerslam-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2003-1",
+    "eventId": "unforgiven-2003",
+    "date": "2003-09-21",
+    "statement": "Randy Orton faced Shawn Michaels at Unforgiven 2003.",
+    "sourceIds": [
+      "results-unforgiven-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2003-2",
+    "eventId": "unforgiven-2003",
+    "date": "2003-09-21",
+    "statement": "Test faced Scott Steiner at Unforgiven 2003.",
+    "sourceIds": [
+      "results-unforgiven-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2003-3",
+    "eventId": "unforgiven-2003",
+    "date": "2003-09-21",
+    "statement": "Kane faced Shane McMahon at Unforgiven 2003.",
+    "sourceIds": [
+      "results-unforgiven-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-unforgiven-2003-4",
+    "eventId": "unforgiven-2003",
+    "date": "2003-09-21",
+    "statement": "Trish Stratus & Lita faced Molly Holly & Gail Kim at Unforgiven 2003.",
+    "sourceIds": [
+      "results-unforgiven-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2003-1",
+    "eventId": "no-mercy-2003",
+    "date": "2003-10-19",
+    "statement": "Chris Benoit faced A-Train at No Mercy 2003.",
+    "sourceIds": [
+      "results-no-mercy-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2003-2",
+    "eventId": "no-mercy-2003",
+    "date": "2003-10-19",
+    "statement": "Zach Gowen faced Matt Hardy at No Mercy 2003.",
+    "sourceIds": [
+      "results-no-mercy-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2003-3",
+    "eventId": "no-mercy-2003",
+    "date": "2003-10-19",
+    "statement": "Mr. McMahon faced Stephanie McMahon at No Mercy 2003.",
+    "sourceIds": [
+      "results-no-mercy-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-no-mercy-2003-4",
+    "eventId": "no-mercy-2003",
+    "date": "2003-10-19",
+    "statement": "Kurt Angle faced John Cena at No Mercy 2003.",
+    "sourceIds": [
+      "results-no-mercy-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2003-1",
+    "eventId": "survivor-series-2003",
+    "date": "2003-11-16",
+    "statement": "Kane faced Shane McMahon at Survivor Series 2003.",
+    "sourceIds": [
+      "results-survivor-series-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2003-2",
+    "eventId": "survivor-series-2003",
+    "date": "2003-11-16",
+    "statement": "Mr. McMahon faced The Undertaker at Survivor Series 2003.",
+    "sourceIds": [
+      "results-survivor-series-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2003-3",
+    "eventId": "survivor-series-2003",
+    "date": "2003-11-16",
+    "statement": "Molly Holly faced Lita at Survivor Series 2003.",
+    "sourceIds": [
+      "results-survivor-series-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-2003-4",
+    "eventId": "survivor-series-2003",
+    "date": "2003-11-16",
+    "statement": "Goldberg faced Triple H at Survivor Series 2003.",
+    "sourceIds": [
+      "results-survivor-series-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-2003-1",
+    "eventId": "armageddon-2003",
+    "date": "2003-12-14",
+    "statement": "Booker T faced Mark Henry at Armageddon 2003.",
+    "sourceIds": [
+      "results-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-2003-2",
+    "eventId": "armageddon-2003",
+    "date": "2003-12-14",
+    "statement": "Shawn Michaels faced Batista at Armageddon 2003.",
+    "sourceIds": [
+      "results-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-2003-3",
+    "eventId": "armageddon-2003",
+    "date": "2003-12-14",
+    "statement": "Molly Holly faced Ivory at Armageddon 2003.",
+    "sourceIds": [
+      "results-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-armageddon-2003-4",
+    "eventId": "armageddon-2003",
+    "date": "2003-12-14",
+    "statement": "Chris Jericho & Christian faced Trish Stratus & Lita at Armageddon 2003.",
+    "sourceIds": [
+      "results-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2000-1",
+    "eventId": "royal-rumble-2000",
+    "date": "2000-01-23",
+    "statement": "Tazz faced Kurt Angle at Royal Rumble 2000.",
+    "sourceIds": [
+      "results-royal-rumble-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2000-2",
+    "eventId": "royal-rumble-2000",
+    "date": "2000-01-23",
+    "statement": "The Hardy Boyz faced The Dudley Boyz at Royal Rumble 2000.",
+    "sourceIds": [
+      "results-royal-rumble-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2000-3",
+    "eventId": "royal-rumble-2000",
+    "date": "2000-01-23",
+    "statement": "The New Age Outlaws faced The Acolytes at Royal Rumble 2000.",
+    "sourceIds": [
+      "results-royal-rumble-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2000-4",
+    "eventId": "royal-rumble-2000",
+    "date": "2000-01-23",
+    "statement": "Triple H faced Cactus Jack at Royal Rumble 2000.",
+    "sourceIds": [
+      "results-royal-rumble-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2001-1",
+    "eventId": "royal-rumble-2001",
+    "date": "2001-01-21",
+    "statement": "The Dudley Boyz faced Edge & Christian at Royal Rumble 2001.",
+    "sourceIds": [
+      "results-royal-rumble-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2001-2",
+    "eventId": "royal-rumble-2001",
+    "date": "2001-01-21",
+    "statement": "Chris Jericho faced Chris Benoit at Royal Rumble 2001.",
+    "sourceIds": [
+      "results-royal-rumble-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2001-3",
+    "eventId": "royal-rumble-2001",
+    "date": "2001-01-21",
+    "statement": "Ivory faced Chyna at Royal Rumble 2001.",
+    "sourceIds": [
+      "results-royal-rumble-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2001-4",
+    "eventId": "royal-rumble-2001",
+    "date": "2001-01-21",
+    "statement": "Kurt Angle faced Triple H at Royal Rumble 2001.",
+    "sourceIds": [
+      "results-royal-rumble-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2002-1",
+    "eventId": "royal-rumble-2002",
+    "date": "2002-01-20",
+    "statement": "William Regal faced Edge at Royal Rumble 2002.",
+    "sourceIds": [
+      "results-royal-rumble-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2002-2",
+    "eventId": "royal-rumble-2002",
+    "date": "2002-01-20",
+    "statement": "Trish Stratus faced Jazz at Royal Rumble 2002.",
+    "sourceIds": [
+      "results-royal-rumble-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2002-3",
+    "eventId": "royal-rumble-2002",
+    "date": "2002-01-20",
+    "statement": "Ric Flair faced Mr. McMahon at Royal Rumble 2002.",
+    "sourceIds": [
+      "results-royal-rumble-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2002-4",
+    "eventId": "royal-rumble-2002",
+    "date": "2002-01-20",
+    "statement": "Chris Jericho faced The Rock at Royal Rumble 2002.",
+    "sourceIds": [
+      "results-royal-rumble-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2003-1",
+    "eventId": "royal-rumble-2003",
+    "date": "2003-01-19",
+    "statement": "Brock Lesnar faced Big Show at Royal Rumble 2003.",
+    "sourceIds": [
+      "results-royal-rumble-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2003-2",
+    "eventId": "royal-rumble-2003",
+    "date": "2003-01-19",
+    "statement": "Torrie Wilson faced Dawn Marie at Royal Rumble 2003.",
+    "sourceIds": [
+      "results-royal-rumble-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2003-3",
+    "eventId": "royal-rumble-2003",
+    "date": "2003-01-19",
+    "statement": "Triple H faced Scott Steiner at Royal Rumble 2003.",
+    "sourceIds": [
+      "results-royal-rumble-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2003-4",
+    "eventId": "royal-rumble-2003",
+    "date": "2003-01-19",
+    "statement": "Kurt Angle faced Chris Benoit at Royal Rumble 2003.",
+    "sourceIds": [
+      "results-royal-rumble-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2004-1",
+    "eventId": "royal-rumble-2004",
+    "date": "2004-01-25",
+    "statement": "Rey Mysterio faced Jamie Noble at Royal Rumble 2004.",
+    "sourceIds": [
+      "results-royal-rumble-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2004-2",
+    "eventId": "royal-rumble-2004",
+    "date": "2004-01-25",
+    "statement": "Eddie Guerrero faced Chavo Guerrero at Royal Rumble 2004.",
+    "sourceIds": [
+      "results-royal-rumble-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2004-3",
+    "eventId": "royal-rumble-2004",
+    "date": "2004-01-25",
+    "statement": "Brock Lesnar faced Hardcore Holly at Royal Rumble 2004.",
+    "sourceIds": [
+      "results-royal-rumble-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-royal-rumble-2004-4",
+    "eventId": "royal-rumble-2004",
+    "date": "2004-01-25",
+    "statement": "Triple H faced Shawn Michaels at Royal Rumble 2004.",
+    "sourceIds": [
+      "results-royal-rumble-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-1999-1",
+    "eventId": "survivor-series-1999",
+    "date": "1999-11-14",
+    "statement": "Kurt Angle faced Shawn Stasiak at Survivor Series 1999.",
+    "sourceIds": [
+      "results-survivor-series-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-1999-2",
+    "eventId": "survivor-series-1999",
+    "date": "1999-11-14",
+    "statement": "Kane faced X-Pac at Survivor Series 1999.",
+    "sourceIds": [
+      "results-survivor-series-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-1999-3",
+    "eventId": "survivor-series-1999",
+    "date": "1999-11-14",
+    "statement": "Chyna faced Chris Jericho at Survivor Series 1999.",
+    "sourceIds": [
+      "results-survivor-series-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-survivor-series-1999-4",
+    "eventId": "survivor-series-1999",
+    "date": "1999-11-14",
+    "statement": "The New Age Outlaws faced Al Snow & Mankind at Survivor Series 1999.",
+    "sourceIds": [
+      "results-survivor-series-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2000-1",
+    "eventId": "summerslam-2000",
+    "date": "2000-08-27",
+    "statement": "X-Pac faced Road Dogg at SummerSlam 2000.",
+    "sourceIds": [
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2000-2",
+    "eventId": "summerslam-2000",
+    "date": "2000-08-27",
+    "statement": "Jerry Lawler faced Tazz at SummerSlam 2000.",
+    "sourceIds": [
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2000-3",
+    "eventId": "summerslam-2000",
+    "date": "2000-08-27",
+    "statement": "Chris Benoit faced Chris Jericho at SummerSlam 2000.",
+    "sourceIds": [
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "card-summerslam-2000-4",
+    "eventId": "summerslam-2000",
+    "date": "2000-08-27",
+    "statement": "Steve Blackman faced Shane McMahon at SummerSlam 2000.",
+    "sourceIds": [
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed"
   }
 ]

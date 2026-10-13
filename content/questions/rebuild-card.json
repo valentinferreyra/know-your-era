@@ -1,1 +1,3931 @@
-[]
+[
+  {
+    "id": "rebuild-wrestlemania-xiv-1998",
+    "familyId": "rebuild-wrestlemania-xiv-1998",
+    "conflictGroups": [
+      "main-wrestlemania-xiv-1998",
+      "card-wrestlemania-xiv-1998-1",
+      "card-wrestlemania-xiv-1998-2",
+      "moment-austin98",
+      "moment-wm14taka",
+      "moment-wm14hhh",
+      "moment-wm14taker",
+      "holder-wrestlemania-xiv-1998-wwe",
+      "holder-wrestlemania-xiv-1998-tag",
+      "holder-wrestlemania-xiv-1998-ic",
+      "holder-wrestlemania-xiv-1998-european",
+      "group-odd-medium-02",
+      "group-odd-hard-01"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at WrestleMania XIV 1998.",
+    "explanation": "The Undertaker faced Kane. Steve Austin faced Shawn Michaels.",
+    "eventIds": [
+      "wrestlemania-xiv-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-wrestlemania-xiv-1998-1",
+      "card-wrestlemania-xiv-1998-2"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "left-2",
+        "label": "Steve Austin"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Kane"
+      },
+      {
+        "id": "right-2",
+        "label": "Shawn Michaels"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-summerslam-1998",
+    "familyId": "rebuild-summerslam-1998",
+    "conflictGroups": [
+      "main-summerslam-1998",
+      "card-summerslam-1998-1",
+      "card-summerslam-1998-2",
+      "moment-hhh98",
+      "holder-summerslam-1998-wwe",
+      "holder-summerslam-1998-tag",
+      "holder-summerslam-1998-european",
+      "group-odd-medium-01"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at SummerSlam 1998.",
+    "explanation": "Triple H faced The Rock. Steve Austin faced The Undertaker.",
+    "eventIds": [
+      "summerslam-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-summerslam-1998-1",
+      "card-summerslam-1998-2"
+    ],
+    "sourceIds": [
+      "results-summerslam-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-2",
+        "label": "Steve Austin"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "right-2",
+        "label": "The Undertaker"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-wrestlemania-xv-1999",
+    "familyId": "rebuild-wrestlemania-xv-1999",
+    "conflictGroups": [
+      "main-wrestlemania-xv-1999",
+      "card-wrestlemania-xv-1999-1",
+      "card-wrestlemania-xv-1999-2",
+      "moment-austin99",
+      "moment-wm15butterbean",
+      "moment-wm15mankind",
+      "moment-wm15shane",
+      "holder-wrestlemania-xv-1999-wwe",
+      "holder-wrestlemania-xv-1999-women",
+      "holder-wrestlemania-xv-1999-ic",
+      "holder-wrestlemania-xv-1999-european",
+      "group-odd-medium-03",
+      "group-odd-hard-02"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at WrestleMania XV 1999.",
+    "explanation": "Steve Austin faced The Rock. The Undertaker faced Big Boss Man.",
+    "eventIds": [
+      "wrestlemania-xv-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-wrestlemania-xv-1999-1",
+      "card-wrestlemania-xv-1999-2"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "left-2",
+        "label": "The Undertaker"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "right-2",
+        "label": "Big Boss Man"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-summerslam-1999",
+    "familyId": "rebuild-summerslam-1999",
+    "conflictGroups": [
+      "main-summerslam-1999",
+      "card-summerslam-1999-1",
+      "card-summerslam-1999-2",
+      "moment-mankind99",
+      "moment-jarrett99",
+      "holder-summerslam-1999-wwe",
+      "holder-summerslam-1999-ic",
+      "group-odd-easy-02",
+      "group-odd-medium-05",
+      "group-odd-hard-04"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at SummerSlam 1999.",
+    "explanation": "Test faced Shane McMahon. The Rock faced Billy Gunn.",
+    "eventIds": [
+      "summerslam-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-summerslam-1999-1",
+      "card-summerslam-1999-2"
+    ],
+    "sourceIds": [
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Test"
+      },
+      {
+        "id": "left-2",
+        "label": "The Rock"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Shane McMahon"
+      },
+      {
+        "id": "right-2",
+        "label": "Billy Gunn"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-wrestlemania-2000-2000",
+    "familyId": "rebuild-wrestlemania-2000-2000",
+    "conflictGroups": [
+      "main-wrestlemania-2000-2000",
+      "card-wrestlemania-2000-2000-1",
+      "card-wrestlemania-2000-2000-2",
+      "moment-ec00",
+      "holder-wrestlemania-2000-2000-wwe",
+      "holder-wrestlemania-2000-2000-tag",
+      "holder-wrestlemania-2000-2000-ic",
+      "group-odd-easy-01",
+      "group-odd-medium-08"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at WrestleMania 2000 2000.",
+    "explanation": "Kane & Rikishi faced Road Dogg & X-Pac. Too Cool & Chyna faced The Radicalz.",
+    "eventIds": [
+      "wrestlemania-2000-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-wrestlemania-2000-2000-1",
+      "card-wrestlemania-2000-2000-2"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-2000-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Kane & Rikishi"
+      },
+      {
+        "id": "left-2",
+        "label": "Too Cool & Chyna"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Road Dogg & X-Pac"
+      },
+      {
+        "id": "right-2",
+        "label": "The Radicalz"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-wrestlemania-x-seven-2001",
+    "familyId": "rebuild-wrestlemania-x-seven-2001",
+    "conflictGroups": [
+      "main-wrestlemania-x-seven-2001",
+      "card-wrestlemania-x-seven-2001-1",
+      "card-wrestlemania-x-seven-2001-2",
+      "moment-eddie01",
+      "moment-chyna01",
+      "moment-shane01",
+      "moment-austin01",
+      "holder-wrestlemania-x-seven-2001-wwe",
+      "holder-wrestlemania-x-seven-2001-women",
+      "holder-wrestlemania-x-seven-2001-tag",
+      "holder-wrestlemania-x-seven-2001-european",
+      "group-odd-easy-14"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at WrestleMania X-Seven 2001.",
+    "explanation": "The Undertaker faced Triple H. Shane McMahon faced Mr. McMahon.",
+    "eventIds": [
+      "wrestlemania-x-seven-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-wrestlemania-x-seven-2001-1",
+      "card-wrestlemania-x-seven-2001-2"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-x-seven-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "left-2",
+        "label": "Shane McMahon"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "right-2",
+        "label": "Mr. McMahon"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-summerslam-2001",
+    "familyId": "rebuild-summerslam-2001",
+    "conflictGroups": [
+      "main-summerslam-2001",
+      "card-summerslam-2001-1",
+      "card-summerslam-2001-2",
+      "moment-edge01",
+      "holder-summerslam-2001-ic",
+      "group-odd-easy-16",
+      "group-odd-medium-12"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at SummerSlam 2001.",
+    "explanation": "Chris Jericho faced Rhyno. The Rock faced Booker T.",
+    "eventIds": [
+      "summerslam-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-summerslam-2001-1",
+      "card-summerslam-2001-2"
+    ],
+    "sourceIds": [
+      "results-summerslam-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "left-2",
+        "label": "The Rock"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Rhyno"
+      },
+      {
+        "id": "right-2",
+        "label": "Booker T"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-wrestlemania-x8-2002",
+    "familyId": "rebuild-wrestlemania-x8-2002",
+    "conflictGroups": [
+      "main-wrestlemania-x8-2002",
+      "card-wrestlemania-x8-2002-1",
+      "card-wrestlemania-x8-2002-2",
+      "moment-hhh02",
+      "holder-wrestlemania-x8-2002-wwe",
+      "holder-wrestlemania-x8-2002-women",
+      "holder-wrestlemania-x8-2002-european",
+      "group-odd-easy-15"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at WrestleMania X8 2002.",
+    "explanation": "The Rock faced Hulk Hogan. The Undertaker faced Ric Flair.",
+    "eventIds": [
+      "wrestlemania-x8-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-wrestlemania-x8-2002-1",
+      "card-wrestlemania-x8-2002-2"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-x8-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "left-2",
+        "label": "The Undertaker"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Hulk Hogan"
+      },
+      {
+        "id": "right-2",
+        "label": "Ric Flair"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-summerslam-2002",
+    "familyId": "rebuild-summerslam-2002",
+    "conflictGroups": [
+      "main-summerslam-2002",
+      "card-summerslam-2002-1",
+      "card-summerslam-2002-2",
+      "moment-hbkreturn02",
+      "moment-brock02",
+      "moment-ss02flair",
+      "moment-ss02edge",
+      "moment-ss02taker",
+      "moment-ss02rvd",
+      "holder-summerslam-2002-wwe",
+      "holder-summerslam-2002-tag",
+      "group-odd-easy-20"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at SummerSlam 2002.",
+    "explanation": "Shawn Michaels faced Triple H. Brock Lesnar faced The Rock.",
+    "eventIds": [
+      "summerslam-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-summerslam-2002-1",
+      "card-summerslam-2002-2"
+    ],
+    "sourceIds": [
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "left-2",
+        "label": "Brock Lesnar"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "right-2",
+        "label": "The Rock"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-wrestlemania-xix-2003",
+    "familyId": "rebuild-wrestlemania-xix-2003",
+    "conflictGroups": [
+      "main-wrestlemania-xix-2003",
+      "card-wrestlemania-xix-2003-1",
+      "card-wrestlemania-xix-2003-2",
+      "moment-brock03",
+      "moment-trish03",
+      "holder-wrestlemania-xix-2003-wwe",
+      "holder-wrestlemania-xix-2003-women",
+      "group-odd-medium-18"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at WrestleMania XIX 2003.",
+    "explanation": "Shawn Michaels faced Chris Jericho. The Rock faced Steve Austin.",
+    "eventIds": [
+      "wrestlemania-xix-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-wrestlemania-xix-2003-1",
+      "card-wrestlemania-xix-2003-2"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xix-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "left-2",
+        "label": "The Rock"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "right-2",
+        "label": "Steve Austin"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-wrestlemania-xx-2004",
+    "familyId": "rebuild-wrestlemania-xx-2004",
+    "conflictGroups": [
+      "main-wrestlemania-xx-2004",
+      "card-wrestlemania-xx-2004-1",
+      "card-wrestlemania-xx-2004-2",
+      "moment-cena04",
+      "moment-benoit04",
+      "moment-taker04",
+      "moment-wm20eddie",
+      "holder-wrestlemania-xx-2004-wwe",
+      "holder-wrestlemania-xx-2004-women",
+      "holder-wrestlemania-xx-2004-tag",
+      "group-odd-easy-05",
+      "group-odd-easy-19"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at WrestleMania XX 2004.",
+    "explanation": "Eddie Guerrero faced Kurt Angle. The Undertaker faced Kane.",
+    "eventIds": [
+      "wrestlemania-xx-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-wrestlemania-xx-2004-1",
+      "card-wrestlemania-xx-2004-2"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "left-2",
+        "label": "The Undertaker"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "right-2",
+        "label": "Kane"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-backlash-2004",
+    "familyId": "rebuild-backlash-2004",
+    "conflictGroups": [
+      "main-backlash-2004",
+      "card-backlash-2004-1",
+      "card-backlash-2004-2",
+      "moment-ortonfoley04",
+      "moment-jericho04",
+      "holder-backlash-2004-whc"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at Backlash 2004.",
+    "explanation": "Edge faced Kane. Randy Orton faced Mick Foley.",
+    "eventIds": [
+      "backlash-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-backlash-2004-1",
+      "card-backlash-2004-2"
+    ],
+    "sourceIds": [
+      "results-backlash-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Edge"
+      },
+      {
+        "id": "left-2",
+        "label": "Randy Orton"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Kane"
+      },
+      {
+        "id": "right-2",
+        "label": "Mick Foley"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-judgment-day-2004",
+    "familyId": "rebuild-judgment-day-2004",
+    "conflictGroups": [
+      "main-judgment-day-2004",
+      "card-judgment-day-2004-1",
+      "card-judgment-day-2004-2",
+      "moment-chavojd04",
+      "moment-mordecai04",
+      "holder-judgment-day-2004-cruiser"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at Judgment Day 2004.",
+    "explanation": "The Undertaker faced Booker T. John Cena faced Rene Dupree.",
+    "eventIds": [
+      "judgment-day-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-judgment-day-2004-1",
+      "card-judgment-day-2004-2"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "left-2",
+        "label": "John Cena"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Booker T"
+      },
+      {
+        "id": "right-2",
+        "label": "Rene Dupree"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-vengeance-2004",
+    "familyId": "rebuild-vengeance-2004",
+    "conflictGroups": [
+      "main-vengeance-2004",
+      "card-vengeance-2004-1",
+      "card-vengeance-2004-2",
+      "moment-edge04",
+      "holder-vengeance-2004-ic"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at Vengeance 2004.",
+    "explanation": "Batista faced Chris Jericho. Chris Benoit faced Triple H.",
+    "eventIds": [
+      "vengeance-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-vengeance-2004-1",
+      "card-vengeance-2004-2"
+    ],
+    "sourceIds": [
+      "results-vengeance-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Batista"
+      },
+      {
+        "id": "left-2",
+        "label": "Chris Benoit"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "right-2",
+        "label": "Triple H"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-no-way-out-2004",
+    "familyId": "rebuild-no-way-out-2004",
+    "conflictGroups": [
+      "main-no-way-out-2004",
+      "card-no-way-out-2004-1",
+      "card-no-way-out-2004-2",
+      "moment-eddie04",
+      "moment-chavo04",
+      "holder-no-way-out-2004-wwe",
+      "group-odd-hard-20"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at No Way Out 2004.",
+    "explanation": "Eddie Guerrero faced Brock Lesnar. Chavo Guerrero faced Rey Mysterio.",
+    "eventIds": [
+      "no-way-out-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-no-way-out-2004-1",
+      "card-no-way-out-2004-2"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "left-2",
+        "label": "Chavo Guerrero"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "right-2",
+        "label": "Rey Mysterio"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-no-way-out-2001",
+    "familyId": "rebuild-no-way-out-2001",
+    "conflictGroups": [
+      "main-no-way-out-2001",
+      "card-no-way-out-2001-1",
+      "card-no-way-out-2001-2",
+      "holder-no-way-out-2001-wwe",
+      "group-odd-hard-07"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at No Way Out 2001.",
+    "explanation": "Triple H faced Steve Austin. The Rock faced Kurt Angle.",
+    "eventIds": [
+      "no-way-out-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-no-way-out-2001-1",
+      "card-no-way-out-2001-2"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-2",
+        "label": "The Rock"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "right-2",
+        "label": "Kurt Angle"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-no-way-out-2000",
+    "familyId": "rebuild-no-way-out-2000",
+    "conflictGroups": [
+      "main-no-way-out-2000",
+      "card-no-way-out-2000-1",
+      "card-no-way-out-2000-2",
+      "moment-dudleys00",
+      "moment-angleic00",
+      "moment-foleyretire00",
+      "holder-no-way-out-2000-ic",
+      "group-odd-medium-07"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at No Way Out 2000.",
+    "explanation": "Triple H faced Mick Foley. Kurt Angle faced Chris Jericho.",
+    "eventIds": [
+      "no-way-out-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-no-way-out-2000-1",
+      "card-no-way-out-2000-2"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-2",
+        "label": "Kurt Angle"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Mick Foley"
+      },
+      {
+        "id": "right-2",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-no-mercy-1999",
+    "familyId": "rebuild-no-mercy-1999",
+    "conflictGroups": [
+      "main-no-mercy-1999",
+      "card-no-mercy-1999-1",
+      "card-no-mercy-1999-2",
+      "moment-chyna99",
+      "holder-no-mercy-1999-women",
+      "holder-no-mercy-1999-ic",
+      "group-odd-hard-05"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at No Mercy 1999.",
+    "explanation": "Chyna faced Jeff Jarrett. The Rock faced The British Bulldog.",
+    "eventIds": [
+      "no-mercy-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-no-mercy-1999-1",
+      "card-no-mercy-1999-2"
+    ],
+    "sourceIds": [
+      "results-no-mercy-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Chyna"
+      },
+      {
+        "id": "left-2",
+        "label": "The Rock"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Jeff Jarrett"
+      },
+      {
+        "id": "right-2",
+        "label": "The British Bulldog"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-vengeance-2001",
+    "familyId": "rebuild-vengeance-2001",
+    "conflictGroups": [
+      "main-vengeance-2001",
+      "card-vengeance-2001-1",
+      "card-vengeance-2001-2",
+      "moment-undisputed01"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at Vengeance 2001.",
+    "explanation": "Jeff Hardy faced Matt Hardy. Trish Stratus faced Jacqueline.",
+    "eventIds": [
+      "vengeance-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-vengeance-2001-1",
+      "card-vengeance-2001-2"
+    ],
+    "sourceIds": [
+      "results-vengeance-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Jeff Hardy"
+      },
+      {
+        "id": "left-2",
+        "label": "Trish Stratus"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Matt Hardy"
+      },
+      {
+        "id": "right-2",
+        "label": "Jacqueline"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-vengeance-2002",
+    "familyId": "rebuild-vengeance-2002",
+    "conflictGroups": [
+      "main-vengeance-2002",
+      "card-vengeance-2002-1",
+      "card-vengeance-2002-2",
+      "moment-cena02",
+      "moment-rock02",
+      "holder-vengeance-2002-wwe",
+      "holder-vengeance-2002-tag",
+      "group-odd-easy-04",
+      "group-odd-hard-13"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "easy",
+    "prompt": "Match each wrestler or team to their opponent at Vengeance 2002.",
+    "explanation": "John Cena faced Chris Jericho. Booker T faced Big Show.",
+    "eventIds": [
+      "vengeance-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-vengeance-2002-1",
+      "card-vengeance-2002-2"
+    ],
+    "sourceIds": [
+      "results-vengeance-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "John Cena"
+      },
+      {
+        "id": "left-2",
+        "label": "Booker T"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "right-2",
+        "label": "Big Show"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2"
+    }
+  },
+  {
+    "id": "rebuild-unforgiven-in-your-house-1998",
+    "familyId": "rebuild-unforgiven-in-your-house-1998",
+    "conflictGroups": [
+      "main-unforgiven-in-your-house-1998",
+      "card-unforgiven-in-your-house-1998-1",
+      "card-unforgiven-in-your-house-1998-2",
+      "card-unforgiven-in-your-house-1998-3",
+      "moment-inferno98",
+      "group-odd-easy-13"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Unforgiven: In Your House 1998.",
+    "explanation": "The Undertaker faced Kane. Luna Vachon faced Sable. The New Midnight Express faced The Rock 'n' Roll Express.",
+    "eventIds": [
+      "unforgiven-in-your-house-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-unforgiven-in-your-house-1998-1",
+      "card-unforgiven-in-your-house-1998-2",
+      "card-unforgiven-in-your-house-1998-3"
+    ],
+    "sourceIds": [
+      "results-unforgiven-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "left-2",
+        "label": "Luna Vachon"
+      },
+      {
+        "id": "left-3",
+        "label": "The New Midnight Express"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Kane"
+      },
+      {
+        "id": "right-2",
+        "label": "Sable"
+      },
+      {
+        "id": "right-3",
+        "label": "The Rock 'n' Roll Express"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-judgment-day-in-your-house-1998",
+    "familyId": "rebuild-judgment-day-in-your-house-1998",
+    "conflictGroups": [
+      "main-judgment-day-in-your-house-1998",
+      "card-judgment-day-in-your-house-1998-1",
+      "card-judgment-day-in-your-house-1998-2",
+      "card-judgment-day-in-your-house-1998-3",
+      "moment-christian98"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Judgment Day: In Your House 1998.",
+    "explanation": "Goldust faced Val Venis. Al Snow faced Marc Mero. Christian faced Taka Michinoku.",
+    "eventIds": [
+      "judgment-day-in-your-house-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-judgment-day-in-your-house-1998-1",
+      "card-judgment-day-in-your-house-1998-2",
+      "card-judgment-day-in-your-house-1998-3"
+    ],
+    "sourceIds": [
+      "results-judgment-day-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Goldust"
+      },
+      {
+        "id": "left-2",
+        "label": "Al Snow"
+      },
+      {
+        "id": "left-3",
+        "label": "Christian"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Val Venis"
+      },
+      {
+        "id": "right-2",
+        "label": "Marc Mero"
+      },
+      {
+        "id": "right-3",
+        "label": "Taka Michinoku"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-survivor-series-1998",
+    "familyId": "rebuild-survivor-series-1998",
+    "conflictGroups": [
+      "main-survivor-series-1998",
+      "card-survivor-series-1998-1",
+      "card-survivor-series-1998-2",
+      "card-survivor-series-1998-3",
+      "moment-rock98",
+      "moment-sable98",
+      "holder-survivor-series-1998-women",
+      "group-odd-medium-04"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match these wrestlers to their FIRST-ROUND opponents in the WWE Championship tournament at Survivor Series 1998.",
+    "explanation": "Mankind faced Duane Gill. The Rock faced Big Boss Man. Ken Shamrock faced Goldust.",
+    "eventIds": [
+      "survivor-series-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-survivor-series-1998-1",
+      "card-survivor-series-1998-2",
+      "card-survivor-series-1998-3"
+    ],
+    "sourceIds": [
+      "results-survivor-series-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Mankind"
+      },
+      {
+        "id": "left-2",
+        "label": "The Rock"
+      },
+      {
+        "id": "left-3",
+        "label": "Ken Shamrock"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Duane Gill"
+      },
+      {
+        "id": "right-2",
+        "label": "Big Boss Man"
+      },
+      {
+        "id": "right-3",
+        "label": "Goldust"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-backlash-1999",
+    "familyId": "rebuild-backlash-1999",
+    "conflictGroups": [
+      "main-backlash-1999",
+      "card-backlash-1999-1",
+      "card-backlash-1999-2",
+      "card-backlash-1999-3",
+      "group-odd-hard-03"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Backlash 1999.",
+    "explanation": "Triple H faced X-Pac. The Undertaker faced Ken Shamrock. Mankind faced Big Show.",
+    "eventIds": [
+      "backlash-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-backlash-1999-1",
+      "card-backlash-1999-2",
+      "card-backlash-1999-3"
+    ],
+    "sourceIds": [
+      "results-backlash-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "left-3",
+        "label": "Mankind"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "X-Pac"
+      },
+      {
+        "id": "right-2",
+        "label": "Ken Shamrock"
+      },
+      {
+        "id": "right-3",
+        "label": "Big Show"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-unforgiven-1999",
+    "familyId": "rebuild-unforgiven-1999",
+    "conflictGroups": [
+      "main-unforgiven-1999",
+      "card-unforgiven-1999-1",
+      "card-unforgiven-1999-2",
+      "card-unforgiven-1999-3",
+      "holder-unforgiven-1999-european",
+      "group-odd-easy-10"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Unforgiven 1999.",
+    "explanation": "Al Snow faced Big Boss Man. Chris Jericho faced X-Pac. D-Lo Brown faced Mark Henry.",
+    "eventIds": [
+      "unforgiven-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-unforgiven-1999-1",
+      "card-unforgiven-1999-2",
+      "card-unforgiven-1999-3"
+    ],
+    "sourceIds": [
+      "results-unforgiven-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Al Snow"
+      },
+      {
+        "id": "left-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "left-3",
+        "label": "D-Lo Brown"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Big Boss Man"
+      },
+      {
+        "id": "right-2",
+        "label": "X-Pac"
+      },
+      {
+        "id": "right-3",
+        "label": "Mark Henry"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-armageddon-1999",
+    "familyId": "rebuild-armageddon-1999",
+    "conflictGroups": [
+      "main-armageddon-1999",
+      "card-armageddon-1999-1",
+      "card-armageddon-1999-2",
+      "card-armageddon-1999-3",
+      "moment-jericho99",
+      "holder-armageddon-1999-european",
+      "group-odd-medium-06"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Armageddon 1999.",
+    "explanation": "Chris Jericho faced Chyna. Triple H faced Mr. McMahon. Kane faced X-Pac.",
+    "eventIds": [
+      "armageddon-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-armageddon-1999-1",
+      "card-armageddon-1999-2",
+      "card-armageddon-1999-3"
+    ],
+    "sourceIds": [
+      "results-armageddon-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "left-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-3",
+        "label": "Kane"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Chyna"
+      },
+      {
+        "id": "right-2",
+        "label": "Mr. McMahon"
+      },
+      {
+        "id": "right-3",
+        "label": "X-Pac"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-backlash-2000",
+    "familyId": "rebuild-backlash-2000",
+    "conflictGroups": [
+      "main-backlash-2000",
+      "card-backlash-2000-1",
+      "card-backlash-2000-2",
+      "card-backlash-2000-3",
+      "moment-rock00",
+      "group-odd-medium-09"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Backlash 2000.",
+    "explanation": "Eddie Guerrero faced Essa Rios. Big Show faced Kurt Angle. Chris Benoit faced Chris Jericho.",
+    "eventIds": [
+      "backlash-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-backlash-2000-1",
+      "card-backlash-2000-2",
+      "card-backlash-2000-3"
+    ],
+    "sourceIds": [
+      "results-backlash-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "left-2",
+        "label": "Big Show"
+      },
+      {
+        "id": "left-3",
+        "label": "Chris Benoit"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Essa Rios"
+      },
+      {
+        "id": "right-2",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "right-3",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-judgment-day-2000",
+    "familyId": "rebuild-judgment-day-2000",
+    "conflictGroups": [
+      "main-judgment-day-2000",
+      "card-judgment-day-2000-1",
+      "card-judgment-day-2000-2",
+      "card-judgment-day-2000-3",
+      "moment-hhh00"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Judgment Day 2000.",
+    "explanation": "Chris Benoit faced Chris Jericho. Shane McMahon faced Big Show. Triple H faced The Rock.",
+    "eventIds": [
+      "judgment-day-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-judgment-day-2000-1",
+      "card-judgment-day-2000-2",
+      "card-judgment-day-2000-3"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "left-2",
+        "label": "Shane McMahon"
+      },
+      {
+        "id": "left-3",
+        "label": "Triple H"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "right-2",
+        "label": "Big Show"
+      },
+      {
+        "id": "right-3",
+        "label": "The Rock"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-unforgiven-2000",
+    "familyId": "rebuild-unforgiven-2000",
+    "conflictGroups": [
+      "main-unforgiven-2000",
+      "card-unforgiven-2000-1",
+      "card-unforgiven-2000-2",
+      "card-unforgiven-2000-3",
+      "moment-hardys00",
+      "group-odd-easy-11",
+      "group-odd-medium-10"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Unforgiven 2000.",
+    "explanation": "Chris Jericho faced X-Pac. Triple H faced Kurt Angle. The Hardy Boyz faced Edge & Christian.",
+    "eventIds": [
+      "unforgiven-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-unforgiven-2000-1",
+      "card-unforgiven-2000-2",
+      "card-unforgiven-2000-3"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "left-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-3",
+        "label": "The Hardy Boyz"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "X-Pac"
+      },
+      {
+        "id": "right-2",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "right-3",
+        "label": "Edge & Christian"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-no-mercy-2000",
+    "familyId": "rebuild-no-mercy-2000",
+    "conflictGroups": [
+      "main-no-mercy-2000",
+      "card-no-mercy-2000-1",
+      "card-no-mercy-2000-2",
+      "card-no-mercy-2000-3",
+      "moment-angle00",
+      "holder-no-mercy-2000-wwe"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at No Mercy 2000.",
+    "explanation": "Triple H faced Chris Benoit. Steve Austin faced Rikishi. Chris Jericho faced X-Pac.",
+    "eventIds": [
+      "no-mercy-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-no-mercy-2000-1",
+      "card-no-mercy-2000-2",
+      "card-no-mercy-2000-3"
+    ],
+    "sourceIds": [
+      "results-no-mercy-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-2",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "left-3",
+        "label": "Chris Jericho"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "right-2",
+        "label": "Rikishi"
+      },
+      {
+        "id": "right-3",
+        "label": "X-Pac"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-survivor-series-2000",
+    "familyId": "rebuild-survivor-series-2000",
+    "conflictGroups": [
+      "main-survivor-series-2000",
+      "card-survivor-series-2000-1",
+      "card-survivor-series-2000-2",
+      "card-survivor-series-2000-3",
+      "moment-rockrikishi00",
+      "group-odd-medium-11"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Survivor Series 2000.",
+    "explanation": "The Rock faced Rikishi. Kurt Angle faced The Undertaker. Kane faced Chris Jericho.",
+    "eventIds": [
+      "survivor-series-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-survivor-series-2000-1",
+      "card-survivor-series-2000-2",
+      "card-survivor-series-2000-3"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "left-2",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "left-3",
+        "label": "Kane"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Rikishi"
+      },
+      {
+        "id": "right-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "right-3",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-armageddon-2000",
+    "familyId": "rebuild-armageddon-2000",
+    "conflictGroups": [
+      "main-armageddon-2000",
+      "card-armageddon-2000-1",
+      "card-armageddon-2000-2",
+      "card-armageddon-2000-3",
+      "moment-jerichokane00",
+      "group-odd-easy-09",
+      "group-odd-hard-06"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Armageddon 2000.",
+    "explanation": "Chris Jericho faced Kane. Chris Benoit faced Billy Gunn. Val Venis faced Chyna.",
+    "eventIds": [
+      "armageddon-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-armageddon-2000-1",
+      "card-armageddon-2000-2",
+      "card-armageddon-2000-3"
+    ],
+    "sourceIds": [
+      "results-armageddon-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "left-2",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "left-3",
+        "label": "Val Venis"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Kane"
+      },
+      {
+        "id": "right-2",
+        "label": "Billy Gunn"
+      },
+      {
+        "id": "right-3",
+        "label": "Chyna"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-backlash-2001",
+    "familyId": "rebuild-backlash-2001",
+    "conflictGroups": [
+      "main-backlash-2001",
+      "card-backlash-2001-1",
+      "card-backlash-2001-2",
+      "card-backlash-2001-3",
+      "holder-backlash-2001-european",
+      "group-odd-hard-08"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Backlash 2001.",
+    "explanation": "William Regal faced Chris Jericho. Chris Benoit faced Kurt Angle. Shane McMahon faced Big Show.",
+    "eventIds": [
+      "backlash-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-backlash-2001-1",
+      "card-backlash-2001-2",
+      "card-backlash-2001-3"
+    ],
+    "sourceIds": [
+      "results-backlash-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "William Regal"
+      },
+      {
+        "id": "left-2",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "left-3",
+        "label": "Shane McMahon"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "right-2",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "right-3",
+        "label": "Big Show"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-judgment-day-2001",
+    "familyId": "rebuild-judgment-day-2001",
+    "conflictGroups": [
+      "main-judgment-day-2001",
+      "card-judgment-day-2001-1",
+      "card-judgment-day-2001-2",
+      "card-judgment-day-2001-3",
+      "moment-kane01",
+      "holder-judgment-day-2001-women",
+      "holder-judgment-day-2001-ic",
+      "group-odd-hard-09"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Judgment Day 2001.",
+    "explanation": "Kurt Angle faced Chris Benoit. Chyna faced Lita. Kane faced Triple H.",
+    "eventIds": [
+      "judgment-day-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-judgment-day-2001-1",
+      "card-judgment-day-2001-2",
+      "card-judgment-day-2001-3"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "left-2",
+        "label": "Chyna"
+      },
+      {
+        "id": "left-3",
+        "label": "Kane"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "right-2",
+        "label": "Lita"
+      },
+      {
+        "id": "right-3",
+        "label": "Triple H"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-unforgiven-2001",
+    "familyId": "rebuild-unforgiven-2001",
+    "conflictGroups": [
+      "main-unforgiven-2001",
+      "card-unforgiven-2001-1",
+      "card-unforgiven-2001-2",
+      "card-unforgiven-2001-3",
+      "moment-christian01",
+      "group-odd-medium-13"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Unforgiven 2001.",
+    "explanation": "Christian faced Edge. Rhyno faced Tajiri. Kurt Angle faced Steve Austin.",
+    "eventIds": [
+      "unforgiven-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-unforgiven-2001-1",
+      "card-unforgiven-2001-2",
+      "card-unforgiven-2001-3"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Christian"
+      },
+      {
+        "id": "left-2",
+        "label": "Rhyno"
+      },
+      {
+        "id": "left-3",
+        "label": "Kurt Angle"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Edge"
+      },
+      {
+        "id": "right-2",
+        "label": "Tajiri"
+      },
+      {
+        "id": "right-3",
+        "label": "Steve Austin"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-no-mercy-2001",
+    "familyId": "rebuild-no-mercy-2001",
+    "conflictGroups": [
+      "main-no-mercy-2001",
+      "card-no-mercy-2001-1",
+      "card-no-mercy-2001-2",
+      "card-no-mercy-2001-3",
+      "moment-jericho01",
+      "group-odd-medium-14"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at No Mercy 2001.",
+    "explanation": "Chris Jericho faced The Rock. The Undertaker faced Booker T. Edge faced Christian.",
+    "eventIds": [
+      "no-mercy-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-no-mercy-2001-1",
+      "card-no-mercy-2001-2",
+      "card-no-mercy-2001-3"
+    ],
+    "sourceIds": [
+      "results-no-mercy-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "left-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "left-3",
+        "label": "Edge"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "right-2",
+        "label": "Booker T"
+      },
+      {
+        "id": "right-3",
+        "label": "Christian"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-survivor-series-2001",
+    "familyId": "rebuild-survivor-series-2001",
+    "conflictGroups": [
+      "main-survivor-series-2001",
+      "card-survivor-series-2001-1",
+      "card-survivor-series-2001-2",
+      "card-survivor-series-2001-3",
+      "moment-trish01",
+      "group-odd-easy-18",
+      "group-odd-medium-15"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Survivor Series 2001.",
+    "explanation": "Christian faced Al Snow. William Regal faced Tajiri. Edge faced Test.",
+    "eventIds": [
+      "survivor-series-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-survivor-series-2001-1",
+      "card-survivor-series-2001-2",
+      "card-survivor-series-2001-3"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Christian"
+      },
+      {
+        "id": "left-2",
+        "label": "William Regal"
+      },
+      {
+        "id": "left-3",
+        "label": "Edge"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Al Snow"
+      },
+      {
+        "id": "right-2",
+        "label": "Tajiri"
+      },
+      {
+        "id": "right-3",
+        "label": "Test"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-no-way-out-2002",
+    "familyId": "rebuild-no-way-out-2002",
+    "conflictGroups": [
+      "main-no-way-out-2002",
+      "card-no-way-out-2002-1",
+      "card-no-way-out-2002-2",
+      "card-no-way-out-2002-3",
+      "group-odd-hard-10"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at No Way Out 2002.",
+    "explanation": "Rob Van Dam faced Goldust. The Rock faced The Undertaker. Chris Jericho faced Steve Austin.",
+    "eventIds": [
+      "no-way-out-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-no-way-out-2002-1",
+      "card-no-way-out-2002-2",
+      "card-no-way-out-2002-3"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Rob Van Dam"
+      },
+      {
+        "id": "left-2",
+        "label": "The Rock"
+      },
+      {
+        "id": "left-3",
+        "label": "Chris Jericho"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Goldust"
+      },
+      {
+        "id": "right-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "right-3",
+        "label": "Steve Austin"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-backlash-2002",
+    "familyId": "rebuild-backlash-2002",
+    "conflictGroups": [
+      "main-backlash-2002",
+      "card-backlash-2002-1",
+      "card-backlash-2002-2",
+      "card-backlash-2002-3",
+      "moment-hogan02",
+      "group-odd-hard-11"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Backlash 2002.",
+    "explanation": "Brock Lesnar faced Jeff Hardy. Kurt Angle faced Edge. Hulk Hogan faced Triple H.",
+    "eventIds": [
+      "backlash-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-backlash-2002-1",
+      "card-backlash-2002-2",
+      "card-backlash-2002-3"
+    ],
+    "sourceIds": [
+      "results-backlash-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "left-2",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "left-3",
+        "label": "Hulk Hogan"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Jeff Hardy"
+      },
+      {
+        "id": "right-2",
+        "label": "Edge"
+      },
+      {
+        "id": "right-3",
+        "label": "Triple H"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-judgment-day-2002",
+    "familyId": "rebuild-judgment-day-2002",
+    "conflictGroups": [
+      "main-judgment-day-2002",
+      "card-judgment-day-2002-1",
+      "card-judgment-day-2002-2",
+      "card-judgment-day-2002-3",
+      "moment-taker02",
+      "moment-edgehair02",
+      "holder-judgment-day-2002-wwe",
+      "holder-judgment-day-2002-tag",
+      "group-odd-hard-12"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "medium",
+    "prompt": "Match each wrestler or team to their opponent at Judgment Day 2002.",
+    "explanation": "Edge faced Kurt Angle. Triple H faced Chris Jericho. The Undertaker faced Hulk Hogan.",
+    "eventIds": [
+      "judgment-day-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-judgment-day-2002-1",
+      "card-judgment-day-2002-2",
+      "card-judgment-day-2002-3"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Edge"
+      },
+      {
+        "id": "left-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-3",
+        "label": "The Undertaker"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "right-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "right-3",
+        "label": "Hulk Hogan"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3"
+    }
+  },
+  {
+    "id": "rebuild-unforgiven-2002",
+    "familyId": "rebuild-unforgiven-2002",
+    "conflictGroups": [
+      "main-unforgiven-2002",
+      "card-unforgiven-2002-1",
+      "card-unforgiven-2002-2",
+      "card-unforgiven-2002-3",
+      "card-unforgiven-2002-4",
+      "moment-trish02",
+      "holder-unforgiven-2002-women",
+      "group-odd-hard-14"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Unforgiven 2002.",
+    "explanation": "Chris Jericho faced Ric Flair. Eddie Guerrero faced Edge. Triple H faced Rob Van Dam. Chris Benoit faced Kurt Angle.",
+    "eventIds": [
+      "unforgiven-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-unforgiven-2002-1",
+      "card-unforgiven-2002-2",
+      "card-unforgiven-2002-3",
+      "card-unforgiven-2002-4"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "left-2",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "left-3",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-4",
+        "label": "Chris Benoit"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Ric Flair"
+      },
+      {
+        "id": "right-2",
+        "label": "Edge"
+      },
+      {
+        "id": "right-3",
+        "label": "Rob Van Dam"
+      },
+      {
+        "id": "right-4",
+        "label": "Kurt Angle"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-no-mercy-2002",
+    "familyId": "rebuild-no-mercy-2002",
+    "conflictGroups": [
+      "main-no-mercy-2002",
+      "card-no-mercy-2002-1",
+      "card-no-mercy-2002-2",
+      "card-no-mercy-2002-3",
+      "card-no-mercy-2002-4",
+      "moment-anglebenoit02",
+      "group-odd-hard-15"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at No Mercy 2002.",
+    "explanation": "Rob Van Dam faced Ric Flair. Torrie Wilson faced Dawn Marie. Triple H faced Kane. Brock Lesnar faced The Undertaker.",
+    "eventIds": [
+      "no-mercy-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-no-mercy-2002-1",
+      "card-no-mercy-2002-2",
+      "card-no-mercy-2002-3",
+      "card-no-mercy-2002-4"
+    ],
+    "sourceIds": [
+      "results-no-mercy-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Rob Van Dam"
+      },
+      {
+        "id": "left-2",
+        "label": "Torrie Wilson"
+      },
+      {
+        "id": "left-3",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-4",
+        "label": "Brock Lesnar"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Ric Flair"
+      },
+      {
+        "id": "right-2",
+        "label": "Dawn Marie"
+      },
+      {
+        "id": "right-3",
+        "label": "Kane"
+      },
+      {
+        "id": "right-4",
+        "label": "The Undertaker"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-survivor-series-2002",
+    "familyId": "rebuild-survivor-series-2002",
+    "conflictGroups": [
+      "main-survivor-series-2002",
+      "card-survivor-series-2002-1",
+      "card-survivor-series-2002-2",
+      "card-survivor-series-2002-3",
+      "card-survivor-series-2002-4",
+      "moment-victoria02",
+      "moment-hbk02",
+      "moment-losguerreros02",
+      "moment-surv02show",
+      "holder-survivor-series-2002-wwe",
+      "holder-survivor-series-2002-women",
+      "group-odd-easy-08",
+      "group-odd-medium-16"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each bout to its stipulation at Survivor Series 2002.",
+    "explanation": "Victoria vs. Trish Stratus: Hardcore Match. Big Show vs. Brock Lesnar: Singles Match. Los Guerreros vs. Edge & Rey Mysterio vs. Kurt Angle & Chris Benoit: Triple Threat Elimination Tag Team Match. World Heavyweight Championship six-man match: Elimination Chamber Match.",
+    "eventIds": [
+      "survivor-series-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-survivor-series-2002-1",
+      "card-survivor-series-2002-2",
+      "card-survivor-series-2002-3",
+      "card-survivor-series-2002-4"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Victoria vs. Trish Stratus"
+      },
+      {
+        "id": "left-2",
+        "label": "Big Show vs. Brock Lesnar"
+      },
+      {
+        "id": "left-3",
+        "label": "Los Guerreros vs. Edge & Rey Mysterio vs. Kurt Angle & Chris Benoit"
+      },
+      {
+        "id": "left-4",
+        "label": "World Heavyweight Championship six-man match"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Hardcore Match"
+      },
+      {
+        "id": "right-2",
+        "label": "Singles Match"
+      },
+      {
+        "id": "right-3",
+        "label": "Triple Threat Elimination Tag Team Match"
+      },
+      {
+        "id": "right-4",
+        "label": "Elimination Chamber Match"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-armageddon-2002",
+    "familyId": "rebuild-armageddon-2002",
+    "conflictGroups": [
+      "main-armageddon-2002",
+      "card-armageddon-2002-1",
+      "card-armageddon-2002-2",
+      "card-armageddon-2002-3",
+      "card-armageddon-2002-4",
+      "moment-angle02",
+      "moment-hhharm02",
+      "moment-bookergold02",
+      "holder-armageddon-2002-whc",
+      "holder-armageddon-2002-tag",
+      "group-odd-medium-17"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Armageddon 2002.",
+    "explanation": "Chris Benoit faced Eddie Guerrero. Batista faced Kane. Kurt Angle faced Big Show. Triple H faced Shawn Michaels.",
+    "eventIds": [
+      "armageddon-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-armageddon-2002-1",
+      "card-armageddon-2002-2",
+      "card-armageddon-2002-3",
+      "card-armageddon-2002-4"
+    ],
+    "sourceIds": [
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "left-2",
+        "label": "Batista"
+      },
+      {
+        "id": "left-3",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "left-4",
+        "label": "Triple H"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "right-2",
+        "label": "Kane"
+      },
+      {
+        "id": "right-3",
+        "label": "Big Show"
+      },
+      {
+        "id": "right-4",
+        "label": "Shawn Michaels"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-no-way-out-2003",
+    "familyId": "rebuild-no-way-out-2003",
+    "conflictGroups": [
+      "main-no-way-out-2003",
+      "card-no-way-out-2003-1",
+      "card-no-way-out-2003-2",
+      "card-no-way-out-2003-3",
+      "card-no-way-out-2003-4",
+      "moment-hardy03",
+      "holder-no-way-out-2003-cruiser",
+      "group-odd-hard-16"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at No Way Out 2003.",
+    "explanation": "Chris Jericho faced Jeff Hardy. The Undertaker faced Big Show. Triple H faced Scott Steiner. Steve Austin faced Eric Bischoff.",
+    "eventIds": [
+      "no-way-out-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-no-way-out-2003-1",
+      "card-no-way-out-2003-2",
+      "card-no-way-out-2003-3",
+      "card-no-way-out-2003-4"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "left-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "left-3",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-4",
+        "label": "Steve Austin"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Jeff Hardy"
+      },
+      {
+        "id": "right-2",
+        "label": "Big Show"
+      },
+      {
+        "id": "right-3",
+        "label": "Scott Steiner"
+      },
+      {
+        "id": "right-4",
+        "label": "Eric Bischoff"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-backlash-2003",
+    "familyId": "rebuild-backlash-2003",
+    "conflictGroups": [
+      "main-backlash-2003",
+      "card-backlash-2003-1",
+      "card-backlash-2003-2",
+      "card-backlash-2003-3",
+      "card-backlash-2003-4",
+      "moment-goldberg03",
+      "moment-jazz03",
+      "group-odd-medium-19"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Backlash 2003.",
+    "explanation": "Goldberg faced The Rock. Brock Lesnar faced John Cena. Jazz faced Trish Stratus. Sean O'Haire faced Rikishi.",
+    "eventIds": [
+      "backlash-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-backlash-2003-1",
+      "card-backlash-2003-2",
+      "card-backlash-2003-3",
+      "card-backlash-2003-4"
+    ],
+    "sourceIds": [
+      "results-backlash-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Goldberg"
+      },
+      {
+        "id": "left-2",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "left-3",
+        "label": "Jazz"
+      },
+      {
+        "id": "left-4",
+        "label": "Sean O'Haire"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "right-2",
+        "label": "John Cena"
+      },
+      {
+        "id": "right-3",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "right-4",
+        "label": "Rikishi"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-judgment-day-2003",
+    "familyId": "rebuild-judgment-day-2003",
+    "conflictGroups": [
+      "main-judgment-day-2003",
+      "card-judgment-day-2003-1",
+      "card-judgment-day-2003-2",
+      "card-judgment-day-2003-3",
+      "card-judgment-day-2003-4",
+      "moment-eddietajiri03",
+      "moment-christian03",
+      "group-odd-medium-20",
+      "group-odd-hard-17"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each bout to its stipulation at Judgment Day 2003.",
+    "explanation": "Eddie Guerrero & Tajiri vs. Team Angle: Ladder Match. Intercontinental Championship nine-man match: Battle Royal. Brock Lesnar vs. Big Show: Stretcher Match. Triple H vs. Kevin Nash: Singles Match.",
+    "eventIds": [
+      "judgment-day-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-judgment-day-2003-1",
+      "card-judgment-day-2003-2",
+      "card-judgment-day-2003-3",
+      "card-judgment-day-2003-4"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Eddie Guerrero & Tajiri vs. Team Angle"
+      },
+      {
+        "id": "left-2",
+        "label": "Intercontinental Championship nine-man match"
+      },
+      {
+        "id": "left-3",
+        "label": "Brock Lesnar vs. Big Show"
+      },
+      {
+        "id": "left-4",
+        "label": "Triple H vs. Kevin Nash"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Ladder Match"
+      },
+      {
+        "id": "right-2",
+        "label": "Battle Royal"
+      },
+      {
+        "id": "right-3",
+        "label": "Stretcher Match"
+      },
+      {
+        "id": "right-4",
+        "label": "Singles Match"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-vengeance-2003",
+    "familyId": "rebuild-vengeance-2003",
+    "conflictGroups": [
+      "main-vengeance-2003",
+      "card-vengeance-2003-1",
+      "card-vengeance-2003-2",
+      "card-vengeance-2003-3",
+      "card-vengeance-2003-4",
+      "moment-eddie03",
+      "moment-angle03",
+      "group-odd-easy-06",
+      "group-odd-hard-18"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Vengeance 2003.",
+    "explanation": "Eddie Guerrero faced Chris Benoit. Jamie Noble faced Billy Gunn. The Undertaker faced John Cena. Mr. McMahon faced Zach Gowen.",
+    "eventIds": [
+      "vengeance-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-vengeance-2003-1",
+      "card-vengeance-2003-2",
+      "card-vengeance-2003-3",
+      "card-vengeance-2003-4"
+    ],
+    "sourceIds": [
+      "results-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "left-2",
+        "label": "Jamie Noble"
+      },
+      {
+        "id": "left-3",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "left-4",
+        "label": "Mr. McMahon"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "right-2",
+        "label": "Billy Gunn"
+      },
+      {
+        "id": "right-3",
+        "label": "John Cena"
+      },
+      {
+        "id": "right-4",
+        "label": "Zach Gowen"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-summerslam-2003",
+    "familyId": "rebuild-summerslam-2003",
+    "conflictGroups": [
+      "main-summerslam-2003",
+      "card-summerslam-2003-1",
+      "card-summerslam-2003-2",
+      "card-summerslam-2003-3",
+      "card-summerslam-2003-4",
+      "group-odd-easy-07"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at SummerSlam 2003.",
+    "explanation": "The Undertaker faced A-Train. Shane McMahon faced Eric Bischoff. Kane faced Rob Van Dam. La Resistance faced The Dudley Boyz.",
+    "eventIds": [
+      "summerslam-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-summerslam-2003-1",
+      "card-summerslam-2003-2",
+      "card-summerslam-2003-3",
+      "card-summerslam-2003-4"
+    ],
+    "sourceIds": [
+      "results-summerslam-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "left-2",
+        "label": "Shane McMahon"
+      },
+      {
+        "id": "left-3",
+        "label": "Kane"
+      },
+      {
+        "id": "left-4",
+        "label": "La Resistance"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "A-Train"
+      },
+      {
+        "id": "right-2",
+        "label": "Eric Bischoff"
+      },
+      {
+        "id": "right-3",
+        "label": "Rob Van Dam"
+      },
+      {
+        "id": "right-4",
+        "label": "The Dudley Boyz"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-unforgiven-2003",
+    "familyId": "rebuild-unforgiven-2003",
+    "conflictGroups": [
+      "main-unforgiven-2003",
+      "card-unforgiven-2003-1",
+      "card-unforgiven-2003-2",
+      "card-unforgiven-2003-3",
+      "card-unforgiven-2003-4",
+      "moment-goldtitle03",
+      "holder-unforgiven-2003-whc"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Unforgiven 2003.",
+    "explanation": "Randy Orton faced Shawn Michaels. Test faced Scott Steiner. Kane faced Shane McMahon. Trish Stratus & Lita faced Molly Holly & Gail Kim.",
+    "eventIds": [
+      "unforgiven-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-unforgiven-2003-1",
+      "card-unforgiven-2003-2",
+      "card-unforgiven-2003-3",
+      "card-unforgiven-2003-4"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Randy Orton"
+      },
+      {
+        "id": "left-2",
+        "label": "Test"
+      },
+      {
+        "id": "left-3",
+        "label": "Kane"
+      },
+      {
+        "id": "left-4",
+        "label": "Trish Stratus & Lita"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "right-2",
+        "label": "Scott Steiner"
+      },
+      {
+        "id": "right-3",
+        "label": "Shane McMahon"
+      },
+      {
+        "id": "right-4",
+        "label": "Molly Holly & Gail Kim"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-no-mercy-2003",
+    "familyId": "rebuild-no-mercy-2003",
+    "conflictGroups": [
+      "main-no-mercy-2003",
+      "card-no-mercy-2003-1",
+      "card-no-mercy-2003-2",
+      "card-no-mercy-2003-3",
+      "card-no-mercy-2003-4",
+      "moment-show03"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at No Mercy 2003.",
+    "explanation": "Chris Benoit faced A-Train. Zach Gowen faced Matt Hardy. Mr. McMahon faced Stephanie McMahon. Kurt Angle faced John Cena.",
+    "eventIds": [
+      "no-mercy-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-no-mercy-2003-1",
+      "card-no-mercy-2003-2",
+      "card-no-mercy-2003-3",
+      "card-no-mercy-2003-4"
+    ],
+    "sourceIds": [
+      "results-no-mercy-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "left-2",
+        "label": "Zach Gowen"
+      },
+      {
+        "id": "left-3",
+        "label": "Mr. McMahon"
+      },
+      {
+        "id": "left-4",
+        "label": "Kurt Angle"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "A-Train"
+      },
+      {
+        "id": "right-2",
+        "label": "Matt Hardy"
+      },
+      {
+        "id": "right-3",
+        "label": "Stephanie McMahon"
+      },
+      {
+        "id": "right-4",
+        "label": "John Cena"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-survivor-series-2003",
+    "familyId": "rebuild-survivor-series-2003",
+    "conflictGroups": [
+      "main-survivor-series-2003",
+      "card-survivor-series-2003-1",
+      "card-survivor-series-2003-2",
+      "card-survivor-series-2003-3",
+      "card-survivor-series-2003-4",
+      "moment-austinfired03",
+      "moment-ortonsurv03"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Survivor Series 2003.",
+    "explanation": "Kane faced Shane McMahon. Mr. McMahon faced The Undertaker. Molly Holly faced Lita. Goldberg faced Triple H.",
+    "eventIds": [
+      "survivor-series-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-survivor-series-2003-1",
+      "card-survivor-series-2003-2",
+      "card-survivor-series-2003-3",
+      "card-survivor-series-2003-4"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Kane"
+      },
+      {
+        "id": "left-2",
+        "label": "Mr. McMahon"
+      },
+      {
+        "id": "left-3",
+        "label": "Molly Holly"
+      },
+      {
+        "id": "left-4",
+        "label": "Goldberg"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Shane McMahon"
+      },
+      {
+        "id": "right-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "right-3",
+        "label": "Lita"
+      },
+      {
+        "id": "right-4",
+        "label": "Triple H"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-armageddon-2003",
+    "familyId": "rebuild-armageddon-2003",
+    "conflictGroups": [
+      "main-armageddon-2003",
+      "card-armageddon-2003-1",
+      "card-armageddon-2003-2",
+      "card-armageddon-2003-3",
+      "card-armageddon-2003-4",
+      "moment-orton03",
+      "moment-flairbatista03",
+      "moment-hhh03",
+      "group-odd-easy-12",
+      "group-odd-hard-19"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Armageddon 2003.",
+    "explanation": "Booker T faced Mark Henry. Shawn Michaels faced Batista. Molly Holly faced Ivory. Chris Jericho & Christian faced Trish Stratus & Lita.",
+    "eventIds": [
+      "armageddon-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-armageddon-2003-1",
+      "card-armageddon-2003-2",
+      "card-armageddon-2003-3",
+      "card-armageddon-2003-4"
+    ],
+    "sourceIds": [
+      "results-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Booker T"
+      },
+      {
+        "id": "left-2",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "left-3",
+        "label": "Molly Holly"
+      },
+      {
+        "id": "left-4",
+        "label": "Chris Jericho & Christian"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Mark Henry"
+      },
+      {
+        "id": "right-2",
+        "label": "Batista"
+      },
+      {
+        "id": "right-3",
+        "label": "Ivory"
+      },
+      {
+        "id": "right-4",
+        "label": "Trish Stratus & Lita"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-royal-rumble-2000",
+    "familyId": "rebuild-royal-rumble-2000",
+    "conflictGroups": [
+      "main-royal-rumble-2000",
+      "card-royal-rumble-2000-1",
+      "card-royal-rumble-2000-2",
+      "card-royal-rumble-2000-3",
+      "card-royal-rumble-2000-4"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Royal Rumble 2000.",
+    "explanation": "Tazz faced Kurt Angle. The Hardy Boyz faced The Dudley Boyz. The New Age Outlaws faced The Acolytes. Triple H faced Cactus Jack.",
+    "eventIds": [
+      "royal-rumble-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-royal-rumble-2000-1",
+      "card-royal-rumble-2000-2",
+      "card-royal-rumble-2000-3",
+      "card-royal-rumble-2000-4"
+    ],
+    "sourceIds": [
+      "results-royal-rumble-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Tazz"
+      },
+      {
+        "id": "left-2",
+        "label": "The Hardy Boyz"
+      },
+      {
+        "id": "left-3",
+        "label": "The New Age Outlaws"
+      },
+      {
+        "id": "left-4",
+        "label": "Triple H"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "right-2",
+        "label": "The Dudley Boyz"
+      },
+      {
+        "id": "right-3",
+        "label": "The Acolytes"
+      },
+      {
+        "id": "right-4",
+        "label": "Cactus Jack"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-royal-rumble-2001",
+    "familyId": "rebuild-royal-rumble-2001",
+    "conflictGroups": [
+      "main-royal-rumble-2001",
+      "card-royal-rumble-2001-1",
+      "card-royal-rumble-2001-2",
+      "card-royal-rumble-2001-3",
+      "card-royal-rumble-2001-4"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Royal Rumble 2001.",
+    "explanation": "The Dudley Boyz faced Edge & Christian. Chris Jericho faced Chris Benoit. Ivory faced Chyna. Kurt Angle faced Triple H.",
+    "eventIds": [
+      "royal-rumble-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-royal-rumble-2001-1",
+      "card-royal-rumble-2001-2",
+      "card-royal-rumble-2001-3",
+      "card-royal-rumble-2001-4"
+    ],
+    "sourceIds": [
+      "results-royal-rumble-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "The Dudley Boyz"
+      },
+      {
+        "id": "left-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "left-3",
+        "label": "Ivory"
+      },
+      {
+        "id": "left-4",
+        "label": "Kurt Angle"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Edge & Christian"
+      },
+      {
+        "id": "right-2",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "right-3",
+        "label": "Chyna"
+      },
+      {
+        "id": "right-4",
+        "label": "Triple H"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-royal-rumble-2002",
+    "familyId": "rebuild-royal-rumble-2002",
+    "conflictGroups": [
+      "main-royal-rumble-2002",
+      "card-royal-rumble-2002-1",
+      "card-royal-rumble-2002-2",
+      "card-royal-rumble-2002-3",
+      "card-royal-rumble-2002-4"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Royal Rumble 2002.",
+    "explanation": "William Regal faced Edge. Trish Stratus faced Jazz. Ric Flair faced Mr. McMahon. Chris Jericho faced The Rock.",
+    "eventIds": [
+      "royal-rumble-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-royal-rumble-2002-1",
+      "card-royal-rumble-2002-2",
+      "card-royal-rumble-2002-3",
+      "card-royal-rumble-2002-4"
+    ],
+    "sourceIds": [
+      "results-royal-rumble-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "William Regal"
+      },
+      {
+        "id": "left-2",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "left-3",
+        "label": "Ric Flair"
+      },
+      {
+        "id": "left-4",
+        "label": "Chris Jericho"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Edge"
+      },
+      {
+        "id": "right-2",
+        "label": "Jazz"
+      },
+      {
+        "id": "right-3",
+        "label": "Mr. McMahon"
+      },
+      {
+        "id": "right-4",
+        "label": "The Rock"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-royal-rumble-2003",
+    "familyId": "rebuild-royal-rumble-2003",
+    "conflictGroups": [
+      "main-royal-rumble-2003",
+      "card-royal-rumble-2003-1",
+      "card-royal-rumble-2003-2",
+      "card-royal-rumble-2003-3",
+      "card-royal-rumble-2003-4"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Royal Rumble 2003.",
+    "explanation": "Brock Lesnar faced Big Show. Torrie Wilson faced Dawn Marie. Triple H faced Scott Steiner. Kurt Angle faced Chris Benoit.",
+    "eventIds": [
+      "royal-rumble-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-royal-rumble-2003-1",
+      "card-royal-rumble-2003-2",
+      "card-royal-rumble-2003-3",
+      "card-royal-rumble-2003-4"
+    ],
+    "sourceIds": [
+      "results-royal-rumble-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "left-2",
+        "label": "Torrie Wilson"
+      },
+      {
+        "id": "left-3",
+        "label": "Triple H"
+      },
+      {
+        "id": "left-4",
+        "label": "Kurt Angle"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Big Show"
+      },
+      {
+        "id": "right-2",
+        "label": "Dawn Marie"
+      },
+      {
+        "id": "right-3",
+        "label": "Scott Steiner"
+      },
+      {
+        "id": "right-4",
+        "label": "Chris Benoit"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-royal-rumble-2004",
+    "familyId": "rebuild-royal-rumble-2004",
+    "conflictGroups": [
+      "main-royal-rumble-2004",
+      "card-royal-rumble-2004-1",
+      "card-royal-rumble-2004-2",
+      "card-royal-rumble-2004-3",
+      "card-royal-rumble-2004-4"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Royal Rumble 2004.",
+    "explanation": "Rey Mysterio faced Jamie Noble. Eddie Guerrero faced Chavo Guerrero. Brock Lesnar faced Hardcore Holly. Triple H faced Shawn Michaels.",
+    "eventIds": [
+      "royal-rumble-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-royal-rumble-2004-1",
+      "card-royal-rumble-2004-2",
+      "card-royal-rumble-2004-3",
+      "card-royal-rumble-2004-4"
+    ],
+    "sourceIds": [
+      "results-royal-rumble-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Rey Mysterio"
+      },
+      {
+        "id": "left-2",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "left-3",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "left-4",
+        "label": "Triple H"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Jamie Noble"
+      },
+      {
+        "id": "right-2",
+        "label": "Chavo Guerrero"
+      },
+      {
+        "id": "right-3",
+        "label": "Hardcore Holly"
+      },
+      {
+        "id": "right-4",
+        "label": "Shawn Michaels"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-survivor-series-1999",
+    "familyId": "rebuild-survivor-series-1999",
+    "conflictGroups": [
+      "main-survivor-series-1999",
+      "card-survivor-series-1999-1",
+      "card-survivor-series-1999-2",
+      "card-survivor-series-1999-3",
+      "card-survivor-series-1999-4",
+      "moment-angledebut99",
+      "moment-austinhit99",
+      "moment-show99"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at Survivor Series 1999.",
+    "explanation": "Kurt Angle faced Shawn Stasiak. Kane faced X-Pac. Chyna faced Chris Jericho. The New Age Outlaws faced Al Snow & Mankind.",
+    "eventIds": [
+      "survivor-series-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-survivor-series-1999-1",
+      "card-survivor-series-1999-2",
+      "card-survivor-series-1999-3",
+      "card-survivor-series-1999-4"
+    ],
+    "sourceIds": [
+      "results-survivor-series-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "left-2",
+        "label": "Kane"
+      },
+      {
+        "id": "left-3",
+        "label": "Chyna"
+      },
+      {
+        "id": "left-4",
+        "label": "The New Age Outlaws"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Shawn Stasiak"
+      },
+      {
+        "id": "right-2",
+        "label": "X-Pac"
+      },
+      {
+        "id": "right-3",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "right-4",
+        "label": "Al Snow & Mankind"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  },
+  {
+    "id": "rebuild-summerslam-2000",
+    "familyId": "rebuild-summerslam-2000",
+    "conflictGroups": [
+      "main-summerslam-2000",
+      "card-summerslam-2000-1",
+      "card-summerslam-2000-2",
+      "card-summerslam-2000-3",
+      "card-summerslam-2000-4",
+      "moment-chyna00",
+      "holder-summerslam-2000-wwe",
+      "holder-summerslam-2000-tag",
+      "holder-summerslam-2000-ic",
+      "group-odd-easy-03",
+      "group-odd-easy-17"
+    ],
+    "category": "rebuild-card",
+    "difficulty": "hard",
+    "prompt": "Match each wrestler or team to their opponent at SummerSlam 2000.",
+    "explanation": "X-Pac faced Road Dogg. Jerry Lawler faced Tazz. Chris Benoit faced Chris Jericho. Steve Blackman faced Shane McMahon.",
+    "eventIds": [
+      "summerslam-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "card-summerslam-2000-1",
+      "card-summerslam-2000-2",
+      "card-summerslam-2000-3",
+      "card-summerslam-2000-4"
+    ],
+    "sourceIds": [
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "matching",
+    "left": [
+      {
+        "id": "left-1",
+        "label": "X-Pac"
+      },
+      {
+        "id": "left-2",
+        "label": "Jerry Lawler"
+      },
+      {
+        "id": "left-3",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "left-4",
+        "label": "Steve Blackman"
+      }
+    ],
+    "right": [
+      {
+        "id": "right-1",
+        "label": "Road Dogg"
+      },
+      {
+        "id": "right-2",
+        "label": "Tazz"
+      },
+      {
+        "id": "right-3",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "right-4",
+        "label": "Shane McMahon"
+      }
+    ],
+    "answer": {
+      "left-1": "right-1",
+      "left-2": "right-2",
+      "left-3": "right-3",
+      "left-4": "right-4"
+    }
+  }
+]

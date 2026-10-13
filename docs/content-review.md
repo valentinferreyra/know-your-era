@@ -31,6 +31,12 @@ Reviewed is an editorial assertion, not a claim that the automated validator can
 The 88 current facts document catalog-level main-event participation only. They do not yet establish winner, champion-entering, stipulation, or segment questions. No release validation can pass until the five reviewed banks total 300 independent questions.
 # Chronology review
 
+## Rebuild-card review
+
+Sixty distinct event editions support the matching bank. Two easy pairs, three medium pairs and four hard pairs are drawn from inspected main-broadcast results. Teams remain complete units; multi-person bouts are not recast as singles matches. The Survivor Series 1998 tournament question explicitly limits opponents to the first round, since participants wrestled several opponents that night. The two stipulation sets use distinct rules, so a generic Singles Match option cannot have several valid partners.
+
+Royal Rumble 2000-2004 supporting pages were located through the official archive's Read more links, whose legacy paths do not match the modern year/results pattern. The Royal Rumble itself is not represented as a singles bout against the runner-up. Vengeance 2004's official results list includes Victoria vs. Molly Holly, a Heat match; that match is excluded from the question bank.
+
 ## Champions entering review
 
 ## Odd-one-out review
