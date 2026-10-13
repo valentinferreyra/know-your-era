@@ -2,7 +2,7 @@
 
 Know Your Era is an English-language wrestling trivia website for fans who remember the matches and stories. A daily game contains ten questions, starts easy, adapts to the player's answers, and explains each solution before continuing. The first version runs without accounts, a database, or a public leaderboard.
 
-Status: ready for owner review, not approved for implementation. The visual direction and game scope follow the conversation. The exact scoring, adaptation, question scheduling, and technical choices below are proposals for this review.
+Status: approved by the owner on 2026-10-13. The owner also requires all 300 reviewed questions in the first playable version. Implementation waits for review of the implementation plan and selection of an execution method.
 
 ## Product boundaries
 
@@ -64,7 +64,7 @@ Easy questions usually span years; medium questions can span months within a yea
 
 Do not print dates that give away the ordering. Standard questions use distinct dates. Within-show questions explicitly say "Order these moments as they happened during the show." Their answers use verified broadcast sequence, not fabricated timestamps. A hit-and-run incident and the later revelation of its perpetrator are different records. A return appearance and a return to in-ring competition are also different records.
 
-## Scoring and adaptive difficulty proposal
+## Scoring and adaptive difficulty
 
 | Difficulty | Maximum points per question |
 | --- | ---: |
@@ -136,7 +136,7 @@ Photos are optional. Use a relevant, non-revealing image, then an event logo or 
 
 The approved homepage mockup is `exec-b4ea11ee-23c4-47b3-ab78-8e7be1455e0d.png` from the generated-image session. Other approved concepts cover choice, completion, matching, ordering, feedback, and results. Before implementation, copy selected references into repository documentation so no project depends on machine-specific generated-image paths. Final UI labels override older mockup wording: the answer-submission button is always Confirm.
 
-## Technical approach proposal
+## Technical approach
 
 Use a static TypeScript web application built with Vite, with HTML and CSS for the interface and SVG only for matching connectors. A lightweight component framework is not necessary for this first version. This avoids a backend and keeps question files independently editable. No product dependencies or application code are installed at this design stage.
 
@@ -161,4 +161,4 @@ Use semantic controls, labeled inputs, visible keyboard focus, sufficient contra
 
 ## Review decision
 
-The owner requires the complete 300-question bank in the first playable version. Approve or revise the scoring values, partial-credit policy, adaptive thresholds, fixed daily category/interaction schedule, midnight continuation behavior, and static TypeScript approach before the implementation plan is written. No application code, deployment, or full question bank is part of this documentation step.
+The owner approved this design, including scoring, partial credit, adaptive thresholds, the daily category/interaction schedule, midnight continuation, and the static TypeScript approach, on 2026-10-13. The next gate is owner review of the implementation plan and selection of an execution method. No application code, deployment, or full question bank is part of this documentation step.
