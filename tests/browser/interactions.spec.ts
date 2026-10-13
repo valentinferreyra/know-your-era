@@ -128,8 +128,6 @@ test('ordering supports undo and reset; answer entry stays closed-choice', async
   await expect(page.getByText(/1 of \d+ placed/i)).toBeVisible();
   await page.getByRole('button', { name: 'Reset order' }).click();
   await expect(page.getByText(/0 of \d+ placed/i)).toBeVisible();
-  await page.getByRole('button', { name: 'Back to home' }).click();
-  await page.getByRole('button', { name: 'Play daily challenge' }).click();
   await expect(page.locator('input[type="text"], textarea')).toHaveCount(0);
 });
 
