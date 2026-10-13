@@ -88,7 +88,7 @@ export function artImage(art: Artwork, className: string): HTMLImageElement {
       const label = document.createElement('span'); label.className = 'event-name'; label.textContent = art.alt;
       image.replaceWith(label); return;
     }
-    image.remove(); parent?.classList.remove('with-portrait');
+    image.remove();
     if (parent?.matches('.question-arena, .feedback-art')) {
       parent.parentElement?.classList.remove('has-art'); parent.remove();
     }

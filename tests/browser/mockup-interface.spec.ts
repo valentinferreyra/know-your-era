@@ -28,6 +28,7 @@ test('mockup composition uses loaded brand art, portraits, event logos and real 
   await showQuestion(page, question);
   await expect(page.locator('.question-arena img')).toHaveAttribute('alt', 'Steve Austin');
   await expect(page.locator('.event-logo')).toHaveAttribute('alt', 'WrestleMania XIV');
+  await expect(page.locator('.answer-interaction img')).toHaveCount(0);
   expect(await page.locator('.question-arena img').evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
   expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(await page.evaluate(() => innerWidth));
   await page.screenshot({ path: info.outputPath('main-event.png'), fullPage: true });
@@ -45,6 +46,7 @@ test('mockup composition uses loaded brand art, portraits, event logos and real 
   }
   for (const category of ['champion-entering', 'rebuild-card', 'order-history']) {
     await showQuestion(page, content.questions.find(q => q.category === category && q.difficulty === 'easy')!);
+    await expect(page.locator('.answer-interaction img')).toHaveCount(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(await page.evaluate(() => innerWidth));
     await page.screenshot({ path: info.outputPath(`${category}.png`), fullPage: true });
   }

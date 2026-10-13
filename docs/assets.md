@@ -4,6 +4,8 @@ The original files in the owner's `know-your-era-images` folder remain unchanged
 
 `src/ui/art.ts` maps these assets to visible names and event editions. A prompt may single out a wrestler only when the question already names them. A championship question can show its belt. Correct-answer portraits and match photographs appear after Confirm. Generic event logos can represent different editions; the four supplied WrestleMania edition logos are mapped to their exact events. Multi-event chronology questions do not display one misleading event logo.
 
+All selectable answers, ordering items, and matching columns use text only. Images belong to the question presentation or the feedback, so missing portraits do not give some answer options a different visual treatment.
+
 The arena backdrop `public/assets/smackdown-arena.webp` and brand artwork `public/assets/know-your-era-brand.webp` were extracted from the approved homepage mockup using the built-in image-generation tool, then encoded as WebP. The backdrop is a decorative composite. The portraits and historical match photos were not generated. Extraction prompts: preserve the blue arena and side SmackDown screens while removing foreground interface and logo; isolate the original metallic Know Your Era fist logo on a transparent background while removing the arena and form.
 
 Barlow Regular and Barlow Condensed SemiBold/Bold are served locally from `public/fonts/`. Their SIL Open Font License is stored alongside them.
