@@ -6,7 +6,7 @@ These files preserve the approved visual direction for implementation. They are 
 | --- | --- |
 | `home.png` | Portrait-free home screen with the arena backdrop and player name field |
 | `choice-question.png` | Four-option question |
-| `completion-question.png` | Fill-in-the-name question |
+| `completion-question.png` | Superseded mockup. The game now uses closed-choice answers instead of manual text entry. |
 | `ordering-question.png` | Order moments by date |
 | `matching-question.png` | Pair the card using two columns |
 | `answer-feedback.png` | Correct or incorrect response and explanation |

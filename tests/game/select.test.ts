@@ -7,8 +7,8 @@ import type { Slot } from '../../src/game/types.ts';
 
 const slots: Slot[] = [
   { category: 'main-event', kind: 'choice' }, { category: 'odd-one-out', kind: 'choice' },
-  { category: 'order-history', kind: 'ordering' }, { category: 'champion-entering', kind: 'completion' },
-  { category: 'rebuild-card', kind: 'matching' }, { category: 'main-event', kind: 'completion' },
+  { category: 'order-history', kind: 'ordering' }, { category: 'champion-entering', kind: 'choice' },
+  { category: 'rebuild-card', kind: 'matching' }, { category: 'main-event', kind: 'choice' },
   { category: 'odd-one-out', kind: 'choice' }, { category: 'order-history', kind: 'ordering' },
   { category: 'champion-entering', kind: 'choice' }, { category: 'rebuild-card', kind: 'matching' }
 ];
@@ -18,7 +18,6 @@ function makeQuestion(id: string, category: Category, kind: QuestionKind, diffic
   const base = toClientQuestions(fixtureBundle())[0]!;
   const shared = { ...base, id, familyId: `family-${id}`, category, difficulty, kind, conflictGroups, ukOnly };
   if (kind === 'choice') return { ...shared, kind, options: [{ id: 'a', label: 'A' }, { id: 'b', label: 'B' }, { id: 'c', label: 'C' }, { id: 'd', label: 'D' }], answer: 'a' };
-  if (kind === 'completion') return { ...shared, kind, prefix: '', suffix: '', answer: 'Answer', aliases: ['Answer'] };
   if (kind === 'ordering') return { ...shared, kind, items: [{ id: 'a', label: 'A' }, { id: 'b', label: 'B' }, { id: 'c', label: 'C' }], answer: ['a', 'b', 'c'], orderMode: 'date' };
   return { ...shared, kind, left: [{ id: 'a', label: 'A' }, { id: 'b', label: 'B' }], right: [{ id: 'x', label: 'X' }, { id: 'y', label: 'Y' }], answer: { a: 'x', b: 'y' } };
 }

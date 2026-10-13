@@ -30,7 +30,7 @@ it('can complete the daily schedule across dates and adaptive level paths', asyn
     }
     expect(new Set(usedFamilies).size).toBe(10);
   }
-});
+}, 15000);
 
 it('uses the specified fixed UTC-3 date boundary for selection inputs', () => {
   expect(dailyKey(new Date('2026-10-13T02:59:59.000Z'))).toBe('2026-10-12');

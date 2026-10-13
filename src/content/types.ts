@@ -2,7 +2,7 @@ export const categories = ['main-event', 'order-history', 'champion-entering', '
 export const difficulties = ['easy', 'medium', 'hard'] as const;
 export type Category = typeof categories[number];
 export type Difficulty = typeof difficulties[number];
-export type QuestionKind = 'choice' | 'completion' | 'ordering' | 'matching';
+export type QuestionKind = 'choice' | 'ordering' | 'matching';
 export type ReviewStatus = 'draft' | 'reviewed';
 export interface EventRecord { id: string; name: string; date: string; mainBroadcast: boolean; uk: boolean; brand?: string }
 export interface SourceRecord { id: string; url: string; title: string; inspectedAt: string; locator: string }
@@ -17,6 +17,7 @@ export interface AssetRecord {
   eventFamily?: string; visibleYear?: number; visibleEdition?: string; suitable: boolean; promptSafe: boolean;
   visibleEventIds?: string[]; overrideEventIds?: string[];
 }
+export interface ClientAsset { id: string; path: string; type: AssetRecord['type']; width: number; height: number; alt: string; suitable: boolean; promptSafe: boolean }
 export interface Item { id: string; label: string }
 export interface QuestionFields {
   id: string; familyId: string; conflictGroups: string[]; category: Category; difficulty: Difficulty;
@@ -25,7 +26,6 @@ export interface QuestionFields {
 }
 export type QuestionPayload =
   | { kind: 'choice'; options: Item[]; answer: string }
-  | { kind: 'completion'; prefix: string; suffix: string; answer: string; aliases: string[] }
   | { kind: 'ordering'; items: (Item & { factId: string })[]; answer: string[]; orderMode: 'date' | 'show' }
   | { kind: 'matching'; left: Item[]; right: Item[]; answer: Record<string, string> };
 export type EditorialQuestion = QuestionFields & QuestionPayload & {

@@ -2,9 +2,9 @@ import type { Category, QuestionKind } from '../content/types.ts';
 import type { Slot } from './types.ts';
 
 const schedule: Record<Category, QuestionKind[]> = {
-  'main-event': ['choice', 'completion'],
+  'main-event': ['choice', 'choice'],
   'order-history': ['ordering', 'ordering'],
-  'champion-entering': ['choice', 'completion'],
+  'champion-entering': ['choice', 'choice'],
   'odd-one-out': ['choice', 'choice'],
   'rebuild-card': ['matching', 'matching']
 };

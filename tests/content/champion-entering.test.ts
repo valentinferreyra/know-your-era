@@ -8,8 +8,8 @@ it('hasSixtyReviewedQuestionsInThreeBalancedTiers', async () => {
   expect(questions).toHaveLength(60);
   for (const tier of ['easy', 'medium', 'hard']) {
     const pool = questions.filter(q => q.difficulty === tier);
-    expect(pool.filter(q => q.kind === 'choice')).toHaveLength(10);
-    expect(pool.filter(q => q.kind === 'completion')).toHaveLength(10);
+    expect(pool.filter(q => q.kind === 'choice')).toHaveLength(20);
+    for (const q of pool) if (q.kind === 'choice') expect(q.options).toHaveLength(4);
   }
   expect(new Set(questions.map(q => q.familyId)).size).toBe(60);
   expect(validateBundle(bundle, false)).toEqual([]);
@@ -25,6 +25,5 @@ it('championIsHolderBeforeMatch', async () => {
     expect(fact.reignStart < fact.date).toBe(true);
     expect(fact.reignEnd >= fact.date).toBe(true);
     if (q.kind === 'choice') expect(q.options.find(o => o.id === q.answer)?.label).toBe(fact.champion);
-    if (q.kind === 'completion') expect(q.answer).toBe(fact.champion);
   }
 });

@@ -2,7 +2,6 @@ import type { Category, ClientQuestion, Difficulty, QuestionKind } from '../cont
 
 export type DraftAnswer =
   | { kind: 'choice'; optionId: string }
-  | { kind: 'completion'; text: string }
   | { kind: 'ordering'; itemIds: string[] }
   | { kind: 'matching'; pairs: Record<string, string> };
 export interface Correction { id: string; label: string; submitted: string; expected: string; correct: boolean }

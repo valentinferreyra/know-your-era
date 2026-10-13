@@ -64,7 +64,6 @@ function validateSession(value: unknown): value is Session {
     if (draft !== null) {
       if (!isObject(draft) || draft.kind !== question.kind) return false;
       if (question.kind === 'choice' && (typeof draft.optionId !== 'string' || !question.options.some(item => item.id === draft.optionId))) return false;
-      if (question.kind === 'completion' && typeof draft.text !== 'string') return false;
       if (question.kind === 'ordering' && (!Array.isArray(draft.itemIds) || new Set(draft.itemIds).size !== draft.itemIds.length
         || !draft.itemIds.every((id: unknown) => question.items.some(item => item.id === id)))) return false;
       if (question.kind === 'matching' && (!isObject(draft.pairs) || Object.keys(draft.pairs).some(id => !question.left.some(item => item.id === id))

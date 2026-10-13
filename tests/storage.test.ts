@@ -22,7 +22,6 @@ async function saved(revision = 1) {
 }
 function answer(question: ClientQuestion): DraftAnswer {
   if (question.kind === 'choice') return { kind: 'choice', optionId: question.answer };
-  if (question.kind === 'completion') return { kind: 'completion', text: question.answer };
   if (question.kind === 'ordering') return { kind: 'ordering', itemIds: question.answer };
   return { kind: 'matching', pairs: question.answer };
 }

@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest';
-import { toClientQuestions } from '../../src/content/project.ts';
+import { toClientAssets, toClientQuestions } from '../../src/content/project.ts';
 import { fixtureBundle } from '../fixtures/content.ts';
 
 it('omitsEditorialSourcesFromClient', () => {
@@ -18,4 +18,12 @@ it('rejects invalid content instead of projecting it', () => {
 it('does not copy undocumented option metadata into the client', () => {
   const b = fixtureBundle(); b.questions[0].options[0].sourceLocator = 'internal evidence';
   expect(JSON.stringify(toClientQuestions(b))).not.toContain('internal evidence');
+});
+
+it('projects only display-safe asset metadata to the client', () => {
+  const b = fixtureBundle();
+  b.assets = [{ id: 'asset-one', path: '/asset.png', type: 'photo', width: 100, height: 100, alt: 'A photo', origin: 'private provenance', permissionStatus: 'unknown', suitable: true, promptSafe: false }];
+  const output = toClientAssets(b);
+  expect(output).toEqual([{ id: 'asset-one', path: '/asset.png', type: 'photo', width: 100, height: 100, alt: 'A photo', suitable: true, promptSafe: false }]);
+  expect(JSON.stringify(output)).not.toContain('private provenance');
 });

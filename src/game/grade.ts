@@ -1,10 +1,6 @@
 import type { ClientQuestion } from '../content/types.ts';
 import type { Correction, DraftAnswer, Grade } from './types.ts';
 
-export function normalizeAnswer(text: string): string {
-  return text.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
-}
-
 export function gradeAnswer(question: ClientQuestion, answer: DraftAnswer): Grade {
   const invalid = () => { throw new Error('Invalid or incomplete response.'); };
   const corrections: Correction[] = [];
@@ -14,10 +10,6 @@ export function gradeAnswer(question: ClientQuestion, answer: DraftAnswer): Grad
     const expected = question.options.find(o => o.id === question.answer);
     if (!submitted || !expected) return invalid();
     corrections.push({ id: 'answer', label: 'Answer', submitted: submitted.label, expected: expected.label, correct: submitted.id === expected.id });
-  } else if (question.kind === 'completion' && answer.kind === 'completion') {
-    if (typeof answer.text !== 'string' || !normalizeAnswer(answer.text)) return invalid();
-    corrections.push({ id: 'answer', label: 'Answer', submitted: answer.text.trim(), expected: question.answer,
-      correct: [question.answer, ...question.aliases].some(alias => normalizeAnswer(alias) === normalizeAnswer(answer.text)) });
   } else if (question.kind === 'ordering' && answer.kind === 'ordering') {
     if (!Array.isArray(answer.itemIds) || answer.itemIds.length !== question.items.length
       || new Set(answer.itemIds).size !== question.items.length

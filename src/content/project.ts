@@ -1,4 +1,4 @@
-import type { ClientQuestion, ContentBundle, Item } from './types.ts';
+import type { ClientAsset, ClientQuestion, ContentBundle, Item } from './types.ts';
 import { validateBundle } from './validate.ts';
 
 export function toClientQuestions(bundle: ContentBundle): ClientQuestion[] {
@@ -16,9 +16,13 @@ export function toClientQuestions(bundle: ContentBundle): ClientQuestion[] {
     };
     switch (q.kind) {
       case 'choice': return { ...shared, kind: q.kind, options: items(q.options), answer: q.answer };
-      case 'completion': return { ...shared, kind: q.kind, prefix: q.prefix, suffix: q.suffix, answer: q.answer, aliases: q.aliases };
       case 'matching': return { ...shared, kind: q.kind, left: items(q.left), right: items(q.right), answer: q.answer };
       case 'ordering': return { ...shared, kind: q.kind, items: q.items.map(({ id, label }) => ({ id, label })), answer: q.answer, orderMode: q.orderMode };
     }
   });
+}
+
+export function toClientAssets(bundle: ContentBundle): ClientAsset[] {
+  return bundle.assets.map(({ id, path, type, width, height, alt, suitable, promptSafe }) =>
+    ({ id, path, type, width, height, alt, suitable, promptSafe }));
 }

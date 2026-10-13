@@ -6,7 +6,7 @@ it('changes day at 03:00 UTC, the UTC-3 midnight boundary', () => {
   expect(dailyKey(new Date('2026-10-13T03:00:00.000Z'))).toBe('2026-10-13');
 });
 
-it('uses two slots per category and all four interactions every day', () => {
+it('uses two slots per category and the supported interactions every day', () => {
   const slots = makeDailySlots('2026-10-13', 'v1');
   expect(slots).toHaveLength(10);
   const counts = slots.reduce<Record<string, number>>((result, slot) => {
@@ -14,7 +14,7 @@ it('uses two slots per category and all four interactions every day', () => {
     return result;
   }, {});
   expect(Object.values(counts).sort()).toEqual([2, 2, 2, 2, 2]);
-  expect(new Set(slots.map(slot => slot.kind))).toEqual(new Set(['choice', 'completion', 'ordering', 'matching']));
+  expect(new Set(slots.map(slot => slot.kind))).toEqual(new Set(['choice', 'ordering', 'matching']));
 });
 
 it('keeps adjacent slots in different categories whenever the schedule allows it', () => {

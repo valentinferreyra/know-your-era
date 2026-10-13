@@ -14,7 +14,7 @@
 
 - First playable release requires 300 distinct reviewed questions: twenty per category and difficulty. No smaller bank satisfies acceptance.
 - Internal scope is main PPV broadcasts from WrestleMania XIV through Vengeance 2004, inclusive. No weekly television, dark, or Heat matches.
-- Five categories, ten daily questions, two per category, all four interactions, and no timer.
+- Five categories, ten daily questions, two per category, three closed-ended interactions, and no timer.
 - Fixed midnight UTC-3 renewal; every new session starts easy.
 - Easy 100 points, medium 150, hard 200; matching alone receives proportional credit rounded down.
 - Two consecutive fully correct answers raise the level; two consecutive zero-credit answers lower it; partial matching resets both streaks without changing level.
@@ -43,25 +43,25 @@
 | `src/game/{types,grade,difficulty,day,select,session}.ts` | Deterministic game rules and state transitions |
 | `src/storage.ts` | Versioned storage, snapshot recovery, and concurrent-tab checks |
 | `src/ui/{home,question,feedback,results,review}.ts` | Screen-specific DOM rendering |
-| `src/ui/interactions/{choice,matching,ordering,completion}.ts` | Four answer controls |
+| `src/ui/interactions/{choice,matching,ordering}.ts` | Three closed-ended answer controls |
 | `src/ui/{dom,connectors}.ts`, `src/styles.css`, `src/main.ts` | Safe DOM helpers, SVG geometry, shared styling, application coordination |
 | `scripts/{validate-content,build-client-content}.ts` | Editorial release gate and client projection generation |
 | `public/assets/`, `docs/design-references/` | Selected optimized assets and mockup references |
 | `tests/content/`, `tests/game/`, `tests/storage.test.ts`, `tests/browser/` | Automated verification |
 
-Use stable string IDs for questions, options, facts, events, and assets. Category values are `main-event`, `order-history`, `champion-entering`, `odd-one-out`, `rebuild-card`. Difficulty values are `easy`, `medium`, `hard`; interaction values are `choice`, `completion`, `ordering`, `matching`.
+Use stable string IDs for questions, options, facts, events, and assets. Category values are `main-event`, `order-history`, `champion-entering`, `odd-one-out`, `rebuild-card`. Difficulty values are `easy`, `medium`, `hard`; interaction values are `choice`, `ordering`, `matching`.
 
 ## Task 1 Content contracts and validation
 
 **Files:** Create `package.json`, `package-lock.json`, `.gitignore`, `tsconfig.json`, `vite.config.ts`, `vitest.config.ts`, `index.html`, `src/content/types.ts`, `src/content/validate.ts`, `src/content/project.ts`, `scripts/validate-content.ts`, `scripts/build-client-content.ts`, `tests/content/validate.test.ts`, `tests/content/project.test.ts`, `tests/fixtures/content.ts`.
 
-**Interfaces:** Define `Category`, `Difficulty`, `QuestionKind`, `EventRecord`, `SourceRecord`, `FactRecord`, `AssetRecord`, `EditorialQuestion`, `ClientQuestion`, `ContentBundle`, and `ClientContent`. `ClientContent` contains `version: string` and `questions: ClientQuestion[]`. Questions are discriminated by `kind`; their payload contains exactly four choice options, completion prefix/suffix and accepted aliases, ordered item IDs, or left/right items and canonical pair IDs. Shared fields include `id`, `familyId`, `conflictGroups`, `category`, `difficulty`, `prompt`, `explanation`, `eventIds`, `factIds`, optional asset IDs, `ukOnly`, and `reviewStatus`. Editorial records additionally reference source IDs and review evidence.
+**Interfaces:** Define `Category`, `Difficulty`, `QuestionKind`, `EventRecord`, `SourceRecord`, `FactRecord`, `AssetRecord`, `EditorialQuestion`, `ClientQuestion`, `ContentBundle`, and `ClientContent`. `ClientContent` contains `version: string` and `questions: ClientQuestion[]`. Questions are discriminated by `kind`; their payload contains exactly four choice options, ordered item IDs, or left/right items and canonical pair IDs. Shared fields include `id`, `familyId`, `conflictGroups`, `category`, `difficulty`, `prompt`, `explanation`, `eventIds`, `factIds`, optional asset IDs, `ukOnly`, and `reviewStatus`. Editorial records additionally reference source IDs and review evidence.
 
 Produce `validateBundle(bundle: ContentBundle, requireReleaseCounts: boolean): string[]` and `toClientQuestions(bundle: ContentBundle): ClientQuestion[]`. Ordering facts carry dates and optional verified broadcast positions internally, but client prompt entries do not expose chronology keys. `ukOnly` is derived or checked against event scope, never trusted without validation.
 
 - [ ] Write failing tests `rejectsDuplicateIds`, `rejectsAmbiguousChoice`, `rejectsMissingFacts`, `rejectsOutOfScopeEvents`, `rejectsInvalidOrdering`, `rejectsInvalidPairCount`, and `omitsEditorialSourcesFromClient` using synthetic fixtures, not invented historical questions.
 - [ ] Create only the configuration needed to run `npm test -- tests/content`; confirm failures are due to missing validation/projection behavior, not a broken test runner.
-- [ ] Implement the contracts, validation, and projection. Reject invalid category/kind combinations, contradictory image years, duplicate normalized aliases across ambiguous answers, missing canonical IDs, and unevidenced reviewed status. Release validation requires exactly 300 records and twenty per category/difficulty, with both choice and completion represented in their eligible pools.
+- [ ] Implement the contracts, validation, and projection. Reject invalid category/kind combinations, contradictory image years, duplicate normalized option labels, missing canonical IDs, and unevidenced reviewed status. Release validation requires exactly 300 records and twenty per category/difficulty.
 - [ ] Run `npm test -- tests/content` and `npm run typecheck`; require zero failures. Expose `npm run validate:content` as the strict release-count check and `npm run content:build` as the source-free projection step. A partially authored bank can be validated explicitly without release counts, never passed off as release-ready.
 - [ ] Commit `feat: add reviewed content contracts and validation`.
 
@@ -79,7 +79,7 @@ Produce `validateBundle(bundle: ContentBundle, requireReleaseCounts: boolean): s
 
 ## Tasks 3 through 7 Author the five reviewed banks
 
-These are five separate, reviewable tasks. Each task produces sixty independently reviewed questions, twenty at each difficulty. Main event and Champion entering use ten choice and ten completion records per difficulty. No new IDs or display permutations can turn the same fact into an independent question. Shared facts receive conflict groups across categories.
+These are five separate, reviewable tasks. Each task produces sixty independently reviewed questions, twenty at each difficulty. Main event and Champion entering use four-option choice questions only. No new IDs or display permutations can turn the same fact into an independent question. Shared facts receive conflict groups across categories.
 
 | Task | Content file | Test file | Main coverage |
 | --- | --- | --- | --- |
@@ -105,9 +105,9 @@ After Task 7, run `npm run validate:content` and require 300 reviewed records, t
 
 **Files:** Create `src/game/types.ts`, `src/game/grade.ts`, `src/game/difficulty.ts`, `tests/game/grade.test.ts`, `tests/game/difficulty.test.ts`.
 
-**Interfaces:** Define `DraftAnswer` as a discriminated choice ID, completion string, ordered IDs, or pair-ID map. Define `Grade` with `fullyCorrect`, `earnedPoints`, `maximumPoints`, `correctParts`, `totalParts`, and per-part corrections. Define `DifficultyState` with `level`, `correctStreak`, and `zeroStreak`. Produce `gradeAnswer(question: ClientQuestion, answer: DraftAnswer): Grade`, `normalizeAnswer(text: string): string`, and `advanceDifficulty(state: DifficultyState, grade: Grade): DifficultyState`.
+**Interfaces:** Define `DraftAnswer` as a discriminated choice ID, ordered IDs, or pair-ID map. Define `Grade` with `fullyCorrect`, `earnedPoints`, `maximumPoints`, `correctParts`, `totalParts`, and per-part corrections. Define `DifficultyState` with `level`, `correctStreak`, and `zeroStreak`. Produce `gradeAnswer(question: ClientQuestion, answer: DraftAnswer): Grade` and `advanceDifficulty(state: DifficultyState, grade: Grade): DifficultyState`.
 
-- [ ] Write failing tests asserting easy correct earns 100, medium 2/3 matching earns 100, hard 3/4 earns 150, mismatched/duplicate IDs are rejected, wrong ordering earns zero, reviewed aliases ignore case/spacing/punctuation, and unknown similar names are not fuzzy-accepted. Adaptation tests assert two wins raise one level, two zeros lower one, partial credit resets streaks, and levels are bounded.
+- [ ] Write failing tests asserting easy correct earns 100, medium 2/3 matching earns 100, hard 3/4 earns 150, mismatched/duplicate IDs are rejected, and wrong ordering earns zero. Adaptation tests assert two wins raise one level, two zeros lower one, partial credit resets streaks, and levels are bounded.
 - [ ] Run `npm test -- tests/game/grade.test.ts tests/game/difficulty.test.ts`; require intended red failures.
 - [ ] Implement deterministic grading and adaptation using the approved values, not browser DOM state. Keep structural invalidity separate from a valid but incorrect answer. Represent the expected answer and corrections explicitly for feedback.
 - [ ] Run the same tests and `npm run typecheck`; require pass. Exercise partial credit at easy two pairs, medium three pairs, and hard four pairs with floor rounding.
@@ -151,16 +151,16 @@ Storage exposes `loadProgress(storage: StorageLike): LoadResult` and `saveProgre
 - [ ] Verify dimensions, alpha where needed, no UI text baked into the arena background, no answer-revealing prompt photo, and no cropped/distorted logo. Run asset tests and strict content validation again.
 - [ ] Commit `assets: prepare reviewed web imagery and design references`.
 
-## Task 12 Responsive website and four answer controls
+## Task 12 Responsive website and three answer controls
 
-**Files:** Create `src/main.ts`, `src/styles.css`, `src/ui/dom.ts`, `src/ui/connectors.ts`, `src/ui/{home,question,feedback,results,review}.ts`, `src/ui/interactions/{choice,matching,ordering,completion}.ts`, `tests/browser/interactions.spec.ts`, `playwright.config.ts`; update `index.html` and npm scripts.
+**Files:** Create `src/main.ts`, `src/styles.css`, `src/ui/dom.ts`, `src/ui/connectors.ts`, `src/ui/{home,question,feedback,results,review}.ts`, `src/ui/interactions/{choice,matching,ordering}.ts`, `tests/browser/interactions.spec.ts`, `playwright.config.ts`; update `index.html` and npm scripts.
 
-**Interfaces:** Implement `renderChoice`, `renderMatching`, `renderOrdering`, and `renderCompletion`, each with signature `(question: ClientQuestion, draft: DraftAnswer | undefined, onChange: (draft: DraftAnswer) => void): HTMLElement`. Define `QuestionActions` with `onDraft(draft: DraftAnswer): void` and `onConfirm(): void`. `renderQuestion(session: Session, actions: QuestionActions): HTMLElement` hosts the interaction and Confirm. Other renderers consume Session and callbacks for Home, Continue, Next question, View results, and read-only review. `updateConnectors(container: HTMLElement, pairs: Record<string, string>): void` derives line endpoints from element bounds.
+**Interfaces:** Implement `renderChoice`, `renderMatching`, and `renderOrdering`, each with signature `(question: ClientQuestion, draft: DraftAnswer | undefined, onChange: (draft: DraftAnswer) => void): HTMLElement`. Define `QuestionActions` with `onDraft(draft: DraftAnswer): void` and `onConfirm(): void`. `renderQuestion(session: Session, actions: QuestionActions): HTMLElement` hosts the interaction and Confirm. Other renderers consume Session and callbacks for Home, Continue, Next question, View results, and read-only review. `updateConnectors(container: HTMLElement, pairs: Record<string, string>): void` derives line endpoints from element bounds.
 
-- [ ] Write failing browser tests for selecting/changing choices, matching by two clicks and keyboard without dragging, replacing an existing pairing, ordering/undo/reset, completion aliases, disabled incomplete Confirm, partial correction rows, and absent-image compact layout.
+- [ ] Write failing browser tests for selecting/changing choices, matching by two clicks and keyboard without dragging, replacing an existing pairing, ordering/undo/reset, no manual-answer inputs, disabled incomplete Confirm, partial correction rows, and absent-image compact layout.
 - [ ] Run `npm run test:browser -- tests/browser/interactions.spec.ts`; expect missing-screen/control failures after the test harness can launch the app.
-- [ ] Implement screen renderers and the state coordinator. Use semantic buttons/labels and textContent for player data. Home has no portraits. Images/logos are optional, with a source-free client bundle. Exactly ten progress segments; event years only where relevant. Matching SVG lines use local coordinates and update after resize/font/image changes; provide textual pairing information too. Show status labels/icons instead of color alone, visible focus, reduced-motion support, and generous touch targets. Use only Confirm for submitting all four interactions.
-- [ ] Run browser tests at desktop and mobile widths, keyboard-only paths, long names/options, missing images, unequal card heights, and reduced motion. Verify no horizontal overflow and no lost matching endpoints. Capture and visually inspect Home, all four interactions, correct/incorrect/partial feedback, results, and review against the approved references.
+- [ ] Implement screen renderers and the state coordinator. Use semantic buttons/labels and textContent for player data. Home has no portraits. Images/logos are optional, with a source-free client bundle. Exactly ten progress segments; event years only where relevant. Matching SVG lines use local coordinates and update after resize/font/image changes; provide textual pairing information too. Show status labels/icons instead of color alone, visible focus, reduced-motion support, and generous touch targets. Use only Confirm for submitting all interactions.
+- [ ] Run browser tests at desktop and mobile widths, keyboard-only paths, long names/options, missing images, unequal card heights, and reduced motion. Verify no horizontal overflow and no lost matching endpoints. Capture and visually inspect Home, all three interactions, correct/incorrect/partial feedback, results, and review against the approved references.
 - [ ] Commit `feat: build responsive trivia screens and interactions`.
 
 ## Task 13 Whole game acceptance and local handoff

@@ -8,7 +8,6 @@ import type { DraftAnswer } from '../../src/game/types.ts';
 async function content() { return { version: 'test-v1', questions: toClientQuestions(await loadContent()) }; }
 function correctAnswer(question: ClientQuestion): DraftAnswer {
   if (question.kind === 'choice') return { kind: 'choice', optionId: question.answer };
-  if (question.kind === 'completion') return { kind: 'completion', text: question.answer };
   if (question.kind === 'ordering') return { kind: 'ordering', itemIds: question.answer };
   return { kind: 'matching', pairs: question.answer };
 }

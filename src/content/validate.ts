@@ -78,7 +78,7 @@ export function validateBundle(bundle: ContentBundle, requireReleaseCounts: bool
 
   const families = new Set<string>();
   const permitted: Record<string, string[]> = {
-    'main-event': ['choice', 'completion'], 'champion-entering': ['choice', 'completion'],
+    'main-event': ['choice'], 'champion-entering': ['choice'],
     'order-history': ['ordering'], 'odd-one-out': ['choice'], 'rebuild-card': ['matching']
   };
   for (const [id, q] of questions) {
@@ -87,7 +87,7 @@ export function validateBundle(bundle: ContentBundle, requireReleaseCounts: bool
     if (!text(q.familyId) || families.has(q.familyId)) fail(id, 'duplicate or missing independent family');
     families.add(String(q.familyId));
     if (!text(q.prompt) || !text(q.explanation)) fail(id, 'missing prompt or explanation');
-    if (/\bWWF\b/i.test(`${q.prompt} ${q.explanation} ${q.prefix ?? ''} ${q.suffix ?? ''}`)) fail(id, 'WWF prose is not permitted in UI');
+    if (/\bWWF\b/i.test(`${q.prompt} ${q.explanation}`)) fail(id, 'WWF prose is not permitted in UI');
     strings(q.conflictGroups, `${id} conflict groups`);
     const eventIds = strings(q.eventIds, `${id} events`);
     const factIds = strings(q.factIds, `${id} facts`);
@@ -128,10 +128,6 @@ export function validateBundle(bundle: ContentBundle, requireReleaseCounts: bool
       const options = itemRows(q.options, 'option');
       if (options.length !== 4) fail(id, 'choice requires four options');
       if (!options.some(o => o.id === q.answer)) fail(id, 'answer references unknown option');
-    } else if (q.kind === 'completion') {
-      if (typeof q.prefix !== 'string' || typeof q.suffix !== 'string' || !text(q.answer)) fail(id, 'invalid completion sentence');
-      const aliases = strings(q.aliases, `${id} answer aliases`);
-      if (aliases.some(a => !normalize(a))) fail(id, 'invalid answer alias');
     } else if (q.kind === 'matching') {
       const left = itemRows(q.left, 'left item'), right = itemRows(q.right, 'right item');
       const count = { easy: 2, medium: 3, hard: 4 }[q.difficulty as 'easy' | 'medium' | 'hard'];
@@ -169,8 +165,9 @@ export function validateBundle(bundle: ContentBundle, requireReleaseCounts: bool
     for (const category of categories) for (const difficulty of difficulties) {
       const pool = [...questions.values()].filter(q => q.category === category && q.difficulty === difficulty);
       if (pool.length !== 20) fail('release', `${category}/${difficulty} requires twenty questions`);
-      if (['main-event', 'champion-entering'].includes(category))
-        for (const kind of ['choice', 'completion']) if (!pool.some(q => q.kind === kind)) fail('release', `${category}/${difficulty} missing ${kind}`);
+      if (['main-event', 'champion-entering'].includes(category)
+        && pool.filter(q => q.kind === 'choice').length !== 20)
+        fail('release', `${category}/${difficulty} requires twenty choice questions`);
     }
   }
   return errors;

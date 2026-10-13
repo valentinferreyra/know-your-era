@@ -33,7 +33,7 @@ it('rejects repeated partners, unknown IDs, incomplete responses and mismatched 
   expect(() => gradeAnswer(matching('medium'), { kind: 'matching', pairs: { l0: 'r0', l1: 'r0', l2: 'r2' } })).toThrow();
   expect(() => gradeAnswer(base(), { kind: 'choice', optionId: 'unknown' })).toThrow();
   expect(() => gradeAnswer(matching('easy'), { kind: 'matching', pairs: { l0: 'r0' } })).toThrow();
-  expect(() => gradeAnswer(base(), { kind: 'completion', text: 'A' })).toThrow();
+  expect(() => gradeAnswer(base(), { kind: 'ordering', itemIds: [] })).toThrow();
 });
 it.each([['easy', 100], ['medium', 150], ['hard', 200]] as const)('awards the full %s value only when all pairs are correct', (tier, points) => {
   const q = matching(tier);
@@ -41,11 +41,6 @@ it.each([['easy', 100], ['medium', 150], ['hard', 200]] as const)('awards the fu
   const grade = gradeAnswer(q, { kind: 'matching', pairs: q.answer });
   expect(grade.earnedPoints).toBe(points);
   expect(grade.fullyCorrect).toBe(true);
-});
-it('accepts reviewed aliases with normalized case spacing and punctuation, not similar names', () => {
-  const q: ClientQuestion = { ...base(), kind: 'completion', category: 'main-event', prefix: '', suffix: '', answer: 'Steve Austin', aliases: ['Steve Austin', 'Stone Cold Steve Austin'] };
-  expect(gradeAnswer(q, { kind: 'completion', text: '  STONE-COLD   Steve Austin! ' }).fullyCorrect).toBe(true);
-  expect(gradeAnswer(q, { kind: 'completion', text: 'Steve Auston' }).earnedPoints).toBe(0);
 });
 it('wrong ordering earns zero and the correction preserves all positions', () => {
   const q: ClientQuestion = { ...base(), kind: 'ordering', category: 'order-history', items: [{ id: 'a', label: 'A' }, { id: 'b', label: 'B' }, { id: 'c', label: 'C' }], answer: ['a', 'b', 'c'], orderMode: 'date' };

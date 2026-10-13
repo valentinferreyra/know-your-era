@@ -493,15 +493,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The WWE Championship holder was",
-    "suffix": ".",
-    "answer": "Steve Austin",
-    "aliases": [
-      "Steve Austin",
-      "Stone Cold",
-      "Stone Cold Steve Austin",
-      "Austin"
+    "kind": "choice",
+    "answer": "entering-summerslam-1998-wwe-option-1",
+    "options": [
+      {
+        "id": "entering-summerslam-1998-wwe-option-4",
+        "label": "Jacqueline"
+      },
+      {
+        "id": "entering-summerslam-1998-wwe-option-2",
+        "label": "Christian"
+      },
+      {
+        "id": "entering-summerslam-1998-wwe-option-1",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "entering-summerslam-1998-wwe-option-3",
+        "label": "Hulk Hogan"
+      }
     ]
   },
   {
@@ -529,15 +539,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The WWE Championship holder was",
-    "suffix": ".",
-    "answer": "Steve Austin",
-    "aliases": [
-      "Steve Austin",
-      "Stone Cold",
-      "Stone Cold Steve Austin",
-      "Austin"
+    "kind": "choice",
+    "answer": "entering-summerslam-1999-wwe-option-1",
+    "options": [
+      {
+        "id": "entering-summerslam-1999-wwe-option-1",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "entering-summerslam-1999-wwe-option-3",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "entering-summerslam-1999-wwe-option-4",
+        "label": "Kane & Mankind"
+      },
+      {
+        "id": "entering-summerslam-1999-wwe-option-2",
+        "label": "Test"
+      }
     ]
   },
   {
@@ -564,12 +584,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The WWE Championship holder was",
-    "suffix": ".",
-    "answer": "The Rock",
-    "aliases": [
-      "The Rock"
+    "kind": "choice",
+    "answer": "entering-summerslam-2000-wwe-option-1",
+    "options": [
+      {
+        "id": "entering-summerslam-2000-wwe-option-4",
+        "label": "Goldberg"
+      },
+      {
+        "id": "entering-summerslam-2000-wwe-option-3",
+        "label": "Mark Henry"
+      },
+      {
+        "id": "entering-summerslam-2000-wwe-option-2",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "entering-summerslam-2000-wwe-option-1",
+        "label": "The Rock"
+      }
     ]
   },
   {
@@ -596,12 +629,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The WWE Championship holder was",
-    "suffix": ".",
-    "answer": "The Rock",
-    "aliases": [
-      "The Rock"
+    "kind": "choice",
+    "answer": "entering-no-mercy-2000-wwe-option-1",
+    "options": [
+      {
+        "id": "entering-no-mercy-2000-wwe-option-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "entering-no-mercy-2000-wwe-option-2",
+        "label": "Billy Kidman"
+      },
+      {
+        "id": "entering-no-mercy-2000-wwe-option-3",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "entering-no-mercy-2000-wwe-option-4",
+        "label": "Brock Lesnar"
+      }
     ]
   },
   {
@@ -627,12 +673,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The WWE Championship holder was",
-    "suffix": ".",
-    "answer": "Kurt Angle",
-    "aliases": [
-      "Kurt Angle"
+    "kind": "choice",
+    "answer": "entering-no-way-out-2001-wwe-option-1",
+    "options": [
+      {
+        "id": "entering-no-way-out-2001-wwe-option-4",
+        "label": "The British Bulldog"
+      },
+      {
+        "id": "entering-no-way-out-2001-wwe-option-3",
+        "label": "The Dudley Boyz"
+      },
+      {
+        "id": "entering-no-way-out-2001-wwe-option-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "entering-no-way-out-2001-wwe-option-2",
+        "label": "Billy Kidman"
+      }
     ]
   },
   {
@@ -660,14 +719,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The WWE Championship holder was",
-    "suffix": ".",
-    "answer": "Hulk Hogan",
-    "aliases": [
-      "Hulk Hogan",
-      "Hollywood Hogan",
-      "Hogan"
+    "kind": "choice",
+    "answer": "entering-judgment-day-2002-wwe-option-1",
+    "options": [
+      {
+        "id": "entering-judgment-day-2002-wwe-option-2",
+        "label": "Chyna"
+      },
+      {
+        "id": "entering-judgment-day-2002-wwe-option-3",
+        "label": "Lance Storm"
+      },
+      {
+        "id": "entering-judgment-day-2002-wwe-option-4",
+        "label": "Goldberg"
+      },
+      {
+        "id": "entering-judgment-day-2002-wwe-option-1",
+        "label": "Hulk Hogan"
+      }
     ]
   },
   {
@@ -695,13 +765,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The WWE Championship holder was",
-    "suffix": ".",
-    "answer": "The Undertaker",
-    "aliases": [
-      "The Undertaker",
-      "Undertaker"
+    "kind": "choice",
+    "answer": "entering-vengeance-2002-wwe-option-1",
+    "options": [
+      {
+        "id": "entering-vengeance-2002-wwe-option-3",
+        "label": "Billy Kidman"
+      },
+      {
+        "id": "entering-vengeance-2002-wwe-option-2",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "entering-vengeance-2002-wwe-option-4",
+        "label": "Sable"
+      },
+      {
+        "id": "entering-vengeance-2002-wwe-option-1",
+        "label": "The Undertaker"
+      }
     ]
   },
   {
@@ -731,12 +813,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The WWE Championship holder was",
-    "suffix": ".",
-    "answer": "Brock Lesnar",
-    "aliases": [
-      "Brock Lesnar"
+    "kind": "choice",
+    "answer": "entering-survivor-series-2002-wwe-option-1",
+    "options": [
+      {
+        "id": "entering-survivor-series-2002-wwe-option-3",
+        "label": "Jeff Jarrett"
+      },
+      {
+        "id": "entering-survivor-series-2002-wwe-option-4",
+        "label": "Hulk Hogan & Edge"
+      },
+      {
+        "id": "entering-survivor-series-2002-wwe-option-1",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "entering-survivor-series-2002-wwe-option-2",
+        "label": "Victoria"
+      }
     ]
   },
   {
@@ -765,14 +860,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Heavyweight Championship holder was",
-    "suffix": ".",
-    "answer": "Shawn Michaels",
-    "aliases": [
-      "Shawn Michaels",
-      "HBK",
-      "Michaels"
+    "kind": "choice",
+    "answer": "entering-armageddon-2002-whc-option-1",
+    "options": [
+      {
+        "id": "entering-armageddon-2002-whc-option-3",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "entering-armageddon-2002-whc-option-1",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "entering-armageddon-2002-whc-option-2",
+        "label": "Shane McMahon"
+      },
+      {
+        "id": "entering-armageddon-2002-whc-option-4",
+        "label": "Matt Hardy"
+      }
     ]
   },
   {
@@ -799,14 +905,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Heavyweight Championship holder was",
-    "suffix": ".",
-    "answer": "Triple H",
-    "aliases": [
-      "Triple H",
-      "HHH",
-      "Hunter Hearst Helmsley"
+    "kind": "choice",
+    "answer": "entering-unforgiven-2003-whc-option-1",
+    "options": [
+      {
+        "id": "entering-unforgiven-2003-whc-option-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "entering-unforgiven-2003-whc-option-2",
+        "label": "Chris Jericho & Christian"
+      },
+      {
+        "id": "entering-unforgiven-2003-whc-option-3",
+        "label": "Edge"
+      },
+      {
+        "id": "entering-unforgiven-2003-whc-option-4",
+        "label": "Chyna"
+      }
     ]
   },
   {
@@ -1300,15 +1417,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Tag Team Championship holder was",
-    "suffix": ".",
-    "answer": "The New Age Outlaws",
-    "aliases": [
-      "The New Age Outlaws",
-      "New Age Outlaws",
-      "Road Dogg & Billy Gunn",
-      "Billy Gunn & Road Dogg"
+    "kind": "choice",
+    "answer": "entering-wrestlemania-xiv-1998-tag-option-1",
+    "options": [
+      {
+        "id": "entering-wrestlemania-xiv-1998-tag-option-1",
+        "label": "The New Age Outlaws"
+      },
+      {
+        "id": "entering-wrestlemania-xiv-1998-tag-option-4",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "entering-wrestlemania-xiv-1998-tag-option-3",
+        "label": "The Dudley Boyz"
+      },
+      {
+        "id": "entering-wrestlemania-xiv-1998-tag-option-2",
+        "label": "Ivory"
+      }
     ]
   },
   {
@@ -1335,13 +1462,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Tag Team Championship holder was",
-    "suffix": ".",
-    "answer": "Kane & Mankind",
-    "aliases": [
-      "Kane & Mankind",
-      "Mankind & Kane"
+    "kind": "choice",
+    "answer": "entering-summerslam-1998-tag-option-1",
+    "options": [
+      {
+        "id": "entering-summerslam-1998-tag-option-4",
+        "label": "Shane McMahon"
+      },
+      {
+        "id": "entering-summerslam-1998-tag-option-3",
+        "label": "Randy Orton"
+      },
+      {
+        "id": "entering-summerslam-1998-tag-option-2",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "entering-summerslam-1998-tag-option-1",
+        "label": "Kane & Mankind"
+      }
     ]
   },
   {
@@ -1368,16 +1507,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Tag Team Championship holder was",
-    "suffix": ".",
-    "answer": "The Dudley Boyz",
-    "aliases": [
-      "The Dudley Boyz",
-      "Dudley Boyz",
-      "Dudley Boys",
-      "Bubba Ray Dudley & D-Von Dudley",
-      "D-Von Dudley & Bubba Ray Dudley"
+    "kind": "choice",
+    "answer": "entering-wrestlemania-2000-2000-tag-option-1",
+    "options": [
+      {
+        "id": "entering-wrestlemania-2000-2000-tag-option-3",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "entering-wrestlemania-2000-2000-tag-option-1",
+        "label": "The Dudley Boyz"
+      },
+      {
+        "id": "entering-wrestlemania-2000-2000-tag-option-2",
+        "label": "Road Dogg"
+      },
+      {
+        "id": "entering-wrestlemania-2000-2000-tag-option-4",
+        "label": "Christian & Lance Storm"
+      }
     ]
   },
   {
@@ -1404,13 +1552,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Tag Team Championship holder was",
-    "suffix": ".",
-    "answer": "Edge & Christian",
-    "aliases": [
-      "Edge & Christian",
-      "Christian & Edge"
+    "kind": "choice",
+    "answer": "entering-summerslam-2000-tag-option-1",
+    "options": [
+      {
+        "id": "entering-summerslam-2000-tag-option-1",
+        "label": "Edge & Christian"
+      },
+      {
+        "id": "entering-summerslam-2000-tag-option-4",
+        "label": "The British Bulldog"
+      },
+      {
+        "id": "entering-summerslam-2000-tag-option-3",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "entering-summerslam-2000-tag-option-2",
+        "label": "Diamond Dallas Page"
+      }
     ]
   },
   {
@@ -1440,16 +1600,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Tag Team Championship holder was",
-    "suffix": ".",
-    "answer": "The Dudley Boyz",
-    "aliases": [
-      "The Dudley Boyz",
-      "Dudley Boyz",
-      "Dudley Boys",
-      "Bubba Ray Dudley & D-Von Dudley",
-      "D-Von Dudley & Bubba Ray Dudley"
+    "kind": "choice",
+    "answer": "entering-wrestlemania-x-seven-2001-tag-option-1",
+    "options": [
+      {
+        "id": "entering-wrestlemania-x-seven-2001-tag-option-4",
+        "label": "Edge & Christian"
+      },
+      {
+        "id": "entering-wrestlemania-x-seven-2001-tag-option-2",
+        "label": "Kane & Mankind"
+      },
+      {
+        "id": "entering-wrestlemania-x-seven-2001-tag-option-3",
+        "label": "Diamond Dallas Page"
+      },
+      {
+        "id": "entering-wrestlemania-x-seven-2001-tag-option-1",
+        "label": "The Dudley Boyz"
+      }
     ]
   },
   {
@@ -1477,15 +1646,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Tag Team Championship holder was",
-    "suffix": ".",
-    "answer": "Billy & Chuck",
-    "aliases": [
-      "Billy & Chuck",
-      "Chuck & Billy",
-      "Billy Gunn & Chuck Palumbo",
-      "Chuck Palumbo & Billy Gunn"
+    "kind": "choice",
+    "answer": "entering-judgment-day-2002-tag-option-1",
+    "options": [
+      {
+        "id": "entering-judgment-day-2002-tag-option-4",
+        "label": "The Rock"
+      },
+      {
+        "id": "entering-judgment-day-2002-tag-option-2",
+        "label": "Victoria"
+      },
+      {
+        "id": "entering-judgment-day-2002-tag-option-1",
+        "label": "Billy & Chuck"
+      },
+      {
+        "id": "entering-judgment-day-2002-tag-option-3",
+        "label": "The Dudley Boyz"
+      }
     ]
   },
   {
@@ -1513,15 +1692,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Tag Team Championship holder was",
-    "suffix": ".",
-    "answer": "Hulk Hogan & Edge",
-    "aliases": [
-      "Hulk Hogan & Edge",
-      "Edge & Hulk Hogan",
-      "Edge & Hollywood Hogan",
-      "Hollywood Hogan & Edge"
+    "kind": "choice",
+    "answer": "entering-vengeance-2002-tag-option-1",
+    "options": [
+      {
+        "id": "entering-vengeance-2002-tag-option-4",
+        "label": "Lance Storm"
+      },
+      {
+        "id": "entering-vengeance-2002-tag-option-3",
+        "label": "Goldberg"
+      },
+      {
+        "id": "entering-vengeance-2002-tag-option-1",
+        "label": "Hulk Hogan & Edge"
+      },
+      {
+        "id": "entering-vengeance-2002-tag-option-2",
+        "label": "Chyna"
+      }
     ]
   },
   {
@@ -1553,13 +1742,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Tag Team Championship holder was",
-    "suffix": ".",
-    "answer": "Christian & Lance Storm",
-    "aliases": [
-      "Christian & Lance Storm",
-      "Lance Storm & Christian"
+    "kind": "choice",
+    "answer": "entering-summerslam-2002-tag-option-1",
+    "options": [
+      {
+        "id": "entering-summerslam-2002-tag-option-3",
+        "label": "Triple H"
+      },
+      {
+        "id": "entering-summerslam-2002-tag-option-1",
+        "label": "Christian & Lance Storm"
+      },
+      {
+        "id": "entering-summerslam-2002-tag-option-4",
+        "label": "Jacqueline"
+      },
+      {
+        "id": "entering-summerslam-2002-tag-option-2",
+        "label": "The Undertaker"
+      }
     ]
   },
   {
@@ -1588,13 +1789,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Tag Team Championship holder was",
-    "suffix": ".",
-    "answer": "Chris Jericho & Christian",
-    "aliases": [
-      "Chris Jericho & Christian",
-      "Christian & Chris Jericho"
+    "kind": "choice",
+    "answer": "entering-armageddon-2002-tag-option-1",
+    "options": [
+      {
+        "id": "entering-armageddon-2002-tag-option-3",
+        "label": "Mark Henry"
+      },
+      {
+        "id": "entering-armageddon-2002-tag-option-1",
+        "label": "Chris Jericho & Christian"
+      },
+      {
+        "id": "entering-armageddon-2002-tag-option-2",
+        "label": "Hulk Hogan & Edge"
+      },
+      {
+        "id": "entering-armageddon-2002-tag-option-4",
+        "label": "Eddie Guerrero"
+      }
     ]
   },
   {
@@ -1624,15 +1837,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The World Tag Team Championship holder was",
-    "suffix": ".",
-    "answer": "Booker T & Rob Van Dam",
-    "aliases": [
-      "Booker T & Rob Van Dam",
-      "Rob Van Dam & Booker T",
-      "Booker T & RVD",
-      "RVD & Booker T"
+    "kind": "choice",
+    "answer": "entering-wrestlemania-xx-2004-tag-option-1",
+    "options": [
+      {
+        "id": "entering-wrestlemania-xx-2004-tag-option-1",
+        "label": "Booker T & Rob Van Dam"
+      },
+      {
+        "id": "entering-wrestlemania-xx-2004-tag-option-2",
+        "label": "The Dudley Boyz"
+      },
+      {
+        "id": "entering-wrestlemania-xx-2004-tag-option-4",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "entering-wrestlemania-xx-2004-tag-option-3",
+        "label": "Jacqueline"
+      }
     ]
   },
   {
@@ -2121,14 +2344,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The European Championship holder was",
-    "suffix": ".",
-    "answer": "Triple H",
-    "aliases": [
-      "Triple H",
-      "HHH",
-      "Hunter Hearst Helmsley"
+    "kind": "choice",
+    "answer": "entering-wrestlemania-xiv-1998-european-option-1",
+    "options": [
+      {
+        "id": "entering-wrestlemania-xiv-1998-european-option-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "entering-wrestlemania-xiv-1998-european-option-3",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "entering-wrestlemania-xiv-1998-european-option-4",
+        "label": "Val Venis"
+      },
+      {
+        "id": "entering-wrestlemania-xiv-1998-european-option-2",
+        "label": "Victoria"
+      }
     ]
   },
   {
@@ -2155,12 +2389,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The European Championship holder was",
-    "suffix": ".",
-    "answer": "D-Lo Brown",
-    "aliases": [
-      "D-Lo Brown"
+    "kind": "choice",
+    "answer": "entering-summerslam-1998-european-option-1",
+    "options": [
+      {
+        "id": "entering-summerslam-1998-european-option-1",
+        "label": "D-Lo Brown"
+      },
+      {
+        "id": "entering-summerslam-1998-european-option-3",
+        "label": "Chyna"
+      },
+      {
+        "id": "entering-summerslam-1998-european-option-2",
+        "label": "Billy Kidman"
+      },
+      {
+        "id": "entering-summerslam-1998-european-option-4",
+        "label": "Road Dogg"
+      }
     ]
   },
   {
@@ -2190,12 +2437,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The European Championship holder was",
-    "suffix": ".",
-    "answer": "Shane McMahon",
-    "aliases": [
-      "Shane McMahon"
+    "kind": "choice",
+    "answer": "entering-wrestlemania-xv-1999-european-option-1",
+    "options": [
+      {
+        "id": "entering-wrestlemania-xv-1999-european-option-4",
+        "label": "The Dudley Boyz"
+      },
+      {
+        "id": "entering-wrestlemania-xv-1999-european-option-3",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "entering-wrestlemania-xv-1999-european-option-1",
+        "label": "Shane McMahon"
+      },
+      {
+        "id": "entering-wrestlemania-xv-1999-european-option-2",
+        "label": "Triple H"
+      }
     ]
   },
   {
@@ -2221,12 +2481,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The European Championship holder was",
-    "suffix": ".",
-    "answer": "Mark Henry",
-    "aliases": [
-      "Mark Henry"
+    "kind": "choice",
+    "answer": "entering-unforgiven-1999-european-option-1",
+    "options": [
+      {
+        "id": "entering-unforgiven-1999-european-option-3",
+        "label": "Billy Kidman"
+      },
+      {
+        "id": "entering-unforgiven-1999-european-option-4",
+        "label": "The Rock"
+      },
+      {
+        "id": "entering-unforgiven-1999-european-option-1",
+        "label": "Mark Henry"
+      },
+      {
+        "id": "entering-unforgiven-1999-european-option-2",
+        "label": "Trish Stratus"
+      }
     ]
   },
   {
@@ -2253,14 +2526,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The European Championship holder was",
-    "suffix": ".",
-    "answer": "The British Bulldog",
-    "aliases": [
-      "The British Bulldog",
-      "British Bulldog",
-      "Davey Boy Smith"
+    "kind": "choice",
+    "answer": "entering-armageddon-1999-european-option-1",
+    "options": [
+      {
+        "id": "entering-armageddon-1999-european-option-3",
+        "label": "The New Age Outlaws"
+      },
+      {
+        "id": "entering-armageddon-1999-european-option-1",
+        "label": "The British Bulldog"
+      },
+      {
+        "id": "entering-armageddon-1999-european-option-4",
+        "label": "Jacqueline"
+      },
+      {
+        "id": "entering-armageddon-1999-european-option-2",
+        "label": "Chyna"
+      }
     ]
   },
   {
@@ -2290,12 +2574,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The European Championship holder was",
-    "suffix": ".",
-    "answer": "Test",
-    "aliases": [
-      "Test"
+    "kind": "choice",
+    "answer": "entering-wrestlemania-x-seven-2001-european-option-1",
+    "options": [
+      {
+        "id": "entering-wrestlemania-x-seven-2001-european-option-3",
+        "label": "Victoria"
+      },
+      {
+        "id": "entering-wrestlemania-x-seven-2001-european-option-2",
+        "label": "Diamond Dallas Page"
+      },
+      {
+        "id": "entering-wrestlemania-x-seven-2001-european-option-1",
+        "label": "Test"
+      },
+      {
+        "id": "entering-wrestlemania-x-seven-2001-european-option-4",
+        "label": "Jazz"
+      }
     ]
   },
   {
@@ -2321,12 +2618,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The European Championship holder was",
-    "suffix": ".",
-    "answer": "Matt Hardy",
-    "aliases": [
-      "Matt Hardy"
+    "kind": "choice",
+    "answer": "entering-backlash-2001-european-option-1",
+    "options": [
+      {
+        "id": "entering-backlash-2001-european-option-3",
+        "label": "The British Bulldog"
+      },
+      {
+        "id": "entering-backlash-2001-european-option-1",
+        "label": "Matt Hardy"
+      },
+      {
+        "id": "entering-backlash-2001-european-option-4",
+        "label": "Chris Jericho & Christian"
+      },
+      {
+        "id": "entering-backlash-2001-european-option-2",
+        "label": "Chris Jericho"
+      }
     ]
   },
   {
@@ -2353,13 +2663,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The European Championship holder was",
-    "suffix": ".",
-    "answer": "Diamond Dallas Page",
-    "aliases": [
-      "Diamond Dallas Page",
-      "DDP"
+    "kind": "choice",
+    "answer": "entering-wrestlemania-x8-2002-european-option-1",
+    "options": [
+      {
+        "id": "entering-wrestlemania-x8-2002-european-option-1",
+        "label": "Diamond Dallas Page"
+      },
+      {
+        "id": "entering-wrestlemania-x8-2002-european-option-4",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "entering-wrestlemania-x8-2002-european-option-3",
+        "label": "Val Venis"
+      },
+      {
+        "id": "entering-wrestlemania-x8-2002-european-option-2",
+        "label": "Kurt Angle"
+      }
     ]
   },
   {
@@ -2386,12 +2708,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The Cruiserweight Championship holder was",
-    "suffix": ".",
-    "answer": "Billy Kidman",
-    "aliases": [
-      "Billy Kidman"
+    "kind": "choice",
+    "answer": "entering-no-way-out-2003-cruiser-option-1",
+    "options": [
+      {
+        "id": "entering-no-way-out-2003-cruiser-option-4",
+        "label": "Chris Jericho & Christian"
+      },
+      {
+        "id": "entering-no-way-out-2003-cruiser-option-3",
+        "label": "Jazz"
+      },
+      {
+        "id": "entering-no-way-out-2003-cruiser-option-1",
+        "label": "Billy Kidman"
+      },
+      {
+        "id": "entering-no-way-out-2003-cruiser-option-2",
+        "label": "Lita"
+      }
     ]
   },
   {
@@ -2419,12 +2754,25 @@
     ],
     "reviewStatus": "reviewed",
     "reviewedAt": "2026-10-13",
-    "kind": "completion",
-    "prefix": "The Cruiserweight Championship holder was",
-    "suffix": ".",
-    "answer": "Jacqueline",
-    "aliases": [
-      "Jacqueline"
+    "kind": "choice",
+    "answer": "entering-judgment-day-2004-cruiser-option-1",
+    "options": [
+      {
+        "id": "entering-judgment-day-2004-cruiser-option-2",
+        "label": "Edge"
+      },
+      {
+        "id": "entering-judgment-day-2004-cruiser-option-1",
+        "label": "Jacqueline"
+      },
+      {
+        "id": "entering-judgment-day-2004-cruiser-option-3",
+        "label": "The British Bulldog"
+      },
+      {
+        "id": "entering-judgment-day-2004-cruiser-option-4",
+        "label": "Chris Jericho & Christian"
+      }
     ]
   }
 ]

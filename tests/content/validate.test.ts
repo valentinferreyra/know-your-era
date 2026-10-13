@@ -44,8 +44,8 @@ describe('editorial content validation', () => {
   it('rejects malformed release input without throwing', () => {
     expect(validateBundle({} as any, true).length).toBeGreaterThan(0);
   });
-  it('rejects WWF prose inside completion sentences', () => {
-    const b = fixtureBundle(); Object.assign(b.questions[0], { kind: 'completion', prefix: 'The WWF Champion was', suffix: '.', answer: 'Alpha', aliases: ['Alpha'] });
-    expect(validateBundle(b, false).join(' ')).toMatch(/WWF prose/);
+  it('rejects retired free-text completion records', () => {
+    const b = fixtureBundle(); Object.assign(b.questions[0], { kind: 'completion', prefix: 'The champion was', suffix: '.', answer: 'Alpha', aliases: ['Alpha'] });
+    expect(validateBundle(b, false).join(' ')).toMatch(/invalid category and interaction combination/);
   });
 });

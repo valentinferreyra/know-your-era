@@ -34,9 +34,9 @@ Categories describe the knowledge being tested. Interaction types describe how t
 
 | Category | Knowledge | Supported interactions |
 | --- | --- | --- |
-| Main event | Participants in the main event | Choice, text completion |
+| Main event | Participants in the main event | Choice |
 | Order the history | Sequence of matches, title wins, returns, betrayals, and other PPV moments | Ordering |
-| Champion entering | Who arrived holding a specified championship | Choice, text completion |
+| Champion entering | Who arrived holding a specified championship | Choice |
 | Odd one out | Which participant does not belong to a precisely defined group | Choice |
 | Rebuild the card | Opponent pairings or matches and stipulations | Matching |
 
@@ -51,10 +51,6 @@ Provide four plausible options with stable IDs and shuffled display order. Allow
 Use two columns with two pairs at easy difficulty, three at medium, and four at hard. A player selects a left item and then a right item; the website draws a connection. Every item has exactly one partner. Selecting a connected item allows replacement or removal, and Reset clears the draft. Do not require dragging. All operations work with keyboard and touch.
 
 The input draft stores stable item IDs, not row positions. The right column is shuffled. Confirm becomes available only after all items are paired. The entire matching set consumes one question slot. Review uses a readable list of correct and incorrect pairings rather than relying on crossed lines.
-
-### Text completion
-
-Use one labeled input embedded in or beside a short sentence with one missing answer. A single typing field is preferred over separate inputs per letter. Normalize case, surrounding whitespace, repeated spaces, and common punctuation. Accept only the explicit aliases reviewed for that question. Do not use broad fuzzy matching or answer-revealing autocomplete. Wrong spelling that is not a reviewed alias is incorrect; feedback shows the expected name.
 
 ### Ordering
 
@@ -72,7 +68,7 @@ Do not print dates that give away the ordering. Standard questions use distinct 
 | Medium | 150 |
 | Hard | 200 |
 
-Choice, completion, and ordering award the full value for a fully correct response and zero otherwise. Matching awards floor(maximum points × correct pairs / total pairs). There are no deductions or time bonuses. Incorrect and partial responses still receive the full explanation.
+Choice and ordering award the full value for a fully correct response and zero otherwise. Matching awards floor(maximum points × correct pairs / total pairs). There are no deductions or time bonuses. Incorrect and partial responses still receive the full explanation.
 
 For the results screen, a question counts as correct only if the whole response is correct. Accuracy is fully correct questions divided by ten. Matching feedback separately reports pair-level success; partial points do not inflate the question-level accuracy.
 
@@ -84,7 +80,7 @@ UK events may appear only in slots eight through ten, at hard difficulty, after 
 
 The daily date is calculated in fixed UTC-3, independent of the device's local time zone or daylight-saving rules. The ten-question session belongs to that date and to a pinned content version.
 
-Each daily schedule contains two slots per category, shuffled so the same category is not adjacent when possible. One Main event slot uses choice and the other completion; Champion entering follows the same pattern. Odd one out uses choice, Order the history uses ordering, and Rebuild the card uses matching. This guarantees all four interactions without tying the session to one event or year.
+Each daily schedule contains two slots per category, shuffled so the same category is not adjacent when possible. Main event, Champion entering, and Odd one out use choice; Order the history uses ordering; Rebuild the card uses matching. This keeps every response closed-ended without tying the session to one event or year.
 
 At each slot, choose an eligible reviewed question for the current category, interaction, and adaptive difficulty. Rank candidates deterministically using the daily date, content version, and slot. Persist the chosen question and display order immediately; reloading must not reroll a question.
 
@@ -108,7 +104,7 @@ A database and server become necessary for cross-device accounts, shared ranking
 
 ## Question bank and review
 
-The first playable version requires 300 distinct reviewed questions: twenty per category and difficulty. There is no smaller question-bank release. Rephrasing the same fact or swapping distractors does not count as a new independent question. Main event and Champion entering pools must include both choice and completion records at every difficulty. The full bank must pass editorial and structural review before this version is considered ready to release; the bank has not yet been created.
+The first playable version requires 300 distinct reviewed questions: twenty per category and difficulty. There is no smaller question-bank release. Rephrasing the same fact or swapping distractors does not count as a new independent question. Main event and Champion entering pools use four-option choice records at every difficulty. The full bank must pass editorial and structural review before this version is considered ready to release; the bank has not yet been created.
 
 Distribute the full bank across years, event families, men's and women's wrestling, teams, secondary championships, and PPV story segments. Avoid concentrating it on Austin, Rock, or WrestleMania. Lack of a photograph does not exclude a question.
 
@@ -117,7 +113,7 @@ Each record includes:
 - Stable ID, family ID, and conflict-group IDs.
 - Category, interaction type, difficulty, prompt, and short explanation.
 - Event IDs, event year, broadcast scope, historical date, and sequence position when needed.
-- Options, match pairs, ordering entries, or text-answer aliases, with stable IDs.
+- Options, match pairs, or ordering entries, with stable IDs.
 - Canonical answer and any separate reviewed display name.
 - Optional prompt image, answer image, event logo, or championship image IDs.
 - Internal verification references, review status, and UK eligibility metadata.
@@ -134,7 +130,7 @@ Generic event logos may represent any year of the event. Logos containing an exp
 
 Photos are optional. Use a relevant, non-revealing image, then an event logo or championship image, then text alone. A photo of the winner or both opponents usually belongs after confirmation. When imagery is absent, use a compact centered layout with no empty placeholder. Historical photographs must not be regenerated as fabricated evidence.
 
-The approved homepage mockup is `exec-b4ea11ee-23c4-47b3-ab78-8e7be1455e0d.png` from the generated-image session. Other approved concepts cover choice, completion, matching, ordering, feedback, and results. Before implementation, copy selected references into repository documentation so no project depends on machine-specific generated-image paths. Final UI labels override older mockup wording: the answer-submission button is always Confirm.
+The approved homepage mockup is `exec-b4ea11ee-23c4-47b3-ab78-8e7be1455e0d.png` from the generated-image session. Other approved concepts cover choice, matching, ordering, feedback, and results. The old text-entry mockup is superseded. Before implementation, copy selected references into repository documentation so no project depends on machine-specific generated-image paths. Final UI labels override older mockup wording: the answer-submission button is always Confirm.
 
 ## Technical approach
 
@@ -148,7 +144,7 @@ Use semantic controls, labeled inputs, visible keyboard focus, sufficient contra
 
 1. The app and repository documentation are in English; the UI contains no WWF prose, public scope range, or source labels.
 2. Home has no wrestler cutouts and follows the centered, softly faded arena design.
-3. A session contains exactly ten questions, two from each category, and all four interaction types.
+3. A session contains exactly ten questions, two from each category, and only closed-ended question types.
 4. Daily dates switch at midnight UTC-3; new sessions start easy; existing sessions do not lose progress silently.
 5. Adaptive changes, partial matching credit, and UK eligibility follow the reviewed rules above.
 6. Reload restores the same question, display order, draft, committed feedback, and score.
@@ -156,7 +152,7 @@ Use semantic controls, labeled inputs, visible keyboard focus, sufficient contra
 8. Within-session conflicts and repeated families are excluded. Pools with insufficient eligible content fail content validation before release.
 9. All interactions work on desktop, mobile, and keyboard, including matching without dragging.
 10. Questions and answers work with no images, with no empty placeholders.
-11. The first playable version contains 300 distinct reviewed records, twenty per category and difficulty, with both choice and completion represented in the relevant pools. A smaller bank does not satisfy release acceptance.
+11. The first playable version contains 300 distinct reviewed records, twenty per category and difficulty. Main event and Champion entering use four-option choice questions only. A smaller bank does not satisfy release acceptance.
 12. Unit tests cover grading, aliases, score rounding, adaptation, selection, UK gates, and UTC-3 boundaries. Browser tests cover the four interactions, reload, midnight handling, review, and unavailable storage.
 
 ## Review decision

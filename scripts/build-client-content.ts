@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { loadContent } from './load-content.ts';
 import { validateBundle } from '../src/content/validate.ts';
-import { toClientQuestions } from '../src/content/project.ts';
+import { toClientAssets, toClientQuestions } from '../src/content/project.ts';
 import { makeDailySlots } from '../src/game/day.ts';
 import { canCompleteDailySchedule } from '../src/game/select.ts';
 
@@ -18,4 +18,5 @@ for (let day = 1; day <= 14; day++) {
 const directory = new URL('../src/content/generated/', import.meta.url);
 await mkdir(directory, { recursive: true });
 await writeFile(new URL('questions.json', directory), JSON.stringify({ version: bundle.version, questions }));
+await writeFile(new URL('assets.json', directory), JSON.stringify(toClientAssets(bundle)));
 console.log(`Built ${bundle.questions.length} client questions without editorial sources.`);
