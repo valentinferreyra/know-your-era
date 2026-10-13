@@ -3,9 +3,19 @@ import { resolve } from 'node:path';
 import { expect, it } from 'vitest';
 import bundle from '../../src/content/generated/questions.json';
 import type { ClientQuestion } from '../../src/content/types.ts';
-import { answerArt, beltIn, eventLogo, portraits, questionArt } from '../../src/ui/art.ts';
+import { answerArt, beltIn, eventLogo, portraitIn, portraits, questionArt } from '../../src/ui/art.ts';
 
 const questions = bundle.questions as ClientQuestion[];
+
+it('recognizes the added wrestlers and event families', () => {
+  for (const name of ['Rikishi', 'Crash Holly', 'Hardcore Holly', 'Tazz', 'Taz']) expect(portraitIn(name)?.type).toBe('portrait');
+  expect(portraitIn('Crash Holly')?.alt).toBe('Crash Holly');
+  expect(portraitIn('Hardcore Holly')?.alt).toBe('Hardcore Holly');
+  for (const family of ['Backlash', 'Vengeance']) {
+    const question = questions.find(q => q.eventIds.length === 1 && q.prompt.includes(family))!;
+    expect(eventLogo(question)?.alt).toContain(family);
+  }
+});
 
 it('only singles out a wrestler already named in the prompt', () => {
   const question = questions.find(q => q.prompt.includes('with Steve Austin at WrestleMania XIV'))!;

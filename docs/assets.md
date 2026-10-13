@@ -6,6 +6,8 @@ The original files in the owner's `know-your-era-images` folder remain unchanged
 
 All selectable answers, ordering items, and matching columns use text only. Images belong to the question presentation or the feedback, so missing portraits do not give some answer options a different visual treatment.
 
+Added portraits: `rikishi.webp`, `crash.webp`, `hardcore_holly.webp`, and `tazz.webp`, encoded from the owner's corresponding PNG files. Taz/Tazz and Bob Holly/Hardcore Holly resolve to their respective portraits; Crash Holly remains separate. `backlash-logo.webp` and `vengeance-logo.webp` use the new supplied event logos. The built-in image tool removed only the white/green exterior backgrounds while preserving lettering, metallic outlines, and proportions. The original source images remain untouched. These generic logos accompany any matching event edition.
+
 The arena backdrop `public/assets/smackdown-arena.webp` and brand artwork `public/assets/know-your-era-brand.webp` were extracted from the approved homepage mockup using the built-in image-generation tool, then encoded as WebP. The backdrop is a decorative composite. The portraits and historical match photos were not generated. Extraction prompts: preserve the blue arena and side SmackDown screens while removing foreground interface and logo; isolate the original metallic Know Your Era fist logo on a transparent background while removing the arena and form.
 
 Barlow Regular and Barlow Condensed SemiBold/Bold are served locally from `public/fonts/`. Their SIL Open Font License is stored alongside them.

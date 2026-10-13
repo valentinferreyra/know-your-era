@@ -106,7 +106,7 @@ function render(moveFocus = false): void {
       onDraft: draft => {
         const focus = answerFocusSelector();
         const updated = setDraft(progress.session!, draft); commit(updated); render();
-        if (focus) (host.querySelector<HTMLElement>(focus) ?? host.querySelector<HTMLElement>('.order-choice'))?.focus({ preventScroll: true });
+        if (focus) (host.querySelector<HTMLElement>(focus) ?? host.querySelector<HTMLElement>('.order-choice, .match-option'))?.focus({ preventScroll: true });
       },
       onConfirm: () => {
         if (!progress.session) return;
@@ -135,7 +135,7 @@ function render(moveFocus = false): void {
 function answerFocusSelector(): string | undefined {
   const active = document.activeElement;
   if (!(active instanceof HTMLElement)) return;
-  for (const key of ['data-match-left', 'data-match-right', 'data-order-item', 'value']) {
+  for (const key of ['data-match-left', 'data-match-right', 'data-match-remove', 'data-order-item', 'value']) {
     const value = active.getAttribute(key);
     if (value !== null) return `[${key}="${CSS.escape(value)}"]`;
   }

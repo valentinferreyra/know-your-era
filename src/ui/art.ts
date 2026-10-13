@@ -21,7 +21,11 @@ export const portraits = [
   ['Ric Flair', 'ric_flair', 'Ric Flair'],
   ['Trish Stratus', 'trish_stratus', 'Trish Stratus'],
   ['Lita', 'lita', 'Lita'],
-  ['Dudley Boyz', 'dudley_boyz', 'The Dudley Boyz']
+  ['Dudley Boyz', 'dudley_boyz', 'The Dudley Boyz'],
+  ['Rikishi', 'rikishi', 'Rikishi'],
+  ['Crash Holly', 'crash', 'Crash Holly'],
+  ['Hardcore Holly|Bob Holly', 'hardcore_holly', 'Hardcore Holly'],
+  ['Tazz|Taz', 'tazz', 'Tazz']
 ] as const;
 
 export function portraitIn(text: string): Artwork | undefined {
@@ -55,7 +59,8 @@ export function eventLogo(question: ClientQuestion): Artwork | undefined {
   const families = [
     ['SummerSlam', 'summerslam-logo.png'], ['Survivor Series', 'survivor-series-logo.png'],
     ['Royal Rumble', 'royal-rumble-logo.png'], ['Judgment Day', 'judgment-day-logo.png'],
-    ['Bad Blood', 'bad-blood-logo.png'], ['No Way Out', 'nowayout_logo.webp'], ['No Mercy', 'no_mercy_logo.webp']
+    ['Bad Blood', 'bad-blood-logo.png'], ['No Way Out', 'nowayout_logo.webp'], ['No Mercy', 'no_mercy_logo.webp'],
+    ['Backlash', 'backlash-logo.webp'], ['Vengeance', 'vengeance-logo.webp']
   ];
   const filename = editions[event.id] ?? families.find(([name]) => event.name.includes(name!))?.[1];
   return filename ? { path: `/assets/${filename}`, alt: event.name, type: 'logo' } : undefined;

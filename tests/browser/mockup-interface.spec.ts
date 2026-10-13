@@ -47,8 +47,19 @@ test('mockup composition uses loaded brand art, portraits, event logos and real 
   for (const category of ['champion-entering', 'rebuild-card', 'order-history']) {
     await showQuestion(page, content.questions.find(q => q.category === category && q.difficulty === 'easy')!);
     await expect(page.locator('.answer-interaction img')).toHaveCount(0);
+    if (category === 'rebuild-card') {
+      await page.locator('[data-match-left]').first().click(); await page.locator('[data-match-right]').first().click();
+      await page.locator('[data-match-right]').nth(1).click();
+    }
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(await page.evaluate(() => innerWidth));
     await page.screenshot({ path: info.outputPath(`${category}.png`), fullPage: true });
+  }
+  for (const family of ['Backlash', 'Vengeance']) {
+    await showQuestion(page, content.questions.find(q => q.eventIds.length === 1 && q.prompt.includes(family))!);
+    await expect(page.locator('.event-logo')).toHaveAttribute('alt', new RegExp(family));
+    expect(await page.locator('.event-logo').evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
+    await expect(page.locator('.answer-interaction img')).toHaveCount(0);
+    await page.screenshot({ path: info.outputPath(`${family.toLowerCase()}.png`), fullPage: true });
   }
 });
 

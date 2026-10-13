@@ -9,37 +9,49 @@ export function renderMatching(question: Extract<DisplayOrderedQuestion, { kind:
   const pairs = draft?.kind === 'matching' ? { ...draft.pairs } : {};
   const leftOrder = question.displayOrder?.primary ?? question.left.map(item => item.id);
   const rightOrder = question.displayOrder?.secondary ?? question.right.map(item => item.id);
-  let activeLeft = '';
+  let active: { side: 'left' | 'right'; id: string } | null = null;
   let observer: ResizeObserver | undefined;
   const emit = (next: Record<string, string>) => { observer?.disconnect(); onChange({ kind: 'matching', pairs: next }); };
+  const hint = element('p', 'interaction-hint', 'Select a name in either column, then its partner.');
+  hint.id = `matching-hint-${question.id}`; hint.setAttribute('role', 'status'); group.append(hint);
   const board = element('div', 'matching-board');
+  const showSelection = () => {
+    board.querySelectorAll<HTMLButtonElement>('.match-option').forEach(node => {
+      const selected = active !== null && node.dataset[active.side === 'left' ? 'matchLeft' : 'matchRight'] === active.id;
+      node.classList.toggle('is-active', selected); node.setAttribute('aria-pressed', String(selected));
+    });
+    const name = active && (active.side === 'left' ? question.left : question.right).find(item => item.id === active!.id)?.label;
+    hint.textContent = name ? `${name} selected. Choose a partner in the other column.` : 'Select a name in either column, then its partner.';
+  };
   const list = (side: 'left' | 'right', ids: string[]) => {
     const column = element('div', `matching-column matching-${side}`);
     for (const id of ids) {
       const item = (side === 'left' ? question.left : question.right).find(entry => entry.id === id); if (!item) continue;
-      const connected = side === 'left' ? Boolean(pairs[id]) : Object.values(pairs).includes(id);
-      const node = button(item.label, () => {
-        if (side === 'left') {
-          if (activeLeft === id && pairs[id]) {
-            const next = { ...pairs }; delete next[id]; activeLeft = ''; emit(next); return;
-          }
-          activeLeft = activeLeft === id ? '' : id;
-          board.querySelectorAll('[data-match-left]').forEach(entry => entry.classList.toggle('is-active', entry.getAttribute('data-match-left') === activeLeft));
-          return;
+      const leftId = side === 'left' ? id : Object.keys(pairs).find(key => pairs[key] === id);
+      const connected = leftId !== undefined && Boolean(pairs[leftId]);
+      const node = button('', () => {
+        if (!active || active.side === side) {
+          active = active?.side === side && active.id === id ? null : { side, id };
+          showSelection(); return;
         }
-        if (!activeLeft) {
-          const key = Object.keys(pairs).find(leftId => pairs[leftId] === id);
-          if (key) { const next = { ...pairs }; delete next[key]; emit(next); }
-          return;
-        }
+        const nextLeft = side === 'left' ? id : active.id;
+        const nextRight = side === 'right' ? id : active.id;
         const next = { ...pairs };
-        for (const key of Object.keys(next)) if (next[key] === id || key === activeLeft) delete next[key];
-        next[activeLeft] = id; activeLeft = '';
-        board.querySelectorAll('[data-match-left]').forEach(entry => entry.classList.remove('is-active'));
-        emit(next);
+        for (const key of Object.keys(next)) if (key === nextLeft || next[key] === nextRight) delete next[key];
+        next[nextLeft] = nextRight; active = null; emit(next);
       }, `match-option${connected ? ' is-connected' : ''}`);
       node.dataset[side === 'left' ? 'matchLeft' : 'matchRight'] = id;
-      node.setAttribute('aria-pressed', String(side === 'left' ? activeLeft === id : connected));
+      node.setAttribute('aria-pressed', 'false'); node.setAttribute('aria-describedby', hint.id);
+      const badge = element('span', 'match-badge', connected ? String(leftOrder.indexOf(leftId!) + 1) : '');
+      badge.setAttribute('aria-hidden', 'true');
+      const label = element('span', 'match-label', item.label);
+      node.append(...(side === 'left' ? [label, badge] : [badge, label]));
+      node.addEventListener('keydown', event => {
+        if (event.key === 'Escape') { active = null; showSelection(); }
+        if (active?.side === side && event.key === (side === 'left' ? 'ArrowRight' : 'ArrowLeft')) {
+          event.preventDefault(); board.querySelector<HTMLButtonElement>(side === 'left' ? '[data-match-right]' : '[data-match-left]')?.focus();
+        }
+      });
       column.append(node);
     }
     return column;
@@ -51,15 +63,24 @@ export function renderMatching(question: Extract<DisplayOrderedQuestion, { kind:
   const readable = element('ul', 'pair-readout'); readable.setAttribute('aria-label', 'Connected pairs');
   for (const [leftId, rightId] of Object.entries(pairs)) {
     const left = question.left.find(item => item.id === leftId), right = question.right.find(item => item.id === rightId);
-    if (left && right) readable.append(element('li', '', `${left.label} — ${right.label}`));
+    if (!left || !right) continue;
+    const row = element('li');
+    const badge = element('span', 'pair-number', String(leftOrder.indexOf(leftId) + 1)); badge.setAttribute('aria-hidden', 'true');
+    const remove = button('×', () => { const next = { ...pairs }; delete next[leftId]; emit(next); }, 'remove-pair');
+    remove.dataset.matchRemove = leftId; remove.setAttribute('aria-label', `Remove ${left.label} pairing`); remove.title = 'Remove pair';
+    row.append(badge, element('span', '', `${left.label} — ${right.label}`), remove); readable.append(row);
   }
   group.append(readable);
-  group.append(button('Reset pairs', () => emit({}), 'text-button'));
+  const reset = button('Reset pairs', () => emit({}), 'text-button'); reset.disabled = Object.keys(pairs).length === 0; group.append(reset);
   requestAnimationFrame(() => {
+    if (!board.isConnected) return;
     updateConnectors(board, pairs);
-    observer = new ResizeObserver(() => updateConnectors(board, pairs));
+    observer = new ResizeObserver(() => {
+      if (!board.isConnected) { observer?.disconnect(); return; }
+      updateConnectors(board, pairs);
+    });
     observer.observe(board);
-    void document.fonts?.ready.then(() => updateConnectors(board, pairs));
+    void document.fonts?.ready.then(() => { if (board.isConnected) updateConnectors(board, pairs); });
   });
   return group;
 }
