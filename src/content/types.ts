@@ -9,6 +9,7 @@ export interface SourceRecord { id: string; url: string; title: string; inspecte
 export interface FactRecord {
   id: string; eventId: string; statement: string; date: string; sourceIds: string[];
   reviewStatus: ReviewStatus; sequence?: number; participants?: string[]; mainEvent?: boolean;
+  champion?: string; championship?: string; reignStart?: string; reignEnd?: string;
 }
 export interface AssetRecord {
   id: string; path: string; type: 'photo' | 'logo' | 'belt' | 'background'; width: number; height: number;

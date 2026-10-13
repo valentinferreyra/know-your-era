@@ -1969,5 +1969,845 @@
       "catalog-dates"
     ],
     "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xiv-1998-wwe",
+    "eventId": "wrestlemania-xiv-1998",
+    "date": "1998-03-29",
+    "statement": "Shawn Michaels held the WWE Championship before the championship match at WrestleMania XIV (1998).",
+    "champion": "Shawn Michaels",
+    "championship": "WWE Championship",
+    "reignStart": "1997-11-09",
+    "reignEnd": "1998-03-29",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xv-1999-wwe",
+    "eventId": "wrestlemania-xv-1999",
+    "date": "1999-03-28",
+    "statement": "The Rock held the WWE Championship before the championship match at WrestleMania XV (1999).",
+    "champion": "The Rock",
+    "championship": "WWE Championship",
+    "reignStart": "1999-02-15",
+    "reignEnd": "1999-03-28",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-2000-2000-wwe",
+    "eventId": "wrestlemania-2000-2000",
+    "date": "2000-04-02",
+    "statement": "Triple H held the WWE Championship before the championship match at WrestleMania 2000 (2000).",
+    "champion": "Triple H",
+    "championship": "WWE Championship",
+    "reignStart": "2000-01-03",
+    "reignEnd": "2000-04-30",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-x-seven-2001-wwe",
+    "eventId": "wrestlemania-x-seven-2001",
+    "date": "2001-04-01",
+    "statement": "The Rock held the WWE Championship before the championship match at WrestleMania X-Seven (2001).",
+    "champion": "The Rock",
+    "championship": "WWE Championship",
+    "reignStart": "2001-02-25",
+    "reignEnd": "2001-04-01",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-x8-2002-wwe",
+    "eventId": "wrestlemania-x8-2002",
+    "date": "2002-03-17",
+    "statement": "Chris Jericho held the WWE Championship before the championship match at WrestleMania X8 (2002).",
+    "champion": "Chris Jericho",
+    "championship": "WWE Championship",
+    "reignStart": "2001-12-09",
+    "reignEnd": "2002-03-17",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xix-2003-wwe",
+    "eventId": "wrestlemania-xix-2003",
+    "date": "2003-03-30",
+    "statement": "Kurt Angle held the WWE Championship before the championship match at WrestleMania XIX (2003).",
+    "champion": "Kurt Angle",
+    "championship": "WWE Championship",
+    "reignStart": "2002-12-15",
+    "reignEnd": "2003-03-30",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xx-2004-wwe",
+    "eventId": "wrestlemania-xx-2004",
+    "date": "2004-03-14",
+    "statement": "Eddie Guerrero held the WWE Championship before the championship match at WrestleMania XX (2004).",
+    "champion": "Eddie Guerrero",
+    "championship": "WWE Championship",
+    "reignStart": "2004-02-15",
+    "reignEnd": "2004-06-27",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-summerslam-2002-wwe",
+    "eventId": "summerslam-2002",
+    "date": "2002-08-25",
+    "statement": "The Rock held the WWE Championship before the championship match at SummerSlam (2002).",
+    "champion": "The Rock",
+    "championship": "WWE Championship",
+    "reignStart": "2002-07-21",
+    "reignEnd": "2002-08-25",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-no-way-out-2004-wwe",
+    "eventId": "no-way-out-2004",
+    "date": "2004-02-15",
+    "statement": "Brock Lesnar held the WWE Championship before the championship match at No Way Out (2004).",
+    "champion": "Brock Lesnar",
+    "championship": "WWE Championship",
+    "reignStart": "2003-09-18",
+    "reignEnd": "2004-02-15",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-backlash-2004-whc",
+    "eventId": "backlash-2004",
+    "date": "2004-04-18",
+    "statement": "Chris Benoit held the World Heavyweight Championship before the championship match at Backlash (2004).",
+    "champion": "Chris Benoit",
+    "championship": "World Heavyweight Championship",
+    "reignStart": "2004-03-14",
+    "reignEnd": "2004-08-15",
+    "sourceIds": [
+      "history-whc"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-summerslam-1998-wwe",
+    "eventId": "summerslam-1998",
+    "date": "1998-08-30",
+    "statement": "Steve Austin held the WWE Championship before the championship match at SummerSlam (1998).",
+    "champion": "Steve Austin",
+    "championship": "WWE Championship",
+    "reignStart": "1998-06-29",
+    "reignEnd": "1998-09-27",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-summerslam-1999-wwe",
+    "eventId": "summerslam-1999",
+    "date": "1999-08-22",
+    "statement": "Steve Austin held the WWE Championship before the championship match at SummerSlam (1999).",
+    "champion": "Steve Austin",
+    "championship": "WWE Championship",
+    "reignStart": "1999-06-28",
+    "reignEnd": "1999-08-22",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-summerslam-2000-wwe",
+    "eventId": "summerslam-2000",
+    "date": "2000-08-27",
+    "statement": "The Rock held the WWE Championship before the championship match at SummerSlam (2000).",
+    "champion": "The Rock",
+    "championship": "WWE Championship",
+    "reignStart": "2000-06-25",
+    "reignEnd": "2000-10-22",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-no-mercy-2000-wwe",
+    "eventId": "no-mercy-2000",
+    "date": "2000-10-22",
+    "statement": "The Rock held the WWE Championship before the championship match at No Mercy (2000).",
+    "champion": "The Rock",
+    "championship": "WWE Championship",
+    "reignStart": "2000-06-25",
+    "reignEnd": "2000-10-22",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-no-way-out-2001-wwe",
+    "eventId": "no-way-out-2001",
+    "date": "2001-02-25",
+    "statement": "Kurt Angle held the WWE Championship before the championship match at No Way Out (2001).",
+    "champion": "Kurt Angle",
+    "championship": "WWE Championship",
+    "reignStart": "2000-10-22",
+    "reignEnd": "2001-02-25",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-judgment-day-2002-wwe",
+    "eventId": "judgment-day-2002",
+    "date": "2002-05-19",
+    "statement": "Hulk Hogan held the WWE Championship before the championship match at Judgment Day (2002).",
+    "champion": "Hulk Hogan",
+    "championship": "WWE Championship",
+    "reignStart": "2002-04-21",
+    "reignEnd": "2002-05-19",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-vengeance-2002-wwe",
+    "eventId": "vengeance-2002",
+    "date": "2002-07-21",
+    "statement": "The Undertaker held the WWE Championship before the championship match at Vengeance (2002).",
+    "champion": "The Undertaker",
+    "championship": "WWE Championship",
+    "reignStart": "2002-05-19",
+    "reignEnd": "2002-07-21",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-survivor-series-2002-wwe",
+    "eventId": "survivor-series-2002",
+    "date": "2002-11-17",
+    "statement": "Brock Lesnar held the WWE Championship before the championship match at Survivor Series (2002).",
+    "champion": "Brock Lesnar",
+    "championship": "WWE Championship",
+    "reignStart": "2002-08-25",
+    "reignEnd": "2002-11-17",
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-armageddon-2002-whc",
+    "eventId": "armageddon-2002",
+    "date": "2002-12-15",
+    "statement": "Shawn Michaels held the World Heavyweight Championship before the championship match at Armageddon (2002).",
+    "champion": "Shawn Michaels",
+    "championship": "World Heavyweight Championship",
+    "reignStart": "2002-11-17",
+    "reignEnd": "2002-12-15",
+    "sourceIds": [
+      "history-whc"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-unforgiven-2003-whc",
+    "eventId": "unforgiven-2003",
+    "date": "2003-09-21",
+    "statement": "Triple H held the World Heavyweight Championship before the championship match at Unforgiven (2003).",
+    "champion": "Triple H",
+    "championship": "World Heavyweight Championship",
+    "reignStart": "2002-12-15",
+    "reignEnd": "2003-09-21",
+    "sourceIds": [
+      "history-whc"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-survivor-series-1998-women",
+    "eventId": "survivor-series-1998",
+    "date": "1998-11-15",
+    "statement": "Jacqueline held the Women's Championship before the championship match at Survivor Series (1998).",
+    "champion": "Jacqueline",
+    "championship": "Women's Championship",
+    "reignStart": "1998-09-21",
+    "reignEnd": "1998-11-15",
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xv-1999-women",
+    "eventId": "wrestlemania-xv-1999",
+    "date": "1999-03-28",
+    "statement": "Sable held the Women's Championship before the championship match at WrestleMania XV (1999).",
+    "champion": "Sable",
+    "championship": "Women's Championship",
+    "reignStart": "1998-11-15",
+    "reignEnd": "1999-05-10",
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-no-mercy-1999-women",
+    "eventId": "no-mercy-1999",
+    "date": "1999-10-17",
+    "statement": "Ivory held the Women's Championship before the championship match at No Mercy (1999).",
+    "champion": "Ivory",
+    "championship": "Women's Championship",
+    "reignStart": "1999-06-14",
+    "reignEnd": "1999-10-17",
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-x-seven-2001-women",
+    "eventId": "wrestlemania-x-seven-2001",
+    "date": "2001-04-01",
+    "statement": "Ivory held the Women's Championship before the championship match at WrestleMania X-Seven (2001).",
+    "champion": "Ivory",
+    "championship": "Women's Championship",
+    "reignStart": "2000-11-02",
+    "reignEnd": "2001-04-01",
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-judgment-day-2001-women",
+    "eventId": "judgment-day-2001",
+    "date": "2001-05-20",
+    "statement": "Chyna held the Women's Championship before the championship match at Judgment Day (2001).",
+    "champion": "Chyna",
+    "championship": "Women's Championship",
+    "reignStart": "2001-04-01",
+    "reignEnd": "2001-11-18",
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-x8-2002-women",
+    "eventId": "wrestlemania-x8-2002",
+    "date": "2002-03-17",
+    "statement": "Jazz held the Women's Championship before the championship match at WrestleMania X8 (2002).",
+    "champion": "Jazz",
+    "championship": "Women's Championship",
+    "reignStart": "2002-02-04",
+    "reignEnd": "2002-05-13",
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-unforgiven-2002-women",
+    "eventId": "unforgiven-2002",
+    "date": "2002-09-22",
+    "statement": "Molly Holly held the Women's Championship before the championship match at Unforgiven (2002).",
+    "champion": "Molly Holly",
+    "championship": "Women's Championship",
+    "reignStart": "2002-06-23",
+    "reignEnd": "2002-09-22",
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-survivor-series-2002-women",
+    "eventId": "survivor-series-2002",
+    "date": "2002-11-17",
+    "statement": "Trish Stratus held the Women's Championship before the championship match at Survivor Series (2002).",
+    "champion": "Trish Stratus",
+    "championship": "Women's Championship",
+    "reignStart": "2002-09-22",
+    "reignEnd": "2002-11-17",
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xix-2003-women",
+    "eventId": "wrestlemania-xix-2003",
+    "date": "2003-03-30",
+    "statement": "Victoria held the Women's Championship before the championship match at WrestleMania XIX (2003).",
+    "champion": "Victoria",
+    "championship": "Women's Championship",
+    "reignStart": "2002-11-17",
+    "reignEnd": "2003-03-30",
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xx-2004-women",
+    "eventId": "wrestlemania-xx-2004",
+    "date": "2004-03-14",
+    "statement": "Victoria held the Women's Championship before the championship match at WrestleMania XX (2004).",
+    "champion": "Victoria",
+    "championship": "Women's Championship",
+    "reignStart": "2004-02-23",
+    "reignEnd": "2004-06-13",
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xiv-1998-tag",
+    "eventId": "wrestlemania-xiv-1998",
+    "date": "1998-03-29",
+    "statement": "The New Age Outlaws held the World Tag Team Championship before the championship match at WrestleMania XIV (1998).",
+    "champion": "The New Age Outlaws",
+    "championship": "World Tag Team Championship",
+    "reignStart": "1997-11-24",
+    "reignEnd": "1998-03-29",
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-summerslam-1998-tag",
+    "eventId": "summerslam-1998",
+    "date": "1998-08-30",
+    "statement": "Kane & Mankind held the World Tag Team Championship before the championship match at SummerSlam (1998).",
+    "champion": "Kane & Mankind",
+    "championship": "World Tag Team Championship",
+    "reignStart": "1998-08-10",
+    "reignEnd": "1998-08-30",
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-2000-2000-tag",
+    "eventId": "wrestlemania-2000-2000",
+    "date": "2000-04-02",
+    "statement": "The Dudley Boyz held the World Tag Team Championship before the championship match at WrestleMania 2000 (2000).",
+    "champion": "The Dudley Boyz",
+    "championship": "World Tag Team Championship",
+    "reignStart": "2000-02-27",
+    "reignEnd": "2000-04-02",
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-summerslam-2000-tag",
+    "eventId": "summerslam-2000",
+    "date": "2000-08-27",
+    "statement": "Edge & Christian held the World Tag Team Championship before the championship match at SummerSlam (2000).",
+    "champion": "Edge & Christian",
+    "championship": "World Tag Team Championship",
+    "reignStart": "2000-06-25",
+    "reignEnd": "2000-09-24",
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-x-seven-2001-tag",
+    "eventId": "wrestlemania-x-seven-2001",
+    "date": "2001-04-01",
+    "statement": "The Dudley Boyz held the World Tag Team Championship before the championship match at WrestleMania X-Seven (2001).",
+    "champion": "The Dudley Boyz",
+    "championship": "World Tag Team Championship",
+    "reignStart": "2001-03-19",
+    "reignEnd": "2001-04-01",
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-judgment-day-2002-tag",
+    "eventId": "judgment-day-2002",
+    "date": "2002-05-19",
+    "statement": "Billy & Chuck held the World Tag Team Championship before the championship match at Judgment Day (2002).",
+    "champion": "Billy & Chuck",
+    "championship": "World Tag Team Championship",
+    "reignStart": "2002-02-21",
+    "reignEnd": "2002-05-19",
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-vengeance-2002-tag",
+    "eventId": "vengeance-2002",
+    "date": "2002-07-21",
+    "statement": "Hulk Hogan & Edge held the World Tag Team Championship before the championship match at Vengeance (2002).",
+    "champion": "Hulk Hogan & Edge",
+    "championship": "World Tag Team Championship",
+    "reignStart": "2002-07-04",
+    "reignEnd": "2002-07-21",
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-summerslam-2002-tag",
+    "eventId": "summerslam-2002",
+    "date": "2002-08-25",
+    "statement": "Christian & Lance Storm held the World Tag Team Championship before the championship match at SummerSlam (2002).",
+    "champion": "Christian & Lance Storm",
+    "championship": "World Tag Team Championship",
+    "reignStart": "2002-07-21",
+    "reignEnd": "2002-09-23",
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-armageddon-2002-tag",
+    "eventId": "armageddon-2002",
+    "date": "2002-12-15",
+    "statement": "Chris Jericho & Christian held the World Tag Team Championship before the championship match at Armageddon (2002).",
+    "champion": "Chris Jericho & Christian",
+    "championship": "World Tag Team Championship",
+    "reignStart": "2002-10-14",
+    "reignEnd": "2002-12-15",
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xx-2004-tag",
+    "eventId": "wrestlemania-xx-2004",
+    "date": "2004-03-14",
+    "statement": "Booker T & Rob Van Dam held the World Tag Team Championship before the championship match at WrestleMania XX (2004).",
+    "champion": "Booker T & Rob Van Dam",
+    "championship": "World Tag Team Championship",
+    "reignStart": "2004-02-16",
+    "reignEnd": "2004-03-22",
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xiv-1998-ic",
+    "eventId": "wrestlemania-xiv-1998",
+    "date": "1998-03-29",
+    "statement": "The Rock held the Intercontinental Championship before the championship match at WrestleMania XIV (1998).",
+    "champion": "The Rock",
+    "championship": "Intercontinental Championship",
+    "reignStart": "1997-12-08",
+    "reignEnd": "1998-08-30",
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xv-1999-ic",
+    "eventId": "wrestlemania-xv-1999",
+    "date": "1999-03-28",
+    "statement": "Road Dogg held the Intercontinental Championship before the championship match at WrestleMania XV (1999).",
+    "champion": "Road Dogg",
+    "championship": "Intercontinental Championship",
+    "reignStart": "1999-03-15",
+    "reignEnd": "1999-03-29",
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-summerslam-1999-ic",
+    "eventId": "summerslam-1999",
+    "date": "1999-08-22",
+    "statement": "D-Lo Brown held the Intercontinental Championship before the championship match at SummerSlam (1999).",
+    "champion": "D-Lo Brown",
+    "championship": "Intercontinental Championship",
+    "reignStart": "1999-07-26",
+    "reignEnd": "1999-08-22",
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-no-mercy-1999-ic",
+    "eventId": "no-mercy-1999",
+    "date": "1999-10-17",
+    "statement": "Jeff Jarrett held the Intercontinental Championship before the championship match at No Mercy (1999).",
+    "champion": "Jeff Jarrett",
+    "championship": "Intercontinental Championship",
+    "reignStart": "1999-08-22",
+    "reignEnd": "1999-10-17",
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-no-way-out-2000-ic",
+    "eventId": "no-way-out-2000",
+    "date": "2000-02-27",
+    "statement": "Chris Jericho held the Intercontinental Championship before the championship match at No Way Out (2000).",
+    "champion": "Chris Jericho",
+    "championship": "Intercontinental Championship",
+    "reignStart": "2000-01-23",
+    "reignEnd": "2000-02-27",
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-2000-2000-ic",
+    "eventId": "wrestlemania-2000-2000",
+    "date": "2000-04-02",
+    "statement": "Kurt Angle held the Intercontinental Championship before the championship match at WrestleMania 2000 (2000).",
+    "champion": "Kurt Angle",
+    "championship": "Intercontinental Championship",
+    "reignStart": "2000-02-27",
+    "reignEnd": "2000-04-02",
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-summerslam-2000-ic",
+    "eventId": "summerslam-2000",
+    "date": "2000-08-27",
+    "statement": "Val Venis held the Intercontinental Championship before the championship match at SummerSlam (2000).",
+    "champion": "Val Venis",
+    "championship": "Intercontinental Championship",
+    "reignStart": "2000-07-06",
+    "reignEnd": "2000-08-27",
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-judgment-day-2001-ic",
+    "eventId": "judgment-day-2001",
+    "date": "2001-05-20",
+    "statement": "Triple H held the Intercontinental Championship before the championship match at Judgment Day (2001).",
+    "champion": "Triple H",
+    "championship": "Intercontinental Championship",
+    "reignStart": "2001-04-16",
+    "reignEnd": "2001-05-20",
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-summerslam-2001-ic",
+    "eventId": "summerslam-2001",
+    "date": "2001-08-19",
+    "statement": "Lance Storm held the Intercontinental Championship before the championship match at SummerSlam (2001).",
+    "champion": "Lance Storm",
+    "championship": "Intercontinental Championship",
+    "reignStart": "2001-07-23",
+    "reignEnd": "2001-08-19",
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-vengeance-2004-ic",
+    "eventId": "vengeance-2004",
+    "date": "2004-07-11",
+    "statement": "Randy Orton held the Intercontinental Championship before the championship match at Vengeance (2004).",
+    "champion": "Randy Orton",
+    "championship": "Intercontinental Championship",
+    "reignStart": "2003-12-14",
+    "reignEnd": "2004-07-11",
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xiv-1998-european",
+    "eventId": "wrestlemania-xiv-1998",
+    "date": "1998-03-29",
+    "statement": "Triple H held the European Championship before the championship match at WrestleMania XIV (1998).",
+    "champion": "Triple H",
+    "championship": "European Championship",
+    "reignStart": "1998-03-16",
+    "reignEnd": "1998-07-14",
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-summerslam-1998-european",
+    "eventId": "summerslam-1998",
+    "date": "1998-08-30",
+    "statement": "D-Lo Brown held the European Championship before the championship match at SummerSlam (1998).",
+    "champion": "D-Lo Brown",
+    "championship": "European Championship",
+    "reignStart": "1998-07-20",
+    "reignEnd": "1998-09-15",
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-xv-1999-european",
+    "eventId": "wrestlemania-xv-1999",
+    "date": "1999-03-28",
+    "statement": "Shane McMahon held the European Championship before the championship match at WrestleMania XV (1999).",
+    "champion": "Shane McMahon",
+    "championship": "European Championship",
+    "reignStart": "1999-02-15",
+    "reignEnd": "1999-04-04",
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-unforgiven-1999-european",
+    "eventId": "unforgiven-1999",
+    "date": "1999-09-26",
+    "statement": "Mark Henry held the European Championship before the championship match at Unforgiven (1999).",
+    "champion": "Mark Henry",
+    "championship": "European Championship",
+    "reignStart": "1999-08-23",
+    "reignEnd": "1999-09-26",
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-armageddon-1999-european",
+    "eventId": "armageddon-1999",
+    "date": "1999-12-12",
+    "statement": "The British Bulldog held the European Championship before the championship match at Armageddon (1999).",
+    "champion": "The British Bulldog",
+    "championship": "European Championship",
+    "reignStart": "1999-10-28",
+    "reignEnd": "1999-12-12",
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-x-seven-2001-european",
+    "eventId": "wrestlemania-x-seven-2001",
+    "date": "2001-04-01",
+    "statement": "Test held the European Championship before the championship match at WrestleMania X-Seven (2001).",
+    "champion": "Test",
+    "championship": "European Championship",
+    "reignStart": "2001-01-22",
+    "reignEnd": "2001-04-01",
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-backlash-2001-european",
+    "eventId": "backlash-2001",
+    "date": "2001-04-29",
+    "statement": "Matt Hardy held the European Championship before the championship match at Backlash (2001).",
+    "champion": "Matt Hardy",
+    "championship": "European Championship",
+    "reignStart": "2001-04-26",
+    "reignEnd": "2001-08-27",
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-wrestlemania-x8-2002-european",
+    "eventId": "wrestlemania-x8-2002",
+    "date": "2002-03-17",
+    "statement": "Diamond Dallas Page held the European Championship before the championship match at WrestleMania X8 (2002).",
+    "champion": "Diamond Dallas Page",
+    "championship": "European Championship",
+    "reignStart": "2002-01-31",
+    "reignEnd": "2002-03-21",
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-no-way-out-2003-cruiser",
+    "eventId": "no-way-out-2003",
+    "date": "2003-02-23",
+    "statement": "Billy Kidman held the Cruiserweight Championship before the championship match at No Way Out (2003).",
+    "champion": "Billy Kidman",
+    "championship": "Cruiserweight Championship",
+    "reignStart": "2002-11-17",
+    "reignEnd": "2003-02-23",
+    "sourceIds": [
+      "history-cruiser"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "holder-judgment-day-2004-cruiser",
+    "eventId": "judgment-day-2004",
+    "date": "2004-05-16",
+    "statement": "Jacqueline held the Cruiserweight Championship before the championship match at Judgment Day (2004).",
+    "champion": "Jacqueline",
+    "championship": "Cruiserweight Championship",
+    "reignStart": "2004-05-06",
+    "reignEnd": "2004-05-16",
+    "sourceIds": [
+      "history-cruiser"
+    ],
+    "reviewStatus": "reviewed"
   }
 ]

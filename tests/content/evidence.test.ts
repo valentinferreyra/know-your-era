@@ -39,3 +39,9 @@ it('requires an explicit within-show instruction', () => {
   const b = withinShowFixture(); b.questions[0].prompt = 'Order these moments.';
   expect(validateBundle(b, false).join(' ')).toMatch(/within-show instruction/);
 });
+
+it('rejects a champion whose reign began during the event', () => {
+  const b = fixtureBundle();
+  Object.assign(b.facts[0], { champion: 'Winner', championship: 'WWE Championship', reignStart: b.events[0].date, reignEnd: '2004-07-12' });
+  expect(validateBundle(b, false).join(' ')).toMatch(/holder before the match/);
+});

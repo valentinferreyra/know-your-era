@@ -31,6 +31,12 @@ Reviewed is an editorial assertion, not a claim that the automated validator can
 The 88 current facts document catalog-level main-event participation only. They do not yet establish winner, champion-entering, stipulation, or segment questions. No release validation can pass until the five reviewed banks total 300 independent questions.
 # Chronology review
 
+## Champions entering review
+
+The sixty champion questions use inspected WWE title-history intervals, not the name of the winner in a results list. Each holder fact records the championship, champion, reign start and reign end. The broadcast must occur after the start and on or before the end; a same-day title loss still identifies the defending champion. The World Tag Team Championship here is the 1971-2010 lineage, not the separate SmackDown title introduced in 2002. The women's and cruiserweight records likewise use the historical title lineages.
+
+Team questions ask who held the titles when the event began. This avoids implying Kane appeared alongside Mankind at SummerSlam 1998. Accepted team-name aliases include reversed partner order only for the exact reviewed pairing. Questions about vacant titles or title unifications with ambiguous wording were not used.
+
 The chronology bank contains sixty different fact sets, not alternative shuffles counted as new questions. Twenty easy sets span at least two years; twenty medium sets compare moments across months; fourteen hard sets span at most 120 days and six hard sets explicitly ask for broadcast order. Selection will shuffle their display order independently of the canonical answer.
 
 The hit-and-run record describes Austin being struck at Survivor Series 1999, not the later revelation about Rikishi. Michaels's SummerSlam 2002 record describes his return to in-ring competition, not an earlier television appearance. The Foley, Big Show and Austin incident records cite inspected WWE video titles; Michaels's return also cites the inspected event overview.

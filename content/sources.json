@@ -432,5 +432,54 @@
     "title": "SummerSlam 2002",
     "locator": "Overview paragraph identifies Michaels's return to the ring after four years.",
     "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "history-wwe",
+    "url": "https://www.wwe.com/titlehistory/wwe-championship",
+    "title": "WWE Championship title history",
+    "inspectedAt": "2026-10-13",
+    "locator": "Championship holders over time, 1990-1999 and 2000-2009 tables. The event falls within the listed reign, before any change during that broadcast."
+  },
+  {
+    "id": "history-whc",
+    "url": "https://www.wwe.com/classics/titlehistory/world-heavyweight-title",
+    "title": "World Heavyweight Championship title history",
+    "inspectedAt": "2026-10-13",
+    "locator": "Championship holders over time, 1990-1999 and 2000-2009 tables. The event falls within the listed reign, before any change during that broadcast."
+  },
+  {
+    "id": "history-women",
+    "url": "https://www.wwe.com/titlehistory/wwe-womens-championship",
+    "title": "Women's Championship title history",
+    "inspectedAt": "2026-10-13",
+    "locator": "Championship holders over time, 1990-1999 and 2000-2009 tables. The event falls within the listed reign, before any change during that broadcast."
+  },
+  {
+    "id": "history-tag",
+    "url": "https://www.wwe.com/titlehistory/world-tag-team-championship",
+    "title": "World Tag Team Championship title history",
+    "inspectedAt": "2026-10-13",
+    "locator": "Championship holders over time, 1990-1999 and 2000-2009 tables. The event falls within the listed reign, before any change during that broadcast."
+  },
+  {
+    "id": "history-ic",
+    "url": "https://www.wwe.com/titlehistory/intercontinental-championship",
+    "title": "Intercontinental Championship title history",
+    "inspectedAt": "2026-10-13",
+    "locator": "Championship holders over time, 1990-1999 and 2000-2009 tables. The event falls within the listed reign, before any change during that broadcast."
+  },
+  {
+    "id": "history-european",
+    "url": "https://www.wwe.com/titlehistory/european-championship",
+    "title": "European Championship title history",
+    "inspectedAt": "2026-10-13",
+    "locator": "Championship holders over time, 1990-1999 and 2000-2009 tables. The event falls within the listed reign, before any change during that broadcast."
+  },
+  {
+    "id": "history-cruiser",
+    "url": "https://www.wwe.com/titlehistory/cruiserweight-championship",
+    "title": "Cruiserweight Championship title history",
+    "inspectedAt": "2026-10-13",
+    "locator": "Championship holders over time, 1990-1999 and 2000-2009 tables. The event falls within the listed reign, before any change during that broadcast."
   }
 ]

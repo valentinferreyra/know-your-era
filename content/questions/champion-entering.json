@@ -1,1 +1,2430 @@
-[]
+[
+  {
+    "id": "entering-wrestlemania-xiv-1998-wwe",
+    "familyId": "entering-wrestlemania-xiv-1998-wwe",
+    "conflictGroups": [
+      "holder-wrestlemania-xiv-1998-wwe",
+      "main-wrestlemania-xiv-1998",
+      "moment-austin98",
+      "moment-wm14taka",
+      "moment-wm14hhh",
+      "moment-wm14taker"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when WrestleMania XIV 1998 began?",
+    "explanation": "Shawn Michaels entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xiv-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xiv-1998-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "option-2",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-3",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "option-4",
+        "label": "Triple H"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-xv-1999-wwe",
+    "familyId": "entering-wrestlemania-xv-1999-wwe",
+    "conflictGroups": [
+      "holder-wrestlemania-xv-1999-wwe",
+      "main-wrestlemania-xv-1999",
+      "moment-austin99",
+      "moment-wm15butterbean",
+      "moment-wm15mankind",
+      "moment-wm15shane"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when WrestleMania XV 1999 began?",
+    "explanation": "The Rock entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xv-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xv-1999-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-4",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-2000-2000-wwe",
+    "familyId": "entering-wrestlemania-2000-2000-wwe",
+    "conflictGroups": [
+      "holder-wrestlemania-2000-2000-wwe",
+      "main-wrestlemania-2000-2000",
+      "moment-ec00"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when WrestleMania 2000 2000 began?",
+    "explanation": "Triple H entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-2000-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-2000-2000-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-2",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-4",
+        "label": "Brock Lesnar"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-x-seven-2001-wwe",
+    "familyId": "entering-wrestlemania-x-seven-2001-wwe",
+    "conflictGroups": [
+      "holder-wrestlemania-x-seven-2001-wwe",
+      "main-wrestlemania-x-seven-2001",
+      "moment-eddie01",
+      "moment-chyna01",
+      "moment-shane01",
+      "moment-austin01"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when WrestleMania X-Seven 2001 began?",
+    "explanation": "The Rock entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-x-seven-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-x-seven-2001-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-2",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "option-3",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-4",
+        "label": "Kurt Angle"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-x8-2002-wwe",
+    "familyId": "entering-wrestlemania-x8-2002-wwe",
+    "conflictGroups": [
+      "holder-wrestlemania-x8-2002-wwe",
+      "main-wrestlemania-x8-2002",
+      "moment-hhh02"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when WrestleMania X8 2002 began?",
+    "explanation": "Chris Jericho entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-x8-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-x8-2002-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-2",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "option-3",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-4",
+        "label": "Kurt Angle"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-xix-2003-wwe",
+    "familyId": "entering-wrestlemania-xix-2003-wwe",
+    "conflictGroups": [
+      "holder-wrestlemania-xix-2003-wwe",
+      "main-wrestlemania-xix-2003",
+      "moment-brock03",
+      "moment-trish03"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when WrestleMania XIX 2003 began?",
+    "explanation": "Kurt Angle entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xix-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xix-2003-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-4",
+        "label": "Brock Lesnar"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-xx-2004-wwe",
+    "familyId": "entering-wrestlemania-xx-2004-wwe",
+    "conflictGroups": [
+      "holder-wrestlemania-xx-2004-wwe",
+      "main-wrestlemania-xx-2004",
+      "moment-cena04",
+      "moment-benoit04",
+      "moment-taker04",
+      "moment-wm20eddie"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when WrestleMania XX 2004 began?",
+    "explanation": "Eddie Guerrero entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xx-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xx-2004-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-2",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-3",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "option-4",
+        "label": "Triple H"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-summerslam-2002-wwe",
+    "familyId": "entering-summerslam-2002-wwe",
+    "conflictGroups": [
+      "holder-summerslam-2002-wwe",
+      "main-summerslam-2002",
+      "moment-hbkreturn02",
+      "moment-brock02",
+      "moment-ss02flair",
+      "moment-ss02edge",
+      "moment-ss02taker",
+      "moment-ss02rvd"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when SummerSlam 2002 began?",
+    "explanation": "The Rock entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "summerslam-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-summerslam-2002-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-4",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-no-way-out-2004-wwe",
+    "familyId": "entering-no-way-out-2004-wwe",
+    "conflictGroups": [
+      "holder-no-way-out-2004-wwe",
+      "main-no-way-out-2004",
+      "moment-eddie04",
+      "moment-chavo04"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when No Way Out 2004 began?",
+    "explanation": "Brock Lesnar entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "no-way-out-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-no-way-out-2004-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-4",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-backlash-2004-whc",
+    "familyId": "entering-backlash-2004-whc",
+    "conflictGroups": [
+      "holder-backlash-2004-whc",
+      "main-backlash-2004",
+      "moment-ortonfoley04",
+      "moment-jericho04"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the World Heavyweight Championship when Backlash 2004 began?",
+    "explanation": "Chris Benoit entered the event holding the World Heavyweight Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "backlash-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-backlash-2004-whc"
+    ],
+    "sourceIds": [
+      "history-whc"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "option-4",
+        "label": "Goldberg"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-summerslam-1998-wwe",
+    "familyId": "entering-summerslam-1998-wwe",
+    "conflictGroups": [
+      "holder-summerslam-1998-wwe",
+      "main-summerslam-1998",
+      "moment-hhh98"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when SummerSlam 1998 began?",
+    "explanation": "Steve Austin entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "summerslam-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-summerslam-1998-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The WWE Championship holder was",
+    "suffix": ".",
+    "answer": "Steve Austin",
+    "aliases": [
+      "Steve Austin",
+      "Stone Cold",
+      "Stone Cold Steve Austin",
+      "Austin"
+    ]
+  },
+  {
+    "id": "entering-summerslam-1999-wwe",
+    "familyId": "entering-summerslam-1999-wwe",
+    "conflictGroups": [
+      "holder-summerslam-1999-wwe",
+      "main-summerslam-1999",
+      "moment-mankind99",
+      "moment-jarrett99"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when SummerSlam 1999 began?",
+    "explanation": "Steve Austin entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "summerslam-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-summerslam-1999-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The WWE Championship holder was",
+    "suffix": ".",
+    "answer": "Steve Austin",
+    "aliases": [
+      "Steve Austin",
+      "Stone Cold",
+      "Stone Cold Steve Austin",
+      "Austin"
+    ]
+  },
+  {
+    "id": "entering-summerslam-2000-wwe",
+    "familyId": "entering-summerslam-2000-wwe",
+    "conflictGroups": [
+      "holder-summerslam-2000-wwe",
+      "main-summerslam-2000",
+      "moment-chyna00"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when SummerSlam 2000 began?",
+    "explanation": "The Rock entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "summerslam-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-summerslam-2000-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The WWE Championship holder was",
+    "suffix": ".",
+    "answer": "The Rock",
+    "aliases": [
+      "The Rock"
+    ]
+  },
+  {
+    "id": "entering-no-mercy-2000-wwe",
+    "familyId": "entering-no-mercy-2000-wwe",
+    "conflictGroups": [
+      "holder-no-mercy-2000-wwe",
+      "main-no-mercy-2000",
+      "moment-angle00"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when No Mercy 2000 began?",
+    "explanation": "The Rock entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "no-mercy-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-no-mercy-2000-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The WWE Championship holder was",
+    "suffix": ".",
+    "answer": "The Rock",
+    "aliases": [
+      "The Rock"
+    ]
+  },
+  {
+    "id": "entering-no-way-out-2001-wwe",
+    "familyId": "entering-no-way-out-2001-wwe",
+    "conflictGroups": [
+      "holder-no-way-out-2001-wwe",
+      "main-no-way-out-2001"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when No Way Out 2001 began?",
+    "explanation": "Kurt Angle entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "no-way-out-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-no-way-out-2001-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The WWE Championship holder was",
+    "suffix": ".",
+    "answer": "Kurt Angle",
+    "aliases": [
+      "Kurt Angle"
+    ]
+  },
+  {
+    "id": "entering-judgment-day-2002-wwe",
+    "familyId": "entering-judgment-day-2002-wwe",
+    "conflictGroups": [
+      "holder-judgment-day-2002-wwe",
+      "main-judgment-day-2002",
+      "moment-taker02",
+      "moment-edgehair02"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when Judgment Day 2002 began?",
+    "explanation": "Hulk Hogan entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "judgment-day-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-judgment-day-2002-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The WWE Championship holder was",
+    "suffix": ".",
+    "answer": "Hulk Hogan",
+    "aliases": [
+      "Hulk Hogan",
+      "Hollywood Hogan",
+      "Hogan"
+    ]
+  },
+  {
+    "id": "entering-vengeance-2002-wwe",
+    "familyId": "entering-vengeance-2002-wwe",
+    "conflictGroups": [
+      "holder-vengeance-2002-wwe",
+      "main-vengeance-2002",
+      "moment-cena02",
+      "moment-rock02"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when Vengeance 2002 began?",
+    "explanation": "The Undertaker entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "vengeance-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-vengeance-2002-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The WWE Championship holder was",
+    "suffix": ".",
+    "answer": "The Undertaker",
+    "aliases": [
+      "The Undertaker",
+      "Undertaker"
+    ]
+  },
+  {
+    "id": "entering-survivor-series-2002-wwe",
+    "familyId": "entering-survivor-series-2002-wwe",
+    "conflictGroups": [
+      "holder-survivor-series-2002-wwe",
+      "main-survivor-series-2002",
+      "moment-victoria02",
+      "moment-hbk02",
+      "moment-losguerreros02",
+      "moment-surv02show"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the WWE Championship when Survivor Series 2002 began?",
+    "explanation": "Brock Lesnar entered the event holding the WWE Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "survivor-series-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-survivor-series-2002-wwe"
+    ],
+    "sourceIds": [
+      "history-wwe"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The WWE Championship holder was",
+    "suffix": ".",
+    "answer": "Brock Lesnar",
+    "aliases": [
+      "Brock Lesnar"
+    ]
+  },
+  {
+    "id": "entering-armageddon-2002-whc",
+    "familyId": "entering-armageddon-2002-whc",
+    "conflictGroups": [
+      "holder-armageddon-2002-whc",
+      "main-armageddon-2002",
+      "moment-angle02",
+      "moment-hhharm02",
+      "moment-bookergold02"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the World Heavyweight Championship when Armageddon 2002 began?",
+    "explanation": "Shawn Michaels entered the event holding the World Heavyweight Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "armageddon-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-armageddon-2002-whc"
+    ],
+    "sourceIds": [
+      "history-whc"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Heavyweight Championship holder was",
+    "suffix": ".",
+    "answer": "Shawn Michaels",
+    "aliases": [
+      "Shawn Michaels",
+      "HBK",
+      "Michaels"
+    ]
+  },
+  {
+    "id": "entering-unforgiven-2003-whc",
+    "familyId": "entering-unforgiven-2003-whc",
+    "conflictGroups": [
+      "holder-unforgiven-2003-whc",
+      "main-unforgiven-2003",
+      "moment-goldtitle03"
+    ],
+    "category": "champion-entering",
+    "difficulty": "easy",
+    "prompt": "Who held the World Heavyweight Championship when Unforgiven 2003 began?",
+    "explanation": "Triple H entered the event holding the World Heavyweight Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "unforgiven-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-unforgiven-2003-whc"
+    ],
+    "sourceIds": [
+      "history-whc"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Heavyweight Championship holder was",
+    "suffix": ".",
+    "answer": "Triple H",
+    "aliases": [
+      "Triple H",
+      "HHH",
+      "Hunter Hearst Helmsley"
+    ]
+  },
+  {
+    "id": "entering-survivor-series-1998-women",
+    "familyId": "entering-survivor-series-1998-women",
+    "conflictGroups": [
+      "holder-survivor-series-1998-women",
+      "main-survivor-series-1998",
+      "moment-rock98",
+      "moment-sable98"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the Women's Championship when Survivor Series 1998 began?",
+    "explanation": "Jacqueline entered the event holding the Women's Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "survivor-series-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-survivor-series-1998-women"
+    ],
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Jacqueline"
+      },
+      {
+        "id": "option-2",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "option-3",
+        "label": "Lita"
+      },
+      {
+        "id": "option-4",
+        "label": "Chyna"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-xv-1999-women",
+    "familyId": "entering-wrestlemania-xv-1999-women",
+    "conflictGroups": [
+      "holder-wrestlemania-xv-1999-women",
+      "main-wrestlemania-xv-1999",
+      "moment-austin99",
+      "moment-wm15butterbean",
+      "moment-wm15mankind",
+      "moment-wm15shane"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the Women's Championship when WrestleMania XV 1999 began?",
+    "explanation": "Sable entered the event holding the Women's Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xv-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xv-1999-women"
+    ],
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Sable"
+      },
+      {
+        "id": "option-2",
+        "label": "Lita"
+      },
+      {
+        "id": "option-3",
+        "label": "Chyna"
+      },
+      {
+        "id": "option-4",
+        "label": "Molly Holly"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-no-mercy-1999-women",
+    "familyId": "entering-no-mercy-1999-women",
+    "conflictGroups": [
+      "holder-no-mercy-1999-women",
+      "main-no-mercy-1999",
+      "moment-chyna99"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the Women's Championship when No Mercy 1999 began?",
+    "explanation": "Ivory entered the event holding the Women's Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "no-mercy-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-no-mercy-1999-women"
+    ],
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Ivory"
+      },
+      {
+        "id": "option-2",
+        "label": "Chyna"
+      },
+      {
+        "id": "option-3",
+        "label": "Molly Holly"
+      },
+      {
+        "id": "option-4",
+        "label": "Victoria"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-x-seven-2001-women",
+    "familyId": "entering-wrestlemania-x-seven-2001-women",
+    "conflictGroups": [
+      "holder-wrestlemania-x-seven-2001-women",
+      "main-wrestlemania-x-seven-2001",
+      "moment-eddie01",
+      "moment-chyna01",
+      "moment-shane01",
+      "moment-austin01"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the Women's Championship when WrestleMania X-Seven 2001 began?",
+    "explanation": "Ivory entered the event holding the Women's Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-x-seven-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-x-seven-2001-women"
+    ],
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Ivory"
+      },
+      {
+        "id": "option-2",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "option-3",
+        "label": "Lita"
+      },
+      {
+        "id": "option-4",
+        "label": "Chyna"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-judgment-day-2001-women",
+    "familyId": "entering-judgment-day-2001-women",
+    "conflictGroups": [
+      "holder-judgment-day-2001-women",
+      "main-judgment-day-2001",
+      "moment-kane01"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the Women's Championship when Judgment Day 2001 began?",
+    "explanation": "Chyna entered the event holding the Women's Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "judgment-day-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-judgment-day-2001-women"
+    ],
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Chyna"
+      },
+      {
+        "id": "option-2",
+        "label": "Lita"
+      },
+      {
+        "id": "option-3",
+        "label": "Molly Holly"
+      },
+      {
+        "id": "option-4",
+        "label": "Ivory"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-x8-2002-women",
+    "familyId": "entering-wrestlemania-x8-2002-women",
+    "conflictGroups": [
+      "holder-wrestlemania-x8-2002-women",
+      "main-wrestlemania-x8-2002",
+      "moment-hhh02"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the Women's Championship when WrestleMania X8 2002 began?",
+    "explanation": "Jazz entered the event holding the Women's Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-x8-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-x8-2002-women"
+    ],
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Jazz"
+      },
+      {
+        "id": "option-2",
+        "label": "Chyna"
+      },
+      {
+        "id": "option-3",
+        "label": "Molly Holly"
+      },
+      {
+        "id": "option-4",
+        "label": "Ivory"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-unforgiven-2002-women",
+    "familyId": "entering-unforgiven-2002-women",
+    "conflictGroups": [
+      "holder-unforgiven-2002-women",
+      "main-unforgiven-2002",
+      "moment-trish02"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the Women's Championship when Unforgiven 2002 began?",
+    "explanation": "Molly Holly entered the event holding the Women's Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "unforgiven-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-unforgiven-2002-women"
+    ],
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Molly Holly"
+      },
+      {
+        "id": "option-2",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "option-3",
+        "label": "Lita"
+      },
+      {
+        "id": "option-4",
+        "label": "Chyna"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-survivor-series-2002-women",
+    "familyId": "entering-survivor-series-2002-women",
+    "conflictGroups": [
+      "holder-survivor-series-2002-women",
+      "main-survivor-series-2002",
+      "moment-victoria02",
+      "moment-hbk02",
+      "moment-losguerreros02",
+      "moment-surv02show"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the Women's Championship when Survivor Series 2002 began?",
+    "explanation": "Trish Stratus entered the event holding the Women's Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "survivor-series-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-survivor-series-2002-women"
+    ],
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "option-2",
+        "label": "Chyna"
+      },
+      {
+        "id": "option-3",
+        "label": "Molly Holly"
+      },
+      {
+        "id": "option-4",
+        "label": "Ivory"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-xix-2003-women",
+    "familyId": "entering-wrestlemania-xix-2003-women",
+    "conflictGroups": [
+      "holder-wrestlemania-xix-2003-women",
+      "main-wrestlemania-xix-2003",
+      "moment-brock03",
+      "moment-trish03"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the Women's Championship when WrestleMania XIX 2003 began?",
+    "explanation": "Victoria entered the event holding the Women's Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xix-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xix-2003-women"
+    ],
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Victoria"
+      },
+      {
+        "id": "option-2",
+        "label": "Chyna"
+      },
+      {
+        "id": "option-3",
+        "label": "Molly Holly"
+      },
+      {
+        "id": "option-4",
+        "label": "Ivory"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-xx-2004-women",
+    "familyId": "entering-wrestlemania-xx-2004-women",
+    "conflictGroups": [
+      "holder-wrestlemania-xx-2004-women",
+      "main-wrestlemania-xx-2004",
+      "moment-cena04",
+      "moment-benoit04",
+      "moment-taker04",
+      "moment-wm20eddie"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the Women's Championship when WrestleMania XX 2004 began?",
+    "explanation": "Victoria entered the event holding the Women's Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xx-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xx-2004-women"
+    ],
+    "sourceIds": [
+      "history-women"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Victoria"
+      },
+      {
+        "id": "option-2",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "option-3",
+        "label": "Lita"
+      },
+      {
+        "id": "option-4",
+        "label": "Chyna"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-xiv-1998-tag",
+    "familyId": "entering-wrestlemania-xiv-1998-tag",
+    "conflictGroups": [
+      "holder-wrestlemania-xiv-1998-tag",
+      "main-wrestlemania-xiv-1998",
+      "moment-austin98",
+      "moment-wm14taka",
+      "moment-wm14hhh",
+      "moment-wm14taker"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the World Tag Team Championship when WrestleMania XIV 1998 began?",
+    "explanation": "The New Age Outlaws entered the event holding the World Tag Team Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xiv-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xiv-1998-tag"
+    ],
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Tag Team Championship holder was",
+    "suffix": ".",
+    "answer": "The New Age Outlaws",
+    "aliases": [
+      "The New Age Outlaws",
+      "New Age Outlaws",
+      "Road Dogg & Billy Gunn",
+      "Billy Gunn & Road Dogg"
+    ]
+  },
+  {
+    "id": "entering-summerslam-1998-tag",
+    "familyId": "entering-summerslam-1998-tag",
+    "conflictGroups": [
+      "holder-summerslam-1998-tag",
+      "main-summerslam-1998",
+      "moment-hhh98"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the World Tag Team Championship when SummerSlam 1998 began?",
+    "explanation": "Kane & Mankind entered the event holding the World Tag Team Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "summerslam-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-summerslam-1998-tag"
+    ],
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Tag Team Championship holder was",
+    "suffix": ".",
+    "answer": "Kane & Mankind",
+    "aliases": [
+      "Kane & Mankind",
+      "Mankind & Kane"
+    ]
+  },
+  {
+    "id": "entering-wrestlemania-2000-2000-tag",
+    "familyId": "entering-wrestlemania-2000-2000-tag",
+    "conflictGroups": [
+      "holder-wrestlemania-2000-2000-tag",
+      "main-wrestlemania-2000-2000",
+      "moment-ec00"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the World Tag Team Championship when WrestleMania 2000 2000 began?",
+    "explanation": "The Dudley Boyz entered the event holding the World Tag Team Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-2000-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-2000-2000-tag"
+    ],
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Tag Team Championship holder was",
+    "suffix": ".",
+    "answer": "The Dudley Boyz",
+    "aliases": [
+      "The Dudley Boyz",
+      "Dudley Boyz",
+      "Dudley Boys",
+      "Bubba Ray Dudley & D-Von Dudley",
+      "D-Von Dudley & Bubba Ray Dudley"
+    ]
+  },
+  {
+    "id": "entering-summerslam-2000-tag",
+    "familyId": "entering-summerslam-2000-tag",
+    "conflictGroups": [
+      "holder-summerslam-2000-tag",
+      "main-summerslam-2000",
+      "moment-chyna00"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the World Tag Team Championship when SummerSlam 2000 began?",
+    "explanation": "Edge & Christian entered the event holding the World Tag Team Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "summerslam-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-summerslam-2000-tag"
+    ],
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Tag Team Championship holder was",
+    "suffix": ".",
+    "answer": "Edge & Christian",
+    "aliases": [
+      "Edge & Christian",
+      "Christian & Edge"
+    ]
+  },
+  {
+    "id": "entering-wrestlemania-x-seven-2001-tag",
+    "familyId": "entering-wrestlemania-x-seven-2001-tag",
+    "conflictGroups": [
+      "holder-wrestlemania-x-seven-2001-tag",
+      "main-wrestlemania-x-seven-2001",
+      "moment-eddie01",
+      "moment-chyna01",
+      "moment-shane01",
+      "moment-austin01"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the World Tag Team Championship when WrestleMania X-Seven 2001 began?",
+    "explanation": "The Dudley Boyz entered the event holding the World Tag Team Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-x-seven-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-x-seven-2001-tag"
+    ],
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Tag Team Championship holder was",
+    "suffix": ".",
+    "answer": "The Dudley Boyz",
+    "aliases": [
+      "The Dudley Boyz",
+      "Dudley Boyz",
+      "Dudley Boys",
+      "Bubba Ray Dudley & D-Von Dudley",
+      "D-Von Dudley & Bubba Ray Dudley"
+    ]
+  },
+  {
+    "id": "entering-judgment-day-2002-tag",
+    "familyId": "entering-judgment-day-2002-tag",
+    "conflictGroups": [
+      "holder-judgment-day-2002-tag",
+      "main-judgment-day-2002",
+      "moment-taker02",
+      "moment-edgehair02"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the World Tag Team Championship when Judgment Day 2002 began?",
+    "explanation": "Billy & Chuck entered the event holding the World Tag Team Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "judgment-day-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-judgment-day-2002-tag"
+    ],
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Tag Team Championship holder was",
+    "suffix": ".",
+    "answer": "Billy & Chuck",
+    "aliases": [
+      "Billy & Chuck",
+      "Chuck & Billy",
+      "Billy Gunn & Chuck Palumbo",
+      "Chuck Palumbo & Billy Gunn"
+    ]
+  },
+  {
+    "id": "entering-vengeance-2002-tag",
+    "familyId": "entering-vengeance-2002-tag",
+    "conflictGroups": [
+      "holder-vengeance-2002-tag",
+      "main-vengeance-2002",
+      "moment-cena02",
+      "moment-rock02"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the World Tag Team Championship when Vengeance 2002 began?",
+    "explanation": "Hulk Hogan & Edge entered the event holding the World Tag Team Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "vengeance-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-vengeance-2002-tag"
+    ],
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Tag Team Championship holder was",
+    "suffix": ".",
+    "answer": "Hulk Hogan & Edge",
+    "aliases": [
+      "Hulk Hogan & Edge",
+      "Edge & Hulk Hogan",
+      "Edge & Hollywood Hogan",
+      "Hollywood Hogan & Edge"
+    ]
+  },
+  {
+    "id": "entering-summerslam-2002-tag",
+    "familyId": "entering-summerslam-2002-tag",
+    "conflictGroups": [
+      "holder-summerslam-2002-tag",
+      "main-summerslam-2002",
+      "moment-hbkreturn02",
+      "moment-brock02",
+      "moment-ss02flair",
+      "moment-ss02edge",
+      "moment-ss02taker",
+      "moment-ss02rvd"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the World Tag Team Championship when SummerSlam 2002 began?",
+    "explanation": "Christian & Lance Storm entered the event holding the World Tag Team Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "summerslam-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-summerslam-2002-tag"
+    ],
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Tag Team Championship holder was",
+    "suffix": ".",
+    "answer": "Christian & Lance Storm",
+    "aliases": [
+      "Christian & Lance Storm",
+      "Lance Storm & Christian"
+    ]
+  },
+  {
+    "id": "entering-armageddon-2002-tag",
+    "familyId": "entering-armageddon-2002-tag",
+    "conflictGroups": [
+      "holder-armageddon-2002-tag",
+      "main-armageddon-2002",
+      "moment-angle02",
+      "moment-hhharm02",
+      "moment-bookergold02"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the World Tag Team Championship when Armageddon 2002 began?",
+    "explanation": "Chris Jericho & Christian entered the event holding the World Tag Team Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "armageddon-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-armageddon-2002-tag"
+    ],
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Tag Team Championship holder was",
+    "suffix": ".",
+    "answer": "Chris Jericho & Christian",
+    "aliases": [
+      "Chris Jericho & Christian",
+      "Christian & Chris Jericho"
+    ]
+  },
+  {
+    "id": "entering-wrestlemania-xx-2004-tag",
+    "familyId": "entering-wrestlemania-xx-2004-tag",
+    "conflictGroups": [
+      "holder-wrestlemania-xx-2004-tag",
+      "main-wrestlemania-xx-2004",
+      "moment-cena04",
+      "moment-benoit04",
+      "moment-taker04",
+      "moment-wm20eddie"
+    ],
+    "category": "champion-entering",
+    "difficulty": "medium",
+    "prompt": "Who held the World Tag Team Championship when WrestleMania XX 2004 began?",
+    "explanation": "Booker T & Rob Van Dam entered the event holding the World Tag Team Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xx-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xx-2004-tag"
+    ],
+    "sourceIds": [
+      "history-tag"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The World Tag Team Championship holder was",
+    "suffix": ".",
+    "answer": "Booker T & Rob Van Dam",
+    "aliases": [
+      "Booker T & Rob Van Dam",
+      "Rob Van Dam & Booker T",
+      "Booker T & RVD",
+      "RVD & Booker T"
+    ]
+  },
+  {
+    "id": "entering-wrestlemania-xiv-1998-ic",
+    "familyId": "entering-wrestlemania-xiv-1998-ic",
+    "conflictGroups": [
+      "holder-wrestlemania-xiv-1998-ic",
+      "main-wrestlemania-xiv-1998",
+      "moment-austin98",
+      "moment-wm14taka",
+      "moment-wm14hhh",
+      "moment-wm14taker"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Intercontinental Championship when WrestleMania XIV 1998 began?",
+    "explanation": "The Rock entered the event holding the Intercontinental Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xiv-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xiv-1998-ic"
+    ],
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-3",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-4",
+        "label": "Edge"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-xv-1999-ic",
+    "familyId": "entering-wrestlemania-xv-1999-ic",
+    "conflictGroups": [
+      "holder-wrestlemania-xv-1999-ic",
+      "main-wrestlemania-xv-1999",
+      "moment-austin99",
+      "moment-wm15butterbean",
+      "moment-wm15mankind",
+      "moment-wm15shane"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Intercontinental Championship when WrestleMania XV 1999 began?",
+    "explanation": "Road Dogg entered the event holding the Intercontinental Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xv-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xv-1999-ic"
+    ],
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Road Dogg"
+      },
+      {
+        "id": "option-2",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-3",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-4",
+        "label": "Edge"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-summerslam-1999-ic",
+    "familyId": "entering-summerslam-1999-ic",
+    "conflictGroups": [
+      "holder-summerslam-1999-ic",
+      "main-summerslam-1999",
+      "moment-mankind99",
+      "moment-jarrett99"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Intercontinental Championship when SummerSlam 1999 began?",
+    "explanation": "D-Lo Brown entered the event holding the Intercontinental Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "summerslam-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-summerslam-1999-ic"
+    ],
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "D-Lo Brown"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Edge"
+      },
+      {
+        "id": "option-4",
+        "label": "Christian"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-no-mercy-1999-ic",
+    "familyId": "entering-no-mercy-1999-ic",
+    "conflictGroups": [
+      "holder-no-mercy-1999-ic",
+      "main-no-mercy-1999",
+      "moment-chyna99"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Intercontinental Championship when No Mercy 1999 began?",
+    "explanation": "Jeff Jarrett entered the event holding the Intercontinental Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "no-mercy-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-no-mercy-1999-ic"
+    ],
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Jeff Jarrett"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-3",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-4",
+        "label": "Triple H"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-no-way-out-2000-ic",
+    "familyId": "entering-no-way-out-2000-ic",
+    "conflictGroups": [
+      "holder-no-way-out-2000-ic",
+      "main-no-way-out-2000",
+      "moment-dudleys00",
+      "moment-angleic00",
+      "moment-foleyretire00"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Intercontinental Championship when No Way Out 2000 began?",
+    "explanation": "Chris Jericho entered the event holding the Intercontinental Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "no-way-out-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-no-way-out-2000-ic"
+    ],
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Edge"
+      },
+      {
+        "id": "option-4",
+        "label": "Christian"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-2000-2000-ic",
+    "familyId": "entering-wrestlemania-2000-2000-ic",
+    "conflictGroups": [
+      "holder-wrestlemania-2000-2000-ic",
+      "main-wrestlemania-2000-2000",
+      "moment-ec00"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Intercontinental Championship when WrestleMania 2000 2000 began?",
+    "explanation": "Kurt Angle entered the event holding the Intercontinental Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-2000-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-2000-2000-ic"
+    ],
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Edge"
+      },
+      {
+        "id": "option-4",
+        "label": "Christian"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-summerslam-2000-ic",
+    "familyId": "entering-summerslam-2000-ic",
+    "conflictGroups": [
+      "holder-summerslam-2000-ic",
+      "main-summerslam-2000",
+      "moment-chyna00"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Intercontinental Championship when SummerSlam 2000 began?",
+    "explanation": "Val Venis entered the event holding the Intercontinental Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "summerslam-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-summerslam-2000-ic"
+    ],
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Val Venis"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-3",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-4",
+        "label": "Triple H"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-judgment-day-2001-ic",
+    "familyId": "entering-judgment-day-2001-ic",
+    "conflictGroups": [
+      "holder-judgment-day-2001-ic",
+      "main-judgment-day-2001",
+      "moment-kane01"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Intercontinental Championship when Judgment Day 2001 began?",
+    "explanation": "Triple H entered the event holding the Intercontinental Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "judgment-day-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-judgment-day-2001-ic"
+    ],
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-2",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-3",
+        "label": "Edge"
+      },
+      {
+        "id": "option-4",
+        "label": "Christian"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-summerslam-2001-ic",
+    "familyId": "entering-summerslam-2001-ic",
+    "conflictGroups": [
+      "holder-summerslam-2001-ic",
+      "main-summerslam-2001",
+      "moment-edge01"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Intercontinental Championship when SummerSlam 2001 began?",
+    "explanation": "Lance Storm entered the event holding the Intercontinental Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "summerslam-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-summerslam-2001-ic"
+    ],
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Lance Storm"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Edge"
+      },
+      {
+        "id": "option-4",
+        "label": "Christian"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-vengeance-2004-ic",
+    "familyId": "entering-vengeance-2004-ic",
+    "conflictGroups": [
+      "holder-vengeance-2004-ic",
+      "main-vengeance-2004",
+      "moment-edge04"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Intercontinental Championship when Vengeance 2004 began?",
+    "explanation": "Randy Orton entered the event holding the Intercontinental Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "vengeance-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-vengeance-2004-ic"
+    ],
+    "sourceIds": [
+      "history-ic"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Randy Orton"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-3",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-4",
+        "label": "Triple H"
+      }
+    ],
+    "answer": "option-1"
+  },
+  {
+    "id": "entering-wrestlemania-xiv-1998-european",
+    "familyId": "entering-wrestlemania-xiv-1998-european",
+    "conflictGroups": [
+      "holder-wrestlemania-xiv-1998-european",
+      "main-wrestlemania-xiv-1998",
+      "moment-austin98",
+      "moment-wm14taka",
+      "moment-wm14hhh",
+      "moment-wm14taker"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the European Championship when WrestleMania XIV 1998 began?",
+    "explanation": "Triple H entered the event holding the European Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xiv-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xiv-1998-european"
+    ],
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The European Championship holder was",
+    "suffix": ".",
+    "answer": "Triple H",
+    "aliases": [
+      "Triple H",
+      "HHH",
+      "Hunter Hearst Helmsley"
+    ]
+  },
+  {
+    "id": "entering-summerslam-1998-european",
+    "familyId": "entering-summerslam-1998-european",
+    "conflictGroups": [
+      "holder-summerslam-1998-european",
+      "main-summerslam-1998",
+      "moment-hhh98"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the European Championship when SummerSlam 1998 began?",
+    "explanation": "D-Lo Brown entered the event holding the European Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "summerslam-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-summerslam-1998-european"
+    ],
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The European Championship holder was",
+    "suffix": ".",
+    "answer": "D-Lo Brown",
+    "aliases": [
+      "D-Lo Brown"
+    ]
+  },
+  {
+    "id": "entering-wrestlemania-xv-1999-european",
+    "familyId": "entering-wrestlemania-xv-1999-european",
+    "conflictGroups": [
+      "holder-wrestlemania-xv-1999-european",
+      "main-wrestlemania-xv-1999",
+      "moment-austin99",
+      "moment-wm15butterbean",
+      "moment-wm15mankind",
+      "moment-wm15shane"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the European Championship when WrestleMania XV 1999 began?",
+    "explanation": "Shane McMahon entered the event holding the European Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-xv-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-xv-1999-european"
+    ],
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The European Championship holder was",
+    "suffix": ".",
+    "answer": "Shane McMahon",
+    "aliases": [
+      "Shane McMahon"
+    ]
+  },
+  {
+    "id": "entering-unforgiven-1999-european",
+    "familyId": "entering-unforgiven-1999-european",
+    "conflictGroups": [
+      "holder-unforgiven-1999-european",
+      "main-unforgiven-1999"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the European Championship when Unforgiven 1999 began?",
+    "explanation": "Mark Henry entered the event holding the European Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "unforgiven-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-unforgiven-1999-european"
+    ],
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The European Championship holder was",
+    "suffix": ".",
+    "answer": "Mark Henry",
+    "aliases": [
+      "Mark Henry"
+    ]
+  },
+  {
+    "id": "entering-armageddon-1999-european",
+    "familyId": "entering-armageddon-1999-european",
+    "conflictGroups": [
+      "holder-armageddon-1999-european",
+      "main-armageddon-1999",
+      "moment-jericho99"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the European Championship when Armageddon 1999 began?",
+    "explanation": "The British Bulldog entered the event holding the European Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "armageddon-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-armageddon-1999-european"
+    ],
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The European Championship holder was",
+    "suffix": ".",
+    "answer": "The British Bulldog",
+    "aliases": [
+      "The British Bulldog",
+      "British Bulldog",
+      "Davey Boy Smith"
+    ]
+  },
+  {
+    "id": "entering-wrestlemania-x-seven-2001-european",
+    "familyId": "entering-wrestlemania-x-seven-2001-european",
+    "conflictGroups": [
+      "holder-wrestlemania-x-seven-2001-european",
+      "main-wrestlemania-x-seven-2001",
+      "moment-eddie01",
+      "moment-chyna01",
+      "moment-shane01",
+      "moment-austin01"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the European Championship when WrestleMania X-Seven 2001 began?",
+    "explanation": "Test entered the event holding the European Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-x-seven-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-x-seven-2001-european"
+    ],
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The European Championship holder was",
+    "suffix": ".",
+    "answer": "Test",
+    "aliases": [
+      "Test"
+    ]
+  },
+  {
+    "id": "entering-backlash-2001-european",
+    "familyId": "entering-backlash-2001-european",
+    "conflictGroups": [
+      "holder-backlash-2001-european",
+      "main-backlash-2001"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the European Championship when Backlash 2001 began?",
+    "explanation": "Matt Hardy entered the event holding the European Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "backlash-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-backlash-2001-european"
+    ],
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The European Championship holder was",
+    "suffix": ".",
+    "answer": "Matt Hardy",
+    "aliases": [
+      "Matt Hardy"
+    ]
+  },
+  {
+    "id": "entering-wrestlemania-x8-2002-european",
+    "familyId": "entering-wrestlemania-x8-2002-european",
+    "conflictGroups": [
+      "holder-wrestlemania-x8-2002-european",
+      "main-wrestlemania-x8-2002",
+      "moment-hhh02"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the European Championship when WrestleMania X8 2002 began?",
+    "explanation": "Diamond Dallas Page entered the event holding the European Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "wrestlemania-x8-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-wrestlemania-x8-2002-european"
+    ],
+    "sourceIds": [
+      "history-european"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The European Championship holder was",
+    "suffix": ".",
+    "answer": "Diamond Dallas Page",
+    "aliases": [
+      "Diamond Dallas Page",
+      "DDP"
+    ]
+  },
+  {
+    "id": "entering-no-way-out-2003-cruiser",
+    "familyId": "entering-no-way-out-2003-cruiser",
+    "conflictGroups": [
+      "holder-no-way-out-2003-cruiser",
+      "main-no-way-out-2003",
+      "moment-hardy03"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Cruiserweight Championship when No Way Out 2003 began?",
+    "explanation": "Billy Kidman entered the event holding the Cruiserweight Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "no-way-out-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-no-way-out-2003-cruiser"
+    ],
+    "sourceIds": [
+      "history-cruiser"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The Cruiserweight Championship holder was",
+    "suffix": ".",
+    "answer": "Billy Kidman",
+    "aliases": [
+      "Billy Kidman"
+    ]
+  },
+  {
+    "id": "entering-judgment-day-2004-cruiser",
+    "familyId": "entering-judgment-day-2004-cruiser",
+    "conflictGroups": [
+      "holder-judgment-day-2004-cruiser",
+      "main-judgment-day-2004",
+      "moment-chavojd04",
+      "moment-mordecai04"
+    ],
+    "category": "champion-entering",
+    "difficulty": "hard",
+    "prompt": "Who held the Cruiserweight Championship when Judgment Day 2004 began?",
+    "explanation": "Jacqueline entered the event holding the Cruiserweight Championship. This asks for the champion before the match, not its winner.",
+    "eventIds": [
+      "judgment-day-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "holder-judgment-day-2004-cruiser"
+    ],
+    "sourceIds": [
+      "history-cruiser"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "completion",
+    "prefix": "The Cruiserweight Championship holder was",
+    "suffix": ".",
+    "answer": "Jacqueline",
+    "aliases": [
+      "Jacqueline"
+    ]
+  }
+]

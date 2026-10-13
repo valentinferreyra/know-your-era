@@ -61,6 +61,9 @@ export function validateBundle(bundle: ContentBundle, requireReleaseCounts: bool
     const supporting = strings(f.sourceIds, `${id} supporting source`);
     known(supporting, sources, id, 'supporting source');
     if (f.sequence !== undefined && (!Number.isInteger(f.sequence) || Number(f.sequence) < 1)) fail(id, 'invalid sequence position');
+    if (f.champion !== undefined && (!text(f.champion) || !text(f.championship)
+      || !validDate(f.reignStart) || !validDate(f.reignEnd) || !validDate(f.date)
+      || f.reignStart >= f.date || f.reignEnd < f.date)) fail(id, 'requires a verified holder before the match');
   }
   for (const [id, a] of assets) {
     if (!text(a.path) || !a.path.startsWith('/assets/') || a.path.includes('..')) fail(id, 'invalid asset path');
