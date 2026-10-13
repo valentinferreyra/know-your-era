@@ -404,5 +404,33 @@
     "title": "WWE history of UK-exclusive PPVs",
     "inspectedAt": "2026-10-13",
     "locator": "Rebellion 2002 Handicap Match paragraph; Insurrextion 2003 closing Street Fight paragraph"
+  },
+  {
+    "id": "clip-foley-fall",
+    "url": "https://www.wwe.com/videos/undertaker-throws-mankind-off-hell-in-a-cell",
+    "title": "The Undertaker throws Mankind off Hell in a Cell",
+    "locator": "Video title identifies the incident and King of the Ring 1998.",
+    "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "clip-show-debut",
+    "url": "https://www.wwe.com/videos/a-debuting-big-show-throws-stone-cold-steve-austin-through-the-steel-cage-st-valentine-s-day-massacre",
+    "title": "Big Show debuts at St. Valentine's Day Massacre",
+    "locator": "Video title identifies Big Show's debut during the cage match.",
+    "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "clip-austin-car",
+    "url": "https://www.wwe.com/videos/stone-cold-steve-austin-gets-hit-by-a-car-survivor-series-1999",
+    "title": "Steve Austin is hit by a car at Survivor Series 1999",
+    "locator": "Video title identifies the incident, not the later perpetrator reveal.",
+    "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "summerslam-2002-overview",
+    "url": "https://www.wwe.com/shows/summerslam/2002",
+    "title": "SummerSlam 2002",
+    "locator": "Overview paragraph identifies Michaels's return to the ring after four years.",
+    "inspectedAt": "2026-10-13"
   }
 ]

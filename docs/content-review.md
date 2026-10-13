@@ -29,3 +29,11 @@ Reviewed is an editorial assertion, not a claim that the automated validator can
 10. Questions, explanations, and visible answer labels use English and WWE wording; historical source terminology stays internal.
 
 The 88 current facts document catalog-level main-event participation only. They do not yet establish winner, champion-entering, stipulation, or segment questions. No release validation can pass until the five reviewed banks total 300 independent questions.
+# Chronology review
+
+The chronology bank contains sixty different fact sets, not alternative shuffles counted as new questions. Twenty easy sets span at least two years; twenty medium sets compare moments across months; fourteen hard sets span at most 120 days and six hard sets explicitly ask for broadcast order. Selection will shuffle their display order independently of the canonical answer.
+
+The hit-and-run record describes Austin being struck at Survivor Series 1999, not the later revelation about Rikishi. Michaels's SummerSlam 2002 record describes his return to in-ring competition, not an earlier television appearance. The Foley, Big Show and Austin incident records cite inspected WWE video titles; Michaels's return also cites the inspected event overview.
+
+Within-show positions are reviewed against the ordered official results for WrestleMania XIV, XV, X-Seven, XX, SummerSlam 2002 and Survivor Series 2002. They are internal ordering keys and never appear as timestamps in the client. Title-change statements were checked against the inspected results, excluding the known incorrect result claims recorded below. Every chronology set shares conflict groups with its facts and with the corresponding main-event question so a session cannot reveal an answer through another category.
+

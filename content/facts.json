@@ -1023,5 +1023,951 @@
       "results-vengeance-2004"
     ],
     "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-austin98",
+    "eventId": "wrestlemania-xiv-1998",
+    "statement": "Steve Austin defeats Shawn Michaels for the WWE Championship.",
+    "date": "1998-03-29",
+    "sourceIds": [
+      "results-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 8
+  },
+  {
+    "id": "moment-inferno98",
+    "eventId": "unforgiven-in-your-house-1998",
+    "statement": "The Undertaker defeats Kane in their Inferno Match.",
+    "date": "1998-04-26",
+    "sourceIds": [
+      "results-unforgiven-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-foleyfall98",
+    "eventId": "king-of-the-ring-1998",
+    "statement": "The Undertaker throws Mankind off the top of Hell in a Cell.",
+    "date": "1998-06-28",
+    "sourceIds": [
+      "clip-foley-fall"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-hhh98",
+    "eventId": "summerslam-1998",
+    "statement": "Triple H wins the Intercontinental Championship in a Ladder Match against The Rock.",
+    "date": "1998-08-30",
+    "sourceIds": [
+      "results-summerslam-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-christian98",
+    "eventId": "judgment-day-in-your-house-1998",
+    "statement": "Christian defeats Taka Michinoku for the Light Heavyweight Championship.",
+    "date": "1998-10-18",
+    "sourceIds": [
+      "results-judgment-day-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-rock98",
+    "eventId": "survivor-series-1998",
+    "statement": "The Rock defeats Mankind in the WWE Championship tournament final.",
+    "date": "1998-11-15",
+    "sourceIds": [
+      "results-survivor-series-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-sable98",
+    "eventId": "survivor-series-1998",
+    "statement": "Sable defeats Jacqueline for the Women's Championship.",
+    "date": "1998-11-15",
+    "sourceIds": [
+      "results-survivor-series-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-showdebut99",
+    "eventId": "st-valentine-s-day-massacre-in-your-house-1999",
+    "statement": "Big Show debuts during the Austin vs. McMahon Steel Cage Match.",
+    "date": "1999-02-14",
+    "sourceIds": [
+      "clip-show-debut"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-austin99",
+    "eventId": "wrestlemania-xv-1999",
+    "statement": "Steve Austin defeats The Rock for the WWE Championship at WrestleMania XV.",
+    "date": "1999-03-28",
+    "sourceIds": [
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 10
+  },
+  {
+    "id": "moment-mankind99",
+    "eventId": "summerslam-1999",
+    "statement": "Mankind wins the WWE Championship in a Triple Threat Match.",
+    "date": "1999-08-22",
+    "sourceIds": [
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-jarrett99",
+    "eventId": "summerslam-1999",
+    "statement": "Jeff Jarrett takes both the European and Intercontinental titles from D-Lo Brown.",
+    "date": "1999-08-22",
+    "sourceIds": [
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-chyna99",
+    "eventId": "no-mercy-1999",
+    "statement": "Chyna defeats Jeff Jarrett for the Intercontinental Championship.",
+    "date": "1999-10-17",
+    "sourceIds": [
+      "results-no-mercy-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-angledebut99",
+    "eventId": "survivor-series-1999",
+    "statement": "Kurt Angle defeats Shawn Stasiak at Survivor Series.",
+    "date": "1999-11-14",
+    "sourceIds": [
+      "results-survivor-series-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-austinhit99",
+    "eventId": "survivor-series-1999",
+    "statement": "Steve Austin is hit by a car backstage.",
+    "date": "1999-11-14",
+    "sourceIds": [
+      "clip-austin-car"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-show99",
+    "eventId": "survivor-series-1999",
+    "statement": "Big Show wins the WWE Championship against Triple H and The Rock.",
+    "date": "1999-11-14",
+    "sourceIds": [
+      "results-survivor-series-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-jericho99",
+    "eventId": "armageddon-1999",
+    "statement": "Chris Jericho defeats Chyna for the Intercontinental Championship.",
+    "date": "1999-12-12",
+    "sourceIds": [
+      "results-armageddon-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-dudleys00",
+    "eventId": "no-way-out-2000",
+    "statement": "The Dudley Boyz defeat the New Age Outlaws for the World Tag Team Championship.",
+    "date": "2000-02-27",
+    "sourceIds": [
+      "results-no-way-out-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-angleic00",
+    "eventId": "no-way-out-2000",
+    "statement": "Kurt Angle defeats Chris Jericho for the Intercontinental Championship.",
+    "date": "2000-02-27",
+    "sourceIds": [
+      "results-no-way-out-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-foleyretire00",
+    "eventId": "no-way-out-2000",
+    "statement": "Triple H defeats Mick Foley in their title-versus-career Hell in a Cell Match.",
+    "date": "2000-02-27",
+    "sourceIds": [
+      "results-no-way-out-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-ec00",
+    "eventId": "wrestlemania-2000-2000",
+    "statement": "Edge & Christian win the World Tag Team Championship in the three-team Ladder Match.",
+    "date": "2000-04-02",
+    "sourceIds": [
+      "results-wrestlemania-2000-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-rock00",
+    "eventId": "backlash-2000",
+    "statement": "The Rock defeats Triple H for the WWE Championship at Backlash.",
+    "date": "2000-04-30",
+    "sourceIds": [
+      "results-backlash-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-hhh00",
+    "eventId": "judgment-day-2000",
+    "statement": "Triple H wins the WWE Championship in the 60-minute Iron Man Match.",
+    "date": "2000-05-21",
+    "sourceIds": [
+      "results-judgment-day-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-chyna00",
+    "eventId": "summerslam-2000",
+    "statement": "Chyna wins the Intercontinental Championship by pinning Trish Stratus.",
+    "date": "2000-08-27",
+    "sourceIds": [
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-hardys00",
+    "eventId": "unforgiven-2000",
+    "statement": "The Hardy Boyz take the World Tag Team Championship in a Steel Cage Match.",
+    "date": "2000-09-24",
+    "sourceIds": [
+      "results-unforgiven-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-angle00",
+    "eventId": "no-mercy-2000",
+    "statement": "Kurt Angle defeats The Rock for the WWE Championship.",
+    "date": "2000-10-22",
+    "sourceIds": [
+      "results-no-mercy-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-eddie01",
+    "eventId": "wrestlemania-x-seven-2001",
+    "statement": "Eddie Guerrero defeats Test for the European Championship.",
+    "date": "2001-04-01",
+    "sourceIds": [
+      "results-wrestlemania-x-seven-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 4
+  },
+  {
+    "id": "moment-chyna01",
+    "eventId": "wrestlemania-x-seven-2001",
+    "statement": "Chyna defeats Ivory for the Women's Championship.",
+    "date": "2001-04-01",
+    "sourceIds": [
+      "results-wrestlemania-x-seven-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 5
+  },
+  {
+    "id": "moment-shane01",
+    "eventId": "wrestlemania-x-seven-2001",
+    "statement": "Shane McMahon defeats Mr. McMahon in a Street Fight.",
+    "date": "2001-04-01",
+    "sourceIds": [
+      "results-wrestlemania-x-seven-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 6
+  },
+  {
+    "id": "moment-austin01",
+    "eventId": "wrestlemania-x-seven-2001",
+    "statement": "Steve Austin defeats The Rock for the WWE Championship at WrestleMania X-Seven.",
+    "date": "2001-04-01",
+    "sourceIds": [
+      "results-wrestlemania-x-seven-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 11
+  },
+  {
+    "id": "moment-kane01",
+    "eventId": "judgment-day-2001",
+    "statement": "Kane defeats Triple H for the Intercontinental Championship.",
+    "date": "2001-05-20",
+    "sourceIds": [
+      "results-judgment-day-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-edge01",
+    "eventId": "summerslam-2001",
+    "statement": "Edge defeats Lance Storm for the Intercontinental Championship.",
+    "date": "2001-08-19",
+    "sourceIds": [
+      "results-summerslam-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-christian01",
+    "eventId": "unforgiven-2001",
+    "statement": "Christian takes the Intercontinental Championship from Edge.",
+    "date": "2001-09-23",
+    "sourceIds": [
+      "results-unforgiven-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-jericho01",
+    "eventId": "no-mercy-2001",
+    "statement": "Chris Jericho takes the WCW Championship from The Rock.",
+    "date": "2001-10-21",
+    "sourceIds": [
+      "results-no-mercy-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-trish01",
+    "eventId": "survivor-series-2001",
+    "statement": "Trish Stratus wins the vacant Women's Championship in a Six-Way Match.",
+    "date": "2001-11-18",
+    "sourceIds": [
+      "results-survivor-series-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-undisputed01",
+    "eventId": "vengeance-2001",
+    "statement": "Chris Jericho defeats Steve Austin to become Undisputed Champion.",
+    "date": "2001-12-09",
+    "sourceIds": [
+      "results-vengeance-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-hhh02",
+    "eventId": "wrestlemania-x8-2002",
+    "statement": "Triple H defeats Chris Jericho for the Undisputed Championship.",
+    "date": "2002-03-17",
+    "sourceIds": [
+      "results-wrestlemania-x8-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-hogan02",
+    "eventId": "backlash-2002",
+    "statement": "Hulk Hogan takes the WWE Championship from Triple H.",
+    "date": "2002-04-21",
+    "sourceIds": [
+      "results-backlash-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-taker02",
+    "eventId": "judgment-day-2002",
+    "statement": "The Undertaker takes the WWE Championship from Hulk Hogan.",
+    "date": "2002-05-19",
+    "sourceIds": [
+      "results-judgment-day-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-edgehair02",
+    "eventId": "judgment-day-2002",
+    "statement": "Edge defeats Kurt Angle in a Hair vs. Hair Match.",
+    "date": "2002-05-19",
+    "sourceIds": [
+      "results-judgment-day-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-cena02",
+    "eventId": "vengeance-2002",
+    "statement": "John Cena defeats Chris Jericho at Vengeance.",
+    "date": "2002-07-21",
+    "sourceIds": [
+      "results-vengeance-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-rock02",
+    "eventId": "vengeance-2002",
+    "statement": "The Rock wins the WWE Championship against Undertaker and Kurt Angle.",
+    "date": "2002-07-21",
+    "sourceIds": [
+      "results-vengeance-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-hbkreturn02",
+    "eventId": "summerslam-2002",
+    "statement": "Shawn Michaels returns to the ring against Triple H at SummerSlam.",
+    "date": "2002-08-25",
+    "sourceIds": [
+      "summerslam-2002-overview"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 7
+  },
+  {
+    "id": "moment-brock02",
+    "eventId": "summerslam-2002",
+    "statement": "Brock Lesnar takes the WWE Championship from The Rock.",
+    "date": "2002-08-25",
+    "sourceIds": [
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 8
+  },
+  {
+    "id": "moment-trish02",
+    "eventId": "unforgiven-2002",
+    "statement": "Trish Stratus takes the Women's Championship from Molly Holly.",
+    "date": "2002-09-22",
+    "sourceIds": [
+      "results-unforgiven-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-anglebenoit02",
+    "eventId": "no-mercy-2002",
+    "statement": "Kurt Angle & Chris Benoit win the WWE Tag Team Championship tournament.",
+    "date": "2002-10-20",
+    "sourceIds": [
+      "results-no-mercy-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-victoria02",
+    "eventId": "survivor-series-2002",
+    "statement": "Victoria takes the Women's Championship from Trish Stratus in a Hardcore Match.",
+    "date": "2002-11-17",
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 3
+  },
+  {
+    "id": "moment-hbk02",
+    "eventId": "survivor-series-2002",
+    "statement": "Shawn Michaels wins the World Heavyweight Championship in the Elimination Chamber.",
+    "date": "2002-11-17",
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 6
+  },
+  {
+    "id": "moment-losguerreros02",
+    "eventId": "survivor-series-2002",
+    "statement": "Los Guerreros win the WWE Tag Team Championship in a three-team elimination match.",
+    "date": "2002-11-17",
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 5
+  },
+  {
+    "id": "moment-angle02",
+    "eventId": "armageddon-2002",
+    "statement": "Kurt Angle takes the WWE Championship from Big Show.",
+    "date": "2002-12-15",
+    "sourceIds": [
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-hhharm02",
+    "eventId": "armageddon-2002",
+    "statement": "Triple H takes the World Heavyweight Championship from Shawn Michaels in Three Stages of Hell.",
+    "date": "2002-12-15",
+    "sourceIds": [
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-bookergold02",
+    "eventId": "armageddon-2002",
+    "statement": "Booker T & Goldust win the World Tag Team Championship.",
+    "date": "2002-12-15",
+    "sourceIds": [
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-hardy03",
+    "eventId": "no-way-out-2003",
+    "statement": "Matt Hardy takes the Cruiserweight Championship from Billy Kidman.",
+    "date": "2003-02-23",
+    "sourceIds": [
+      "results-no-way-out-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-brock03",
+    "eventId": "wrestlemania-xix-2003",
+    "statement": "Brock Lesnar takes the WWE Championship from Kurt Angle.",
+    "date": "2003-03-30",
+    "sourceIds": [
+      "results-wrestlemania-xix-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-trish03",
+    "eventId": "wrestlemania-xix-2003",
+    "statement": "Trish Stratus wins the Women's Championship against Jazz and Victoria.",
+    "date": "2003-03-30",
+    "sourceIds": [
+      "results-wrestlemania-xix-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-goldberg03",
+    "eventId": "backlash-2003",
+    "statement": "Goldberg defeats The Rock at Backlash.",
+    "date": "2003-04-27",
+    "sourceIds": [
+      "results-backlash-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-jazz03",
+    "eventId": "backlash-2003",
+    "statement": "Jazz takes the Women's Championship from Trish Stratus.",
+    "date": "2003-04-27",
+    "sourceIds": [
+      "results-backlash-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-eddietajiri03",
+    "eventId": "judgment-day-2003",
+    "statement": "Eddie Guerrero & Tajiri win the WWE Tag Team Championship in a Ladder Match.",
+    "date": "2003-05-18",
+    "sourceIds": [
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-christian03",
+    "eventId": "judgment-day-2003",
+    "statement": "Christian wins the Battle Royal for the Intercontinental Championship.",
+    "date": "2003-05-18",
+    "sourceIds": [
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-eddie03",
+    "eventId": "vengeance-2003",
+    "statement": "Eddie Guerrero defeats Chris Benoit in the United States Championship tournament final.",
+    "date": "2003-07-27",
+    "sourceIds": [
+      "results-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-angle03",
+    "eventId": "vengeance-2003",
+    "statement": "Kurt Angle wins the WWE Championship against Brock Lesnar and Big Show.",
+    "date": "2003-07-27",
+    "sourceIds": [
+      "results-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-goldtitle03",
+    "eventId": "unforgiven-2003",
+    "statement": "Goldberg takes the World Heavyweight Championship from Triple H.",
+    "date": "2003-09-21",
+    "sourceIds": [
+      "results-unforgiven-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-show03",
+    "eventId": "no-mercy-2003",
+    "statement": "Big Show takes the United States Championship from Eddie Guerrero.",
+    "date": "2003-10-19",
+    "sourceIds": [
+      "results-no-mercy-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-austinfired03",
+    "eventId": "survivor-series-2003",
+    "statement": "Team Austin loses, forcing Steve Austin to leave his co-General Manager role.",
+    "date": "2003-11-16",
+    "sourceIds": [
+      "results-survivor-series-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-ortonsurv03",
+    "eventId": "survivor-series-2003",
+    "statement": "Randy Orton is the sole survivor for Team Bischoff.",
+    "date": "2003-11-16",
+    "sourceIds": [
+      "results-survivor-series-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-orton03",
+    "eventId": "armageddon-2003",
+    "statement": "Randy Orton takes the Intercontinental Championship from Rob Van Dam.",
+    "date": "2003-12-14",
+    "sourceIds": [
+      "results-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-flairbatista03",
+    "eventId": "armageddon-2003",
+    "statement": "Ric Flair & Batista win the World Tag Team Championship in Tag Team Turmoil.",
+    "date": "2003-12-14",
+    "sourceIds": [
+      "results-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-hhh03",
+    "eventId": "armageddon-2003",
+    "statement": "Triple H wins the World Heavyweight Championship against Goldberg and Kane.",
+    "date": "2003-12-14",
+    "sourceIds": [
+      "results-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-eddie04",
+    "eventId": "no-way-out-2004",
+    "statement": "Eddie Guerrero takes the WWE Championship from Brock Lesnar.",
+    "date": "2004-02-15",
+    "sourceIds": [
+      "results-no-way-out-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-chavo04",
+    "eventId": "no-way-out-2004",
+    "statement": "Chavo Guerrero takes the Cruiserweight Championship from Rey Mysterio.",
+    "date": "2004-02-15",
+    "sourceIds": [
+      "results-no-way-out-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-cena04",
+    "eventId": "wrestlemania-xx-2004",
+    "statement": "John Cena takes the United States Championship from Big Show.",
+    "date": "2004-03-14",
+    "sourceIds": [
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 1
+  },
+  {
+    "id": "moment-benoit04",
+    "eventId": "wrestlemania-xx-2004",
+    "statement": "Chris Benoit wins the World Heavyweight Championship against Triple H and Shawn Michaels.",
+    "date": "2004-03-14",
+    "sourceIds": [
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 12
+  },
+  {
+    "id": "moment-taker04",
+    "eventId": "wrestlemania-xx-2004",
+    "statement": "The Undertaker defeats Kane at WrestleMania XX.",
+    "date": "2004-03-14",
+    "sourceIds": [
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 11
+  },
+  {
+    "id": "moment-ortonfoley04",
+    "eventId": "backlash-2004",
+    "statement": "Randy Orton retains the Intercontinental Championship against Mick Foley under Hardcore Rules.",
+    "date": "2004-04-18",
+    "sourceIds": [
+      "results-backlash-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-jericho04",
+    "eventId": "backlash-2004",
+    "statement": "Chris Jericho defeats Christian & Trish Stratus in a Handicap Match.",
+    "date": "2004-04-18",
+    "sourceIds": [
+      "results-backlash-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-chavojd04",
+    "eventId": "judgment-day-2004",
+    "statement": "Chavo Guerrero takes the Cruiserweight Championship from Jacqueline.",
+    "date": "2004-05-16",
+    "sourceIds": [
+      "results-judgment-day-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-mordecai04",
+    "eventId": "judgment-day-2004",
+    "statement": "Mordecai defeats Scotty 2 Hotty at Judgment Day.",
+    "date": "2004-05-16",
+    "sourceIds": [
+      "results-judgment-day-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-edge04",
+    "eventId": "vengeance-2004",
+    "statement": "Edge takes the Intercontinental Championship from Randy Orton.",
+    "date": "2004-07-11",
+    "sourceIds": [
+      "results-vengeance-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-wm14taka",
+    "eventId": "wrestlemania-xiv-1998",
+    "statement": "Taka Michinoku retains the Light Heavyweight Championship against Aguila.",
+    "date": "1998-03-29",
+    "sourceIds": [
+      "results-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 2
+  },
+  {
+    "id": "moment-wm14hhh",
+    "eventId": "wrestlemania-xiv-1998",
+    "statement": "Triple H retains the European Championship against Owen Hart.",
+    "date": "1998-03-29",
+    "sourceIds": [
+      "results-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 3
+  },
+  {
+    "id": "moment-wm14taker",
+    "eventId": "wrestlemania-xiv-1998",
+    "statement": "The Undertaker defeats Kane at WrestleMania XIV.",
+    "date": "1998-03-29",
+    "sourceIds": [
+      "results-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 7
+  },
+  {
+    "id": "moment-wm15butterbean",
+    "eventId": "wrestlemania-xv-1999",
+    "statement": "Butterbean knocks out Bart Gunn in the Brawl for All.",
+    "date": "1999-03-28",
+    "sourceIds": [
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 3
+  },
+  {
+    "id": "moment-wm15mankind",
+    "eventId": "wrestlemania-xv-1999",
+    "statement": "Mankind defeats Big Show by disqualification to earn the main-event referee role.",
+    "date": "1999-03-28",
+    "sourceIds": [
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 4
+  },
+  {
+    "id": "moment-wm15shane",
+    "eventId": "wrestlemania-xv-1999",
+    "statement": "Shane McMahon retains the European Championship against X-Pac.",
+    "date": "1999-03-28",
+    "sourceIds": [
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 8
+  },
+  {
+    "id": "moment-ss02flair",
+    "eventId": "summerslam-2002",
+    "statement": "Ric Flair defeats Chris Jericho at SummerSlam.",
+    "date": "2002-08-25",
+    "sourceIds": [
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 2
+  },
+  {
+    "id": "moment-ss02edge",
+    "eventId": "summerslam-2002",
+    "statement": "Edge defeats Eddie Guerrero at SummerSlam.",
+    "date": "2002-08-25",
+    "sourceIds": [
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 3
+  },
+  {
+    "id": "moment-ss02taker",
+    "eventId": "summerslam-2002",
+    "statement": "The Undertaker defeats Test at SummerSlam.",
+    "date": "2002-08-25",
+    "sourceIds": [
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 6
+  },
+  {
+    "id": "moment-ss02rvd",
+    "eventId": "summerslam-2002",
+    "statement": "Rob Van Dam takes the Intercontinental Championship from Chris Benoit.",
+    "date": "2002-08-25",
+    "sourceIds": [
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 5
+  },
+  {
+    "id": "moment-surv02show",
+    "eventId": "survivor-series-2002",
+    "statement": "Big Show takes the WWE Championship from Brock Lesnar.",
+    "date": "2002-11-17",
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 4
+  },
+  {
+    "id": "moment-wm20eddie",
+    "eventId": "wrestlemania-xx-2004",
+    "statement": "Eddie Guerrero retains the WWE Championship against Kurt Angle.",
+    "date": "2004-03-14",
+    "sourceIds": [
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "sequence": 10
+  },
+  {
+    "id": "moment-rockrikishi00",
+    "eventId": "survivor-series-2000",
+    "statement": "The Rock defeats Rikishi at Survivor Series.",
+    "date": "2000-11-19",
+    "sourceIds": [
+      "results-survivor-series-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-jerichokane00",
+    "eventId": "armageddon-2000",
+    "statement": "Chris Jericho defeats Kane in a Last Man Standing Match.",
+    "date": "2000-12-10",
+    "sourceIds": [
+      "results-armageddon-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "moment-kingtaker02",
+    "eventId": "king-of-the-ring-2002",
+    "statement": "The Undertaker faces Triple H in the main event of King of the Ring.",
+    "date": "2002-06-23",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
   }
 ]
