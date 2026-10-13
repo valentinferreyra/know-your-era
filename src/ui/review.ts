@@ -16,5 +16,5 @@ export function renderReview(session: Session, onHome: () => void): HTMLElement 
     item.append(element('p', 'review-explanation', question.explanation)); list.append(item);
   }
   content.append(list, button('Back to home', onHome, 'button button-secondary'));
-  return pageShell(content, 'Review');
+  return pageShell(content, 'Review', onHome);
 }

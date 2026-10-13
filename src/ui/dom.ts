@@ -12,11 +12,27 @@ export function button(label: string, action: () => void, className = 'button bu
   return node;
 }
 
-export function pageShell(content: HTMLElement, eyebrow?: string): HTMLElement {
+export function pageShell(content: HTMLElement, eyebrow?: string, onHome?: () => void): HTMLElement {
   const shell = element('section', 'screen');
-  if (eyebrow) shell.append(element('p', 'eyebrow', eyebrow));
+  const home = content.classList.contains('home-content');
+  shell.classList.add(home ? 'screen-home' : 'screen-game');
+  if (!home) {
+    if (onHome) {
+      const homeButton = button('', onHome, 'brand-home'); homeButton.setAttribute('aria-label', 'Home');
+      homeButton.append(brandLogo()); shell.append(homeButton);
+    } else shell.append(brandLogo());
+  }
+  if (eyebrow) shell.append(element('p', 'eyebrow sr-only', eyebrow));
   shell.append(content);
+  shell.append(element('p', 'unofficial-note', 'Fan-made · Unofficial'));
   return shell;
+}
+
+export function brandLogo(): HTMLElement {
+  const brand = element('span', 'site-brand');
+  const image = element('img'); image.src = '/assets/know-your-era-brand.webp'; image.fetchPriority = 'high';
+  image.alt = 'Know Your Era'; image.width = 360; image.height = 150;
+  brand.append(image); return brand;
 }
 
 export function heading(title: string, subtitle?: string): HTMLElement {

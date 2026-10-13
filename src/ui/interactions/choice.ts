@@ -1,12 +1,14 @@
 import type { DisplayOrderedQuestion } from '../question.ts';
 import type { DraftAnswer } from '../../game/types.ts';
 import { element } from '../dom.ts';
+import { artImage, portraitIn, questionArt } from '../art.ts';
 
 export function renderChoice(question: Extract<DisplayOrderedQuestion, { kind: 'choice' }>, draft: DraftAnswer | undefined,
   onChange: (draft: DraftAnswer) => void): HTMLElement {
   const group = element('fieldset', 'answer-options');
   const legend = element('legend', 'sr-only', 'Choose one answer'); group.append(legend);
   const selected = draft?.kind === 'choice' ? draft.optionId : '';
+  const showPortraits = !questionArt(question) && question.options.every(option => portraitIn(option.label) && !/[&,]|\band\b/.test(option.label));
   for (const item of question.displayOrder?.primary ?? question.options.map(entry => entry.id)) {
     const option = question.options.find(entry => entry.id === item);
     if (!option) continue;
@@ -14,7 +16,9 @@ export function renderChoice(question: Extract<DisplayOrderedQuestion, { kind: '
     const input = element('input'); input.type = 'radio'; input.name = `answer-${question.id}`; input.value = option.id;
     input.checked = selected === option.id;
     input.addEventListener('change', () => onChange({ kind: 'choice', optionId: option.id }));
-    label.append(input, element('span', 'choice-letter', String.fromCharCode(65 + (question.displayOrder?.primary ?? question.options.map(x => x.id)).indexOf(option.id))), element('span', 'choice-copy', option.label));
+    label.append(input, element('span', 'choice-letter', String.fromCharCode(65 + (question.displayOrder?.primary ?? question.options.map(x => x.id)).indexOf(option.id))));
+    if (showPortraits) { const image = artImage(portraitIn(option.label)!, 'option-portrait'); image.alt = ''; label.append(image); label.classList.add('with-portrait'); }
+    label.append(element('span', 'choice-copy', option.label));
     group.append(label);
   }
   return group;

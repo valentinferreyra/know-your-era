@@ -1,7 +1,5 @@
 import bundle from './content/generated/questions.json';
 import type { ClientContent } from './content/types.ts';
-import type { ClientAsset } from './content/types.ts';
-import assetRecords from './content/generated/assets.json';
 import { loadProgress, saveProgress, recentQuestionHistory, watchForNewerProgress, type SavedProgress, type StorageLike } from './storage.ts';
 import { abandonSession, nextQuestion, renameSession, resolveDailySession, setDraft, confirmAnswer, type Session } from './game/session.ts';
 import { renderHome } from './ui/home.ts';
@@ -12,10 +10,8 @@ import { renderReview } from './ui/review.ts';
 import { element } from './ui/dom.ts';
 
 const content = bundle as unknown as ClientContent;
-const assets = assetRecords as ClientAsset[];
 const host = document.querySelector<HTMLElement>('#app');
 if (!host) throw new Error('App mount point is missing.');
-(window as Window & { eraAssets?: ClientAsset[] }).eraAssets = assets;
 const safeStorage: StorageLike = {
   getItem: key => window.localStorage.getItem(key),
   setItem: (key, value) => window.localStorage.setItem(key, value),
@@ -106,7 +102,12 @@ function render(moveFocus = false): void {
     }, notice));
   } else if (screen === 'question' && session) {
     host.append(renderQuestion(session, {
-      onDraft: draft => { const updated = setDraft(progress.session!, draft); commit(updated); render(); restoreTypingFocus(); },
+      onHome,
+      onDraft: draft => {
+        const focus = answerFocusSelector();
+        const updated = setDraft(progress.session!, draft); commit(updated); render();
+        if (focus) (host.querySelector<HTMLElement>(focus) ?? host.querySelector<HTMLElement>('.order-choice'))?.focus({ preventScroll: true });
+      },
       onConfirm: () => {
         if (!progress.session) return;
         try { const updated = confirmAnswer(progress.session); if (commit(updated)) { screen = 'feedback'; render(true); } }
@@ -117,7 +118,7 @@ function render(moveFocus = false): void {
     host.append(renderFeedback(session, () => {
       try { const updated = nextQuestion(progress.session!); if (commit(updated)) { screen = questionScreenFor(updated); render(true); } }
       catch (error) { notice = error instanceof Error ? error.message : 'Could not continue.'; render(); }
-    }, assetLookup));
+    }, onHome));
   } else if (screen === 'results' && session) {
     host.append(renderResults(session, () => { screen = 'review'; render(true); }, onHome));
   } else if (screen === 'review' && session) {
@@ -131,16 +132,13 @@ function render(moveFocus = false): void {
   });
 }
 
-function restoreTypingFocus(): void {
-  const input = host?.querySelector<HTMLInputElement>('#player-name, .text-answer');
-  if (!input || input.type !== 'text') return;
-  const end = input.value.length; input.focus(); input.setSelectionRange(end, end);
-}
-
-function assetLookup(id?: string): { path: string; alt: string } | undefined {
-  if (!id) return undefined;
-  const item = assets.find(asset => asset.id === id && asset.suitable);
-  return item ? { path: item.path, alt: item.alt } : undefined;
+function answerFocusSelector(): string | undefined {
+  const active = document.activeElement;
+  if (!(active instanceof HTMLElement)) return;
+  for (const key of ['data-match-left', 'data-match-right', 'data-order-item', 'value']) {
+    const value = active.getAttribute(key);
+    if (value !== null) return `[${key}="${CSS.escape(value)}"]`;
+  }
 }
 
 watchForNewerProgress(window, progress.revision, newer => {

@@ -1,6 +1,12 @@
 # Image inventory
 
-The original files in the owner's `know-your-era-images` folder remain unchanged. The selected copies in `public/assets/` are the same files, renamed for use by the site. No background removal, recoloring, or AI image generation was used.
+The original files in the owner's `know-your-era-images` folder remain unchanged. The initial selected copies retain their original encoding. The interface restoration adds WebP copies of 18 wrestler portraits, seven belts, and six event logos. These preserve the supplied image composition and transparency.
+
+`src/ui/art.ts` maps these assets to visible names and event editions. A prompt may single out a wrestler only when the question already names them. A championship question can show its belt. Correct-answer portraits and match photographs appear after Confirm. Generic event logos can represent different editions; the four supplied WrestleMania edition logos are mapped to their exact events. Multi-event chronology questions do not display one misleading event logo.
+
+The arena backdrop `public/assets/smackdown-arena.webp` and brand artwork `public/assets/know-your-era-brand.webp` were extracted from the approved homepage mockup using the built-in image-generation tool, then encoded as WebP. The backdrop is a decorative composite. The portraits and historical match photos were not generated. Extraction prompts: preserve the blue arena and side SmackDown screens while removing foreground interface and logo; isolate the original metallic Know Your Era fist logo on a transparent background while removing the arena and form.
+
+Barlow Regular and Barlow Condensed SemiBold/Bold are served locally from `public/fonts/`. Their SIL Open Font License is stored alongside them.
 
 | Asset IDs | Use | Owner-supplied files |
 | --- | --- | --- |

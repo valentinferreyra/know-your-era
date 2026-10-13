@@ -2,6 +2,7 @@ import type { DisplayOrderedQuestion } from '../question.ts';
 import type { DraftAnswer } from '../../game/types.ts';
 import { button, element } from '../dom.ts';
 import { updateConnectors } from '../connectors.ts';
+import { artImage, portraitIn } from '../art.ts';
 
 export function renderMatching(question: Extract<DisplayOrderedQuestion, { kind: 'matching' }>, draft: DraftAnswer | undefined,
   onChange: (draft: DraftAnswer) => void): HTMLElement {
@@ -40,6 +41,8 @@ export function renderMatching(question: Extract<DisplayOrderedQuestion, { kind:
       }, `match-option${connected ? ' is-connected' : ''}`);
       node.dataset[side === 'left' ? 'matchLeft' : 'matchRight'] = id;
       node.setAttribute('aria-pressed', String(side === 'left' ? activeLeft === id : connected));
+      const art = portraitIn(item.label);
+      if (art) { const image = artImage(art, 'match-avatar'); image.alt = ''; node.prepend(image); }
       column.append(node);
     }
     return column;

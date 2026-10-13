@@ -2,14 +2,14 @@ import type { ClientQuestion } from '../content/types.ts';
 import type { DraftAnswer } from '../game/types.ts';
 import type { Session } from '../game/session.ts';
 import type { Difficulty } from '../content/types.ts';
-import eventRecords from '../../content/events.json';
+import { artImage, eventFor, eventLogo, questionArt } from './art.ts';
 import { element, heading, pageShell, progressBar, button } from './dom.ts';
 import { renderChoice } from './interactions/choice.ts';
 import { renderOrdering } from './interactions/ordering.ts';
 import { renderMatching } from './interactions/matching.ts';
 
 export type DisplayOrderedQuestion = ClientQuestion & { displayOrder?: { primary: string[]; secondary?: string[] } };
-export interface QuestionActions { onDraft(draft: DraftAnswer): void; onConfirm(): void }
+export interface QuestionActions { onDraft(draft: DraftAnswer): void; onConfirm(): void; onHome(): void }
 const categoryName: Record<string, string> = {
   'main-event': 'Main event', 'order-history': 'Order the history',
   'champion-entering': 'Champion entering', 'odd-one-out': 'Odd one out', 'rebuild-card': 'Rebuild the card'
@@ -23,18 +23,26 @@ export function renderQuestion(session: Session, actions: QuestionActions): HTML
   const ordered: DisplayOrderedQuestion = Object.assign({}, question, { displayOrder: selection?.displayOrder });
   const content = element('div', 'question-content');
   const top = element('div', 'question-topline');
-  top.append(element('span', 'player-name', session.nickname), element('span', 'score-label', `${session.score} points`));
+  top.append(element('span', 'player-name', session.nickname), element('span', 'question-count', `Question ${index + 1} of 10`), element('span', 'score-label', `${session.score} points`));
   content.append(top, progressBar(index));
+  const stage = element('div', 'question-stage');
+  const art = questionArt(question);
+  const arena = element('div', 'question-arena');
+  if (art) { arena.append(artImage(art, 'stage-art')); stage.classList.add('has-art'); }
+  stage.append(arena);
+  const body = element('div', 'question-body');
+  const event = eventFor(question);
+  if (event) {
+    const banner = element('div', 'event-heading');
+    const logo = eventLogo(question);
+    if (logo) banner.append(artImage(logo, 'event-logo'));
+    else banner.append(element('span', 'event-name', event.name));
+    banner.append(element('span', 'event-year', event.date.slice(0, 4))); body.append(banner);
+  }
   const difficulty: Difficulty = question.difficulty;
   const metadata = element('div', 'question-meta');
-  metadata.append(element('span', 'category-pill', categoryName[question.category] ?? question.category), element('span', `difficulty-tag difficulty-${difficulty}`, `${difficulty} · ${question.kind}`));
-  const event = eventRecords.find(record => question.eventIds.includes(record.id));
-  if (event) metadata.append(element('span', 'event-tag', `${event.name} · ${event.date.slice(0, 4)}`));
-  content.append(metadata, heading(question.prompt));
-  const arena = element('div', 'question-arena');
-  const asset = findAsset(question.promptAssetId ?? question.logoAssetId);
-  if (asset) { const image = element('img', 'question-art'); image.src = asset.path; image.alt = asset.alt; image.loading = 'lazy'; arena.append(image); }
-  content.append(arena);
+  metadata.append(element('span', 'category-pill', categoryName[question.category] ?? question.category), element('span', `difficulty-tag difficulty-${difficulty}`, difficulty));
+  body.append(metadata, heading(question.prompt));
   const interaction = element('div', 'answer-interaction'); interaction.dataset.kind = question.kind;
   const current = session.drafts[index] ?? undefined;
   let control: HTMLElement;
@@ -43,18 +51,11 @@ export function renderQuestion(session: Session, actions: QuestionActions): HTML
     case 'ordering': control = renderOrdering(ordered as Extract<DisplayOrderedQuestion, { kind: 'ordering' }>, current, actions.onDraft); break;
     case 'matching': control = renderMatching(ordered as Extract<DisplayOrderedQuestion, { kind: 'matching' }>, current, actions.onDraft); break;
   }
-  interaction.append(control); content.append(interaction);
+  interaction.append(control); body.append(interaction);
   const confirmed = isComplete(question, current);
   const confirm = button('Confirm', actions.onConfirm, 'button button-primary confirm-button'); confirm.disabled = !confirmed;
-  content.append(confirm);
-  return pageShell(content, 'Daily challenge');
-}
-
-function findAsset(id?: string): { path: string; alt: string } | undefined {
-  if (!id) return undefined;
-  const assets = (window as Window & { eraAssets?: { id: string; path: string; alt: string; suitable?: boolean; promptSafe?: boolean }[] }).eraAssets;
-  const asset = assets?.find(item => item.id === id && item.suitable && item.promptSafe);
-  return asset ? { path: asset.path, alt: asset.alt } : undefined;
+  body.append(confirm); stage.append(body); content.append(stage);
+  return pageShell(content, 'Daily challenge', actions.onHome);
 }
 
 export function isComplete(question: ClientQuestion, draft: DraftAnswer | undefined): boolean {

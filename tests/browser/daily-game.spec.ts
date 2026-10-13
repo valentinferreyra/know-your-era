@@ -3,7 +3,7 @@ import { expect, test, type Page } from '@playwright/test';
 type Saved = { session: { dayKey: string; questionIndex: number; score: number; phase: string; selectedQuestions: { questionId: string }[]; contentSnapshot: { questions: Question[] } } };
 type Question = { id: string; kind: string; difficulty: string; options?: { id: string }[]; answer: string | string[] | Record<string, string>; items?: { id: string }[]; left?: { id: string }[]; right?: { id: string }[] };
 
-test('one daily run includes all interactions, immediate explanations, results, and read-only review', async ({ page }) => {
+test('one daily run includes all interactions, immediate explanations, results, and read-only review', async ({ page }, info) => {
   await page.clock.install({ time: new Date('2026-10-14T12:00:00.000Z') });
   await page.goto('/');
   await page.getByLabel('Your name').fill('Ringside Fan');
@@ -18,6 +18,7 @@ test('one daily run includes all interactions, immediate explanations, results, 
     if (canUsePartial && !partialMatch) {
       partialMatch = true;
       await expect(page.getByText(/Partially correct/i)).toBeVisible();
+      await page.screenshot({ path: info.outputPath('partial-feedback.png'), fullPage: true });
     } else await expect(page.getByText(/Correct/i).first()).toBeVisible();
     await expect(page.locator('.explanation')).toBeVisible();
     if (index < 9) await page.getByRole('button', { name: 'Next question' }).click();
@@ -27,9 +28,12 @@ test('one daily run includes all interactions, immediate explanations, results, 
   await page.getByRole('button', { name: 'View results' }).click();
   await expect(page.getByText('Daily challenge complete')).toBeVisible();
   await expect(page.getByText('Fully correct')).toBeVisible();
+  await page.evaluate(async () => { await Promise.all([...document.images].map(image => image.decode().catch(() => {}))); });
+  await page.screenshot({ path: info.outputPath('results.png'), fullPage: true });
   const savedBeforeReview = await page.evaluate(() => JSON.parse(localStorage.getItem('know-your-era.progress.v1')!).session.score);
   await page.getByRole('button', { name: 'Review answers' }).click();
   await expect(page.getByRole('heading', { name: 'Answer review' })).toBeVisible();
+  await page.screenshot({ path: info.outputPath('review.png'), fullPage: true });
   expect(await page.evaluate(() => JSON.parse(localStorage.getItem('know-your-era.progress.v1')!).session.score)).toBe(savedBeforeReview);
   await expect(page.locator('main')).not.toContainText(/\bWWF\b|Source|1998\s*(?:–|-|to)\s*2004/i);
 });

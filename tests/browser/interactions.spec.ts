@@ -15,7 +15,9 @@ test('home is centered, portrait-free, and copy avoids WWF/source/range labels',
   await expect(page.getByRole('heading', { name: 'Know Your Era' })).toBeVisible();
   await expect(page.getByText('10 questions. A new challenge every day.')).toBeVisible();
   await expect(page.getByText('Fan-made · Unofficial')).toBeVisible();
-  await expect(page.locator('main img')).toHaveCount(0);
+  await expect(page.locator('main .site-brand img')).toHaveCount(1);
+  await expect(page.locator('main .art-portrait')).toHaveCount(0);
+  await expect.poll(() => page.locator('.site-brand img').evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
   await expect(page.locator('main')).not.toContainText(/\bWWF\b|source|1998\s*(?:–|-|to)\s*2004/i);
   const main = await page.locator('.screen').boundingBox();
   expect(main).not.toBeNull();
