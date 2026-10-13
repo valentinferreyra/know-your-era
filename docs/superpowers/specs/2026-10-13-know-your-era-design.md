@@ -108,7 +108,7 @@ A database and server become necessary for cross-device accounts, shared ranking
 
 ## Question bank and review
 
-The expansion target is 300 distinct reviewed questions: twenty per category and difficulty. Rephrasing the same fact or swapping distractors does not count as a new independent question. The first playable sample contains forty-five reviewed records, three per category and difficulty, with the required choice/completion coverage in Main event and Champion entering. This sample is for owner testing, not a claim that the full bank exists.
+The first playable version requires 300 distinct reviewed questions: twenty per category and difficulty. There is no smaller question-bank release. Rephrasing the same fact or swapping distractors does not count as a new independent question. Main event and Champion entering pools must include both choice and completion records at every difficulty. The full bank must pass editorial and structural review before this version is considered ready to release; the bank has not yet been created.
 
 Distribute the full bank across years, event families, men's and women's wrestling, teams, secondary championships, and PPV story segments. Avoid concentrating it on Austin, Rock, or WrestleMania. Lack of a photograph does not exclude a question.
 
@@ -156,9 +156,9 @@ Use semantic controls, labeled inputs, visible keyboard focus, sufficient contra
 8. Within-session conflicts and repeated families are excluded. Pools with insufficient eligible content fail content validation before release.
 9. All interactions work on desktop, mobile, and keyboard, including matching without dragging.
 10. Questions and answers work with no images, with no empty placeholders.
-11. The prototype contains forty-five reviewed records; expansion toward 300 is tracked separately and is not reported as complete early.
+11. The first playable version contains 300 distinct reviewed records, twenty per category and difficulty, with both choice and completion represented in the relevant pools. A smaller bank does not satisfy release acceptance.
 12. Unit tests cover grading, aliases, score rounding, adaptation, selection, UK gates, and UTC-3 boundaries. Browser tests cover the four interactions, reload, midnight handling, review, and unavailable storage.
 
 ## Review decision
 
-Approve or revise the scoring values, partial-credit policy, adaptive thresholds, fixed daily category/interaction schedule, midnight continuation behavior, forty-five-question prototype size, and static TypeScript approach before the implementation plan is written. No application code, deployment, or full question bank is part of this documentation step.
+The owner requires the complete 300-question bank in the first playable version. Approve or revise the scoring values, partial-credit policy, adaptive thresholds, fixed daily category/interaction schedule, midnight continuation behavior, and static TypeScript approach before the implementation plan is written. No application code, deployment, or full question bank is part of this documentation step.
