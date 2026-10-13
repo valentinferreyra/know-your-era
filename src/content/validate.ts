@@ -86,9 +86,15 @@ export function validateBundle(bundle: ContentBundle, requireReleaseCounts: bool
     const eventIds = strings(q.eventIds, `${id} events`);
     const factIds = strings(q.factIds, `${id} facts`);
     known(eventIds, events, id, 'event'); known(factIds, facts, id, 'fact');
-    known(strings(q.sourceIds, `${id} supporting source`), sources, id, 'supporting source');
+    const questionSources = strings(q.sourceIds, `${id} supporting source`);
+    known(questionSources, sources, id, 'supporting source');
     if (q.reviewStatus !== 'reviewed' || !validDate(q.reviewedAt)) fail(id, 'question requires completed editorial review');
-    for (const factId of factIds) if (!eventIds.includes(String(facts.get(factId)?.eventId))) fail(id, 'fact belongs to another event');
+    for (const factId of factIds) {
+      const fact = facts.get(factId);
+      if (!eventIds.includes(String(fact?.eventId))) fail(id, 'fact belongs to another event');
+      if (fact && Array.isArray(fact.sourceIds) && !fact.sourceIds.some(s => questionSources.includes(String(s))))
+        fail(id, 'fact evidence is not cited');
+    }
     const hasUK = eventIds.some(e => events.get(e)?.uk === true);
     if (q.ukOnly !== hasUK || (hasUK && q.difficulty !== 'hard')) fail(id, 'UK scope requires a hard gated question');
     for (const role of ['promptAssetId', 'answerAssetId', 'logoAssetId']) {
@@ -125,6 +131,7 @@ export function validateBundle(bundle: ContentBundle, requireReleaseCounts: bool
         || new Set(Object.values(partners)).size !== right.length)
         fail(id, 'answer must provide one unambiguous partner per item');
     } else if (q.kind === 'ordering') {
+      if (q.orderMode === 'show' && !String(q.prompt).includes('as they happened during the show')) fail(id, 'missing explicit within-show instruction');
       const entries = itemRows(q.items, 'ordering item');
       const answer = strings(q.answer, `${id} ordering answer`);
       const count = q.difficulty === 'hard' ? 4 : 3;

@@ -1,0 +1,401 @@
+[
+  {
+    "id": "catalog-dates",
+    "url": "https://en.wikipedia.org/wiki/List_of_WWE_pay-per-view_and_livestreaming_supercards",
+    "title": "Historical PPV dates and final matches",
+    "inspectedAt": "2026-10-13",
+    "locator": "Past_events_1998 through Past_events_2004; event date/name/final-match rows"
+  },
+  {
+    "id": "wwe-network-catalog",
+    "url": "https://www.wwe.com/inside/every-pay-per-view-on-wwe-network",
+    "title": "WWE main PPV archive catalog",
+    "inspectedAt": "2026-10-13",
+    "locator": "WrestleMania XIV through Vengeance 2004; includes UK events"
+  },
+  {
+    "id": "results-wrestlemania-xiv-1998",
+    "url": "https://www.wwe.com/shows/wrestlemania/14/results",
+    "title": "WWE official results wrestlemania-xiv-1998",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-unforgiven-in-your-house-1998",
+    "url": "https://www.wwe.com/shows/unforgiven/1998/results",
+    "title": "WWE official results unforgiven-in-your-house-1998",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-summerslam-1998",
+    "url": "https://www.wwe.com/shows/summerslam/1998/results",
+    "title": "WWE official results summerslam-1998",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-judgment-day-in-your-house-1998",
+    "url": "https://www.wwe.com/shows/judgmentday/1998/results",
+    "title": "WWE official results judgment-day-in-your-house-1998",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-survivor-series-1998",
+    "url": "https://www.wwe.com/shows/survivorseries/1998/results",
+    "title": "WWE official results survivor-series-1998",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-wrestlemania-xv-1999",
+    "url": "https://www.wwe.com/shows/wrestlemania/15/results",
+    "title": "WWE official results wrestlemania-xv-1999",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-backlash-1999",
+    "url": "https://www.wwe.com/shows/backlash/1999/results",
+    "title": "WWE official results backlash-1999",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-summerslam-1999",
+    "url": "https://www.wwe.com/shows/summerslam/1999/results",
+    "title": "WWE official results summerslam-1999",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-unforgiven-1999",
+    "url": "https://www.wwe.com/shows/unforgiven/1999/results",
+    "title": "WWE official results unforgiven-1999",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-no-mercy-1999",
+    "url": "https://www.wwe.com/shows/nomercy/1999/results",
+    "title": "WWE official results no-mercy-1999",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-survivor-series-1999",
+    "url": "https://www.wwe.com/shows/survivorseries/1999/results",
+    "title": "WWE official results survivor-series-1999",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-armageddon-1999",
+    "url": "https://www.wwe.com/shows/armageddon/1999/results",
+    "title": "WWE official results armageddon-1999",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-no-way-out-2000",
+    "url": "https://www.wwe.com/shows/nowayout/2000/results",
+    "title": "WWE official results no-way-out-2000",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-wrestlemania-2000-2000",
+    "url": "https://www.wwe.com/shows/wrestlemania/16/results",
+    "title": "WWE official results wrestlemania-2000-2000",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-backlash-2000",
+    "url": "https://www.wwe.com/shows/backlash/2000/results",
+    "title": "WWE official results backlash-2000",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-judgment-day-2000",
+    "url": "https://www.wwe.com/shows/judgmentday/2000/results",
+    "title": "WWE official results judgment-day-2000",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-summerslam-2000",
+    "url": "https://www.wwe.com/shows/summerslam/2000/results",
+    "title": "WWE official results summerslam-2000",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-unforgiven-2000",
+    "url": "https://www.wwe.com/shows/unforgiven/2000/results",
+    "title": "WWE official results unforgiven-2000",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-no-mercy-2000",
+    "url": "https://www.wwe.com/shows/nomercy/2000/results",
+    "title": "WWE official results no-mercy-2000",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-survivor-series-2000",
+    "url": "https://www.wwe.com/shows/survivorseries/2000/results",
+    "title": "WWE official results survivor-series-2000",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-armageddon-2000",
+    "url": "https://www.wwe.com/shows/armageddon/2000/results",
+    "title": "WWE official results armageddon-2000",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-no-way-out-2001",
+    "url": "https://www.wwe.com/shows/nowayout/2001/results",
+    "title": "WWE official results no-way-out-2001",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-wrestlemania-x-seven-2001",
+    "url": "https://www.wwe.com/shows/wrestlemania/17/results",
+    "title": "WWE official results wrestlemania-x-seven-2001",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-backlash-2001",
+    "url": "https://www.wwe.com/shows/backlash/2001/results",
+    "title": "WWE official results backlash-2001",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-judgment-day-2001",
+    "url": "https://www.wwe.com/shows/judgmentday/2001/results",
+    "title": "WWE official results judgment-day-2001",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-summerslam-2001",
+    "url": "https://www.wwe.com/shows/summerslam/2001/results",
+    "title": "WWE official results summerslam-2001",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-unforgiven-2001",
+    "url": "https://www.wwe.com/shows/unforgiven/2001/results",
+    "title": "WWE official results unforgiven-2001",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-no-mercy-2001",
+    "url": "https://www.wwe.com/shows/nomercy/2001/results",
+    "title": "WWE official results no-mercy-2001",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-survivor-series-2001",
+    "url": "https://www.wwe.com/shows/survivorseries/2001/results",
+    "title": "WWE official results survivor-series-2001",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-vengeance-2001",
+    "url": "https://www.wwe.com/shows/vengeance/2001/results",
+    "title": "WWE official results vengeance-2001",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-no-way-out-2002",
+    "url": "https://www.wwe.com/shows/nowayout/2002/results",
+    "title": "WWE official results no-way-out-2002",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-wrestlemania-x8-2002",
+    "url": "https://www.wwe.com/shows/wrestlemania/18/results",
+    "title": "WWE official results wrestlemania-x8-2002",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-backlash-2002",
+    "url": "https://www.wwe.com/shows/backlash/2002/results",
+    "title": "WWE official results backlash-2002",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-judgment-day-2002",
+    "url": "https://www.wwe.com/shows/judgmentday/2002/results",
+    "title": "WWE official results judgment-day-2002",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-vengeance-2002",
+    "url": "https://www.wwe.com/shows/vengeance/2002/results",
+    "title": "WWE official results vengeance-2002",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-summerslam-2002",
+    "url": "https://www.wwe.com/shows/summerslam/2002/results",
+    "title": "WWE official results summerslam-2002",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-unforgiven-2002",
+    "url": "https://www.wwe.com/shows/unforgiven/2002/results",
+    "title": "WWE official results unforgiven-2002",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-no-mercy-2002",
+    "url": "https://www.wwe.com/shows/nomercy/2002/results",
+    "title": "WWE official results no-mercy-2002",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-survivor-series-2002",
+    "url": "https://www.wwe.com/shows/survivorseries/2002/results",
+    "title": "WWE official results survivor-series-2002",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-armageddon-2002",
+    "url": "https://www.wwe.com/shows/armageddon/2002/results",
+    "title": "WWE official results armageddon-2002",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-no-way-out-2003",
+    "url": "https://www.wwe.com/shows/nowayout/2003/results",
+    "title": "WWE official results no-way-out-2003",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-wrestlemania-xix-2003",
+    "url": "https://www.wwe.com/shows/wrestlemania/19/results",
+    "title": "WWE official results wrestlemania-xix-2003",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-backlash-2003",
+    "url": "https://www.wwe.com/shows/backlash/2003/results",
+    "title": "WWE official results backlash-2003",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-judgment-day-2003",
+    "url": "https://www.wwe.com/shows/judgmentday/2003/results",
+    "title": "WWE official results judgment-day-2003",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-vengeance-2003",
+    "url": "https://www.wwe.com/shows/vengeance/2003/results",
+    "title": "WWE official results vengeance-2003",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-summerslam-2003",
+    "url": "https://www.wwe.com/shows/summerslam/2003/results",
+    "title": "WWE official results summerslam-2003",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-unforgiven-2003",
+    "url": "https://www.wwe.com/shows/unforgiven/2003/results",
+    "title": "WWE official results unforgiven-2003",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-no-mercy-2003",
+    "url": "https://www.wwe.com/shows/nomercy/2003/results",
+    "title": "WWE official results no-mercy-2003",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-survivor-series-2003",
+    "url": "https://www.wwe.com/shows/survivorseries/2003/results",
+    "title": "WWE official results survivor-series-2003",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-armageddon-2003",
+    "url": "https://www.wwe.com/shows/armageddon/2003/results",
+    "title": "WWE official results armageddon-2003",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-no-way-out-2004",
+    "url": "https://www.wwe.com/shows/nowayout/2004/results",
+    "title": "WWE official results no-way-out-2004",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-wrestlemania-xx-2004",
+    "url": "https://www.wwe.com/shows/wrestlemania/20/results",
+    "title": "WWE official results wrestlemania-xx-2004",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-backlash-2004",
+    "url": "https://www.wwe.com/shows/backlash/2004/results",
+    "title": "WWE official results backlash-2004",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-judgment-day-2004",
+    "url": "https://www.wwe.com/shows/judgmentday/2004/results",
+    "title": "WWE official results judgment-day-2004",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "results-vengeance-2004",
+    "url": "https://www.wwe.com/shows/vengeance/2004/results",
+    "title": "WWE official results vengeance-2004",
+    "inspectedAt": "2026-10-13",
+    "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  }
+]

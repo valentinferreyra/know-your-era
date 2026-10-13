@@ -1,0 +1,937 @@
+[
+  {
+    "id": "main-wrestlemania-xiv-1998",
+    "eventId": "wrestlemania-xiv-1998",
+    "statement": "The closing match at WrestleMania XIV (1998) featured Shawn Michaels vs. Stone Cold Steve Austin.",
+    "date": "1998-03-29",
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-unforgiven-in-your-house-1998",
+    "eventId": "unforgiven-in-your-house-1998",
+    "statement": "The closing match at Unforgiven: In Your House (1998) featured Stone Cold Steve Austin vs. Dude Love.",
+    "date": "1998-04-26",
+    "sourceIds": [
+      "catalog-dates",
+      "results-unforgiven-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-over-the-edge-in-your-house-1998",
+    "eventId": "over-the-edge-in-your-house-1998",
+    "statement": "The closing match at Over the Edge: In Your House (1998) featured Stone Cold Steve Austin vs. Dude Love.",
+    "date": "1998-05-31",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-king-of-the-ring-1998",
+    "eventId": "king-of-the-ring-1998",
+    "statement": "The closing match at King of the Ring (1998) featured Stone Cold Steve Austin vs. Kane.",
+    "date": "1998-06-28",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-fully-loaded-in-your-house-1998",
+    "eventId": "fully-loaded-in-your-house-1998",
+    "statement": "The closing match at Fully Loaded: In Your House (1998) featured Kane and Mankind vs. Stone Cold Steve Austin and The Undertaker.",
+    "date": "1998-07-26",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-summerslam-1998",
+    "eventId": "summerslam-1998",
+    "statement": "The closing match at SummerSlam (1998) featured Stone Cold Steve Austin vs. The Undertaker.",
+    "date": "1998-08-30",
+    "sourceIds": [
+      "catalog-dates",
+      "results-summerslam-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-breakdown-in-your-house-1998",
+    "eventId": "breakdown-in-your-house-1998",
+    "statement": "The closing match at Breakdown: In Your House (1998) featured Stone Cold Steve Austin vs. The Undertaker vs. Kane.",
+    "date": "1998-09-27",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-judgment-day-in-your-house-1998",
+    "eventId": "judgment-day-in-your-house-1998",
+    "statement": "The closing match at Judgment Day: In Your House (1998) featured The Undertaker vs. Kane.",
+    "date": "1998-10-18",
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-survivor-series-1998",
+    "eventId": "survivor-series-1998",
+    "statement": "The closing match at Survivor Series (1998) featured The Rock vs. Mankind.",
+    "date": "1998-11-15",
+    "sourceIds": [
+      "catalog-dates",
+      "results-survivor-series-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-capital-carnage-uk-1998",
+    "eventId": "capital-carnage-uk-1998",
+    "statement": "The closing match at Capital Carnage (1998) featured Stone Cold Steve Austin vs. Mankind vs. Kane vs. The Undertaker.",
+    "date": "1998-12-06",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-rock-bottom-in-your-house-1998",
+    "eventId": "rock-bottom-in-your-house-1998",
+    "statement": "The closing match at Rock Bottom: In Your House (1998) featured Stone Cold Steve Austin vs. The Undertaker.",
+    "date": "1998-12-13",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-royal-rumble-1999",
+    "eventId": "royal-rumble-1999",
+    "statement": "The closing match at Royal Rumble (1999) featured 30-man Royal Rumble match.",
+    "date": "1999-01-24",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-st-valentine-s-day-massacre-in-your-house-1999",
+    "eventId": "st-valentine-s-day-massacre-in-your-house-1999",
+    "statement": "The closing match at St. Valentine's Day Massacre: In Your House (1999) featured Stone Cold Steve Austin vs. Mr. McMahon.",
+    "date": "1999-02-14",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-wrestlemania-xv-1999",
+    "eventId": "wrestlemania-xv-1999",
+    "statement": "The closing match at WrestleMania XV (1999) featured The Rock vs. Stone Cold Steve Austin.",
+    "date": "1999-03-28",
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-backlash-1999",
+    "eventId": "backlash-1999",
+    "statement": "The closing match at Backlash (1999) featured Stone Cold Steve Austin vs. The Rock.",
+    "date": "1999-04-25",
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-no-mercy-uk-1999",
+    "eventId": "no-mercy-uk-1999",
+    "statement": "The closing match at No Mercy (1999) featured Stone Cold Steve Austin vs. The Undertaker vs. Triple H.",
+    "date": "1999-05-16",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-over-the-edge-1999",
+    "eventId": "over-the-edge-1999",
+    "statement": "The closing match at Over the Edge (1999) featured Stone Cold Steve Austin vs. The Undertaker.",
+    "date": "1999-05-23",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-king-of-the-ring-1999",
+    "eventId": "king-of-the-ring-1999",
+    "statement": "The closing match at King of the Ring (1999) featured Stone Cold Steve Austin vs. The Corporate Ministry.",
+    "date": "1999-06-27",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-fully-loaded-1999",
+    "eventId": "fully-loaded-1999",
+    "statement": "The closing match at Fully Loaded (1999) featured Stone Cold Steve Austin vs. The Undertaker.",
+    "date": "1999-07-25",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-summerslam-1999",
+    "eventId": "summerslam-1999",
+    "statement": "The closing match at SummerSlam (1999) featured Stone Cold Steve Austin vs. Mankind vs. Triple H.",
+    "date": "1999-08-22",
+    "sourceIds": [
+      "catalog-dates",
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-unforgiven-1999",
+    "eventId": "unforgiven-1999",
+    "statement": "The closing match at Unforgiven (1999) featured The Rock vs. Mankind vs. Kane vs. Triple H vs. Big Show vs. The British Bulldog.",
+    "date": "1999-09-26",
+    "sourceIds": [
+      "catalog-dates",
+      "results-unforgiven-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-rebellion-uk-1999",
+    "eventId": "rebellion-uk-1999",
+    "statement": "The closing match at Rebellion (1999) featured Triple H vs. The Rock.",
+    "date": "1999-10-02",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-no-mercy-1999",
+    "eventId": "no-mercy-1999",
+    "statement": "The closing match at No Mercy (1999) featured Triple H vs. Stone Cold Steve Austin.",
+    "date": "1999-10-17",
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-mercy-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-survivor-series-1999",
+    "eventId": "survivor-series-1999",
+    "statement": "The closing match at Survivor Series (1999) featured Triple H vs. The Rock vs. Big Show.",
+    "date": "1999-11-14",
+    "sourceIds": [
+      "catalog-dates",
+      "results-survivor-series-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-armageddon-1999",
+    "eventId": "armageddon-1999",
+    "statement": "The closing match at Armageddon (1999) featured Vince McMahon vs. Triple H.",
+    "date": "1999-12-12",
+    "sourceIds": [
+      "catalog-dates",
+      "results-armageddon-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-royal-rumble-2000",
+    "eventId": "royal-rumble-2000",
+    "statement": "The closing match at Royal Rumble (2000) featured 30-person Royal Rumble match.",
+    "date": "2000-01-23",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-no-way-out-2000",
+    "eventId": "no-way-out-2000",
+    "statement": "The closing match at No Way Out (2000) featured Triple H vs. Cactus Jack.",
+    "date": "2000-02-27",
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-way-out-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-wrestlemania-2000-2000",
+    "eventId": "wrestlemania-2000-2000",
+    "statement": "The closing match at WrestleMania 2000 (2000) featured Triple H vs. The Rock vs. Mick Foley vs. Big Show.",
+    "date": "2000-04-02",
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-2000-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-backlash-2000",
+    "eventId": "backlash-2000",
+    "statement": "The closing match at Backlash (2000) featured Triple H vs. The Rock.",
+    "date": "2000-04-30",
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-insurrextion-uk-2000",
+    "eventId": "insurrextion-uk-2000",
+    "statement": "The closing match at Insurrextion (2000) featured The Rock vs. Triple H vs. Shane McMahon.",
+    "date": "2000-05-06",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-judgment-day-2000",
+    "eventId": "judgment-day-2000",
+    "statement": "The closing match at Judgment Day (2000) featured The Rock vs. Triple H.",
+    "date": "2000-05-21",
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-king-of-the-ring-2000",
+    "eventId": "king-of-the-ring-2000",
+    "statement": "The closing match at King of the Ring (2000) featured The McMahon-Helmsley Faction, Mr. McMahon , and Shane McMahon ) vs. The Rock , The Undertaker , and Kane.",
+    "date": "2000-06-25",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-fully-loaded-2000",
+    "eventId": "fully-loaded-2000",
+    "statement": "The closing match at Fully Loaded (2000) featured The Rock vs. Chris Benoit.",
+    "date": "2000-07-23",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-summerslam-2000",
+    "eventId": "summerslam-2000",
+    "statement": "The closing match at SummerSlam (2000) featured The Rock vs. Triple H vs. Kurt Angle.",
+    "date": "2000-08-27",
+    "sourceIds": [
+      "catalog-dates",
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-unforgiven-2000",
+    "eventId": "unforgiven-2000",
+    "statement": "The closing match at Unforgiven (2000) featured The Rock vs. The Undertaker vs. Chris Benoit vs. Kane.",
+    "date": "2000-09-24",
+    "sourceIds": [
+      "catalog-dates",
+      "results-unforgiven-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-no-mercy-2000",
+    "eventId": "no-mercy-2000",
+    "statement": "The closing match at No Mercy (2000) featured The Rock vs. Kurt Angle.",
+    "date": "2000-10-22",
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-mercy-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-survivor-series-2000",
+    "eventId": "survivor-series-2000",
+    "statement": "The closing match at Survivor Series (2000) featured Stone Cold Steve Austin vs. Triple H.",
+    "date": "2000-11-19",
+    "sourceIds": [
+      "catalog-dates",
+      "results-survivor-series-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-rebellion-uk-2000",
+    "eventId": "rebellion-uk-2000",
+    "statement": "The closing match at Rebellion (2000) featured Kurt Angle vs. Stone Cold Steve Austin vs. The Rock vs. Rikishi.",
+    "date": "2000-12-02",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-armageddon-2000",
+    "eventId": "armageddon-2000",
+    "statement": "The closing match at Armageddon (2000) featured Kurt Angle vs. Stone Cold Steve Austin vs. The Rock vs. The Undertaker vs. Triple H vs. Rikishi.",
+    "date": "2000-12-10",
+    "sourceIds": [
+      "catalog-dates",
+      "results-armageddon-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-royal-rumble-2001",
+    "eventId": "royal-rumble-2001",
+    "statement": "The closing match at Royal Rumble (2001) featured 30-man Royal Rumble match.",
+    "date": "2001-01-21",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-no-way-out-2001",
+    "eventId": "no-way-out-2001",
+    "statement": "The closing match at No Way Out (2001) featured Kurt Angle vs. The Rock.",
+    "date": "2001-02-25",
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-way-out-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-wrestlemania-x-seven-2001",
+    "eventId": "wrestlemania-x-seven-2001",
+    "statement": "The closing match at WrestleMania X-Seven (2001) featured The Rock vs. Stone Cold Steve Austin.",
+    "date": "2001-04-01",
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-x-seven-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-backlash-2001",
+    "eventId": "backlash-2001",
+    "statement": "The closing match at Backlash (2001) featured The Two Man Power Trip and Triple H) vs. The Brothers of Destruction ( The Undertaker and Kane ).",
+    "date": "2001-04-29",
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-insurrextion-uk-2001",
+    "eventId": "insurrextion-uk-2001",
+    "statement": "The closing match at Insurrextion (2001) featured The Two Man Power Trip and Triple H ) vs. The Undertaker.",
+    "date": "2001-05-05",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-judgment-day-2001",
+    "eventId": "judgment-day-2001",
+    "statement": "The closing match at Judgment Day (2001) featured Stone Cold Steve Austin vs. The Undertaker.",
+    "date": "2001-05-20",
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-king-of-the-ring-2001",
+    "eventId": "king-of-the-ring-2001",
+    "statement": "The closing match at King of the Ring (2001) featured Stone Cold Steve Austin vs. Chris Jericho vs. Chris Benoit.",
+    "date": "2001-06-24",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-invasion-2001",
+    "eventId": "invasion-2001",
+    "statement": "The closing match at Invasion (2001) featured Team WWF) vs. The WCW-ECW Coalition ( Booker T , Diamond Dallas Page , Rhyno , and The Dudley Boyz ( Bubba Ray Dudley and D-Von Dudley )).",
+    "date": "2001-07-22",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-summerslam-2001",
+    "eventId": "summerslam-2001",
+    "statement": "The closing match at SummerSlam (2001) featured Booker T vs. The Rock.",
+    "date": "2001-08-19",
+    "sourceIds": [
+      "catalog-dates",
+      "results-summerslam-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-unforgiven-2001",
+    "eventId": "unforgiven-2001",
+    "statement": "The closing match at Unforgiven (2001) featured Stone Cold Steve Austin vs. Kurt Angle.",
+    "date": "2001-09-23",
+    "sourceIds": [
+      "catalog-dates",
+      "results-unforgiven-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-no-mercy-2001",
+    "eventId": "no-mercy-2001",
+    "statement": "The closing match at No Mercy (2001) featured Stone Cold Steve Austin vs. Kurt Angle vs. Rob Van Dam.",
+    "date": "2001-10-21",
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-mercy-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-rebellion-uk-2001",
+    "eventId": "rebellion-uk-2001",
+    "statement": "The closing match at Rebellion (2001) featured Stone Cold Steve Austin vs. The Rock.",
+    "date": "2001-11-03",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-survivor-series-2001",
+    "eventId": "survivor-series-2001",
+    "statement": "The closing match at Survivor Series (2001) featured Team WWF, and Big Show ) vs. Team Alliance.",
+    "date": "2001-11-18",
+    "sourceIds": [
+      "catalog-dates",
+      "results-survivor-series-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-vengeance-2001",
+    "eventId": "vengeance-2001",
+    "statement": "The closing match at Vengeance (2001) featured Stone Cold Steve Austin vs. Chris Jericho.",
+    "date": "2001-12-09",
+    "sourceIds": [
+      "catalog-dates",
+      "results-vengeance-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-royal-rumble-2002",
+    "eventId": "royal-rumble-2002",
+    "statement": "The closing match at Royal Rumble (2002) featured 30-man Royal Rumble match.",
+    "date": "2002-01-20",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-no-way-out-2002",
+    "eventId": "no-way-out-2002",
+    "statement": "The closing match at No Way Out (2002) featured Chris Jericho vs. Stone Cold Steve Austin.",
+    "date": "2002-02-17",
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-way-out-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-wrestlemania-x8-2002",
+    "eventId": "wrestlemania-x8-2002",
+    "statement": "The closing match at WrestleMania X8 (2002) featured Chris Jericho vs. Triple H.",
+    "date": "2002-03-17",
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-x8-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-backlash-2002",
+    "eventId": "backlash-2002",
+    "statement": "The closing match at Backlash (2002) featured Triple H vs. Hollywood Hulk Hogan.",
+    "date": "2002-04-21",
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-insurrextion-uk-2002",
+    "eventId": "insurrextion-uk-2002",
+    "statement": "The closing match at Insurrextion (2002) featured Triple H vs. The Undertaker.",
+    "date": "2002-05-04",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-judgment-day-2002",
+    "eventId": "judgment-day-2002",
+    "statement": "The closing match at Judgment Day (2002) featured Hollywood Hulk Hogan vs. The Undertaker.",
+    "date": "2002-05-19",
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-king-of-the-ring-2002",
+    "eventId": "king-of-the-ring-2002",
+    "statement": "The closing match at King of the Ring (2002) featured The Undertaker vs. Triple H.",
+    "date": "2002-06-23",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-vengeance-2002",
+    "eventId": "vengeance-2002",
+    "statement": "The closing match at Vengeance (2002) featured The Undertaker vs. The Rock vs. Kurt Angle.",
+    "date": "2002-07-21",
+    "sourceIds": [
+      "catalog-dates",
+      "results-vengeance-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-summerslam-2002",
+    "eventId": "summerslam-2002",
+    "statement": "The closing match at SummerSlam (2002) featured The Rock vs. Brock Lesnar.",
+    "date": "2002-08-25",
+    "sourceIds": [
+      "catalog-dates",
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-unforgiven-2002",
+    "eventId": "unforgiven-2002",
+    "statement": "The closing match at Unforgiven (2002) featured Brock Lesnar vs. The Undertaker.",
+    "date": "2002-09-22",
+    "sourceIds": [
+      "catalog-dates",
+      "results-unforgiven-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-no-mercy-2002",
+    "eventId": "no-mercy-2002",
+    "statement": "The closing match at No Mercy (2002) featured Brock Lesnar vs. The Undertaker.",
+    "date": "2002-10-20",
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-mercy-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-rebellion-uk-2002",
+    "eventId": "rebellion-uk-2002",
+    "statement": "The closing match at Rebellion (2002) featured Brock Lesnar and Paul Heyman vs. Edge.",
+    "date": "2002-10-26",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-survivor-series-2002",
+    "eventId": "survivor-series-2002",
+    "statement": "The closing match at Survivor Series (2002) featured Triple H vs. Shawn Michaels vs. Rob Van Dam vs. Kane vs. Booker T vs. Chris Jericho.",
+    "date": "2002-11-17",
+    "sourceIds": [
+      "catalog-dates",
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-armageddon-2002",
+    "eventId": "armageddon-2002",
+    "statement": "The closing match at Armageddon (2002) featured Shawn Michaels vs. Triple H.",
+    "date": "2002-12-15",
+    "sourceIds": [
+      "catalog-dates",
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-royal-rumble-2003",
+    "eventId": "royal-rumble-2003",
+    "statement": "The closing match at Royal Rumble (2003) featured 30-man Royal Rumble match.",
+    "date": "2003-01-19",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-no-way-out-2003",
+    "eventId": "no-way-out-2003",
+    "statement": "The closing match at No Way Out (2003) featured Hulk Hogan vs. The Rock.",
+    "date": "2003-02-23",
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-way-out-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-wrestlemania-xix-2003",
+    "eventId": "wrestlemania-xix-2003",
+    "statement": "The closing match at WrestleMania XIX (2003) featured Kurt Angle vs. Brock Lesnar.",
+    "date": "2003-03-30",
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-xix-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-backlash-2003",
+    "eventId": "backlash-2003",
+    "statement": "The closing match at Backlash (2003) featured Goldberg vs. The Rock.",
+    "date": "2003-04-27",
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-judgment-day-2003",
+    "eventId": "judgment-day-2003",
+    "statement": "The closing match at Judgment Day (2003) featured Brock Lesnar vs. Big Show.",
+    "date": "2003-05-18",
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-insurrextion-uk-2003",
+    "eventId": "insurrextion-uk-2003",
+    "statement": "The closing match at Insurrextion (2003) featured Triple H vs. Kevin Nash.",
+    "date": "2003-06-07",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-bad-blood-2003",
+    "eventId": "bad-blood-2003",
+    "statement": "The closing match at Bad Blood (2003) featured Triple H vs. Kevin Nash.",
+    "date": "2003-06-15",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-vengeance-2003",
+    "eventId": "vengeance-2003",
+    "statement": "The closing match at Vengeance (2003) featured Brock Lesnar vs. Kurt Angle vs. Big Show.",
+    "date": "2003-07-27",
+    "sourceIds": [
+      "catalog-dates",
+      "results-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-summerslam-2003",
+    "eventId": "summerslam-2003",
+    "statement": "The closing match at SummerSlam (2003) featured Triple H vs. Goldberg vs. Shawn Michaels vs. Kevin Nash vs. Chris Jericho vs. Randy Orton.",
+    "date": "2003-08-24",
+    "sourceIds": [
+      "catalog-dates",
+      "results-summerslam-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-unforgiven-2003",
+    "eventId": "unforgiven-2003",
+    "statement": "The closing match at Unforgiven (2003) featured Triple H vs. Goldberg.",
+    "date": "2003-09-21",
+    "sourceIds": [
+      "catalog-dates",
+      "results-unforgiven-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-no-mercy-2003",
+    "eventId": "no-mercy-2003",
+    "statement": "The closing match at No Mercy (2003) featured Brock Lesnar vs. The Undertaker.",
+    "date": "2003-10-19",
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-mercy-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-survivor-series-2003",
+    "eventId": "survivor-series-2003",
+    "statement": "The closing match at Survivor Series (2003) featured Goldberg vs. Triple H.",
+    "date": "2003-11-16",
+    "sourceIds": [
+      "catalog-dates",
+      "results-survivor-series-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-armageddon-2003",
+    "eventId": "armageddon-2003",
+    "statement": "The closing match at Armageddon (2003) featured Goldberg vs. Triple H vs. Kane.",
+    "date": "2003-12-14",
+    "sourceIds": [
+      "catalog-dates",
+      "results-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-royal-rumble-2004",
+    "eventId": "royal-rumble-2004",
+    "statement": "The closing match at Royal Rumble (2004) featured 30-man Royal Rumble match.",
+    "date": "2004-01-25",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-no-way-out-2004",
+    "eventId": "no-way-out-2004",
+    "statement": "The closing match at No Way Out (2004) featured Brock Lesnar vs. Eddie Guerrero.",
+    "date": "2004-02-15",
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-way-out-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-wrestlemania-xx-2004",
+    "eventId": "wrestlemania-xx-2004",
+    "statement": "The closing match at WrestleMania XX (2004) featured Triple H vs. Chris Benoit vs. Shawn Michaels.",
+    "date": "2004-03-14",
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-backlash-2004",
+    "eventId": "backlash-2004",
+    "statement": "The closing match at Backlash (2004) featured Chris Benoit vs. Shawn Michaels vs. Triple H.",
+    "date": "2004-04-18",
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-judgment-day-2004",
+    "eventId": "judgment-day-2004",
+    "statement": "The closing match at Judgment Day (2004) featured Eddie Guerrero vs. John Bradshaw Layfield.",
+    "date": "2004-05-16",
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-bad-blood-2004",
+    "eventId": "bad-blood-2004",
+    "statement": "The closing match at Bad Blood (2004) featured Shawn Michaels vs. Triple H.",
+    "date": "2004-06-13",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-the-great-american-bash-2004",
+    "eventId": "the-great-american-bash-2004",
+    "statement": "The closing match at The Great American Bash (2004) featured The Undertaker vs. The Dudley Boyz ( Bubba Ray Dudley and D-Von Dudley ).",
+    "date": "2004-06-27",
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "main-vengeance-2004",
+    "eventId": "vengeance-2004",
+    "statement": "The closing match at Vengeance (2004) featured Chris Benoit vs. Triple H.",
+    "date": "2004-07-11",
+    "sourceIds": [
+      "catalog-dates",
+      "results-vengeance-2004"
+    ],
+    "reviewStatus": "reviewed"
+  }
+]
