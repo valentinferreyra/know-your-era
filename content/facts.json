@@ -2809,5 +2809,1082 @@
       "history-cruiser"
     ],
     "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-01",
+    "eventId": "wrestlemania-2000-2000",
+    "date": "2000-04-02",
+    "statement": "Participants in the WWE Championship main event at WrestleMania 2000 2000: Triple H, The Rock, Mick Foley, Big Show.",
+    "participants": [
+      "Triple H",
+      "The Rock",
+      "Mick Foley",
+      "Big Show"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-2000-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-02",
+    "eventId": "summerslam-1999",
+    "date": "1999-08-22",
+    "statement": "Participants in the WWE Championship Triple Threat Match at SummerSlam 1999: Steve Austin, Triple H, Mankind.",
+    "participants": [
+      "Steve Austin",
+      "Triple H",
+      "Mankind"
+    ],
+    "sourceIds": [
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-03",
+    "eventId": "summerslam-2000",
+    "date": "2000-08-27",
+    "statement": "Participants in the WWE Championship Triple Threat Match at SummerSlam 2000: The Rock, Triple H, Kurt Angle.",
+    "participants": [
+      "The Rock",
+      "Triple H",
+      "Kurt Angle"
+    ],
+    "sourceIds": [
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-04",
+    "eventId": "vengeance-2002",
+    "date": "2002-07-21",
+    "statement": "Participants in the WWE Championship Triple Threat Match at Vengeance 2002: The Rock, The Undertaker, Kurt Angle.",
+    "participants": [
+      "The Rock",
+      "The Undertaker",
+      "Kurt Angle"
+    ],
+    "sourceIds": [
+      "results-vengeance-2002",
+      "detail-vengeance-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-05",
+    "eventId": "wrestlemania-xx-2004",
+    "date": "2004-03-14",
+    "statement": "Participants in the World Heavyweight Championship Triple Threat Match at WrestleMania XX 2004: Chris Benoit, Triple H, Shawn Michaels.",
+    "participants": [
+      "Chris Benoit",
+      "Triple H",
+      "Shawn Michaels"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-06",
+    "eventId": "vengeance-2003",
+    "date": "2003-07-27",
+    "statement": "Participants in the WWE Championship Triple Threat Match at Vengeance 2003: Kurt Angle, Brock Lesnar, Big Show.",
+    "participants": [
+      "Kurt Angle",
+      "Brock Lesnar",
+      "Big Show"
+    ],
+    "sourceIds": [
+      "results-vengeance-2003",
+      "detail-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-07",
+    "eventId": "summerslam-2003",
+    "date": "2003-08-24",
+    "statement": "Participants in the World Heavyweight Championship Elimination Chamber Match at SummerSlam 2003: Triple H, Goldberg, Chris Jericho, Randy Orton, Shawn Michaels, Kevin Nash.",
+    "participants": [
+      "Triple H",
+      "Goldberg",
+      "Chris Jericho",
+      "Randy Orton",
+      "Shawn Michaels",
+      "Kevin Nash"
+    ],
+    "sourceIds": [
+      "results-summerslam-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-08",
+    "eventId": "survivor-series-2002",
+    "date": "2002-11-17",
+    "statement": "Participants in the World Heavyweight Championship Elimination Chamber Match at Survivor Series 2002: Triple H, Shawn Michaels, Rob Van Dam, Booker T, Chris Jericho, Kane.",
+    "participants": [
+      "Triple H",
+      "Shawn Michaels",
+      "Rob Van Dam",
+      "Booker T",
+      "Chris Jericho",
+      "Kane"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-09",
+    "eventId": "armageddon-2000",
+    "date": "2000-12-10",
+    "statement": "Participants in the WWE Championship Hell in a Cell Match at Armageddon 2000: Kurt Angle, The Rock, Steve Austin, Triple H, The Undertaker, Rikishi.",
+    "participants": [
+      "Kurt Angle",
+      "The Rock",
+      "Steve Austin",
+      "Triple H",
+      "The Undertaker",
+      "Rikishi"
+    ],
+    "sourceIds": [
+      "results-armageddon-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-10",
+    "eventId": "unforgiven-1999",
+    "date": "1999-09-26",
+    "statement": "Participants in the WWE Championship Six-Pack Challenge at Unforgiven 1999: Triple H, The Rock, Big Show, Kane, Mankind, The British Bulldog.",
+    "participants": [
+      "Triple H",
+      "The Rock",
+      "Big Show",
+      "Kane",
+      "Mankind",
+      "The British Bulldog"
+    ],
+    "sourceIds": [
+      "results-unforgiven-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-11",
+    "eventId": "unforgiven-2000",
+    "date": "2000-09-24",
+    "statement": "Participants in the WWE Championship Fatal Four Way Match at Unforgiven 2000: The Rock, Chris Benoit, The Undertaker, Kane.",
+    "participants": [
+      "The Rock",
+      "Chris Benoit",
+      "The Undertaker",
+      "Kane"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-12",
+    "eventId": "armageddon-2003",
+    "date": "2003-12-14",
+    "statement": "Participants in the World Heavyweight Championship Triple Threat Match at Armageddon 2003: Triple H, Goldberg, Kane.",
+    "participants": [
+      "Triple H",
+      "Goldberg",
+      "Kane"
+    ],
+    "sourceIds": [
+      "results-armageddon-2003",
+      "detail-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-13",
+    "eventId": "unforgiven-in-your-house-1998",
+    "date": "1998-04-26",
+    "statement": "Participants in the opening Six-Man Tag Team Match at Unforgiven: In Your House 1998: Ken Shamrock, Steve Blackman, Faarooq, The Rock, D-Lo Brown, Mark Henry.",
+    "participants": [
+      "Ken Shamrock",
+      "Steve Blackman",
+      "Faarooq",
+      "The Rock",
+      "D-Lo Brown",
+      "Mark Henry"
+    ],
+    "sourceIds": [
+      "results-unforgiven-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-14",
+    "eventId": "wrestlemania-x-seven-2001",
+    "date": "2001-04-01",
+    "statement": "Participants in the World Tag Team Championship TLC Match at WrestleMania X-Seven 2001: Edge, Christian, Matt Hardy, Jeff Hardy, Bubba Ray Dudley, D-Von Dudley.",
+    "participants": [
+      "Edge",
+      "Christian",
+      "Matt Hardy",
+      "Jeff Hardy",
+      "Bubba Ray Dudley",
+      "D-Von Dudley"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-x-seven-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-15",
+    "eventId": "wrestlemania-x8-2002",
+    "date": "2002-03-17",
+    "statement": "Participants in the World Tag Team Championship Four-Way Elimination Match at WrestleMania X8 2002: Billy Gunn, Chuck Palumbo, Matt Hardy, Jeff Hardy, Bradshaw, Faarooq, Bubba Ray Dudley, D-Von Dudley.",
+    "participants": [
+      "Billy Gunn",
+      "Chuck Palumbo",
+      "Matt Hardy",
+      "Jeff Hardy",
+      "Bradshaw",
+      "Faarooq",
+      "Bubba Ray Dudley",
+      "D-Von Dudley"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-x8-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-16",
+    "eventId": "summerslam-2001",
+    "date": "2001-08-19",
+    "statement": "Participants in the tag team championship Steel Cage Match at SummerSlam 2001: The Undertaker, Kane, Kanyon, Diamond Dallas Page.",
+    "participants": [
+      "The Undertaker",
+      "Kane",
+      "Kanyon",
+      "Diamond Dallas Page"
+    ],
+    "sourceIds": [
+      "results-summerslam-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-17",
+    "eventId": "summerslam-2000",
+    "date": "2000-08-27",
+    "statement": "Participants in the World Tag Team Championship TLC Match at SummerSlam 2000: Edge, Christian, Matt Hardy, Jeff Hardy, Bubba Ray Dudley, D-Von Dudley.",
+    "participants": [
+      "Edge",
+      "Christian",
+      "Matt Hardy",
+      "Jeff Hardy",
+      "Bubba Ray Dudley",
+      "D-Von Dudley"
+    ],
+    "sourceIds": [
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-18",
+    "eventId": "survivor-series-2001",
+    "date": "2001-11-18",
+    "statement": "Participants in the Alliance team in the main event at Survivor Series 2001: Steve Austin, Kurt Angle, Shane McMahon, Booker T, Rob Van Dam.",
+    "participants": [
+      "Steve Austin",
+      "Kurt Angle",
+      "Shane McMahon",
+      "Booker T",
+      "Rob Van Dam"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-19",
+    "eventId": "wrestlemania-xx-2004",
+    "date": "2004-03-14",
+    "statement": "Participants in the Evolution vs. The Rock & Mick Foley Handicap Match at WrestleMania XX 2004: Randy Orton, Batista, Ric Flair, The Rock, Mick Foley.",
+    "participants": [
+      "Randy Orton",
+      "Batista",
+      "Ric Flair",
+      "The Rock",
+      "Mick Foley"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-easy-20",
+    "eventId": "summerslam-2002",
+    "date": "2002-08-25",
+    "statement": "Participants in the World Tag Team Championship match at SummerSlam 2002: Lance Storm, Christian, Booker T, Goldust.",
+    "participants": [
+      "Lance Storm",
+      "Christian",
+      "Booker T",
+      "Goldust"
+    ],
+    "sourceIds": [
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-01",
+    "eventId": "summerslam-1998",
+    "date": "1998-08-30",
+    "statement": "Participants in the Mixed Tag Team Match at SummerSlam 1998: Sable, Edge, Marc Mero, Jacqueline.",
+    "participants": [
+      "Sable",
+      "Edge",
+      "Marc Mero",
+      "Jacqueline"
+    ],
+    "sourceIds": [
+      "results-summerslam-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-02",
+    "eventId": "wrestlemania-xiv-1998",
+    "date": "1998-03-29",
+    "statement": "Participants in the Mixed Tag Team Match at WrestleMania XIV 1998: Marc Mero, Sable, Goldust, Luna Vachon.",
+    "participants": [
+      "Marc Mero",
+      "Sable",
+      "Goldust",
+      "Luna Vachon"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xiv-1998",
+      "detail-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-03",
+    "eventId": "wrestlemania-xv-1999",
+    "date": "1999-03-28",
+    "statement": "Participants in the Intercontinental Championship Fatal Four Way Match at WrestleMania XV 1999: Road Dogg, Ken Shamrock, Val Venis, Goldust.",
+    "participants": [
+      "Road Dogg",
+      "Ken Shamrock",
+      "Val Venis",
+      "Goldust"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-04",
+    "eventId": "survivor-series-1998",
+    "date": "1998-11-15",
+    "statement": "Participants in the World Tag Team Championship Triple Threat Match at Survivor Series 1998: Road Dogg, Billy Gunn, D-Lo Brown, Mark Henry, Mosh, Thrasher.",
+    "participants": [
+      "Road Dogg",
+      "Billy Gunn",
+      "D-Lo Brown",
+      "Mark Henry",
+      "Mosh",
+      "Thrasher"
+    ],
+    "sourceIds": [
+      "results-survivor-series-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-05",
+    "eventId": "summerslam-1999",
+    "date": "1999-08-22",
+    "statement": "Participants in the Tag Team Turmoil Match at SummerSlam 1999: Bradshaw, Faarooq, Edge, Christian, Matt Hardy, Jeff Hardy, Mideon, Viscera, Droz, Albert, Crash Holly, Hardcore Holly.",
+    "participants": [
+      "Bradshaw",
+      "Faarooq",
+      "Edge",
+      "Christian",
+      "Matt Hardy",
+      "Jeff Hardy",
+      "Mideon",
+      "Viscera",
+      "Droz",
+      "Albert",
+      "Crash Holly",
+      "Hardcore Holly"
+    ],
+    "sourceIds": [
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-06",
+    "eventId": "armageddon-1999",
+    "date": "1999-12-12",
+    "statement": "Participants in the Women's Championship Four-Way Swimming Pool Match at Armageddon 1999: The Kat, Ivory, B.B., Jacqueline.",
+    "participants": [
+      "The Kat",
+      "Ivory",
+      "B.B.",
+      "Jacqueline"
+    ],
+    "sourceIds": [
+      "results-armageddon-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-07",
+    "eventId": "no-way-out-2000",
+    "date": "2000-02-27",
+    "statement": "Participants in the Too Cool & Rikishi vs. The Radicalz Six-Man Tag Team Match at No Way Out 2000: Scotty 2 Hotty, Grand Master Sexay, Rikishi, Dean Malenko, Perry Saturn, Chris Benoit.",
+    "participants": [
+      "Scotty 2 Hotty",
+      "Grand Master Sexay",
+      "Rikishi",
+      "Dean Malenko",
+      "Perry Saturn",
+      "Chris Benoit"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-08",
+    "eventId": "wrestlemania-2000-2000",
+    "date": "2000-04-02",
+    "statement": "Participants in the Intercontinental and European Championship Triple Threat Match at WrestleMania 2000 2000: Kurt Angle, Chris Benoit, Chris Jericho.",
+    "participants": [
+      "Kurt Angle",
+      "Chris Benoit",
+      "Chris Jericho"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-2000-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-09",
+    "eventId": "backlash-2000",
+    "date": "2000-04-30",
+    "statement": "Participants in the Hardcore Championship match at Backlash 2000: Crash Holly, Hardcore Holly, Jeff Hardy, Matt Hardy, Perry Saturn, Tazz.",
+    "participants": [
+      "Crash Holly",
+      "Hardcore Holly",
+      "Jeff Hardy",
+      "Matt Hardy",
+      "Perry Saturn",
+      "Tazz"
+    ],
+    "sourceIds": [
+      "results-backlash-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-10",
+    "eventId": "unforgiven-2000",
+    "date": "2000-09-24",
+    "statement": "Participants in the team opposing Right to Censor in the Eight-Man Tag Team Match at Unforgiven 2000: Bubba Ray Dudley, D-Von Dudley, Bradshaw, Faarooq.",
+    "participants": [
+      "Bubba Ray Dudley",
+      "D-Von Dudley",
+      "Bradshaw",
+      "Faarooq"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-11",
+    "eventId": "survivor-series-2000",
+    "date": "2000-11-19",
+    "statement": "Participants in the Radicalz team in the Eight-Man Elimination Match at Survivor Series 2000: Eddie Guerrero, Chris Benoit, Perry Saturn, Dean Malenko.",
+    "participants": [
+      "Eddie Guerrero",
+      "Chris Benoit",
+      "Perry Saturn",
+      "Dean Malenko"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-12",
+    "eventId": "summerslam-2001",
+    "date": "2001-08-19",
+    "statement": "Participants in the The Dudley Boyz & Test vs. The APA & Spike Dudley match at SummerSlam 2001: Bubba Ray Dudley, D-Von Dudley, Test, Bradshaw, Faarooq, Spike Dudley.",
+    "participants": [
+      "Bubba Ray Dudley",
+      "D-Von Dudley",
+      "Test",
+      "Bradshaw",
+      "Faarooq",
+      "Spike Dudley"
+    ],
+    "sourceIds": [
+      "results-summerslam-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-13",
+    "eventId": "unforgiven-2001",
+    "date": "2001-09-23",
+    "statement": "Participants in the World Tag Team Championship Four-Corners Elimination Match at Unforgiven 2001: Bubba Ray Dudley, D-Von Dudley, The Hurricane, Lance Storm, Big Show, Spike Dudley, Matt Hardy, Jeff Hardy.",
+    "participants": [
+      "Bubba Ray Dudley",
+      "D-Von Dudley",
+      "The Hurricane",
+      "Lance Storm",
+      "Big Show",
+      "Spike Dudley",
+      "Matt Hardy",
+      "Jeff Hardy"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-14",
+    "eventId": "no-mercy-2001",
+    "date": "2001-10-21",
+    "statement": "Participants in the WCW Tag Team Championship match at No Mercy 2001: Matt Hardy, Jeff Hardy, The Hurricane, Lance Storm.",
+    "participants": [
+      "Matt Hardy",
+      "Jeff Hardy",
+      "The Hurricane",
+      "Lance Storm"
+    ],
+    "sourceIds": [
+      "results-no-mercy-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-15",
+    "eventId": "survivor-series-2001",
+    "date": "2001-11-18",
+    "statement": "Participants in the Six-Way Women's Championship Match at Survivor Series 2001: Trish Stratus, Ivory, Molly Holly, Jazz, Lita, Jacqueline.",
+    "participants": [
+      "Trish Stratus",
+      "Ivory",
+      "Molly Holly",
+      "Jazz",
+      "Lita",
+      "Jacqueline"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-16",
+    "eventId": "survivor-series-2002",
+    "date": "2002-11-17",
+    "statement": "Participants in the WWE Tag Team Championship Triple Threat Elimination Match at Survivor Series 2002: Eddie Guerrero, Chavo Guerrero, Edge, Rey Mysterio, Kurt Angle, Chris Benoit.",
+    "participants": [
+      "Eddie Guerrero",
+      "Chavo Guerrero",
+      "Edge",
+      "Rey Mysterio",
+      "Kurt Angle",
+      "Chris Benoit"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-17",
+    "eventId": "armageddon-2002",
+    "date": "2002-12-15",
+    "statement": "Participants in the Women's Championship Triple Threat Match at Armageddon 2002: Victoria, Jacqueline, Trish Stratus.",
+    "participants": [
+      "Victoria",
+      "Jacqueline",
+      "Trish Stratus"
+    ],
+    "sourceIds": [
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-18",
+    "eventId": "wrestlemania-xix-2003",
+    "date": "2003-03-30",
+    "statement": "Participants in the Women's Championship Triple Threat Match at WrestleMania XIX 2003: Trish Stratus, Jazz, Victoria.",
+    "participants": [
+      "Trish Stratus",
+      "Jazz",
+      "Victoria"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xix-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-19",
+    "eventId": "backlash-2003",
+    "date": "2003-04-27",
+    "statement": "Participants in the Triple H, Chris Jericho & Ric Flair vs. Kevin Nash, Shawn Michaels & Booker T match at Backlash 2003: Triple H, Chris Jericho, Ric Flair, Kevin Nash, Shawn Michaels, Booker T.",
+    "participants": [
+      "Triple H",
+      "Chris Jericho",
+      "Ric Flair",
+      "Kevin Nash",
+      "Shawn Michaels",
+      "Booker T"
+    ],
+    "sourceIds": [
+      "results-backlash-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-medium-20",
+    "eventId": "judgment-day-2003",
+    "date": "2003-05-18",
+    "statement": "Participants in the opening Six-Man Tag Team Match at Judgment Day 2003: John Cena, Chuck Palumbo, Johnny Stamboli, Chris Benoit, Rhyno, Brian Kendrick.",
+    "participants": [
+      "John Cena",
+      "Chuck Palumbo",
+      "Johnny Stamboli",
+      "Chris Benoit",
+      "Rhyno",
+      "Brian Kendrick"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-01",
+    "eventId": "wrestlemania-xiv-1998",
+    "date": "1998-03-29",
+    "statement": "Participants in the tag teams in the opening Battle Royal at WrestleMania XIV 1998: Legion of Doom, Los Boricuas, The Truth Commission, Bradshaw & Chainz, Mark Henry & D-Lo Brown, The Quebecers, The Rock 'n' Roll Express, Faarooq & Kama, The Headbangers, Scott Taylor & Brian Christopher, The Disciples of Apocalypse, The Godwinns, The New Midnight Express.",
+    "participants": [
+      "Legion of Doom",
+      "Los Boricuas",
+      "The Truth Commission",
+      "Bradshaw & Chainz",
+      "Mark Henry & D-Lo Brown",
+      "The Quebecers",
+      "The Rock 'n' Roll Express",
+      "Faarooq & Kama",
+      "The Headbangers",
+      "Scott Taylor & Brian Christopher",
+      "The Disciples of Apocalypse",
+      "The Godwinns",
+      "The New Midnight Express"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xiv-1998",
+      "detail-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-02",
+    "eventId": "wrestlemania-xv-1999",
+    "date": "1999-03-28",
+    "statement": "Participants in the World Tag Team Championship match at WrestleMania XV 1999: Owen Hart, Jeff Jarrett, Test, D-Lo Brown.",
+    "participants": [
+      "Owen Hart",
+      "Jeff Jarrett",
+      "Test",
+      "D-Lo Brown"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-03",
+    "eventId": "backlash-1999",
+    "date": "1999-04-25",
+    "statement": "Participants in the The Brood vs. Mideon & The Acolytes match at Backlash 1999: Edge, Christian, Gangrel, Mideon, Bradshaw, Faarooq.",
+    "participants": [
+      "Edge",
+      "Christian",
+      "Gangrel",
+      "Mideon",
+      "Bradshaw",
+      "Faarooq"
+    ],
+    "sourceIds": [
+      "results-backlash-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-04",
+    "eventId": "summerslam-1999",
+    "date": "1999-08-22",
+    "statement": "Participants in the World Tag Team Championship match at SummerSlam 1999: Big Show, The Undertaker, X-Pac, Kane.",
+    "participants": [
+      "Big Show",
+      "The Undertaker",
+      "X-Pac",
+      "Kane"
+    ],
+    "sourceIds": [
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-05",
+    "eventId": "no-mercy-1999",
+    "date": "1999-10-17",
+    "statement": "Participants in the Four-Corners Match at No Mercy 1999: X-Pac, Faarooq, Kane, Bradshaw.",
+    "participants": [
+      "X-Pac",
+      "Faarooq",
+      "Kane",
+      "Bradshaw"
+    ],
+    "sourceIds": [
+      "results-no-mercy-1999"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-06",
+    "eventId": "armageddon-2000",
+    "date": "2000-12-10",
+    "statement": "Participants in the World Tag Team Championship Fatal Four Way Match at Armageddon 2000: Edge, Christian, Bubba Ray Dudley, D-Von Dudley, Bull Buchanan, The Goodfather, Road Dogg, K-Kwik.",
+    "participants": [
+      "Edge",
+      "Christian",
+      "Bubba Ray Dudley",
+      "D-Von Dudley",
+      "Bull Buchanan",
+      "The Goodfather",
+      "Road Dogg",
+      "K-Kwik"
+    ],
+    "sourceIds": [
+      "results-armageddon-2000"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-07",
+    "eventId": "no-way-out-2001",
+    "date": "2001-02-25",
+    "statement": "Participants in the Intercontinental Championship Fatal Four Way Match at No Way Out 2001: Chris Jericho, Eddie Guerrero, Chris Benoit, X-Pac.",
+    "participants": [
+      "Chris Jericho",
+      "Eddie Guerrero",
+      "Chris Benoit",
+      "X-Pac"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-08",
+    "eventId": "backlash-2001",
+    "date": "2001-04-29",
+    "statement": "Participants in the X-Factor vs. The Dudley Boyz match at Backlash 2001: X-Pac, Justin Credible, Albert, Bubba Ray Dudley, D-Von Dudley, Spike Dudley.",
+    "participants": [
+      "X-Pac",
+      "Justin Credible",
+      "Albert",
+      "Bubba Ray Dudley",
+      "D-Von Dudley",
+      "Spike Dudley"
+    ],
+    "sourceIds": [
+      "results-backlash-2001",
+      "detail-backlash-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-09",
+    "eventId": "judgment-day-2001",
+    "date": "2001-05-20",
+    "statement": "Participants in the Tag Team Turmoil Match at Judgment Day 2001: Chris Jericho, Chris Benoit, Perry Saturn, Dean Malenko, Bradshaw, Faarooq, Bubba Ray Dudley, D-Von Dudley, X-Pac, Justin Credible, Matt Hardy, Jeff Hardy, Edge, Christian.",
+    "participants": [
+      "Chris Jericho",
+      "Chris Benoit",
+      "Perry Saturn",
+      "Dean Malenko",
+      "Bradshaw",
+      "Faarooq",
+      "Bubba Ray Dudley",
+      "D-Von Dudley",
+      "X-Pac",
+      "Justin Credible",
+      "Matt Hardy",
+      "Jeff Hardy",
+      "Edge",
+      "Christian"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2001"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-10",
+    "eventId": "no-way-out-2002",
+    "date": "2002-02-17",
+    "statement": "Participants in the Tag Team Turmoil Match at No Way Out 2002: Bradshaw, Faarooq, Lance Storm, Christian, Albert, Scotty 2 Hotty, Matt Hardy, Jeff Hardy, Bubba Ray Dudley, D-Von Dudley, Billy Gunn, Chuck Palumbo.",
+    "participants": [
+      "Bradshaw",
+      "Faarooq",
+      "Lance Storm",
+      "Christian",
+      "Albert",
+      "Scotty 2 Hotty",
+      "Matt Hardy",
+      "Jeff Hardy",
+      "Bubba Ray Dudley",
+      "D-Von Dudley",
+      "Billy Gunn",
+      "Chuck Palumbo"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-11",
+    "eventId": "backlash-2002",
+    "date": "2002-04-21",
+    "statement": "Participants in the World Tag Team Championship match at Backlash 2002: Billy Gunn, Chuck Palumbo, Maven, Al Snow.",
+    "participants": [
+      "Billy Gunn",
+      "Chuck Palumbo",
+      "Maven",
+      "Al Snow"
+    ],
+    "sourceIds": [
+      "results-backlash-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-12",
+    "eventId": "judgment-day-2002",
+    "date": "2002-05-19",
+    "statement": "Participants in the Brock Lesnar & Paul Heyman vs. The Hardy Boyz match at Judgment Day 2002: Brock Lesnar, Paul Heyman, Matt Hardy, Jeff Hardy.",
+    "participants": [
+      "Brock Lesnar",
+      "Paul Heyman",
+      "Matt Hardy",
+      "Jeff Hardy"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-13",
+    "eventId": "vengeance-2002",
+    "date": "2002-07-21",
+    "statement": "Participants in the Tag Team Tables Match at Vengeance 2002: Bubba Ray Dudley, Spike Dudley, Eddie Guerrero, Chris Benoit.",
+    "participants": [
+      "Bubba Ray Dudley",
+      "Spike Dudley",
+      "Eddie Guerrero",
+      "Chris Benoit"
+    ],
+    "sourceIds": [
+      "results-vengeance-2002",
+      "detail-vengeance-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-14",
+    "eventId": "unforgiven-2002",
+    "date": "2002-09-22",
+    "statement": "Participants in the opening Eight-Man Tag Team Match at Unforgiven 2002: Booker T, Bubba Ray Dudley, Goldust, Kane, Christian, William Regal, Lance Storm, Test.",
+    "participants": [
+      "Booker T",
+      "Bubba Ray Dudley",
+      "Goldust",
+      "Kane",
+      "Christian",
+      "William Regal",
+      "Lance Storm",
+      "Test"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-15",
+    "eventId": "no-mercy-2002",
+    "date": "2002-10-20",
+    "statement": "Participants in the World Tag Team Championship match at No Mercy 2002: Christian, Chris Jericho, Booker T, Goldust.",
+    "participants": [
+      "Christian",
+      "Chris Jericho",
+      "Booker T",
+      "Goldust"
+    ],
+    "sourceIds": [
+      "results-no-mercy-2002"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-16",
+    "eventId": "no-way-out-2003",
+    "date": "2003-02-23",
+    "statement": "Participants in the Brock Lesnar & Chris Benoit vs. Team Angle Handicap Match at No Way Out 2003: Brock Lesnar, Chris Benoit, Kurt Angle, Shelton Benjamin, Charlie Haas.",
+    "participants": [
+      "Brock Lesnar",
+      "Chris Benoit",
+      "Kurt Angle",
+      "Shelton Benjamin",
+      "Charlie Haas"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-17",
+    "eventId": "judgment-day-2003",
+    "date": "2003-05-18",
+    "statement": "Participants in the Women's Championship Fatal Four Way Match at Judgment Day 2003: Jazz, Trish Stratus, Jacqueline, Victoria.",
+    "participants": [
+      "Jazz",
+      "Trish Stratus",
+      "Jacqueline",
+      "Victoria"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-18",
+    "eventId": "vengeance-2003",
+    "date": "2003-07-27",
+    "statement": "Participants in the APA Invitational Brawl at Vengeance 2003: Bradshaw, Faarooq, Matt Hardy, Shannon Moore, Orlando Jordan, Brian Kendrick, Sean O'Haire, Doink the Clown, Brother Love, Danny Basham, Doug Basham, Nunzio, Chuck Palumbo, Johnny Stamboli, Conquistador Uno, Conquistador Dos, Matt Cappotelli, John Hennigan, Kanyon, The Brooklyn Brawler, Funaki, Easter Bunny.",
+    "participants": [
+      "Bradshaw",
+      "Faarooq",
+      "Matt Hardy",
+      "Shannon Moore",
+      "Orlando Jordan",
+      "Brian Kendrick",
+      "Sean O'Haire",
+      "Doink the Clown",
+      "Brother Love",
+      "Danny Basham",
+      "Doug Basham",
+      "Nunzio",
+      "Chuck Palumbo",
+      "Johnny Stamboli",
+      "Conquistador Uno",
+      "Conquistador Dos",
+      "Matt Cappotelli",
+      "John Hennigan",
+      "Kanyon",
+      "The Brooklyn Brawler",
+      "Funaki",
+      "Easter Bunny"
+    ],
+    "sourceIds": [
+      "results-vengeance-2003",
+      "detail-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-19",
+    "eventId": "armageddon-2003",
+    "date": "2003-12-14",
+    "statement": "Participants in the World Tag Team Championship Tag Team Turmoil Match at Armageddon 2003: Ric Flair, Batista, Bubba Ray Dudley, D-Von Dudley, Garrison Cade, Mark Jindrak, Rene Dupree, Rob Conway, Scott Steiner, Test, The Hurricane, Rosey, Val Venis, Lance Storm.",
+    "participants": [
+      "Ric Flair",
+      "Batista",
+      "Bubba Ray Dudley",
+      "D-Von Dudley",
+      "Garrison Cade",
+      "Mark Jindrak",
+      "Rene Dupree",
+      "Rob Conway",
+      "Scott Steiner",
+      "Test",
+      "The Hurricane",
+      "Rosey",
+      "Val Venis",
+      "Lance Storm"
+    ],
+    "sourceIds": [
+      "results-armageddon-2003",
+      "detail-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "group-odd-hard-20",
+    "eventId": "no-way-out-2004",
+    "date": "2004-02-15",
+    "statement": "Participants in the WWE Tag Team Championship Handicap Match at No Way Out 2004: Rikishi, Scotty 2 Hotty, Danny Basham, Doug Basham, Shaniqua.",
+    "participants": [
+      "Rikishi",
+      "Scotty 2 Hotty",
+      "Danny Basham",
+      "Doug Basham",
+      "Shaniqua"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2004"
+    ],
+    "reviewStatus": "reviewed"
   }
 ]

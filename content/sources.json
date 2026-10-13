@@ -481,5 +481,40 @@
     "title": "Cruiserweight Championship title history",
     "inspectedAt": "2026-10-13",
     "locator": "Championship holders over time, 1990-1999 and 2000-2009 tables. The event falls within the listed reign, before any change during that broadcast."
+  },
+  {
+    "id": "detail-backlash-2001",
+    "url": "https://en.wikipedia.org/wiki/WWF_Backlash_(2001)",
+    "title": "Backlash 2001 match details",
+    "locator": "Event, opening match. X-Factor faced Bubba Ray, D-Von and Spike Dudley.",
+    "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "detail-vengeance-2002",
+    "url": "https://en.wikipedia.org/wiki/Vengeance_(2002)",
+    "title": "Vengeance 2002 match details",
+    "locator": "Preliminary matches and results. Bubba Ray and Spike, not D-Von, took part in the Tables Match.",
+    "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "detail-armageddon-2003",
+    "url": "https://en.wikipedia.org/wiki/Armageddon_(2003)",
+    "title": "Armageddon 2003 match details",
+    "locator": "Tag Team Turmoil results table, including La Resistance's Conway and Dupree.",
+    "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "detail-wrestlemania-xiv-1998",
+    "url": "https://en.wikipedia.org/wiki/WrestleMania_XIV",
+    "title": "WrestleMania XIV match details",
+    "locator": "Results. Main-broadcast match order and opening tag team Battle Royal.",
+    "inspectedAt": "2026-10-13"
+  },
+  {
+    "id": "detail-vengeance-2003",
+    "url": "https://en.wikipedia.org/wiki/Vengeance_(2003)",
+    "title": "Vengeance 2003 match details",
+    "locator": "Results, note 1. APA Invitational participants; Heat match separately marked.",
+    "inspectedAt": "2026-10-13"
   }
 ]

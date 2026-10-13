@@ -33,6 +33,12 @@ The 88 current facts document catalog-level main-event participation only. They 
 
 ## Champions entering review
 
+## Odd-one-out review
+
+Every outsider is checked against the specific match or team named in the prompt, never against an undefined era or an entire roster. Manager appearances and interference do not turn someone into a match participant. Expanded team names are stored as participants internally.
+
+The detailed event reports resolve two traps in the shorter official results: Spike Dudley competed alongside Bubba Ray and D-Von at Backlash 2001; Bubba Ray and Spike were the Vengeance 2002 Tables Match team, while D-Von was not in that match. Armageddon 2003 La Resistance used Conway and Dupree. These questions cite the inspected detailed report in addition to the official results. The APA Invitational participant note separates its main-card brawl from the Heat match.
+
 The sixty champion questions use inspected WWE title-history intervals, not the name of the winner in a results list. Each holder fact records the championship, champion, reign start and reign end. The broadcast must occur after the start and on or before the end; a same-day title loss still identifies the defending champion. The World Tag Team Championship here is the 1971-2010 lineage, not the separate SmackDown title introduced in 2002. The women's and cruiserweight records likewise use the historical title lineages.
 
 Team questions ask who held the titles when the event began. This avoids implying Kane appeared alongside Mankind at SummerSlam 1998. Accepted team-name aliases include reversed partner order only for the exact reviewed pairing. Questions about vacant titles or title unifications with ambiguous wording were not used.

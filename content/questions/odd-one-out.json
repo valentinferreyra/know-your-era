@@ -1,1 +1,2759 @@
-[]
+[
+  {
+    "id": "odd-easy-01",
+    "familyId": "odd-easy-01",
+    "conflictGroups": [
+      "main-wrestlemania-2000-2000",
+      "group-odd-easy-01",
+      "moment-ec00"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the WWE Championship main event at WrestleMania 2000 2000?",
+    "explanation": "Steve Austin did not compete in this match. Triple H, The Rock, Mick Foley did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "wrestlemania-2000-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-01"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-2000-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-2",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-3",
+        "label": "Mick Foley"
+      },
+      {
+        "id": "option-4",
+        "label": "Steve Austin"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-02",
+    "familyId": "odd-easy-02",
+    "conflictGroups": [
+      "main-summerslam-1999",
+      "group-odd-easy-02",
+      "moment-mankind99",
+      "moment-jarrett99"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the WWE Championship Triple Threat Match at SummerSlam 1999?",
+    "explanation": "The Rock did not compete in this match. Steve Austin, Triple H, Mankind did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "summerslam-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-02"
+    ],
+    "sourceIds": [
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Mankind"
+      },
+      {
+        "id": "option-4",
+        "label": "The Rock"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-03",
+    "familyId": "odd-easy-03",
+    "conflictGroups": [
+      "main-summerslam-2000",
+      "group-odd-easy-03",
+      "moment-chyna00"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the WWE Championship Triple Threat Match at SummerSlam 2000?",
+    "explanation": "The Undertaker did not compete in this match. The Rock, Triple H, Kurt Angle did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "summerslam-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-03"
+    ],
+    "sourceIds": [
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-4",
+        "label": "The Undertaker"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-04",
+    "familyId": "odd-easy-04",
+    "conflictGroups": [
+      "main-vengeance-2002",
+      "group-odd-easy-04",
+      "moment-cena02",
+      "moment-rock02"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the WWE Championship Triple Threat Match at Vengeance 2002?",
+    "explanation": "Brock Lesnar did not compete in this match. The Rock, The Undertaker, Kurt Angle did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "vengeance-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-04"
+    ],
+    "sourceIds": [
+      "results-vengeance-2002",
+      "detail-vengeance-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-3",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-4",
+        "label": "Brock Lesnar"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-05",
+    "familyId": "odd-easy-05",
+    "conflictGroups": [
+      "main-wrestlemania-xx-2004",
+      "group-odd-easy-05",
+      "moment-cena04",
+      "moment-benoit04",
+      "moment-taker04",
+      "moment-wm20eddie"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the World Heavyweight Championship Triple Threat Match at WrestleMania XX 2004?",
+    "explanation": "Randy Orton did not compete in this match. Chris Benoit, Triple H, Shawn Michaels did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "wrestlemania-xx-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-05"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "option-4",
+        "label": "Randy Orton"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-06",
+    "familyId": "odd-easy-06",
+    "conflictGroups": [
+      "main-vengeance-2003",
+      "group-odd-easy-06",
+      "moment-eddie03",
+      "moment-angle03"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the WWE Championship Triple Threat Match at Vengeance 2003?",
+    "explanation": "Eddie Guerrero did not compete in this match. Kurt Angle, Brock Lesnar, Big Show did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "vengeance-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-06"
+    ],
+    "sourceIds": [
+      "results-vengeance-2003",
+      "detail-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-2",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "option-3",
+        "label": "Big Show"
+      },
+      {
+        "id": "option-4",
+        "label": "Eddie Guerrero"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-07",
+    "familyId": "odd-easy-07",
+    "conflictGroups": [
+      "main-summerslam-2003",
+      "group-odd-easy-07"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the World Heavyweight Championship Elimination Chamber Match at SummerSlam 2003?",
+    "explanation": "Chris Benoit did not compete in this match. Triple H, Goldberg, Chris Jericho did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "summerslam-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-07"
+    ],
+    "sourceIds": [
+      "results-summerslam-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-2",
+        "label": "Goldberg"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-4",
+        "label": "Chris Benoit"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-08",
+    "familyId": "odd-easy-08",
+    "conflictGroups": [
+      "main-survivor-series-2002",
+      "group-odd-easy-08",
+      "moment-victoria02",
+      "moment-hbk02",
+      "moment-losguerreros02",
+      "moment-surv02show"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the World Heavyweight Championship Elimination Chamber Match at Survivor Series 2002?",
+    "explanation": "Kurt Angle did not compete in this match. Triple H, Shawn Michaels, Rob Van Dam did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "survivor-series-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-08"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-2",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "option-3",
+        "label": "Rob Van Dam"
+      },
+      {
+        "id": "option-4",
+        "label": "Kurt Angle"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-09",
+    "familyId": "odd-easy-09",
+    "conflictGroups": [
+      "main-armageddon-2000",
+      "group-odd-easy-09",
+      "moment-jerichokane00"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the WWE Championship Hell in a Cell Match at Armageddon 2000?",
+    "explanation": "Shawn Michaels did not compete in this match. Kurt Angle, The Rock, Steve Austin did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "armageddon-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-09"
+    ],
+    "sourceIds": [
+      "results-armageddon-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-2",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-3",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "option-4",
+        "label": "Shawn Michaels"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-10",
+    "familyId": "odd-easy-10",
+    "conflictGroups": [
+      "main-unforgiven-1999",
+      "group-odd-easy-10"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the WWE Championship Six-Pack Challenge at Unforgiven 1999?",
+    "explanation": "Chris Jericho did not compete in this match. Triple H, The Rock, Big Show did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "unforgiven-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-10"
+    ],
+    "sourceIds": [
+      "results-unforgiven-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-2",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-3",
+        "label": "Big Show"
+      },
+      {
+        "id": "option-4",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-11",
+    "familyId": "odd-easy-11",
+    "conflictGroups": [
+      "main-unforgiven-2000",
+      "group-odd-easy-11",
+      "moment-hardys00"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the WWE Championship Fatal Four Way Match at Unforgiven 2000?",
+    "explanation": "Triple H did not compete in this match. The Rock, Chris Benoit, The Undertaker did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "unforgiven-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-11"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-3",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-4",
+        "label": "Triple H"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-12",
+    "familyId": "odd-easy-12",
+    "conflictGroups": [
+      "main-armageddon-2003",
+      "group-odd-easy-12",
+      "moment-orton03",
+      "moment-flairbatista03",
+      "moment-hhh03"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the World Heavyweight Championship Triple Threat Match at Armageddon 2003?",
+    "explanation": "Shawn Michaels did not compete in this match. Triple H, Goldberg, Kane did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "armageddon-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-12"
+    ],
+    "sourceIds": [
+      "results-armageddon-2003",
+      "detail-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-2",
+        "label": "Goldberg"
+      },
+      {
+        "id": "option-3",
+        "label": "Kane"
+      },
+      {
+        "id": "option-4",
+        "label": "Shawn Michaels"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-13",
+    "familyId": "odd-easy-13",
+    "conflictGroups": [
+      "main-unforgiven-in-your-house-1998",
+      "group-odd-easy-13",
+      "moment-inferno98"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the opening Six-Man Tag Team Match at Unforgiven: In Your House 1998?",
+    "explanation": "Steve Austin did not compete in this match. Ken Shamrock, Steve Blackman, Faarooq did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "unforgiven-in-your-house-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-13"
+    ],
+    "sourceIds": [
+      "results-unforgiven-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Ken Shamrock"
+      },
+      {
+        "id": "option-2",
+        "label": "Steve Blackman"
+      },
+      {
+        "id": "option-3",
+        "label": "Faarooq"
+      },
+      {
+        "id": "option-4",
+        "label": "Steve Austin"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-14",
+    "familyId": "odd-easy-14",
+    "conflictGroups": [
+      "main-wrestlemania-x-seven-2001",
+      "group-odd-easy-14",
+      "moment-eddie01",
+      "moment-chyna01",
+      "moment-shane01",
+      "moment-austin01"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship TLC Match at WrestleMania X-Seven 2001?",
+    "explanation": "Chris Jericho did not compete in this match. Edge, Christian, Matt Hardy did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "wrestlemania-x-seven-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-14"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-x-seven-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Edge"
+      },
+      {
+        "id": "option-2",
+        "label": "Christian"
+      },
+      {
+        "id": "option-3",
+        "label": "Matt Hardy"
+      },
+      {
+        "id": "option-4",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-15",
+    "familyId": "odd-easy-15",
+    "conflictGroups": [
+      "main-wrestlemania-x8-2002",
+      "group-odd-easy-15",
+      "moment-hhh02"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship Four-Way Elimination Match at WrestleMania X8 2002?",
+    "explanation": "Kane did not compete in this match. Billy Gunn, Chuck Palumbo, Matt Hardy did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "wrestlemania-x8-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-15"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-x8-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Billy Gunn"
+      },
+      {
+        "id": "option-2",
+        "label": "Chuck Palumbo"
+      },
+      {
+        "id": "option-3",
+        "label": "Matt Hardy"
+      },
+      {
+        "id": "option-4",
+        "label": "Kane"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-16",
+    "familyId": "odd-easy-16",
+    "conflictGroups": [
+      "main-summerslam-2001",
+      "group-odd-easy-16",
+      "moment-edge01"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the tag team championship Steel Cage Match at SummerSlam 2001?",
+    "explanation": "Booker T did not compete in this match. The Undertaker, Kane, Kanyon did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "summerslam-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-16"
+    ],
+    "sourceIds": [
+      "results-summerslam-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-2",
+        "label": "Kane"
+      },
+      {
+        "id": "option-3",
+        "label": "Kanyon"
+      },
+      {
+        "id": "option-4",
+        "label": "Booker T"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-17",
+    "familyId": "odd-easy-17",
+    "conflictGroups": [
+      "main-summerslam-2000",
+      "group-odd-easy-17",
+      "moment-chyna00"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship TLC Match at SummerSlam 2000?",
+    "explanation": "Kurt Angle did not compete in this match. Edge, Christian, Matt Hardy did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "summerslam-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-17"
+    ],
+    "sourceIds": [
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Edge"
+      },
+      {
+        "id": "option-2",
+        "label": "Christian"
+      },
+      {
+        "id": "option-3",
+        "label": "Matt Hardy"
+      },
+      {
+        "id": "option-4",
+        "label": "Kurt Angle"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-18",
+    "familyId": "odd-easy-18",
+    "conflictGroups": [
+      "main-survivor-series-2001",
+      "group-odd-easy-18",
+      "moment-trish01"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the Alliance team in the main event at Survivor Series 2001?",
+    "explanation": "The Rock did not compete in this match. Steve Austin, Kurt Angle, Shane McMahon did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "survivor-series-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-18"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "option-2",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-3",
+        "label": "Shane McMahon"
+      },
+      {
+        "id": "option-4",
+        "label": "The Rock"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-19",
+    "familyId": "odd-easy-19",
+    "conflictGroups": [
+      "main-wrestlemania-xx-2004",
+      "group-odd-easy-19",
+      "moment-cena04",
+      "moment-benoit04",
+      "moment-taker04",
+      "moment-wm20eddie"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the Evolution vs. The Rock & Mick Foley Handicap Match at WrestleMania XX 2004?",
+    "explanation": "Triple H did not compete in this match. Randy Orton, Batista, Ric Flair did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "wrestlemania-xx-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-19"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xx-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Randy Orton"
+      },
+      {
+        "id": "option-2",
+        "label": "Batista"
+      },
+      {
+        "id": "option-3",
+        "label": "Ric Flair"
+      },
+      {
+        "id": "option-4",
+        "label": "Triple H"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-easy-20",
+    "familyId": "odd-easy-20",
+    "conflictGroups": [
+      "main-summerslam-2002",
+      "group-odd-easy-20",
+      "moment-hbkreturn02",
+      "moment-brock02",
+      "moment-ss02flair",
+      "moment-ss02edge",
+      "moment-ss02taker",
+      "moment-ss02rvd"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "easy",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship match at SummerSlam 2002?",
+    "explanation": "Chris Jericho did not compete in this match. Lance Storm, Christian, Booker T did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "summerslam-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-easy-20"
+    ],
+    "sourceIds": [
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Lance Storm"
+      },
+      {
+        "id": "option-2",
+        "label": "Christian"
+      },
+      {
+        "id": "option-3",
+        "label": "Booker T"
+      },
+      {
+        "id": "option-4",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-01",
+    "familyId": "odd-medium-01",
+    "conflictGroups": [
+      "main-summerslam-1998",
+      "group-odd-medium-01",
+      "moment-hhh98"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Mixed Tag Team Match at SummerSlam 1998?",
+    "explanation": "Luna Vachon did not compete in this match. Sable, Edge, Marc Mero did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "summerslam-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-01"
+    ],
+    "sourceIds": [
+      "results-summerslam-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Sable"
+      },
+      {
+        "id": "option-2",
+        "label": "Edge"
+      },
+      {
+        "id": "option-3",
+        "label": "Marc Mero"
+      },
+      {
+        "id": "option-4",
+        "label": "Luna Vachon"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-02",
+    "familyId": "odd-medium-02",
+    "conflictGroups": [
+      "main-wrestlemania-xiv-1998",
+      "group-odd-medium-02",
+      "moment-austin98",
+      "moment-wm14taka",
+      "moment-wm14hhh",
+      "moment-wm14taker"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Mixed Tag Team Match at WrestleMania XIV 1998?",
+    "explanation": "Jacqueline did not compete in this match. Marc Mero, Sable, Goldust did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "wrestlemania-xiv-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-02"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xiv-1998",
+      "detail-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Marc Mero"
+      },
+      {
+        "id": "option-2",
+        "label": "Sable"
+      },
+      {
+        "id": "option-3",
+        "label": "Goldust"
+      },
+      {
+        "id": "option-4",
+        "label": "Jacqueline"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-03",
+    "familyId": "odd-medium-03",
+    "conflictGroups": [
+      "main-wrestlemania-xv-1999",
+      "group-odd-medium-03",
+      "moment-austin99",
+      "moment-wm15butterbean",
+      "moment-wm15mankind",
+      "moment-wm15shane"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Intercontinental Championship Fatal Four Way Match at WrestleMania XV 1999?",
+    "explanation": "Billy Gunn did not compete in this match. Road Dogg, Ken Shamrock, Val Venis did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "wrestlemania-xv-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-03"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Road Dogg"
+      },
+      {
+        "id": "option-2",
+        "label": "Ken Shamrock"
+      },
+      {
+        "id": "option-3",
+        "label": "Val Venis"
+      },
+      {
+        "id": "option-4",
+        "label": "Billy Gunn"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-04",
+    "familyId": "odd-medium-04",
+    "conflictGroups": [
+      "main-survivor-series-1998",
+      "group-odd-medium-04",
+      "moment-rock98",
+      "moment-sable98"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship Triple Threat Match at Survivor Series 1998?",
+    "explanation": "Ken Shamrock did not compete in this match. Road Dogg, Billy Gunn, D-Lo Brown did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "survivor-series-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-04"
+    ],
+    "sourceIds": [
+      "results-survivor-series-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Road Dogg"
+      },
+      {
+        "id": "option-2",
+        "label": "Billy Gunn"
+      },
+      {
+        "id": "option-3",
+        "label": "D-Lo Brown"
+      },
+      {
+        "id": "option-4",
+        "label": "Ken Shamrock"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-05",
+    "familyId": "odd-medium-05",
+    "conflictGroups": [
+      "main-summerslam-1999",
+      "group-odd-medium-05",
+      "moment-mankind99",
+      "moment-jarrett99"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Tag Team Turmoil Match at SummerSlam 1999?",
+    "explanation": "Big Show did not compete in this match. Bradshaw, Faarooq, Edge did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "summerslam-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-05"
+    ],
+    "sourceIds": [
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Bradshaw"
+      },
+      {
+        "id": "option-2",
+        "label": "Faarooq"
+      },
+      {
+        "id": "option-3",
+        "label": "Edge"
+      },
+      {
+        "id": "option-4",
+        "label": "Big Show"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-06",
+    "familyId": "odd-medium-06",
+    "conflictGroups": [
+      "main-armageddon-1999",
+      "group-odd-medium-06",
+      "moment-jericho99"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Women's Championship Four-Way Swimming Pool Match at Armageddon 1999?",
+    "explanation": "Lita did not compete in this match. The Kat, Ivory, B.B. did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "armageddon-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-06"
+    ],
+    "sourceIds": [
+      "results-armageddon-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "The Kat"
+      },
+      {
+        "id": "option-2",
+        "label": "Ivory"
+      },
+      {
+        "id": "option-3",
+        "label": "B.B."
+      },
+      {
+        "id": "option-4",
+        "label": "Lita"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-07",
+    "familyId": "odd-medium-07",
+    "conflictGroups": [
+      "main-no-way-out-2000",
+      "group-odd-medium-07",
+      "moment-dudleys00",
+      "moment-angleic00",
+      "moment-foleyretire00"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Too Cool & Rikishi vs. The Radicalz Six-Man Tag Team Match at No Way Out 2000?",
+    "explanation": "Eddie Guerrero did not compete in this match. Scotty 2 Hotty, Grand Master Sexay, Rikishi did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "no-way-out-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-07"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Scotty 2 Hotty"
+      },
+      {
+        "id": "option-2",
+        "label": "Grand Master Sexay"
+      },
+      {
+        "id": "option-3",
+        "label": "Rikishi"
+      },
+      {
+        "id": "option-4",
+        "label": "Eddie Guerrero"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-08",
+    "familyId": "odd-medium-08",
+    "conflictGroups": [
+      "main-wrestlemania-2000-2000",
+      "group-odd-medium-08",
+      "moment-ec00"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Intercontinental and European Championship Triple Threat Match at WrestleMania 2000 2000?",
+    "explanation": "Eddie Guerrero did not compete in this match. Kurt Angle, Chris Benoit, Chris Jericho did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "wrestlemania-2000-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-08"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-2000-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-4",
+        "label": "Eddie Guerrero"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-09",
+    "familyId": "odd-medium-09",
+    "conflictGroups": [
+      "main-backlash-2000",
+      "group-odd-medium-09",
+      "moment-rock00"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Hardcore Championship match at Backlash 2000?",
+    "explanation": "Al Snow did not compete in this match. Crash Holly, Hardcore Holly, Jeff Hardy did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "backlash-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-09"
+    ],
+    "sourceIds": [
+      "results-backlash-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Crash Holly"
+      },
+      {
+        "id": "option-2",
+        "label": "Hardcore Holly"
+      },
+      {
+        "id": "option-3",
+        "label": "Jeff Hardy"
+      },
+      {
+        "id": "option-4",
+        "label": "Al Snow"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-10",
+    "familyId": "odd-medium-10",
+    "conflictGroups": [
+      "main-unforgiven-2000",
+      "group-odd-medium-10",
+      "moment-hardys00"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the team opposing Right to Censor in the Eight-Man Tag Team Match at Unforgiven 2000?",
+    "explanation": "Rikishi did not compete in this match. Bubba Ray Dudley, D-Von Dudley, Bradshaw did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "unforgiven-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-10"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Bubba Ray Dudley"
+      },
+      {
+        "id": "option-2",
+        "label": "D-Von Dudley"
+      },
+      {
+        "id": "option-3",
+        "label": "Bradshaw"
+      },
+      {
+        "id": "option-4",
+        "label": "Rikishi"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-11",
+    "familyId": "odd-medium-11",
+    "conflictGroups": [
+      "main-survivor-series-2000",
+      "group-odd-medium-11",
+      "moment-rockrikishi00"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Radicalz team in the Eight-Man Elimination Match at Survivor Series 2000?",
+    "explanation": "Chris Jericho did not compete in this match. Eddie Guerrero, Chris Benoit, Perry Saturn did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "survivor-series-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-11"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-3",
+        "label": "Perry Saturn"
+      },
+      {
+        "id": "option-4",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-12",
+    "familyId": "odd-medium-12",
+    "conflictGroups": [
+      "main-summerslam-2001",
+      "group-odd-medium-12",
+      "moment-edge01"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the The Dudley Boyz & Test vs. The APA & Spike Dudley match at SummerSlam 2001?",
+    "explanation": "Albert did not compete in this match. Bubba Ray Dudley, D-Von Dudley, Test did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "summerslam-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-12"
+    ],
+    "sourceIds": [
+      "results-summerslam-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Bubba Ray Dudley"
+      },
+      {
+        "id": "option-2",
+        "label": "D-Von Dudley"
+      },
+      {
+        "id": "option-3",
+        "label": "Test"
+      },
+      {
+        "id": "option-4",
+        "label": "Albert"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-13",
+    "familyId": "odd-medium-13",
+    "conflictGroups": [
+      "main-unforgiven-2001",
+      "group-odd-medium-13",
+      "moment-christian01"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship Four-Corners Elimination Match at Unforgiven 2001?",
+    "explanation": "Edge did not compete in this match. Bubba Ray Dudley, D-Von Dudley, The Hurricane did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "unforgiven-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-13"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Bubba Ray Dudley"
+      },
+      {
+        "id": "option-2",
+        "label": "D-Von Dudley"
+      },
+      {
+        "id": "option-3",
+        "label": "The Hurricane"
+      },
+      {
+        "id": "option-4",
+        "label": "Edge"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-14",
+    "familyId": "odd-medium-14",
+    "conflictGroups": [
+      "main-no-mercy-2001",
+      "group-odd-medium-14",
+      "moment-jericho01"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the WCW Tag Team Championship match at No Mercy 2001?",
+    "explanation": "Rob Van Dam did not compete in this match. Matt Hardy, Jeff Hardy, The Hurricane did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "no-mercy-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-14"
+    ],
+    "sourceIds": [
+      "results-no-mercy-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Matt Hardy"
+      },
+      {
+        "id": "option-2",
+        "label": "Jeff Hardy"
+      },
+      {
+        "id": "option-3",
+        "label": "The Hurricane"
+      },
+      {
+        "id": "option-4",
+        "label": "Rob Van Dam"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-15",
+    "familyId": "odd-medium-15",
+    "conflictGroups": [
+      "main-survivor-series-2001",
+      "group-odd-medium-15",
+      "moment-trish01"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Six-Way Women's Championship Match at Survivor Series 2001?",
+    "explanation": "Stacy Keibler did not compete in this match. Trish Stratus, Ivory, Molly Holly did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "survivor-series-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-15"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "option-2",
+        "label": "Ivory"
+      },
+      {
+        "id": "option-3",
+        "label": "Molly Holly"
+      },
+      {
+        "id": "option-4",
+        "label": "Stacy Keibler"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-16",
+    "familyId": "odd-medium-16",
+    "conflictGroups": [
+      "main-survivor-series-2002",
+      "group-odd-medium-16",
+      "moment-victoria02",
+      "moment-hbk02",
+      "moment-losguerreros02",
+      "moment-surv02show"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the WWE Tag Team Championship Triple Threat Elimination Match at Survivor Series 2002?",
+    "explanation": "Billy Kidman did not compete in this match. Eddie Guerrero, Chavo Guerrero, Edge did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "survivor-series-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-16"
+    ],
+    "sourceIds": [
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-2",
+        "label": "Chavo Guerrero"
+      },
+      {
+        "id": "option-3",
+        "label": "Edge"
+      },
+      {
+        "id": "option-4",
+        "label": "Billy Kidman"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-17",
+    "familyId": "odd-medium-17",
+    "conflictGroups": [
+      "main-armageddon-2002",
+      "group-odd-medium-17",
+      "moment-angle02",
+      "moment-hhharm02",
+      "moment-bookergold02"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Women's Championship Triple Threat Match at Armageddon 2002?",
+    "explanation": "Jazz did not compete in this match. Victoria, Jacqueline, Trish Stratus did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "armageddon-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-17"
+    ],
+    "sourceIds": [
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Victoria"
+      },
+      {
+        "id": "option-2",
+        "label": "Jacqueline"
+      },
+      {
+        "id": "option-3",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "option-4",
+        "label": "Jazz"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-18",
+    "familyId": "odd-medium-18",
+    "conflictGroups": [
+      "main-wrestlemania-xix-2003",
+      "group-odd-medium-18",
+      "moment-brock03",
+      "moment-trish03"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Women's Championship Triple Threat Match at WrestleMania XIX 2003?",
+    "explanation": "Molly Holly did not compete in this match. Trish Stratus, Jazz, Victoria did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "wrestlemania-xix-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-18"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xix-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "option-2",
+        "label": "Jazz"
+      },
+      {
+        "id": "option-3",
+        "label": "Victoria"
+      },
+      {
+        "id": "option-4",
+        "label": "Molly Holly"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-19",
+    "familyId": "odd-medium-19",
+    "conflictGroups": [
+      "main-backlash-2003",
+      "group-odd-medium-19",
+      "moment-goldberg03",
+      "moment-jazz03"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the Triple H, Chris Jericho & Ric Flair vs. Kevin Nash, Shawn Michaels & Booker T match at Backlash 2003?",
+    "explanation": "Randy Orton did not compete in this match. Triple H, Chris Jericho, Ric Flair did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "backlash-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-19"
+    ],
+    "sourceIds": [
+      "results-backlash-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-3",
+        "label": "Ric Flair"
+      },
+      {
+        "id": "option-4",
+        "label": "Randy Orton"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-medium-20",
+    "familyId": "odd-medium-20",
+    "conflictGroups": [
+      "main-judgment-day-2003",
+      "group-odd-medium-20",
+      "moment-eddietajiri03",
+      "moment-christian03"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "medium",
+    "prompt": "Who was NOT a participant in the opening Six-Man Tag Team Match at Judgment Day 2003?",
+    "explanation": "Nunzio did not compete in this match. John Cena, Chuck Palumbo, Johnny Stamboli did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "judgment-day-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-medium-20"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "John Cena"
+      },
+      {
+        "id": "option-2",
+        "label": "Chuck Palumbo"
+      },
+      {
+        "id": "option-3",
+        "label": "Johnny Stamboli"
+      },
+      {
+        "id": "option-4",
+        "label": "Nunzio"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-01",
+    "familyId": "odd-hard-01",
+    "conflictGroups": [
+      "main-wrestlemania-xiv-1998",
+      "group-odd-hard-01",
+      "moment-austin98",
+      "moment-wm14taka",
+      "moment-wm14hhh",
+      "moment-wm14taker"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the tag teams in the opening Battle Royal at WrestleMania XIV 1998?",
+    "explanation": "Edge & Christian did not compete in this match. Legion of Doom, Los Boricuas, The Truth Commission did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "wrestlemania-xiv-1998"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-01"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xiv-1998",
+      "detail-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Legion of Doom"
+      },
+      {
+        "id": "option-2",
+        "label": "Los Boricuas"
+      },
+      {
+        "id": "option-3",
+        "label": "The Truth Commission"
+      },
+      {
+        "id": "option-4",
+        "label": "Edge & Christian"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-02",
+    "familyId": "odd-hard-02",
+    "conflictGroups": [
+      "main-wrestlemania-xv-1999",
+      "group-odd-hard-02",
+      "moment-austin99",
+      "moment-wm15butterbean",
+      "moment-wm15mankind",
+      "moment-wm15shane"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship match at WrestleMania XV 1999?",
+    "explanation": "Mark Henry did not compete in this match. Owen Hart, Jeff Jarrett, Test did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "wrestlemania-xv-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-02"
+    ],
+    "sourceIds": [
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Owen Hart"
+      },
+      {
+        "id": "option-2",
+        "label": "Jeff Jarrett"
+      },
+      {
+        "id": "option-3",
+        "label": "Test"
+      },
+      {
+        "id": "option-4",
+        "label": "Mark Henry"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-03",
+    "familyId": "odd-hard-03",
+    "conflictGroups": [
+      "main-backlash-1999",
+      "group-odd-hard-03"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the The Brood vs. Mideon & The Acolytes match at Backlash 1999?",
+    "explanation": "Viscera did not compete in this match. Edge, Christian, Gangrel did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "backlash-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-03"
+    ],
+    "sourceIds": [
+      "results-backlash-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Edge"
+      },
+      {
+        "id": "option-2",
+        "label": "Christian"
+      },
+      {
+        "id": "option-3",
+        "label": "Gangrel"
+      },
+      {
+        "id": "option-4",
+        "label": "Viscera"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-04",
+    "familyId": "odd-hard-04",
+    "conflictGroups": [
+      "main-summerslam-1999",
+      "group-odd-hard-04",
+      "moment-mankind99",
+      "moment-jarrett99"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship match at SummerSlam 1999?",
+    "explanation": "Mankind did not compete in this match. Big Show, The Undertaker, X-Pac did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "summerslam-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-04"
+    ],
+    "sourceIds": [
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Big Show"
+      },
+      {
+        "id": "option-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-3",
+        "label": "X-Pac"
+      },
+      {
+        "id": "option-4",
+        "label": "Mankind"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-05",
+    "familyId": "odd-hard-05",
+    "conflictGroups": [
+      "main-no-mercy-1999",
+      "group-odd-hard-05",
+      "moment-chyna99"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the Four-Corners Match at No Mercy 1999?",
+    "explanation": "Big Show did not compete in this match. X-Pac, Faarooq, Kane did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "no-mercy-1999"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-05"
+    ],
+    "sourceIds": [
+      "results-no-mercy-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "X-Pac"
+      },
+      {
+        "id": "option-2",
+        "label": "Faarooq"
+      },
+      {
+        "id": "option-3",
+        "label": "Kane"
+      },
+      {
+        "id": "option-4",
+        "label": "Big Show"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-06",
+    "familyId": "odd-hard-06",
+    "conflictGroups": [
+      "main-armageddon-2000",
+      "group-odd-hard-06",
+      "moment-jerichokane00"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship Fatal Four Way Match at Armageddon 2000?",
+    "explanation": "Val Venis did not compete in this match. Edge, Christian, Bubba Ray Dudley did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "armageddon-2000"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-06"
+    ],
+    "sourceIds": [
+      "results-armageddon-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Edge"
+      },
+      {
+        "id": "option-2",
+        "label": "Christian"
+      },
+      {
+        "id": "option-3",
+        "label": "Bubba Ray Dudley"
+      },
+      {
+        "id": "option-4",
+        "label": "Val Venis"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-07",
+    "familyId": "odd-hard-07",
+    "conflictGroups": [
+      "main-no-way-out-2001",
+      "group-odd-hard-07"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the Intercontinental Championship Fatal Four Way Match at No Way Out 2001?",
+    "explanation": "William Regal did not compete in this match. Chris Jericho, Eddie Guerrero, Chris Benoit did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "no-way-out-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-07"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-2",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-4",
+        "label": "William Regal"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-08",
+    "familyId": "odd-hard-08",
+    "conflictGroups": [
+      "main-backlash-2001",
+      "group-odd-hard-08"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the X-Factor vs. The Dudley Boyz match at Backlash 2001?",
+    "explanation": "Steven Richards did not compete in this match. X-Pac, Justin Credible, Albert did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "backlash-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-08"
+    ],
+    "sourceIds": [
+      "results-backlash-2001",
+      "detail-backlash-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "X-Pac"
+      },
+      {
+        "id": "option-2",
+        "label": "Justin Credible"
+      },
+      {
+        "id": "option-3",
+        "label": "Albert"
+      },
+      {
+        "id": "option-4",
+        "label": "Steven Richards"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-09",
+    "familyId": "odd-hard-09",
+    "conflictGroups": [
+      "main-judgment-day-2001",
+      "group-odd-hard-09",
+      "moment-kane01"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the Tag Team Turmoil Match at Judgment Day 2001?",
+    "explanation": "Albert did not compete in this match. Chris Jericho, Chris Benoit, Perry Saturn did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "judgment-day-2001"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-09"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-3",
+        "label": "Perry Saturn"
+      },
+      {
+        "id": "option-4",
+        "label": "Albert"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-10",
+    "familyId": "odd-hard-10",
+    "conflictGroups": [
+      "main-no-way-out-2002",
+      "group-odd-hard-10"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the Tag Team Turmoil Match at No Way Out 2002?",
+    "explanation": "Spike Dudley did not compete in this match. Bradshaw, Faarooq, Lance Storm did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "no-way-out-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-10"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Bradshaw"
+      },
+      {
+        "id": "option-2",
+        "label": "Faarooq"
+      },
+      {
+        "id": "option-3",
+        "label": "Lance Storm"
+      },
+      {
+        "id": "option-4",
+        "label": "Spike Dudley"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-11",
+    "familyId": "odd-hard-11",
+    "conflictGroups": [
+      "main-backlash-2002",
+      "group-odd-hard-11",
+      "moment-hogan02"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship match at Backlash 2002?",
+    "explanation": "Rico did not compete in this match. Billy Gunn, Chuck Palumbo, Maven did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "backlash-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-11"
+    ],
+    "sourceIds": [
+      "results-backlash-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Billy Gunn"
+      },
+      {
+        "id": "option-2",
+        "label": "Chuck Palumbo"
+      },
+      {
+        "id": "option-3",
+        "label": "Maven"
+      },
+      {
+        "id": "option-4",
+        "label": "Rico"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-12",
+    "familyId": "odd-hard-12",
+    "conflictGroups": [
+      "main-judgment-day-2002",
+      "group-odd-hard-12",
+      "moment-taker02",
+      "moment-edgehair02"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the Brock Lesnar & Paul Heyman vs. The Hardy Boyz match at Judgment Day 2002?",
+    "explanation": "Lita did not compete in this match. Brock Lesnar, Paul Heyman, Matt Hardy did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "judgment-day-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-12"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "option-2",
+        "label": "Paul Heyman"
+      },
+      {
+        "id": "option-3",
+        "label": "Matt Hardy"
+      },
+      {
+        "id": "option-4",
+        "label": "Lita"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-13",
+    "familyId": "odd-hard-13",
+    "conflictGroups": [
+      "main-vengeance-2002",
+      "group-odd-hard-13",
+      "moment-cena02",
+      "moment-rock02"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the Tag Team Tables Match at Vengeance 2002?",
+    "explanation": "D-Von Dudley did not compete in this match. Bubba Ray Dudley, Spike Dudley, Eddie Guerrero did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "vengeance-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-13"
+    ],
+    "sourceIds": [
+      "results-vengeance-2002",
+      "detail-vengeance-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Bubba Ray Dudley"
+      },
+      {
+        "id": "option-2",
+        "label": "Spike Dudley"
+      },
+      {
+        "id": "option-3",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-4",
+        "label": "D-Von Dudley"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-14",
+    "familyId": "odd-hard-14",
+    "conflictGroups": [
+      "main-unforgiven-2002",
+      "group-odd-hard-14",
+      "moment-trish02"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the opening Eight-Man Tag Team Match at Unforgiven 2002?",
+    "explanation": "Rob Van Dam did not compete in this match. Booker T, Bubba Ray Dudley, Goldust did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "unforgiven-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-14"
+    ],
+    "sourceIds": [
+      "results-unforgiven-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Booker T"
+      },
+      {
+        "id": "option-2",
+        "label": "Bubba Ray Dudley"
+      },
+      {
+        "id": "option-3",
+        "label": "Goldust"
+      },
+      {
+        "id": "option-4",
+        "label": "Rob Van Dam"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-15",
+    "familyId": "odd-hard-15",
+    "conflictGroups": [
+      "main-no-mercy-2002",
+      "group-odd-hard-15",
+      "moment-anglebenoit02"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship match at No Mercy 2002?",
+    "explanation": "Kane did not compete in this match. Christian, Chris Jericho, Booker T did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "no-mercy-2002"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-15"
+    ],
+    "sourceIds": [
+      "results-no-mercy-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Christian"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-3",
+        "label": "Booker T"
+      },
+      {
+        "id": "option-4",
+        "label": "Kane"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-16",
+    "familyId": "odd-hard-16",
+    "conflictGroups": [
+      "main-no-way-out-2003",
+      "group-odd-hard-16",
+      "moment-hardy03"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the Brock Lesnar & Chris Benoit vs. Team Angle Handicap Match at No Way Out 2003?",
+    "explanation": "Edge did not compete in this match. Brock Lesnar, Chris Benoit, Kurt Angle did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "no-way-out-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-16"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-3",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-4",
+        "label": "Edge"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-17",
+    "familyId": "odd-hard-17",
+    "conflictGroups": [
+      "main-judgment-day-2003",
+      "group-odd-hard-17",
+      "moment-eddietajiri03",
+      "moment-christian03"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the Women's Championship Fatal Four Way Match at Judgment Day 2003?",
+    "explanation": "Molly Holly did not compete in this match. Jazz, Trish Stratus, Jacqueline did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "judgment-day-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-17"
+    ],
+    "sourceIds": [
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Jazz"
+      },
+      {
+        "id": "option-2",
+        "label": "Trish Stratus"
+      },
+      {
+        "id": "option-3",
+        "label": "Jacqueline"
+      },
+      {
+        "id": "option-4",
+        "label": "Molly Holly"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-18",
+    "familyId": "odd-hard-18",
+    "conflictGroups": [
+      "main-vengeance-2003",
+      "group-odd-hard-18",
+      "moment-eddie03",
+      "moment-angle03"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the APA Invitational Brawl at Vengeance 2003?",
+    "explanation": "Mick Foley did not compete in this match. Nunzio, Sean O'Haire, John Hennigan did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "vengeance-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-18"
+    ],
+    "sourceIds": [
+      "results-vengeance-2003",
+      "detail-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Nunzio"
+      },
+      {
+        "id": "option-2",
+        "label": "Sean O'Haire"
+      },
+      {
+        "id": "option-3",
+        "label": "John Hennigan"
+      },
+      {
+        "id": "option-4",
+        "label": "Mick Foley"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-19",
+    "familyId": "odd-hard-19",
+    "conflictGroups": [
+      "main-armageddon-2003",
+      "group-odd-hard-19",
+      "moment-orton03",
+      "moment-flairbatista03",
+      "moment-hhh03"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the World Tag Team Championship Tag Team Turmoil Match at Armageddon 2003?",
+    "explanation": "Randy Orton did not compete in this match. Lance Storm, Rob Conway, Mark Jindrak did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "armageddon-2003"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-19"
+    ],
+    "sourceIds": [
+      "results-armageddon-2003",
+      "detail-armageddon-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Lance Storm"
+      },
+      {
+        "id": "option-2",
+        "label": "Rob Conway"
+      },
+      {
+        "id": "option-3",
+        "label": "Mark Jindrak"
+      },
+      {
+        "id": "option-4",
+        "label": "Randy Orton"
+      }
+    ],
+    "answer": "option-4"
+  },
+  {
+    "id": "odd-hard-20",
+    "familyId": "odd-hard-20",
+    "conflictGroups": [
+      "main-no-way-out-2004",
+      "group-odd-hard-20",
+      "moment-eddie04",
+      "moment-chavo04"
+    ],
+    "category": "odd-one-out",
+    "difficulty": "hard",
+    "prompt": "Who was NOT a participant in the WWE Tag Team Championship Handicap Match at No Way Out 2004?",
+    "explanation": "Nidia did not compete in this match. Rikishi, Scotty 2 Hotty, Danny Basham did. Managers, interference and appearances elsewhere on the card do not count as match participation.",
+    "eventIds": [
+      "no-way-out-2004"
+    ],
+    "ukOnly": false,
+    "factIds": [
+      "group-odd-hard-20"
+    ],
+    "sourceIds": [
+      "results-no-way-out-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "kind": "choice",
+    "options": [
+      {
+        "id": "option-1",
+        "label": "Rikishi"
+      },
+      {
+        "id": "option-2",
+        "label": "Scotty 2 Hotty"
+      },
+      {
+        "id": "option-3",
+        "label": "Danny Basham"
+      },
+      {
+        "id": "option-4",
+        "label": "Nidia"
+      }
+    ],
+    "answer": "option-4"
+  }
+]
