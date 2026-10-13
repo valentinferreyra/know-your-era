@@ -8,7 +8,7 @@ export interface EventRecord { id: string; name: string; date: string; mainBroad
 export interface SourceRecord { id: string; url: string; title: string; inspectedAt: string; locator: string }
 export interface FactRecord {
   id: string; eventId: string; statement: string; date: string; sourceIds: string[];
-  reviewStatus: ReviewStatus; sequence?: number; participants?: string[];
+  reviewStatus: ReviewStatus; sequence?: number; participants?: string[]; mainEvent?: boolean;
 }
 export interface AssetRecord {
   id: string; path: string; type: 'photo' | 'logo' | 'belt' | 'background'; width: number; height: number;

@@ -397,5 +397,12 @@
     "title": "WWE official results vengeance-2004",
     "inspectedAt": "2026-10-13",
     "locator": "Main article body under Full Event Results; compare with final-match catalog for closing order"
+  },
+  {
+    "id": "wwe-uk-history",
+    "url": "https://www.wwe.com/classics/uk-exclusive-pay-per-views",
+    "title": "WWE history of UK-exclusive PPVs",
+    "inspectedAt": "2026-10-13",
+    "locator": "Rebellion 2002 Handicap Match paragraph; Insurrextion 2003 closing Street Fight paragraph"
   }
 ]

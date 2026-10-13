@@ -1,1 +1,2273 @@
-[]
+[
+  {
+    "id": "me-wrestlemania-xiv-1998",
+    "familyId": "me-wrestlemania-xiv-1998",
+    "conflictGroups": [
+      "main-wrestlemania-xiv-1998"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Steve Austin at WrestleMania XIV?",
+    "explanation": "Shawn Michaels appeared in the closing match at WrestleMania XIV, alongside Steve Austin.",
+    "eventIds": [
+      "wrestlemania-xiv-1998"
+    ],
+    "factIds": [
+      "main-wrestlemania-xiv-1998"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-xiv-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "option-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Brock Lesnar"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-wrestlemania-xv-1999",
+    "familyId": "me-wrestlemania-xv-1999",
+    "conflictGroups": [
+      "main-wrestlemania-xv-1999"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Steve Austin at WrestleMania XV?",
+    "explanation": "The Rock appeared in the closing match at WrestleMania XV, alongside Steve Austin.",
+    "eventIds": [
+      "wrestlemania-xv-1999"
+    ],
+    "factIds": [
+      "main-wrestlemania-xv-1999"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-xv-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-1",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-2",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "option-3",
+        "label": "Eddie Guerrero"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-wrestlemania-x-seven-2001",
+    "familyId": "me-wrestlemania-x-seven-2001",
+    "conflictGroups": [
+      "main-wrestlemania-x-seven-2001"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "choice",
+    "prompt": "Who shared the main event with The Rock at WrestleMania X-Seven?",
+    "explanation": "Steve Austin appeared in the closing match at WrestleMania X-Seven, alongside The Rock.",
+    "eventIds": [
+      "wrestlemania-x-seven-2001"
+    ],
+    "factIds": [
+      "main-wrestlemania-x-seven-2001"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-x-seven-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "option-1",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "option-2",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-3",
+        "label": "Kurt Angle"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-wrestlemania-x8-2002",
+    "familyId": "me-wrestlemania-x8-2002",
+    "conflictGroups": [
+      "main-wrestlemania-x8-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Chris Jericho at WrestleMania X8?",
+    "explanation": "Triple H appeared in the closing match at WrestleMania X8, alongside Chris Jericho.",
+    "eventIds": [
+      "wrestlemania-x8-2002"
+    ],
+    "factIds": [
+      "main-wrestlemania-x8-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-x8-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-1",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "option-2",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-3",
+        "label": "Kurt Angle"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-wrestlemania-xix-2003",
+    "familyId": "me-wrestlemania-xix-2003",
+    "conflictGroups": [
+      "main-wrestlemania-xix-2003"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Kurt Angle at WrestleMania XIX?",
+    "explanation": "Brock Lesnar appeared in the closing match at WrestleMania XIX, alongside Kurt Angle.",
+    "eventIds": [
+      "wrestlemania-xix-2003"
+    ],
+    "factIds": [
+      "main-wrestlemania-xix-2003"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-wrestlemania-xix-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "option-1",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-summerslam-2002",
+    "familyId": "me-summerslam-2002",
+    "conflictGroups": [
+      "main-summerslam-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "choice",
+    "prompt": "Who shared the main event with The Rock at SummerSlam 2002?",
+    "explanation": "Brock Lesnar appeared in the closing match at SummerSlam 2002, alongside The Rock.",
+    "eventIds": [
+      "summerslam-2002"
+    ],
+    "factIds": [
+      "main-summerslam-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-summerslam-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "option-1",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Benoit"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-no-way-out-2004",
+    "familyId": "me-no-way-out-2004",
+    "conflictGroups": [
+      "main-no-way-out-2004"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Brock Lesnar at No Way Out 2004?",
+    "explanation": "Eddie Guerrero appeared in the closing match at No Way Out 2004, alongside Brock Lesnar.",
+    "eventIds": [
+      "no-way-out-2004"
+    ],
+    "factIds": [
+      "main-no-way-out-2004"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-way-out-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-3",
+        "label": "Kane"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-bad-blood-2004",
+    "familyId": "me-bad-blood-2004",
+    "conflictGroups": [
+      "main-bad-blood-2004"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Triple H at Bad Blood 2004?",
+    "explanation": "Shawn Michaels appeared in the closing match at Bad Blood 2004, alongside Triple H.",
+    "eventIds": [
+      "bad-blood-2004"
+    ],
+    "factIds": [
+      "main-bad-blood-2004"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "option-1",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-2",
+        "label": "Kane"
+      },
+      {
+        "id": "option-3",
+        "label": "Big Show"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-vengeance-2004",
+    "familyId": "me-vengeance-2004",
+    "conflictGroups": [
+      "main-vengeance-2004"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Chris Benoit at Vengeance 2004?",
+    "explanation": "Triple H appeared in the closing match at Vengeance 2004, alongside Chris Benoit.",
+    "eventIds": [
+      "vengeance-2004"
+    ],
+    "factIds": [
+      "main-vengeance-2004"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-vengeance-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-1",
+        "label": "Kane"
+      },
+      {
+        "id": "option-2",
+        "label": "Big Show"
+      },
+      {
+        "id": "option-3",
+        "label": "Booker T"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-summerslam-2001",
+    "familyId": "me-summerslam-2001",
+    "conflictGroups": [
+      "main-summerslam-2001"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Booker T at SummerSlam 2001?",
+    "explanation": "The Rock appeared in the closing match at SummerSlam 2001, alongside Booker T.",
+    "eventIds": [
+      "summerslam-2001"
+    ],
+    "factIds": [
+      "main-summerslam-2001"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-summerslam-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-1",
+        "label": "Kane"
+      },
+      {
+        "id": "option-2",
+        "label": "Big Show"
+      },
+      {
+        "id": "option-3",
+        "label": "Randy Orton"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-summerslam-1998",
+    "familyId": "me-summerslam-1998",
+    "conflictGroups": [
+      "main-summerslam-1998"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at SummerSlam 1998?",
+    "explanation": "The Undertaker appeared in the closing match at SummerSlam 1998, alongside Steve Austin.",
+    "eventIds": [
+      "summerslam-1998"
+    ],
+    "factIds": [
+      "main-summerslam-1998"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-summerslam-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At SummerSlam 1998, Steve Austin shared the main event with",
+    "suffix": ".",
+    "answer": "The Undertaker",
+    "aliases": [
+      "The Undertaker",
+      "Undertaker"
+    ]
+  },
+  {
+    "id": "me-summerslam-1999",
+    "familyId": "me-summerslam-1999",
+    "conflictGroups": [
+      "main-summerslam-1999"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at SummerSlam 1999?",
+    "explanation": "Mankind appeared in the closing match at SummerSlam 1999, alongside Steve Austin and Triple H.",
+    "eventIds": [
+      "summerslam-1999"
+    ],
+    "factIds": [
+      "main-summerslam-1999"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-summerslam-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At SummerSlam 1999, Steve Austin and Triple H shared the main event with",
+    "suffix": ".",
+    "answer": "Mankind",
+    "aliases": [
+      "Mankind",
+      "Mick Foley"
+    ]
+  },
+  {
+    "id": "me-summerslam-2000",
+    "familyId": "me-summerslam-2000",
+    "conflictGroups": [
+      "main-summerslam-2000"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at SummerSlam 2000?",
+    "explanation": "Kurt Angle appeared in the closing match at SummerSlam 2000, alongside The Rock and Triple H.",
+    "eventIds": [
+      "summerslam-2000"
+    ],
+    "factIds": [
+      "main-summerslam-2000"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-summerslam-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At SummerSlam 2000, The Rock and Triple H shared the main event with",
+    "suffix": ".",
+    "answer": "Kurt Angle",
+    "aliases": [
+      "Kurt Angle"
+    ]
+  },
+  {
+    "id": "me-survivor-series-1998",
+    "familyId": "me-survivor-series-1998",
+    "conflictGroups": [
+      "main-survivor-series-1998"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Survivor Series 1998?",
+    "explanation": "Mankind appeared in the closing match at Survivor Series 1998, alongside The Rock.",
+    "eventIds": [
+      "survivor-series-1998"
+    ],
+    "factIds": [
+      "main-survivor-series-1998"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-survivor-series-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Survivor Series 1998, The Rock shared the main event with",
+    "suffix": ".",
+    "answer": "Mankind",
+    "aliases": [
+      "Mankind",
+      "Mick Foley"
+    ]
+  },
+  {
+    "id": "me-survivor-series-2002",
+    "familyId": "me-survivor-series-2002",
+    "conflictGroups": [
+      "main-survivor-series-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Survivor Series 2002?",
+    "explanation": "Kane appeared in the closing match at Survivor Series 2002, alongside Triple H, Shawn Michaels, Rob Van Dam, Booker T and Chris Jericho.",
+    "eventIds": [
+      "survivor-series-2002"
+    ],
+    "factIds": [
+      "main-survivor-series-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-survivor-series-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Survivor Series 2002, Triple H, Shawn Michaels, Rob Van Dam, Booker T and Chris Jericho shared the main event with",
+    "suffix": ".",
+    "answer": "Kane",
+    "aliases": [
+      "Kane"
+    ]
+  },
+  {
+    "id": "me-no-way-out-2003",
+    "familyId": "me-no-way-out-2003",
+    "conflictGroups": [
+      "main-no-way-out-2003"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at No Way Out 2003?",
+    "explanation": "The Rock appeared in the closing match at No Way Out 2003, alongside Hulk Hogan.",
+    "eventIds": [
+      "no-way-out-2003"
+    ],
+    "factIds": [
+      "main-no-way-out-2003"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-way-out-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At No Way Out 2003, Hulk Hogan shared the main event with",
+    "suffix": ".",
+    "answer": "The Rock",
+    "aliases": [
+      "The Rock",
+      "Rock"
+    ]
+  },
+  {
+    "id": "me-backlash-2003",
+    "familyId": "me-backlash-2003",
+    "conflictGroups": [
+      "main-backlash-2003"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Backlash 2003?",
+    "explanation": "Goldberg appeared in the closing match at Backlash 2003, alongside The Rock.",
+    "eventIds": [
+      "backlash-2003"
+    ],
+    "factIds": [
+      "main-backlash-2003"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Backlash 2003, The Rock shared the main event with",
+    "suffix": ".",
+    "answer": "Goldberg",
+    "aliases": [
+      "Goldberg",
+      "Bill Goldberg"
+    ]
+  },
+  {
+    "id": "me-backlash-2004",
+    "familyId": "me-backlash-2004",
+    "conflictGroups": [
+      "main-backlash-2004"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Backlash 2004?",
+    "explanation": "Shawn Michaels appeared in the closing match at Backlash 2004, alongside Chris Benoit and Triple H.",
+    "eventIds": [
+      "backlash-2004"
+    ],
+    "factIds": [
+      "main-backlash-2004"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Backlash 2004, Chris Benoit and Triple H shared the main event with",
+    "suffix": ".",
+    "answer": "Shawn Michaels",
+    "aliases": [
+      "Shawn Michaels"
+    ]
+  },
+  {
+    "id": "me-judgment-day-2004",
+    "familyId": "me-judgment-day-2004",
+    "conflictGroups": [
+      "main-judgment-day-2004"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Judgment Day 2004?",
+    "explanation": "JBL appeared in the closing match at Judgment Day 2004, alongside Eddie Guerrero.",
+    "eventIds": [
+      "judgment-day-2004"
+    ],
+    "factIds": [
+      "main-judgment-day-2004"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-2004"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Judgment Day 2004, Eddie Guerrero shared the main event with",
+    "suffix": ".",
+    "answer": "JBL",
+    "aliases": [
+      "JBL",
+      "John Bradshaw Layfield",
+      "Bradshaw"
+    ]
+  },
+  {
+    "id": "me-unforgiven-2003",
+    "familyId": "me-unforgiven-2003",
+    "conflictGroups": [
+      "main-unforgiven-2003"
+    ],
+    "category": "main-event",
+    "difficulty": "easy",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Unforgiven 2003?",
+    "explanation": "Goldberg appeared in the closing match at Unforgiven 2003, alongside Triple H.",
+    "eventIds": [
+      "unforgiven-2003"
+    ],
+    "factIds": [
+      "main-unforgiven-2003"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-unforgiven-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Unforgiven 2003, Triple H shared the main event with",
+    "suffix": ".",
+    "answer": "Goldberg",
+    "aliases": [
+      "Goldberg",
+      "Bill Goldberg"
+    ]
+  },
+  {
+    "id": "me-unforgiven-in-your-house-1998",
+    "familyId": "me-unforgiven-in-your-house-1998",
+    "conflictGroups": [
+      "main-unforgiven-in-your-house-1998"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Steve Austin at Unforgiven 1998?",
+    "explanation": "Dude Love appeared in the closing match at Unforgiven 1998, alongside Steve Austin.",
+    "eventIds": [
+      "unforgiven-in-your-house-1998"
+    ],
+    "factIds": [
+      "main-unforgiven-in-your-house-1998"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-unforgiven-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Dude Love"
+      },
+      {
+        "id": "option-1",
+        "label": "Paul Heyman"
+      },
+      {
+        "id": "option-2",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "option-3",
+        "label": "The Rock"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-over-the-edge-in-your-house-1998",
+    "familyId": "me-over-the-edge-in-your-house-1998",
+    "conflictGroups": [
+      "main-over-the-edge-in-your-house-1998"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Steve Austin at Over the Edge 1998?",
+    "explanation": "Dude Love appeared in the closing match at Over the Edge 1998, alongside Steve Austin.",
+    "eventIds": [
+      "over-the-edge-in-your-house-1998"
+    ],
+    "factIds": [
+      "main-over-the-edge-in-your-house-1998"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Dude Love"
+      },
+      {
+        "id": "option-1",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "option-2",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-3",
+        "label": "Triple H"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-king-of-the-ring-1998",
+    "familyId": "me-king-of-the-ring-1998",
+    "conflictGroups": [
+      "main-king-of-the-ring-1998"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Steve Austin at King of the Ring 1998?",
+    "explanation": "Kane appeared in the closing match at King of the Ring 1998, alongside Steve Austin.",
+    "eventIds": [
+      "king-of-the-ring-1998"
+    ],
+    "factIds": [
+      "main-king-of-the-ring-1998"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Kane"
+      },
+      {
+        "id": "option-1",
+        "label": "Paul Heyman"
+      },
+      {
+        "id": "option-2",
+        "label": "Shawn Michaels"
+      },
+      {
+        "id": "option-3",
+        "label": "The Rock"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-king-of-the-ring-1999",
+    "familyId": "me-king-of-the-ring-1999",
+    "conflictGroups": [
+      "main-king-of-the-ring-1999"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Steve Austin at King of the Ring 1999?",
+    "explanation": "Vince McMahon & Shane McMahon appeared in the closing match at King of the Ring 1999, alongside Steve Austin.",
+    "eventIds": [
+      "king-of-the-ring-1999"
+    ],
+    "factIds": [
+      "main-king-of-the-ring-1999"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Vince McMahon & Shane McMahon"
+      },
+      {
+        "id": "option-1",
+        "label": "The New Age Outlaws"
+      },
+      {
+        "id": "option-2",
+        "label": "The Undertaker & Kane"
+      },
+      {
+        "id": "option-3",
+        "label": "The Hardy Boyz"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-fully-loaded-1999",
+    "familyId": "me-fully-loaded-1999",
+    "conflictGroups": [
+      "main-fully-loaded-1999"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Steve Austin at Fully Loaded 1999?",
+    "explanation": "The Undertaker appeared in the closing match at Fully Loaded 1999, alongside Steve Austin.",
+    "eventIds": [
+      "fully-loaded-1999"
+    ],
+    "factIds": [
+      "main-fully-loaded-1999"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-2",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-3",
+        "label": "Brock Lesnar"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-backlash-2000",
+    "familyId": "me-backlash-2000",
+    "conflictGroups": [
+      "main-backlash-2000"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Triple H at Backlash 2000?",
+    "explanation": "The Rock appeared in the closing match at Backlash 2000, alongside Triple H.",
+    "eventIds": [
+      "backlash-2000"
+    ],
+    "factIds": [
+      "main-backlash-2000"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-1",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "option-2",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-3",
+        "label": "Kurt Angle"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-no-way-out-2000",
+    "familyId": "me-no-way-out-2000",
+    "conflictGroups": [
+      "main-no-way-out-2000"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Triple H at No Way Out 2000?",
+    "explanation": "Cactus Jack appeared in the closing match at No Way Out 2000, alongside Triple H.",
+    "eventIds": [
+      "no-way-out-2000"
+    ],
+    "factIds": [
+      "main-no-way-out-2000"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-way-out-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Cactus Jack"
+      },
+      {
+        "id": "option-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-judgment-day-2000",
+    "familyId": "me-judgment-day-2000",
+    "conflictGroups": [
+      "main-judgment-day-2000"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "choice",
+    "prompt": "Who shared the main event with The Rock at Judgment Day 2000?",
+    "explanation": "Triple H appeared in the closing match at Judgment Day 2000, alongside The Rock.",
+    "eventIds": [
+      "judgment-day-2000"
+    ],
+    "factIds": [
+      "main-judgment-day-2000"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-no-mercy-2000",
+    "familyId": "me-no-mercy-2000",
+    "conflictGroups": [
+      "main-no-mercy-2000"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "choice",
+    "prompt": "Who shared the main event with The Rock at No Mercy 2000?",
+    "explanation": "Kurt Angle appeared in the closing match at No Mercy 2000, alongside The Rock.",
+    "eventIds": [
+      "no-mercy-2000"
+    ],
+    "factIds": [
+      "main-no-mercy-2000"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-mercy-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-1",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Benoit"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-no-way-out-2001",
+    "familyId": "me-no-way-out-2001",
+    "conflictGroups": [
+      "main-no-way-out-2001"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Kurt Angle at No Way Out 2001?",
+    "explanation": "The Rock appeared in the closing match at No Way Out 2001, alongside Kurt Angle.",
+    "eventIds": [
+      "no-way-out-2001"
+    ],
+    "factIds": [
+      "main-no-way-out-2001"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-way-out-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-1",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-3",
+        "label": "Kane"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-judgment-day-in-your-house-1998",
+    "familyId": "me-judgment-day-in-your-house-1998",
+    "conflictGroups": [
+      "main-judgment-day-in-your-house-1998"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Judgment Day 1998?",
+    "explanation": "Kane appeared in the closing match at Judgment Day 1998, alongside The Undertaker.",
+    "eventIds": [
+      "judgment-day-in-your-house-1998"
+    ],
+    "factIds": [
+      "main-judgment-day-in-your-house-1998"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-in-your-house-1998"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Judgment Day 1998, The Undertaker shared the main event with",
+    "suffix": ".",
+    "answer": "Kane",
+    "aliases": [
+      "Kane"
+    ]
+  },
+  {
+    "id": "me-rock-bottom-in-your-house-1998",
+    "familyId": "me-rock-bottom-in-your-house-1998",
+    "conflictGroups": [
+      "main-rock-bottom-in-your-house-1998"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Rock Bottom 1998?",
+    "explanation": "The Undertaker appeared in the closing match at Rock Bottom 1998, alongside Steve Austin.",
+    "eventIds": [
+      "rock-bottom-in-your-house-1998"
+    ],
+    "factIds": [
+      "main-rock-bottom-in-your-house-1998"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Rock Bottom 1998, Steve Austin shared the main event with",
+    "suffix": ".",
+    "answer": "The Undertaker",
+    "aliases": [
+      "The Undertaker",
+      "Undertaker"
+    ]
+  },
+  {
+    "id": "me-backlash-1999",
+    "familyId": "me-backlash-1999",
+    "conflictGroups": [
+      "main-backlash-1999"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Backlash 1999?",
+    "explanation": "The Rock appeared in the closing match at Backlash 1999, alongside Steve Austin.",
+    "eventIds": [
+      "backlash-1999"
+    ],
+    "factIds": [
+      "main-backlash-1999"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Backlash 1999, Steve Austin shared the main event with",
+    "suffix": ".",
+    "answer": "The Rock",
+    "aliases": [
+      "The Rock",
+      "Rock"
+    ]
+  },
+  {
+    "id": "me-over-the-edge-1999",
+    "familyId": "me-over-the-edge-1999",
+    "conflictGroups": [
+      "main-over-the-edge-1999"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Over the Edge 1999?",
+    "explanation": "The Undertaker appeared in the closing match at Over the Edge 1999, alongside Steve Austin.",
+    "eventIds": [
+      "over-the-edge-1999"
+    ],
+    "factIds": [
+      "main-over-the-edge-1999"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Over the Edge 1999, Steve Austin shared the main event with",
+    "suffix": ".",
+    "answer": "The Undertaker",
+    "aliases": [
+      "The Undertaker",
+      "Undertaker"
+    ]
+  },
+  {
+    "id": "me-no-mercy-1999",
+    "familyId": "me-no-mercy-1999",
+    "conflictGroups": [
+      "main-no-mercy-1999"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at No Mercy 1999?",
+    "explanation": "Steve Austin appeared in the closing match at No Mercy 1999, alongside Triple H.",
+    "eventIds": [
+      "no-mercy-1999"
+    ],
+    "factIds": [
+      "main-no-mercy-1999"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-mercy-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At No Mercy 1999, Triple H shared the main event with",
+    "suffix": ".",
+    "answer": "Steve Austin",
+    "aliases": [
+      "Steve Austin",
+      "Stone Cold",
+      "Stone Cold Steve Austin",
+      "Austin"
+    ]
+  },
+  {
+    "id": "me-survivor-series-2000",
+    "familyId": "me-survivor-series-2000",
+    "conflictGroups": [
+      "main-survivor-series-2000"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Survivor Series 2000?",
+    "explanation": "Triple H appeared in the closing match at Survivor Series 2000, alongside Steve Austin.",
+    "eventIds": [
+      "survivor-series-2000"
+    ],
+    "factIds": [
+      "main-survivor-series-2000"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-survivor-series-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Survivor Series 2000, Steve Austin shared the main event with",
+    "suffix": ".",
+    "answer": "Triple H",
+    "aliases": [
+      "Triple H",
+      "HHH",
+      "Hunter Hearst Helmsley"
+    ]
+  },
+  {
+    "id": "me-judgment-day-2001",
+    "familyId": "me-judgment-day-2001",
+    "conflictGroups": [
+      "main-judgment-day-2001"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Judgment Day 2001?",
+    "explanation": "The Undertaker appeared in the closing match at Judgment Day 2001, alongside Steve Austin.",
+    "eventIds": [
+      "judgment-day-2001"
+    ],
+    "factIds": [
+      "main-judgment-day-2001"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Judgment Day 2001, Steve Austin shared the main event with",
+    "suffix": ".",
+    "answer": "The Undertaker",
+    "aliases": [
+      "The Undertaker",
+      "Undertaker"
+    ]
+  },
+  {
+    "id": "me-no-way-out-2002",
+    "familyId": "me-no-way-out-2002",
+    "conflictGroups": [
+      "main-no-way-out-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at No Way Out 2002?",
+    "explanation": "Steve Austin appeared in the closing match at No Way Out 2002, alongside Chris Jericho.",
+    "eventIds": [
+      "no-way-out-2002"
+    ],
+    "factIds": [
+      "main-no-way-out-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-way-out-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At No Way Out 2002, Chris Jericho shared the main event with",
+    "suffix": ".",
+    "answer": "Steve Austin",
+    "aliases": [
+      "Steve Austin",
+      "Stone Cold",
+      "Stone Cold Steve Austin",
+      "Austin"
+    ]
+  },
+  {
+    "id": "me-backlash-2002",
+    "familyId": "me-backlash-2002",
+    "conflictGroups": [
+      "main-backlash-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Backlash 2002?",
+    "explanation": "Hulk Hogan appeared in the closing match at Backlash 2002, alongside Triple H.",
+    "eventIds": [
+      "backlash-2002"
+    ],
+    "factIds": [
+      "main-backlash-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Backlash 2002, Triple H shared the main event with",
+    "suffix": ".",
+    "answer": "Hulk Hogan",
+    "aliases": [
+      "Hulk Hogan",
+      "Hollywood Hogan",
+      "Hollywood Hulk Hogan"
+    ]
+  },
+  {
+    "id": "me-judgment-day-2002",
+    "familyId": "me-judgment-day-2002",
+    "conflictGroups": [
+      "main-judgment-day-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "medium",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Judgment Day 2002?",
+    "explanation": "The Undertaker appeared in the closing match at Judgment Day 2002, alongside Hulk Hogan.",
+    "eventIds": [
+      "judgment-day-2002"
+    ],
+    "factIds": [
+      "main-judgment-day-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Judgment Day 2002, Hulk Hogan shared the main event with",
+    "suffix": ".",
+    "answer": "The Undertaker",
+    "aliases": [
+      "The Undertaker",
+      "Undertaker"
+    ]
+  },
+  {
+    "id": "me-fully-loaded-in-your-house-1998",
+    "familyId": "me-fully-loaded-in-your-house-1998",
+    "conflictGroups": [
+      "main-fully-loaded-in-your-house-1998"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "choice",
+    "prompt": "Who was Steve Austin's partner in the main event of Fully Loaded 1998?",
+    "explanation": "The Undertaker teamed with Steve Austin in the closing match at Fully Loaded 1998.",
+    "eventIds": [
+      "fully-loaded-in-your-house-1998"
+    ],
+    "factIds": [
+      "main-fully-loaded-in-your-house-1998"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-1",
+        "label": "Dude Love"
+      },
+      {
+        "id": "option-2",
+        "label": "Cactus Jack"
+      },
+      {
+        "id": "option-3",
+        "label": "The British Bulldog"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-breakdown-in-your-house-1998",
+    "familyId": "me-breakdown-in-your-house-1998",
+    "conflictGroups": [
+      "main-breakdown-in-your-house-1998"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Steve Austin and Kane at Breakdown 1998?",
+    "explanation": "The Undertaker appeared in the closing match at Breakdown 1998, alongside Steve Austin and Kane.",
+    "eventIds": [
+      "breakdown-in-your-house-1998"
+    ],
+    "factIds": [
+      "main-breakdown-in-your-house-1998"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-1",
+        "label": "John Cena"
+      },
+      {
+        "id": "option-2",
+        "label": "Edge"
+      },
+      {
+        "id": "option-3",
+        "label": "Paul Heyman"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-unforgiven-1999",
+    "familyId": "me-unforgiven-1999",
+    "conflictGroups": [
+      "main-unforgiven-1999"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "choice",
+    "prompt": "Who shared the main event with The Rock, Mankind, Kane, Triple H and Big Show at Unforgiven 1999?",
+    "explanation": "The British Bulldog appeared in the closing match at Unforgiven 1999, alongside The Rock, Mankind, Kane, Triple H and Big Show.",
+    "eventIds": [
+      "unforgiven-1999"
+    ],
+    "factIds": [
+      "main-unforgiven-1999"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-unforgiven-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "The British Bulldog"
+      },
+      {
+        "id": "option-1",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-2",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Jericho"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-armageddon-1999",
+    "familyId": "me-armageddon-1999",
+    "conflictGroups": [
+      "main-armageddon-1999"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Vince McMahon at Armageddon 1999?",
+    "explanation": "Triple H appeared in the closing match at Armageddon 1999, alongside Vince McMahon.",
+    "eventIds": [
+      "armageddon-1999"
+    ],
+    "factIds": [
+      "main-armageddon-1999"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-armageddon-1999"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Triple H"
+      },
+      {
+        "id": "option-1",
+        "label": "Cactus Jack"
+      },
+      {
+        "id": "option-2",
+        "label": "The British Bulldog"
+      },
+      {
+        "id": "option-3",
+        "label": "John Cena"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-fully-loaded-2000",
+    "familyId": "me-fully-loaded-2000",
+    "conflictGroups": [
+      "main-fully-loaded-2000"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "choice",
+    "prompt": "Who shared the main event with The Rock at Fully Loaded 2000?",
+    "explanation": "Chris Benoit appeared in the closing match at Fully Loaded 2000, alongside The Rock.",
+    "eventIds": [
+      "fully-loaded-2000"
+    ],
+    "factIds": [
+      "main-fully-loaded-2000"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-1",
+        "label": "Edge"
+      },
+      {
+        "id": "option-2",
+        "label": "Paul Heyman"
+      },
+      {
+        "id": "option-3",
+        "label": "Shawn Michaels"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-unforgiven-2000",
+    "familyId": "me-unforgiven-2000",
+    "conflictGroups": [
+      "main-unforgiven-2000"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "choice",
+    "prompt": "Who shared the main event with The Rock, Kane and The Undertaker at Unforgiven 2000?",
+    "explanation": "Chris Benoit appeared in the closing match at Unforgiven 2000, alongside The Rock, Kane and The Undertaker.",
+    "eventIds": [
+      "unforgiven-2000"
+    ],
+    "factIds": [
+      "main-unforgiven-2000"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-unforgiven-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-1",
+        "label": "Brock Lesnar"
+      },
+      {
+        "id": "option-2",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-3",
+        "label": "Kurt Angle"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-armageddon-2000",
+    "familyId": "me-armageddon-2000",
+    "conflictGroups": [
+      "main-armageddon-2000"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Kurt Angle, Steve Austin, The Rock, The Undertaker and Triple H at Armageddon 2000?",
+    "explanation": "Rikishi appeared in the closing match at Armageddon 2000, alongside Kurt Angle, Steve Austin, The Rock, The Undertaker and Triple H.",
+    "eventIds": [
+      "armageddon-2000"
+    ],
+    "factIds": [
+      "main-armageddon-2000"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-armageddon-2000"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Rikishi"
+      },
+      {
+        "id": "option-1",
+        "label": "Randy Orton"
+      },
+      {
+        "id": "option-2",
+        "label": "Rob Van Dam"
+      },
+      {
+        "id": "option-3",
+        "label": "Kevin Nash"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-backlash-2001",
+    "familyId": "me-backlash-2001",
+    "conflictGroups": [
+      "main-backlash-2001"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "choice",
+    "prompt": "Who was The Undertaker's partner in the main event of Backlash 2001?",
+    "explanation": "Kane teamed with The Undertaker in the closing match at Backlash 2001.",
+    "eventIds": [
+      "backlash-2001"
+    ],
+    "factIds": [
+      "main-backlash-2001"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-backlash-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Kane"
+      },
+      {
+        "id": "option-1",
+        "label": "The Rock"
+      },
+      {
+        "id": "option-2",
+        "label": "Steve Austin"
+      },
+      {
+        "id": "option-3",
+        "label": "Triple H"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-king-of-the-ring-2001",
+    "familyId": "me-king-of-the-ring-2001",
+    "conflictGroups": [
+      "main-king-of-the-ring-2001"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Steve Austin and Chris Jericho at King of the Ring 2001?",
+    "explanation": "Chris Benoit appeared in the closing match at King of the Ring 2001, alongside Steve Austin and Chris Jericho.",
+    "eventIds": [
+      "king-of-the-ring-2001"
+    ],
+    "factIds": [
+      "main-king-of-the-ring-2001"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Chris Benoit"
+      },
+      {
+        "id": "option-1",
+        "label": "Eddie Guerrero"
+      },
+      {
+        "id": "option-2",
+        "label": "Kurt Angle"
+      },
+      {
+        "id": "option-3",
+        "label": "The Undertaker"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-no-mercy-2001",
+    "familyId": "me-no-mercy-2001",
+    "conflictGroups": [
+      "main-no-mercy-2001"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "choice",
+    "prompt": "Who shared the main event with Steve Austin and Kurt Angle at No Mercy 2001?",
+    "explanation": "Rob Van Dam appeared in the closing match at No Mercy 2001, alongside Steve Austin and Kurt Angle.",
+    "eventIds": [
+      "no-mercy-2001"
+    ],
+    "factIds": [
+      "main-no-mercy-2001"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-mercy-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "options": [
+      {
+        "id": "option-0",
+        "label": "Rob Van Dam"
+      },
+      {
+        "id": "option-1",
+        "label": "The Undertaker"
+      },
+      {
+        "id": "option-2",
+        "label": "Chris Jericho"
+      },
+      {
+        "id": "option-3",
+        "label": "Chris Benoit"
+      }
+    ],
+    "answer": "option-0"
+  },
+  {
+    "id": "me-vengeance-2001",
+    "familyId": "me-vengeance-2001",
+    "conflictGroups": [
+      "main-vengeance-2001"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Vengeance 2001?",
+    "explanation": "Steve Austin appeared in the closing match at Vengeance 2001, alongside Chris Jericho.",
+    "eventIds": [
+      "vengeance-2001"
+    ],
+    "factIds": [
+      "main-vengeance-2001"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-vengeance-2001"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Vengeance 2001, Chris Jericho shared the main event with",
+    "suffix": ".",
+    "answer": "Steve Austin",
+    "aliases": [
+      "Steve Austin",
+      "Stone Cold",
+      "Stone Cold Steve Austin",
+      "Austin"
+    ]
+  },
+  {
+    "id": "me-king-of-the-ring-2002",
+    "familyId": "me-king-of-the-ring-2002",
+    "conflictGroups": [
+      "main-king-of-the-ring-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at King of the Ring 2002?",
+    "explanation": "Triple H appeared in the closing match at King of the Ring 2002, alongside The Undertaker.",
+    "eventIds": [
+      "king-of-the-ring-2002"
+    ],
+    "factIds": [
+      "main-king-of-the-ring-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At King of the Ring 2002, The Undertaker shared the main event with",
+    "suffix": ".",
+    "answer": "Triple H",
+    "aliases": [
+      "Triple H",
+      "HHH",
+      "Hunter Hearst Helmsley"
+    ]
+  },
+  {
+    "id": "me-vengeance-2002",
+    "familyId": "me-vengeance-2002",
+    "conflictGroups": [
+      "main-vengeance-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Vengeance 2002?",
+    "explanation": "The Rock appeared in the closing match at Vengeance 2002, alongside The Undertaker and Kurt Angle.",
+    "eventIds": [
+      "vengeance-2002"
+    ],
+    "factIds": [
+      "main-vengeance-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-vengeance-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Vengeance 2002, The Undertaker and Kurt Angle shared the main event with",
+    "suffix": ".",
+    "answer": "The Rock",
+    "aliases": [
+      "The Rock",
+      "Rock"
+    ]
+  },
+  {
+    "id": "me-unforgiven-2002",
+    "familyId": "me-unforgiven-2002",
+    "conflictGroups": [
+      "main-unforgiven-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Unforgiven 2002?",
+    "explanation": "The Undertaker appeared in the closing match at Unforgiven 2002, alongside Brock Lesnar.",
+    "eventIds": [
+      "unforgiven-2002"
+    ],
+    "factIds": [
+      "main-unforgiven-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-unforgiven-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Unforgiven 2002, Brock Lesnar shared the main event with",
+    "suffix": ".",
+    "answer": "The Undertaker",
+    "aliases": [
+      "The Undertaker",
+      "Undertaker"
+    ]
+  },
+  {
+    "id": "me-no-mercy-2002",
+    "familyId": "me-no-mercy-2002",
+    "conflictGroups": [
+      "main-no-mercy-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at No Mercy 2002?",
+    "explanation": "The Undertaker appeared in the closing match at No Mercy 2002, alongside Brock Lesnar.",
+    "eventIds": [
+      "no-mercy-2002"
+    ],
+    "factIds": [
+      "main-no-mercy-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-no-mercy-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At No Mercy 2002, Brock Lesnar shared the main event with",
+    "suffix": ".",
+    "answer": "The Undertaker",
+    "aliases": [
+      "The Undertaker",
+      "Undertaker"
+    ]
+  },
+  {
+    "id": "me-armageddon-2002",
+    "familyId": "me-armageddon-2002",
+    "conflictGroups": [
+      "main-armageddon-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Armageddon 2002?",
+    "explanation": "Triple H appeared in the closing match at Armageddon 2002, alongside Shawn Michaels.",
+    "eventIds": [
+      "armageddon-2002"
+    ],
+    "factIds": [
+      "main-armageddon-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-armageddon-2002"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Armageddon 2002, Shawn Michaels shared the main event with",
+    "suffix": ".",
+    "answer": "Triple H",
+    "aliases": [
+      "Triple H",
+      "HHH",
+      "Hunter Hearst Helmsley"
+    ]
+  },
+  {
+    "id": "me-judgment-day-2003",
+    "familyId": "me-judgment-day-2003",
+    "conflictGroups": [
+      "main-judgment-day-2003"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Judgment Day 2003?",
+    "explanation": "Big Show appeared in the closing match at Judgment Day 2003, alongside Brock Lesnar.",
+    "eventIds": [
+      "judgment-day-2003"
+    ],
+    "factIds": [
+      "main-judgment-day-2003"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-judgment-day-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Judgment Day 2003, Brock Lesnar shared the main event with",
+    "suffix": ".",
+    "answer": "Big Show",
+    "aliases": [
+      "Big Show"
+    ]
+  },
+  {
+    "id": "me-vengeance-2003",
+    "familyId": "me-vengeance-2003",
+    "conflictGroups": [
+      "main-vengeance-2003"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Vengeance 2003?",
+    "explanation": "Kurt Angle appeared in the closing match at Vengeance 2003, alongside Brock Lesnar and Big Show.",
+    "eventIds": [
+      "vengeance-2003"
+    ],
+    "factIds": [
+      "main-vengeance-2003"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "results-vengeance-2003"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": false,
+    "prefix": "At Vengeance 2003, Brock Lesnar and Big Show shared the main event with",
+    "suffix": ".",
+    "answer": "Kurt Angle",
+    "aliases": [
+      "Kurt Angle"
+    ]
+  },
+  {
+    "id": "me-rebellion-uk-2002",
+    "familyId": "me-rebellion-uk-2002",
+    "conflictGroups": [
+      "main-rebellion-uk-2002"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "completion",
+    "prompt": "Who teamed with Brock Lesnar against Edge in the main event of Rebellion 2002?",
+    "explanation": "Paul Heyman teamed with Brock Lesnar in the closing match at Rebellion 2002.",
+    "eventIds": [
+      "rebellion-uk-2002"
+    ],
+    "factIds": [
+      "main-rebellion-uk-2002"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "wwe-uk-history"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": true,
+    "prefix": "At Rebellion 2002, Brock Lesnar teamed with",
+    "suffix": "against Edge in the main event.",
+    "answer": "Paul Heyman",
+    "aliases": [
+      "Paul Heyman"
+    ]
+  },
+  {
+    "id": "me-insurrextion-uk-2003",
+    "familyId": "me-insurrextion-uk-2003",
+    "conflictGroups": [
+      "main-insurrextion-uk-2003"
+    ],
+    "category": "main-event",
+    "difficulty": "hard",
+    "kind": "completion",
+    "prompt": "Who completed the main event lineup at Insurrextion 2003?",
+    "explanation": "Kevin Nash appeared in the closing match at Insurrextion 2003, alongside Triple H.",
+    "eventIds": [
+      "insurrextion-uk-2003"
+    ],
+    "factIds": [
+      "main-insurrextion-uk-2003"
+    ],
+    "sourceIds": [
+      "catalog-dates",
+      "wwe-uk-history"
+    ],
+    "reviewStatus": "reviewed",
+    "reviewedAt": "2026-10-13",
+    "ukOnly": true,
+    "prefix": "At Insurrextion 2003, Triple H shared the main event with",
+    "suffix": ".",
+    "answer": "Kevin Nash",
+    "aliases": [
+      "Kevin Nash"
+    ]
+  }
+]
