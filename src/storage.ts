@@ -31,6 +31,17 @@ function validateSession(value: unknown): value is Session {
     || value.difficultyState.correctStreak > 1 || value.difficultyState.zeroStreak > 1
     || (value.difficultyState.correctStreak > 0 && value.difficultyState.zeroStreak > 0)
     || !['question', 'feedback', 'complete', 'incomplete'].includes(value.phase)) return false;
+  if (value.timings !== undefined) {
+    if (!Array.isArray(value.timings) || value.timings.length !== 10) return false;
+    for (let index = 0; index < 10; index++) {
+      const timing = value.timings[index];
+      if (timing === null) continue;
+      if (!isObject(timing) || !Number.isFinite(timing.startedAt) || timing.startedAt < 0
+        || index > value.questionIndex || !value.selectedQuestions[index]
+        || (timing.elapsedMs !== null && (!Number.isFinite(timing.elapsedMs) || timing.elapsedMs < 0))
+        || (value.responses[index] === null ? timing.elapsedMs !== null : timing.elapsedMs === null)) return false;
+    }
+  }
   if (value.contentSnapshot.version !== value.contentVersion || !value.contentSnapshot.questions.every((question: unknown) => isObject(question) && typeof question.id === 'string')
     || new Set(value.contentSnapshot.questions.map((question: ClientQuestion) => question.id)).size !== value.contentSnapshot.questions.length
     || new Set(value.recentQuestionIds).size !== value.recentQuestionIds.length) return false;

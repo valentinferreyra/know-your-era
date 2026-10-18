@@ -12,7 +12,7 @@ Status: approved by the owner on 2026-10-13. The owner also requires all 300 rev
 - The interface does not advertise the historical range. Event years can appear where a question needs them.
 - Interface text uses WWE, not WWF. Original historical logos and photographs may retain WWF branding. Internal historical records preserve the original terminology for accuracy.
 - All interface copy, questions, explanations, code names, and repository documentation are in English. Owner discussions can remain in Spanish.
-- There is no question timer, speed bonus, runtime AI question generation, login, shared ranking, or server-side score enforcement.
+- A timer and speed bonus were approved on 2026-10-18, as detailed under scoring below. There is no response deadline, runtime AI question generation, login, shared ranking, or server-side score enforcement.
 
 ## Visual direction and screens
 
@@ -68,7 +68,9 @@ Do not print dates that give away the ordering. Standard questions use distinct 
 | Medium | 150 |
 | Hard | 200 |
 
-Choice and ordering award the full value for a fully correct response and zero otherwise. Matching awards floor(maximum points × correct pairs / total pairs). There are no deductions or time bonuses. Incorrect and partial responses still receive the full explanation.
+Choice and ordering award the full base value for a fully correct response and zero otherwise. Matching awards floor(maximum points × correct pairs / total pairs). There are no deductions. Incorrect and partial responses still receive the full explanation.
+
+The 2026-10-18 update adds a bonus of up to 25% of earned base points, rounded to the nearest integer. Multiple choice receives the full bonus through 10 seconds, ordering and matching through 15 seconds. It decreases linearly to zero at 25, 45, and 60 seconds respectively. Answering later still earns the usual base points. Timing begins after question images and fonts are ready, persists across reloads and visits home, and freezes at Confirm. Feedback reading time is excluded. Old untimed responses keep their original points; difficulty and accuracy depend only on correctness.
 
 For the results screen, a question counts as correct only if the whole response is correct. Accuracy is fully correct questions divided by ten. Matching feedback separately reports pair-level success; partial points do not inflate the question-level accuracy.
 

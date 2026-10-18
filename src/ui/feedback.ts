@@ -1,16 +1,16 @@
 import type { ClientQuestion } from '../content/types.ts';
-import { gradeAnswer } from '../game/grade.ts';
 import type { DraftAnswer } from '../game/types.ts';
 import type { Session } from '../game/session.ts';
 import { button, element, heading, pageShell, progressBar } from './dom.ts';
 import { answerArt, artImage, eventFor, eventLogo } from './art.ts';
+import { scoreAnswer } from '../game/timing.ts';
 
 export function renderFeedback(session: Session, onNext: () => void, onHome: () => void): HTMLElement {
   const index = session.questionIndex;
   const question = questionAt(session, index);
   const answer = session.responses[index];
   if (!question || !answer) return pageShell(heading('Answer unavailable'));
-  const grade = gradeAnswer(question, answer);
+  const grade = scoreAnswer(question, answer, session.timings?.[index]?.elapsedMs);
   const content = element('div', 'feedback-content');
   content.append(progressBar(index));
   const stage = element('div', 'feedback-stage');
@@ -22,6 +22,9 @@ export function renderFeedback(session: Session, onNext: () => void, onHome: () 
   body.append(element('span', grade.fullyCorrect ? 'result-kicker is-correct' : 'result-kicker is-incorrect', grade.fullyCorrect ? '✓ Correct' : grade.earnedPoints > 0 ? '◐ Partially correct' : '× Incorrect'));
   body.append(heading(question.prompt));
   const points = element('p', 'points-earned', `${grade.earnedPoints} points earned`); body.append(points);
+  if (session.timings?.[index]?.elapsedMs != null) {
+    body.append(element('p', 'score-breakdown', `${grade.basePoints} ${grade.fullyCorrect ? 'correct' : 'base points'} + ${grade.speedBonus} speed bonus`));
+  }
   if (!grade.fullyCorrect && grade.corrections.length === 1) {
     const reveal = element('div', 'answer-reveal');
     reveal.append(element('p', 'submitted-answer', `Your answer: ${grade.corrections[0]!.submitted}`));

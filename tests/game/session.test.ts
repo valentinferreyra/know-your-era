@@ -1,11 +1,35 @@
 import { expect, it } from 'vitest';
 import { toClientQuestions } from '../../src/content/project.ts';
 import { loadContent } from '../../scripts/load-content.ts';
-import { abandonSession, confirmAnswer, isPreviousDay, nextQuestion, renameSession, resolveDailySession, setDraft, startSession } from '../../src/game/session.ts';
+import { abandonSession, beginQuestionTimer, confirmAnswer, isPreviousDay, nextQuestion, recomputeSessionScore, renameSession, resolveDailySession, setDraft, startSession } from '../../src/game/session.ts';
 import type { ClientQuestion } from '../../src/content/types.ts';
 import type { DraftAnswer } from '../../src/game/types.ts';
 
 async function content() { return { version: 'test-v1', questions: toClientQuestions(await loadContent()) }; }
+
+it('starts timing only when ready, preserves it across drafts, and freezes the bonus on Confirm', async () => {
+  let session = startSession('Player', new Date('2026-10-13T03:00Z'), await content());
+  expect(session.timings?.[0]).toBeNull();
+  session = beginQuestionTimer(session, 1_000);
+  expect(beginQuestionTimer(session, 9_000)).toEqual(session);
+  session = setDraft(session, correctAnswer(question(session)));
+  const confirmed = confirmAnswer(session, 6_000);
+  expect(confirmed.timings?.[0]).toEqual({ startedAt: 1_000, elapsedMs: 5_000 });
+  expect(confirmed.score).toBe(125);
+  expect(recomputeSessionScore(confirmed)).toBe(125);
+  expect(confirmAnswer(confirmed, 99_000)).toEqual(confirmed);
+  const next = nextQuestion(confirmed);
+  expect(next.timings?.[1]).toBeNull();
+  expect(next.score).toBe(125);
+});
+
+it('allows a late correct response without losing base points', async () => {
+  let session = startSession('Player', new Date('2026-10-13T03:00Z'), await content());
+  session = beginQuestionTimer(session, 1_000);
+  session = confirmAnswer(setDraft(session, correctAnswer(question(session))), 601_000);
+  expect(session.score).toBe(100);
+  expect(session.timings?.[0]?.elapsedMs).toBe(600_000);
+});
 function correctAnswer(question: ClientQuestion): DraftAnswer {
   if (question.kind === 'choice') return { kind: 'choice', optionId: question.answer };
   if (question.kind === 'ordering') return { kind: 'ordering', itemIds: question.answer };

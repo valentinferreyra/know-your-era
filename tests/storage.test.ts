@@ -1,6 +1,6 @@
 import { expect, it } from 'vitest';
 import { loadProgress, resetProgress, saveProgress, watchForNewerProgress, STORAGE_KEY, type StorageLike } from '../src/storage.ts';
-import { abandonSession, confirmAnswer, nextQuestion, setDraft, startSession } from '../src/game/session.ts';
+import { abandonSession, beginQuestionTimer, confirmAnswer, nextQuestion, setDraft, startSession } from '../src/game/session.ts';
 import { loadContent } from '../scripts/load-content.ts';
 import { toClientQuestions } from '../src/content/project.ts';
 import type { ClientQuestion } from '../src/content/types.ts';
@@ -76,6 +76,35 @@ it('recomputes the score from committed answers rather than trusting saved total
   progress.session!.score = 999999;
   saveProgress(storage, progress, 0);
   expect(loadProgress(storage)).toMatchObject({ status: 'ok', progress: { session: { score: 0 } } });
+});
+
+it('preserves timers and bonus points through saving, while accepting old untimed sessions', async () => {
+  const storage = new MemoryStorage();
+  const progress = await saved();
+  progress.session = beginQuestionTimer(progress.session, 1_000);
+  expect(saveProgress(storage, progress, 0).status).toBe('saved');
+  const loaded = loadProgress(storage);
+  if (loaded.status !== 'ok' || !loaded.progress.session) throw new Error('Missing progress');
+  const session = loaded.progress.session;
+  expect(session.timings?.[0]?.startedAt).toBe(1_000);
+  progress.session = confirmAnswer(setDraft(session, answer(selectedQuestion(session))), 6_000);
+  progress.revision = 2;
+  expect(saveProgress(storage, progress, 1).status).toBe('saved');
+  expect(loadProgress(storage)).toMatchObject({ status: 'ok', progress: { session: { score: 125 } } });
+  delete progress.session.timings;
+  storage.value = JSON.stringify(progress);
+  expect(loadProgress(storage)).toMatchObject({ status: 'ok', progress: { session: { score: 100 } } });
+});
+
+it('rejects malformed saved timer data instead of granting an invalid bonus', async () => {
+  const storage = new MemoryStorage();
+  const progress = await saved();
+  progress.session = beginQuestionTimer(progress.session, 1_000);
+  for (const invalid of [[], Array(10).fill({ startedAt: -1, elapsedMs: null }),
+    Array(10).fill({ startedAt: 1_000, elapsedMs: -5 })]) {
+    storage.value = JSON.stringify({ ...progress, session: { ...progress.session, timings: invalid } });
+    expect(loadProgress(storage).status).toBe('corrupt');
+  }
 });
 
 it('reports denied storage and full quota without throwing', async () => {

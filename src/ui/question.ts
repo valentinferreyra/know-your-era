@@ -7,6 +7,7 @@ import { element, heading, pageShell, progressBar, button } from './dom.ts';
 import { renderChoice } from './interactions/choice.ts';
 import { renderOrdering } from './interactions/ordering.ts';
 import { renderMatching } from './interactions/matching.ts';
+import { renderTimer } from './timer.ts';
 
 export type DisplayOrderedQuestion = ClientQuestion & { displayOrder?: { primary: string[]; secondary?: string[] } };
 export interface QuestionActions { onDraft(draft: DraftAnswer): void; onConfirm(): void; onHome(): void }
@@ -24,7 +25,7 @@ export function renderQuestion(session: Session, actions: QuestionActions): HTML
   const content = element('div', 'question-content');
   const top = element('div', 'question-topline');
   top.append(element('span', 'player-name', session.nickname), element('span', 'question-count', `Question ${index + 1} of 10`), element('span', 'score-label', `${session.score} points`));
-  content.append(top, progressBar(index));
+  content.append(top, progressBar(index), renderTimer());
   const stage = element('div', 'question-stage');
   const art = questionArt(question);
   const arena = element('div', 'question-arena');

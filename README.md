@@ -13,6 +13,18 @@ npm run dev
 
 Open the local address printed by Vite. To build the static site, run `npm run build`.
 
+## Timing and scoring
+
+Correct answers earn their usual base points plus a speed bonus of up to 25%, rounded to the nearest point. Partial matching credit receives the same proportional bonus. Wrong answers earn zero. There is no response deadline and no loss of base points for taking longer.
+
+| Interaction | Full bonus through | Bonus reaches zero |
+| --- | ---: | ---: |
+| Multiple choice | 10 seconds | 25 seconds |
+| Ordering | 15 seconds | 45 seconds |
+| Matching | 15 seconds | 60 seconds |
+
+The bonus decreases linearly between those thresholds. The clock starts when the question's images and fonts are ready and stops at Confirm. Returning home, changing tabs, or reloading does not reset it. Feedback reading time does not count. Previously saved responses keep their original untimed points.
+
 ## Checks
 
 ```sh

@@ -1,13 +1,14 @@
 import bundle from './content/generated/questions.json';
 import type { ClientContent } from './content/types.ts';
 import { loadProgress, saveProgress, recentQuestionHistory, watchForNewerProgress, type SavedProgress, type StorageLike } from './storage.ts';
-import { abandonSession, nextQuestion, renameSession, resolveDailySession, setDraft, confirmAnswer, type Session } from './game/session.ts';
+import { abandonSession, beginQuestionTimer, nextQuestion, renameSession, resolveDailySession, setDraft, confirmAnswer, type Session } from './game/session.ts';
 import { renderHome } from './ui/home.ts';
 import { renderQuestion } from './ui/question.ts';
 import { renderFeedback } from './ui/feedback.ts';
 import { renderResults } from './ui/results.ts';
 import { renderReview } from './ui/review.ts';
 import { element } from './ui/dom.ts';
+import { attachQuestionTimer } from './ui/timer.ts';
 
 const content = bundle as unknown as ClientContent;
 const host = document.querySelector<HTMLElement>('#app');
@@ -24,6 +25,7 @@ let notice = loaded.status === 'unavailable' ? 'Storage is unavailable. This run
   : loaded.status === 'corrupt' ? 'Saved progress could not be read. Reset it to start a fresh challenge.' : '';
 let syncPending = false;
 let memoryOnly = loaded.status === 'unavailable';
+let stopQuestionTimer = () => {};
 
 function questionScreenFor(session: Session): typeof screen {
   if (session.phase === 'question') return 'question';
@@ -78,6 +80,7 @@ function start(name: string, abandonPrevious: boolean): void {
 
 function render(moveFocus = false): void {
   if (!host) return;
+  stopQuestionTimer();
   host.replaceChildren();
   if (notice) {
     const banner = element('div', `global-notice${syncPending ? ' is-warning' : ''}`, notice);
@@ -114,6 +117,11 @@ function render(moveFocus = false): void {
         catch (error) { notice = error instanceof Error ? error.message : 'Could not confirm this answer.'; render(); }
       }
     }));
+    stopQuestionTimer = attachQuestionTimer(host, session, () => {
+      if (syncPending || screen !== 'question' || !progress.session) return null;
+      const updated = beginQuestionTimer(progress.session);
+      return updated === progress.session || commit(updated) ? progress.session : null;
+    });
   } else if (screen === 'feedback' && session) {
     host.append(renderFeedback(session, () => {
       try { const updated = nextQuestion(progress.session!); if (commit(updated)) { screen = questionScreenFor(updated); render(true); } }

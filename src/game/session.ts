@@ -3,6 +3,7 @@ import { dailyKey, makeDailySlots } from './day.ts';
 import { advanceDifficulty } from './difficulty.ts';
 import { gradeAnswer } from './grade.ts';
 import { selectQuestion } from './select.ts';
+import { scoreAnswer } from './timing.ts';
 import type { DraftAnswer, PriorGrade, SelectedQuestion, Slot } from './types.ts';
 
 export interface PinnedQuestion { questionId: string; displayOrder: SelectedQuestion['displayOrder'] }
@@ -19,6 +20,7 @@ export interface Session {
   selectedQuestions: (PinnedQuestion | null)[];
   drafts: (DraftAnswer | null)[];
   responses: (DraftAnswer | null)[];
+  timings?: ({ startedAt: number; elapsedMs: number | null } | null)[];
   questionIndex: number;
   score: number;
   difficultyState: { level: Difficulty; correctStreak: number; zeroStreak: number };
@@ -59,6 +61,7 @@ export function startSession(nickname: string, now: Date, content: ClientContent
     nickname: cleanName, contentSnapshot: structuredClone(content), recentQuestionIds: [...recentQuestionIds], slots,
     selectedQuestions: [pin(first), ...Array.from({ length: 9 }, () => null)],
     drafts: Array.from({ length: 10 }, () => null), responses: Array.from({ length: 10 }, () => null),
+    timings: Array.from({ length: 10 }, () => null),
     questionIndex: 0, score: 0, difficultyState: { level: 'easy', correctStreak: 0, zeroStreak: 0 }, phase: 'question'
   };
 }
@@ -72,16 +75,27 @@ export function setDraft(session: Session, draft: DraftAnswer): Session {
   return { ...session, revision: session.revision + 1, drafts };
 }
 
-export function confirmAnswer(session: Session): Session {
+export function beginQuestionTimer(session: Session, now = Date.now()): Session {
+  if (session.phase !== 'question' || session.timings?.[session.questionIndex]) return session;
+  const timings = session.timings ? [...session.timings] : Array.from({ length: 10 }, () => null);
+  timings[session.questionIndex] = { startedAt: now, elapsedMs: null };
+  return { ...session, revision: session.revision + 1, timings };
+}
+
+export function confirmAnswer(session: Session, now = Date.now()): Session {
   if (session.phase !== 'question') return session;
   const draft = session.drafts[session.questionIndex];
   if (!draft) throw new Error('Answer the question before confirming.');
   const question = selectedQuestion(session);
-  const grade = gradeAnswer(question, draft);
+  const timings = session.timings ? [...session.timings] : undefined;
+  const timing = timings?.[session.questionIndex];
+  const elapsedMs = timing ? Math.max(0, now - timing.startedAt) : null;
+  if (timings && timing) timings[session.questionIndex] = { ...timing, elapsedMs };
+  const grade = scoreAnswer(question, draft, elapsedMs);
   const responses = [...session.responses];
   responses[session.questionIndex] = structuredClone(draft);
   const difficultyState = advanceDifficulty(session.difficultyState, grade);
-  return { ...session, revision: session.revision + 1, responses, score: session.score + grade.earnedPoints,
+  return { ...session, revision: session.revision + 1, responses, timings, score: session.score + grade.earnedPoints,
     difficultyState, phase: 'feedback' };
 }
 
@@ -133,6 +147,6 @@ export function resolveDailySession(existing: Session | null, nickname: string, 
 export function recomputeSessionScore(session: Session): number {
   return session.responses.reduce((sum, response, index) => {
     if (!response) return sum;
-    return sum + gradeAnswer(selectedQuestion(session, index), response).earnedPoints;
+    return sum + scoreAnswer(selectedQuestion(session, index), response, session.timings?.[index]?.elapsedMs).earnedPoints;
   }, 0);
 }
