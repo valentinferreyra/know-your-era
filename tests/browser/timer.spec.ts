@@ -25,10 +25,15 @@ async function openQuestion(page: Page, selected: ClientQuestion = question) {
 test('timer survives selection, awards the decayed bonus, and excludes feedback time', async ({ page }, info) => {
   await openQuestion(page);
   await expect(page.locator('[data-elapsed]')).toHaveText('0:00');
-  await expect(page.locator('[data-speed-bonus]')).toHaveText('+25% speed bonus');
+  await expect(page.locator('.question-status .clock-face [data-speed-bonus]')).toHaveText('+25%');
+  const circle = await page.locator('.question-timer').boundingBox();
+  expect(circle!.width).toBeGreaterThanOrEqual(90);
+  expect(circle!.width).toBeCloseTo(circle!.height, 0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)).toBe(false);
   await page.clock.fastForward(17_500);
   await page.locator(`input[value="${correct}"]`).check();
   await expect(page.locator('[data-elapsed]')).toHaveText('0:17');
+  await expect(page.locator('.question-timer')).toHaveCSS('--remaining', '50%');
   await page.screenshot({ path: info.outputPath('timer-question.png'), fullPage: true });
   await page.getByRole('button', { name: 'Confirm', exact: true }).click();
   await expect(page.locator('.points-earned')).toHaveText('113 points earned');
@@ -49,7 +54,8 @@ test('reload does not reset the clock and late answers keep their base points', 
   await page.reload();
   await expect(page.locator('[data-elapsed]')).toHaveText('0:12');
   await page.clock.fastForward(120_000);
-  await expect(page.locator('[data-speed-bonus]')).toHaveText('Base points still available');
+  await expect(page.locator('[data-speed-bonus]')).toHaveText('+0%');
+  await expect(page.locator('.question-timer')).toHaveCSS('--remaining', '0%');
   await page.locator(`input[value="${correct}"]`).check();
   await page.getByRole('button', { name: 'Confirm', exact: true }).click();
   await expect(page.locator('.points-earned')).toHaveText('100 points earned');
@@ -69,11 +75,11 @@ test('asset loading does not consume response time', async ({ page }) => {
     version: 1, revision: 1, nickname: session.nickname, session, recentSessions: []
   })), session);
   await page.reload({ waitUntil: 'domcontentloaded' });
-  await expect(page.locator('.question-timer')).toContainText('Getting ready');
+  await expect(page.locator('.question-timer')).toHaveAttribute('aria-busy', 'true');
   await page.clock.fastForward(30_000);
   release();
   await expect(page.locator('[data-elapsed]')).toHaveText('0:00');
-  await expect(page.locator('[data-speed-bonus]')).toHaveText('+25% speed bonus');
+  await expect(page.locator('[data-speed-bonus]')).toHaveText('+25%');
 });
 
 for (const kind of ['ordering', 'matching'] as const) {
@@ -82,9 +88,9 @@ for (const kind of ['ordering', 'matching'] as const) {
     await openQuestion(page, selected);
     await expect(page.locator('[data-elapsed]')).toHaveText('0:00');
     await page.clock.fastForward(15_000);
-    await expect(page.locator('[data-speed-bonus]')).toHaveText('+25% speed bonus');
+    await expect(page.locator('[data-speed-bonus]')).toHaveText('+25%');
     await page.clock.fastForward(10_000);
-    await expect(page.locator('[data-speed-bonus]')).toHaveText(kind === 'ordering' ? '+17% speed bonus' : '+19% speed bonus');
+    await expect(page.locator('[data-speed-bonus]')).toHaveText(kind === 'ordering' ? '+17%' : '+19%');
     if (selected.kind === 'ordering') {
       for (const id of selected.answer) await page.locator(`[data-order-item="${id}"]`).click();
     } else if (selected.kind === 'matching') {

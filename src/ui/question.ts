@@ -25,7 +25,10 @@ export function renderQuestion(session: Session, actions: QuestionActions): HTML
   const content = element('div', 'question-content');
   const top = element('div', 'question-topline');
   top.append(element('span', 'player-name', session.nickname), element('span', 'question-count', `Question ${index + 1} of 10`), element('span', 'score-label', `${session.score} points`));
-  content.append(top, progressBar(index), renderTimer());
+  const status = element('div', 'question-status');
+  const progress = element('div', 'question-progress');
+  progress.append(top, progressBar(index), element('p', 'timer-caption', 'No time limit.'));
+  status.append(progress, renderTimer()); content.append(status);
   const stage = element('div', 'question-stage');
   const art = questionArt(question);
   const arena = element('div', 'question-arena');

@@ -1,6 +1,6 @@
 # Local verification
 
-Verified on 2026-10-18 on `feature/timer-bonus`. This records local checks only. The site has not been deployed.
+Verified on 2026-10-18 on `feature/circular-timer`. This records local checks only. The site has not been deployed.
 
 | Command | Result |
 | --- | --- |
@@ -23,6 +23,8 @@ The question screen now uses lighter text rows instead of heavy option borders. 
 ## Question timer and speed bonus
 
 The timer adds up to 25% of earned base points. Full-bonus windows are 10 seconds for choice and 15 seconds for ordering and matching, declining linearly to zero at 25, 45, and 60 seconds. There is no response deadline. Partial matching credit receives a proportional bonus. The question screen shows elapsed time and the available bonus; feedback adds a compact base/bonus breakdown without changing the answer layout.
+
+The approved circular-timer mock is now implemented: a near-opaque midnight-blue status panel groups the nickname, score, ten progress segments, and a red circular clock. Elapsed time sits above the bonus percentage inside the circle. Its outer ring decreases with the available bonus, reaching zero without ending the question. The circle is 112px on desktop and 90px on mobile. No preview-only controls are included in the game.
 
 Tests cover threshold rounding, late answers, frozen confirmation, reload persistence, legacy untimed progress, malformed saved timings, loading delays, and longer ordering/matching windows. Existing tests also verify keyboard focus and cross-tab conflicts. Desktop and mobile timer screenshots are saved under `test-results/`; the mobile question and feedback captures were visually inspected.
 

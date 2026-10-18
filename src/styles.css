@@ -54,10 +54,15 @@ button:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid 
 .progress-segment { height: 9px; border: 1px solid #668097; border-radius: 2px; background: #060e18b5; }
 .progress-segment.is-done { background: linear-gradient(#ed1a33, #9e071b); border-color: #ff3f52; }
 .progress-segment.is-current { border-color: #ccdded; background: #1e3a53; box-shadow: 0 0 8px #64b6ff60; }
-.question-content > .progress-track { margin-bottom: 12px; }
-.question-timer { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin: 0 0 24px; color: var(--muted); font-size: 15px; }
-.elapsed-time { min-width: 46px; color: var(--ink); font: 600 22px var(--display); font-variant-numeric: tabular-nums; }
-.speed-bonus { margin-left: auto; color: var(--blue); }
+.question-status { display: grid; grid-template-columns: minmax(0,1fr) 112px; gap: 30px; align-items: center; margin-bottom: 26px; padding: 18px 24px; border: 1px solid #33485f; border-top-color: #5a7591; border-radius: 5px; background: linear-gradient(115deg, #111e2df7, #070f1bf7); box-shadow: 0 10px 28px #0007, inset 0 1px #9bc7eb0d; }
+.question-status .question-topline { padding: 0 0 13px; border-top: 0; }
+.question-status .progress-track { margin-bottom: 8px; }
+.timer-caption { margin: 0; color: #a9b8c7; font-size: 14px; }
+.question-timer { --remaining: 100%; width: 112px; aspect-ratio: 1; padding: 3px; border-radius: 50%; background: conic-gradient(from -90deg, #ff354f var(--remaining), #542030 0); box-shadow: 0 0 26px #e80b272b, 0 5px 18px #0007; }
+.clock-face { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 100%; border: 3px solid #150b13; border-radius: 50%; background: radial-gradient(circle at 40% 25%, #44121f, #1d0a12 80%); }
+.elapsed-time { display: block; color: white; font: 600 37px/1 var(--display); font-variant-numeric: tabular-nums; letter-spacing: .01em; }
+.speed-bonus { margin-top: 5px; color: #ff91a1; font: 700 22px/1 var(--display); font-variant-numeric: tabular-nums; }
+.clock-label { margin-top: 4px; color: #d5a0ac; font: 600 10px/1 var(--display); letter-spacing: .14em; text-transform: uppercase; }
 .score-breakdown { margin: -14px 0 22px; font-size: 16px; color: var(--muted); }
 .question-stage, .feedback-stage { max-width: 720px; margin: 0 auto; }
 .question-stage.has-art, .feedback-stage.has-art { max-width: none; display: grid; grid-template-columns: minmax(240px,.8fr) minmax(0,1.2fr); gap: 32px; align-items: center; }
@@ -174,6 +179,14 @@ button:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid 
   .site-brand img { width: 195px; }
   .question-topline { grid-template-columns: 1fr 1fr; gap: 6px; font-size: 18px; padding-top: 10px; }
   .question-count { grid-column: 1 / -1; grid-row: 2; text-align: center; font-size: 16px; }
+  .question-status { grid-template-columns: minmax(0,1fr) 90px; gap: 12px; margin-bottom: 24px; padding: 14px 12px; }
+  .question-status .question-topline { font-size: 17px; gap: 4px; }
+  .question-status .question-count { font-size: 15px; }
+  .question-timer { width: 90px; }
+  .elapsed-time { font-size: 31px; }
+  .speed-bonus { font-size: 20px; margin-top: 3px; }
+  .clock-label { font-size: 9px; }
+  .timer-caption { font-size: 13px; }
   .progress-track { gap: 5px; margin-bottom: 20px; }
   .question-stage.has-art, .feedback-stage.has-art { display: block; }
   .question-arena { float: left; width: 32%; min-height: 160px; margin: 0 12px 8px 0; }
